@@ -4,7 +4,8 @@
 
 Formación en la construcción de las capacidades técncas en torno a la lógica de progrmación
 
-[Diplomatura UTNVM](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java) : van a poder ver 7 ejercicios prácticos de estructuras de control en ciclos / loops / bucles.
+
+:computer: en [Diplomatura UTNVM](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java)  van a poder ver 7 ejercicios prácticos de estructuras de control en ciclos / loops / bucles.
 
 Los ejercicios son los siguientes:
 
