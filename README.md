@@ -4,11 +4,12 @@ Voy a tener en este repositorio todos los ejercicios de practiva de ambos cursos
 
 **Diplomatura UTN Villa Maria**
 
-**PoloTIC-SiliconMisiones - Full Stack Java **
+**PoloTIC-SiliconMisiones - Full Stack Java**
 
 Las voy a guardar en sus respectivas carpetas :
 
-[]()
+[UTN Villa Maria](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria)
+
 []()
 
 Y dentro de cada una dejo el README con las consignas y los links a los ejercicios
