@@ -67,7 +67,8 @@ public class Ejercicio6 {
             salir = read.next().toUpperCase();
             System.out.println(salir);
         
-        } while (salir == "SI");
+        } while (salir.equals( "SI" ) );
+ //salir == "SI")
         
         
         
