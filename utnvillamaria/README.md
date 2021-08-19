@@ -4,6 +4,8 @@
 
 Formación en la construcción de las capacidades técncas en torno a la lógica de progrmación
 
+:computer: en [fibonacciRecursivo](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/fibonacciRecursivo)
+Hay un ejercicio de practica que muestra los 10 primeros numeros de Fibonacci, aplicando recursividad
 
 :computer: en [Diplomatura UTNVM](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java)  van a poder ver 7 ejercicios prácticos de estructuras de control en ciclos / loops / bucles.
 
