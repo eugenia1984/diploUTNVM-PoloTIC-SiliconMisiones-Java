@@ -96,7 +96,7 @@ package hello;
 public class Hello {
   public static void main(String[] args){  //empieza con llave
     System.out.println("Hola mundo!");   // finaliza con ;
-  }  //termian con llave
+  }  //termina con llave
 
 }
 ```
