@@ -16,3 +16,23 @@ Temas:
   * ¿ Cómo declaro una variable ?
   * Operadores : Aritméticas, Relacionales, Condicionales
   
+  
+---
+  
+Habrá 3 trabajos prácticos obligatorios, que deben estar aprobados para llegar al proyecto final
+  
+---
+
+📌 Seguir a **Silicon Misiones** en: 
+
+
+↗️Instagram: [**@siliconmisiones**](https://www.instagram.com/siliconmisiones/)
+
+↗️Sitio web: **https://siliconmisiones.gob.ar/**[](https://siliconmisiones.gob.ar/)
+
+
+---
+
+👉🏻Para consultas administrativas o para obtener información acerca del curso, escribinos a este mail: cursossiliconmisiones@gmail.com
+
+---
