@@ -1,0 +1,1 @@
+# Ejercicio 1–Indique cuales de las siguientes oraciones son proposiciones lógicas1.La máquina me persigue2.Hoy es lunes?3.Hoy es lunes4.Ábremeesa puerta.5.El gigante saliódel armario.6.Sabes cocinar?7.La lógica no existe8.Debes pagarme lo que me debes.9.El programa fallo.10.ax2 + bx + c2 = 0
