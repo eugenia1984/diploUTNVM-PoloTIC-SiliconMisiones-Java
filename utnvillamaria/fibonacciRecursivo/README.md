@@ -44,7 +44,7 @@ public class MyClass {
 ---
 
 
-[**ver FibonacciRecursivo**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/fibonacciRecursivo/FibonacciRecursivo.java)
+:computer: [**ver ejercicio en -> FibonacciRecursivo**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/fibonacciRecursivo/FibonacciRecursivo.java)
 
 ---
 
@@ -86,7 +86,7 @@ miArray[índice]
 
 ---
 
-[**se pueden ver ejercicios de practica en Array**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/fibonacciRecursivo/Array)
+:computer: [**Se pueden ver ejercicios de practica en -> Array**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/fibonacciRecursivo/Array)
 
 ---
 
