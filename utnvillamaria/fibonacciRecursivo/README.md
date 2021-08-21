@@ -96,5 +96,7 @@ Ejercicios
 
 •Crear un ciclo for que calcule el promedio de un array de elementos enteros.
 
+:computer: [**ver en EjercicioArray**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/fibonacciRecursivo/EjercicioArray)
+
 
 ---
