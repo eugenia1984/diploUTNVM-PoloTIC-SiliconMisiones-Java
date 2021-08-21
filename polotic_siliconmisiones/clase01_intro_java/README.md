@@ -154,15 +154,15 @@ public class Prueba {
 
 1- No puede comenzar con un número.
 
-2- No puede utilizar caracteres especiales o ninguno que esté reservado para otras operaciones
+2- No puede utilizar caracteres especiales o ninguno que esté reservado para otras operaciones   ->  ``` +,  -,  *,  /,  %,  =,  >,  <,  !,  &, | , ==```
 
 3- No puede incluir el carácter espacio en blanco
 
 4- Distingue entre letras mayúsculas y minúsculas (es case sensitive)
 
-5- No se puede utilizr las palabras reservdas como identificadores (double, int, String, static, public, void, entre otras)
+5- No se puede utilizar las palabras reservdas como identificadores (double, int, String, static, public, void, private, entre otras)
 
-Como sujerencia y buena práctica siempre es mejor que las variables lleven nombres **representativos**, si por ejemplo debo calcular un promedio la nombro promedio, prom
+Como sugerencia y buena práctica siempre es mejor que las variables lleven nombres **representativos**, si por ejemplo debo calcular un promedio la nombro promedio, prom
 
 ---
 
@@ -206,6 +206,8 @@ Por ejemplo:
 
 ###  Relacionales
 
+Comparación entre números:
+
 ```
 ==    ->   igual que... 
 >     ->   mayor que..
@@ -227,11 +229,14 @@ if(numero >= 150 {...}
 if(numero != 1) {...}
 ```
 
-Cuando trabajamos con String:
+Cuando trabajamos con **String** (cadena de caracteres):
+
 
 Cuando quiero ver si dos String son iguales   -> ``` equals()```
 
+
 Cuando quiero ver si dos String son distintas  -> ``` !......equals()```
+
 
 Ejemplo en código:
 
@@ -242,17 +247,19 @@ De igualdad:
 if( palabra.equals("hola") ) {...}
 ```
 
+
 De distinto / no igual:
 ```JAVA
 if( !palabra.equals("hola") ) {...}
 ```
 
+
 ### Condicionales
 
 ```
-&&  ->  and
-||  ->   or
-|   ->  not , negación
+&&  ->  and ó Y
+||  ->   or ó O
+|   ->  not ó NO , negación
 ```
 
 Ejemplo de operaciones:
@@ -262,13 +269,20 @@ Ejemplo de operaciones:
 public class Prueba {
   public static void main(String[] args) {
     //Ejemplo asignacion
-    //asigno la cadena linda a la variable casa
-    String casa = "linda";
+    String casa = "linda";  //asigno la cadena linda a la variable casa
     
-    //Ejemplo de asignacion y operacion aritmetica
+    //Ejemplo de declaracion y asignacion de tres variables
     int numero1 = 0;
     int numero2 = 35;
-    int resultado = numero1 + numero2;
+    int resultado = numero1 + numero2;  // operacion aritmetica de suma
+    
+    //Para mostrar el resultado por pantalla
+    System.out.println("La suma de " + numero1 + " y " + numero2 + " es: " + resultado);
   }
 }
 ```
+
+Me va a imprimir  --->   La suma de 0 y 35 es : 35
+
+
+---
