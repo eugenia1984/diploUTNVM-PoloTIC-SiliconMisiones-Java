@@ -15,6 +15,35 @@ Se usa en el switch y tambien en el cliclo for.
 
 ---
 
+## Ejercicio de Fibonacci
+
+
+```JAVA
+public class MyClass {
+
+  public static void(String[] args) {
+  
+  //mis dos primeros numeros son estaticos , no se calculan sumando anteriores
+    int n1 = 0;
+    int n2= 1;
+    System.out.println(n1);
+    System.out.println(n2);
+    
+    for( int i = 2; i < 10, i++) {
+      int n3 = n2 + n1;
+      System.out.println(n3);
+      //En este punto ya tenemos el valor de 1
+      n1 = n2;  //n1 es 1
+      n2 = n3;
+    }
+  }
+}
+
+```
+
+[**ver FibonacciRecursivo**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/fibonacciRecursivo/FibonacciRecursivo.java)
+---
+
 ## Arrays
 
 •Un array es una **variable que puede contener valores múltiples**, a diferencia de una variable regular que solo puede contener un único valor. 
