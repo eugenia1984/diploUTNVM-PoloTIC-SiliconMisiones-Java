@@ -94,7 +94,7 @@ public class Prueba {
 }
 ```
 
-## Regla para nombres de varaibles
+## Regla para nombres de variables
 
 -Para elegir los nombres de nuestras variables deberemos seguir un conjunto de reglas:
 
@@ -111,7 +111,7 @@ public class Prueba {
 Como sujerencia y buena práctica siempre es mejor que las variables lleven nombres **representativos**, si por ejemplo debo calcular un promedio la nombro promedio, prom
 
 
-## ¿ Cómo declro una variable ?
+## ¿ Cómo declaro una variable ?
 
 La declaración de las variables cuenta de dos partes fundamentales : **tipo de dato** **nombre /identificador** **;**
 
