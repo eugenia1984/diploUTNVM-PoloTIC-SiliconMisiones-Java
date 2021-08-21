@@ -4,6 +4,9 @@
 
 •**Break**: La palabra reservada “break” nos permite **“romper” un loop**, es decir, finalizarlo inmediatamente.
 
+Se usa en el switch y tambien en el cliclo for.
+
+
 •**Continue**: La palabra reservada “continue” nos permite **“romper” SÓLO UNA ITERACIÓN**, de tal manera que **el ciclo seguirá con su siguiente iteración después del “continue”**.
 
 ---
