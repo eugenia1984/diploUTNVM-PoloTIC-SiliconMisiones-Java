@@ -13,7 +13,7 @@ public class FibonacciRecursivo {
  
         //inicia con valor 0, a condición es que sea menor a 10, incrementa de 1 en 1
         for (int i = 0; i < serie; i++) { 
-            System.out.println(fibonacciRecursivo(i));  //Lamo a la funcion fibonacciRecursivo
+            System.out.println(fibonacciRecursivo(i));  //Llamo a la funcion fibonacciRecursivo
         }
  
     }
