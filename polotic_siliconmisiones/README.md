@@ -28,11 +28,11 @@ Habrá 3 trabajos prácticos obligatorios, que deben estar aprobados para llegar
 
 ↗️Instagram: [**@siliconmisiones**](https://www.instagram.com/siliconmisiones/)
 
-↗️Sitio web: **https://siliconmisiones.gob.ar/**[](https://siliconmisiones.gob.ar/)
+↗️Sitio web: [**https://siliconmisiones.gob.ar/**](https://siliconmisiones.gob.ar/)
 
 
 ---
 
-👉🏻Para consultas administrativas o para obtener información acerca del curso, escribinos a este mail: cursossiliconmisiones@gmail.com
+👉🏻 Para consultas administrativas o para obtener información acerca del curso, escribinos a este mail: **cursossiliconmisiones@gmail.com**
 
 ---
