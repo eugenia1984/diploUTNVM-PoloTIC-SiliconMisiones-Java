@@ -2,16 +2,9 @@
 
 Voy a tener en este repositorio todos los ejercicios de práctiva de ambos cursos:
 
-:computer: **Diplomatura UTN Villa Maria**
+:computer: **Diplomatura UTN Villa Maria** -> [**ver en UTN Villa Maria**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria)
 
-:computer: **PoloTIC-SiliconMisiones - Full Stack Java**
-
-
-Las voy a guardar en sus respectivas carpetas :
-
-[UTN Villa Maria](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria)
-
-[PoloTIC Silicon Misiones Full Stack Java](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones)
+:computer: **PoloTIC-SiliconMisiones - Full Stack Java** -> [**ver en PoloTIC Silicon Misiones Full Stack Java**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones)
 
 
 Y dentro de cada una dejo el README con las consignas y los links a los ejercicios
@@ -28,8 +21,11 @@ Y dentro de cada una dejo el README con las consignas y los links a los ejercici
 ## Por favor: 🎁
 
 * Si te gusto este contenido no te olvides de darle click a la:  ⭐
+
 * Compartí este contenido con otros 📢
+
 * Invita una cerveza 🍺 o un café ☕  a alguien del equipo 
+
 * Muchas gracias 🤓.
 
 ---
