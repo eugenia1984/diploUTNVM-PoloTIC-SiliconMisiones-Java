@@ -57,10 +57,19 @@ public class MyClass {
 
 ## Instanciando un Array
 
+
+Declaro el array y le doy una dimension con los corchetes:
+
 ```JAVA
 int[] miArray = new int[cantidad];
+```
+
+En el caso de que ya tenga los elementos del array se los asigno al declararlo.
+
+```JAVA
 int[] miArray = {10, 43, 102, 49};
 ```
+
 
 ## Accediendo a los elementos del array
 
@@ -70,11 +79,13 @@ int[] miArray = {10, 43, 102, 49};
 miArray[índice]
 ```
 
-•Se puede usar la función **“length”** para saber la longitud del array.
+•Se puede usar la función **lengt** para saber la longitud del array.
 
 •Se puede acceder a todos los elementos usando un **loop** (**ciclo FOR**).
 
+
 ---
+
 
 
 Ejercicios
@@ -83,3 +94,5 @@ Ejercicios
 
 •Crear un ciclo for que calcule el promedio de un array de elementos enteros.
 
+
+---
