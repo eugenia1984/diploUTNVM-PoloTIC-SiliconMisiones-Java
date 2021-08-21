@@ -91,16 +91,19 @@ Entre estas 'exigencias' se destacan:
 ## Primer Hola Mundo con Java
 
 ```JAVA
-package hello;
+package helloWorld;  //el nombre del paquete es con camelCase 
 
-public class Hello {
+public class HelloWorld {  // el nombre de la clave va es UpperCamelCase, debe ser el mismo nombre del proyecto
+
   public static void main(String[] args){  //empieza con llave
-    System.out.println("Hola mundo!");   // finaliza con ;
+       System.out.println("Hola mundo!");   // finaliza con ;
   }  //termina con llave
 
 }
 ```
 
+
+Para imprimir por pantalla: ```System.out.println```  -> imprimime por afuera del sistema -> shortcut: **sout** + **tab**
 
 ---
 
