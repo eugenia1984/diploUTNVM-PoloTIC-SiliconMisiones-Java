@@ -6,8 +6,23 @@ Formación en la construcción de las capacidades técncas en torno a la lógica
 
 :computer: en [practica de pensamiento logico](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/practica_de_pensamiento_logico) hay ejercicios de logica
 
+
+---
+
 :computer: en [fibonacciRecursivo](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/fibonacciRecursivo)
-Hay un ejercicio de practica que muestra los 10 primeros numeros de Fibonacci, aplicando recursividad
+Hay un ejercicio de practica que muestra los 10 primeros numeros de Fibonacci, aplicando recursividad. Y ejercicios y explicación de la clase 5 con:
+
+-Palabras reservadas break - continue en ciclos.
+
+-Arrays.
+
+-Iteración.
+
+-Ejercicios para la próxima clase.
+
+
+---
+
 
 :computer: en [Diplomatura UTNVM](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java)  van a poder ver 7 ejercicios prácticos de estructuras de control en ciclos / loops / bucles.
 
