@@ -152,3 +152,14 @@ System.out.println("El bloque de if al que estre fue el " + bloqueif);
 
 ---
 
+## Switch
+
+La estructura **switch** permite múltiples caminos a partir de la evalución de una cola espresión / condición.
+
+La espresión puede ser una variable o cualquier otro tipo, siempre y cuando se evalue un valor simple (char, int).
+
+La condición se ejecuta mediante la evaluación de la condiciñon y un conjunto de sentancias **case**. Cada case es una posible respuesta a la evaluación de esa condición, si el valor que se busca coincide con algún case, se ejecuta el mismo hasta la sentencia **break** o hasta el final del switch ( dependiendo dle caso).
+
+
+
+---
