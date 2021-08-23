@@ -16,6 +16,7 @@ Temas:
   * ¿ Cómo declaro una variable ?
   * Operadores : Aritméticas, Relacionales, Condicionales
   
+ --- 
 
 :computer: Clase 2
 
