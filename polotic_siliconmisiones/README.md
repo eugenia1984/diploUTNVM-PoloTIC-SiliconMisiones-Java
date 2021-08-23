@@ -16,7 +16,16 @@ Temas:
   * ¿ Cómo declaro una variable ?
   * Operadores : Aritméticas, Relacionales, Condicionales
   
+
+:computer: Clase 2
+
+Temas:
+  * Tipo de datos
+  * Variables
+  * Condicionales
   
+-> [**Guia 1 : tipo de datos, variables y condicionales**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia1)
+
 ---
   
 Habrá 3 trabajos prácticos obligatorios, que deben estar aprobados para llegar al proyecto final
