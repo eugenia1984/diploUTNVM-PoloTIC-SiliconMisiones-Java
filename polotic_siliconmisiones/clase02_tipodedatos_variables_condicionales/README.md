@@ -162,7 +162,7 @@ La condición se ejecuta mediante la evaluación de la condiciñon y un conjunto
 
 Ejemplo en codigo:
 
-Suponemos que tenemos un programa que a partir del numero ingresado muestra el nombre dle dia
+Suponemos que tenemos un programa que a partir del numero ingresado muestra el nombre del dia
 
 ```JAVA
 int dia = 5;
