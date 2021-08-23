@@ -160,6 +160,47 @@ La espresión puede ser una variable o cualquier otro tipo, siempre y cuando se 
 
 La condición se ejecuta mediante la evaluación de la condiciñon y un conjunto de sentancias **case**. Cada case es una posible respuesta a la evaluación de esa condición, si el valor que se busca coincide con algún case, se ejecuta el mismo hasta la sentencia **break** o hasta el final del switch ( dependiendo dle caso).
 
+Ejemplo en codigo:
 
+Suponemos que tenemos un programa que a partir del numero ingresado muestra el nombre dle dia
+
+```JAVA
+int dia = 5;
+String nombreDia;
+
+Scanner leer = new Scanner(System.in);
+
+System.out.println("Ingrese un dia es numero(1-Lunes...7-Domingo): " );
+dia = leer.nextInt()
+
+switch(dia){
+  case 1:
+      nombreDia = "Lunes";
+      break;
+  case 2:
+      nombreDia = "Martes";
+      break;
+   case 3:
+      nombreDia = "Miercoles";
+      break;
+   case 4:
+      nombreDia = "Jueves";
+      break;
+   case 5:
+      nombreDia = "Viernes";
+      break;
+   case 6:
+      nombreDia = "Sabado";
+      break;
+   case 7:
+      nombreDia = "Domingo";
+      break;
+   default:
+      nombreDia = "opcion incorrecta";
+      break;
+}
+
+System.out.println("El dia de la semana ingresado es :" + nombreDia);
+```
 
 ---
