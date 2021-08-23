@@ -84,7 +84,7 @@ La sentencia ELSE se ejecuta solamente si la expresión IF se evalúa como falsa
 
 Si EXPRESION LOGICA == TRUE   ->   Sentencia logica1   -> FIN
 
-Si EXPRESION LOGICA != TRUE   ->   Sentencia ligica2   ->   FIN
+Si EXPRESION LOGICA != TRUE   ->   Sentencia logica2   ->   FIN
 
 
 ```JAVA
