@@ -23,7 +23,7 @@ Temas:
 Temas:
   * Tipo de datos
   * Variables
-  * Condicionales
+  * Condicionales: IF / IF ELSE / IF ELSE ANIDADOS  / SWITCH
   
 -> [**Guia 1 : tipo de datos, variables y condicionales**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia1)
 
