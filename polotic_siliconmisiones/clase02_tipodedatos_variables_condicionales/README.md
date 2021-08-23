@@ -138,14 +138,17 @@ if( num > 3) {
 } else {
 
   if( num == 1) {
-    System.out.println("El numero es menor a 3 y es 1");
+    System.out.println("El numero es menor o igual a 3 y es 1");
     bloqueif = "else + if";
   } else {
   resta = 15 - num;
-  System.out.println("El numero es menor a 3 y no es 1");
+  System.out.println("El numero es menor o igual 3, pero no es 1");
   bloqueif = "else + else";
   }
 }
 
 System.out.println("El bloque de if al que estre fue el " + bloqueif);
+```
+
+---
 
