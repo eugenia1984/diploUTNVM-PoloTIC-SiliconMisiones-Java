@@ -100,7 +100,7 @@ Ejemplo en código:
 int suma = 0;
 int num = 5;
 int resta = 0;
-String bloqueif = "**";
+String bloqueif = "";
 
 if( num > 1) {
   suma = num + num;
