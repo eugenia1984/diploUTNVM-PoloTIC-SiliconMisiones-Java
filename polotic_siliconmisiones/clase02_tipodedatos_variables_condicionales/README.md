@@ -54,7 +54,7 @@ if( num <= 3) {
 System.out.println("El bloque de if al que estre fue el " + bloqueif);
 ```
 
-Como **num =5** -> cumple esta condición: **num > 1** por lo que entra en este if:
+Como **num =5**   ->   cumple esta condición: **num > 1** por lo que entra en este if:
 ```JAVA
 if( num > 1) {
   suma = num + num;
