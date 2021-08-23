@@ -74,6 +74,7 @@ Como nunca cumple con esta condición **num <= 3** nunca entra al segundo if.
 Siempre ejecuta el primer bloque if.
 
 
+
 ### Condicional IF ELSE (SI / SINO)
 
 Es la expresión de la sentencia IF, significa '**de lo contrario**' y permite la ejecución de un bloque de código si la condición de la sentencua IF fue FALSA.
