@@ -102,7 +102,7 @@ int num = 5;
 int resta = 0;
 String bloqueif = "";
 
-if( num > 1) {
+if( num > 3) {
   suma = num + num;
   System.out.println("El resultado es : " + suma);
   bloqueif = "if";
@@ -116,3 +116,36 @@ System.out.println("El bloque de if al que estre fue el " + bloqueif);
 ```
 
 ---
+
+### Condicional Multiple
+
+Se utiliza cuando se necesita anidar varias condiciones IF si no se cumple la primera.
+
+Consiste en realizar una primera evaluación de una condición, si esta no se cumple, por el lado del else se plantea una nueva condición y así sucesivamente la cantidad de veces que sean necesarias.
+
+
+Ejemplo en codigo:
+
+```JAVA
+int num = 5;
+int resta = 0;
+String bloqueif = "";
+
+if( num > 3) {
+  suma = num + num;
+  System.out.println("El numero es mayor que 3";
+  bloqueif = "if";
+} else {
+
+  if( num == 1) {
+    System.out.println("El numero es menor a 3 y es 1");
+    bloqueif = "else + if";
+  } else {
+  resta = 15 - num;
+  System.out.println("El numero es menor a 3 y no es 1");
+  bloqueif = "else + else";
+  }
+}
+
+System.out.println("El bloque de if al que estre fue el " + bloqueif);
+
