@@ -63,7 +63,7 @@ if( num > 1) {
 ```
 
 Y voy a ver por pantalla:
-```JAVA
+```
 El resultado es : 10
 El bloque de if al que estre fue el 1
 ```
