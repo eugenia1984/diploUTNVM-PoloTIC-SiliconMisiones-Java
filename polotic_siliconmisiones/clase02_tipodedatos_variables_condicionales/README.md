@@ -14,7 +14,8 @@
 
 ## Condicionales
 
-### Condicional IF
+
+### Condicional IF (SI)
 
 La estructura de control IF permite decidir entre dos opciones resultantes de la evaluación de una sentencia.
 
@@ -40,7 +41,7 @@ int num = 5;
 int resta = 0;
 int bloqueif = 0;
 
-if( num > 1) {
+if( num > 3) {
   suma = num + num;
   System.out.println("El resultado es : " + suma);
 }
@@ -54,9 +55,9 @@ if( num <= 3) {
 System.out.println("El bloque de if al que estre fue el " + bloqueif);
 ```
 
-Como **num =5**   ->   cumple esta condición: **num > 1** por lo que entra en este if:
+Como **num =5**   ->   cumple esta condición: **num > 3** por lo que entra en este if:
 ```JAVA
-if( num > 1) {
+if( num > 3) {
   suma = num + num;
   System.out.println(suma);
 }
@@ -71,5 +72,44 @@ El bloque de if al que estre fue el 1
 Como nunca cumple con esta condición **num <= 3** nunca entra al segundo if.
 
 Siempre ejecuta el primer bloque if.
+
+
+### Condicional IF ELSE (SI / SINO)
+
+Es la expresión de la sentencia IF, significa '**de lo contrario**' y permite la ejecución de un bloque de código si la condición de la sentencua IF fue FALSA.
+
+La sentencia ELSE se ejecuta solamente si la expresión IF se evalúa como falsa.
+
+Si EXPRESION LOGICA == TRUE   ->   Sentencia logica1   -> FIN
+
+Si EXPRESION LOGICA != TRUE   ->   Sentencia ligica2   ->   FIN
+
+
+```JAVA
+IF (condicionAEvaluar) {
+  //bloque a ejecutar si la condicion es true
+} else {
+  //bloque a ejecutar si la condicion es false
+}
+```
+
+Ejemplo en código:
+```JAVA
+int suma = 0;
+int num = 5;
+int resta = 0;
+int bloqueif = 0;
+
+if( num > 1) {
+  suma = num + num;
+  System.out.println("El resultado es : " + suma);
+} else {
+  resta = 15 - num;
+  System.out.println("El resultado es : " + resta);
+  bloqueif = 2;
+}
+
+System.out.println("El bloque de if al que estre fue el " + bloqueif);
+```
 
 ---
