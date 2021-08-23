@@ -44,6 +44,7 @@ int bloqueif = 0;
 if( num > 3) {
   suma = num + num;
   System.out.println("El resultado es : " + suma);
+  bloqueif = 1;
 }
 
 if( num <= 3) {
@@ -73,7 +74,7 @@ Como nunca cumple con esta condición **num <= 3** nunca entra al segundo if.
 
 Siempre ejecuta el primer bloque if.
 
-
+---
 
 ### Condicional IF ELSE (SI / SINO)
 
@@ -99,15 +100,16 @@ Ejemplo en código:
 int suma = 0;
 int num = 5;
 int resta = 0;
-int bloqueif = 0;
+String bloqueif = "**";
 
 if( num > 1) {
   suma = num + num;
   System.out.println("El resultado es : " + suma);
+  bloqueif = "if";
 } else {
   resta = 15 - num;
   System.out.println("El resultado es : " + resta);
-  bloqueif = 2;
+  bloqueif = "else";
 }
 
 System.out.println("El bloque de if al que estre fue el " + bloqueif);
