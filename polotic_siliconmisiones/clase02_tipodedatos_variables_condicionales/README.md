@@ -42,12 +42,12 @@ int bloqueif = 0;
 
 if( num > 1) {
   suma = num + num;
-  System.out.println(suma);
+  System.out.println("El resultado es : " + suma);
 }
 
 if( num <= 3) {
   resta = 15 - num;
-  System.out.println(resta);
+  System.out.println("El resultado es : " + resta);
   bloqueif = 2;
 }
 
@@ -60,6 +60,12 @@ if( num > 1) {
   suma = num + num;
   System.out.println(suma);
 }
+```
+
+Y voy a ver por pantalla:
+```JAVA
+El resultado es : 10
+El bloque de if al que estre fue el 1
 ```
 
 Como nunca cumple con esta condición **num <= 3** nunca entra al segundo if.
