@@ -26,12 +26,44 @@ Si EXPRESION LOGICA == TRUE  -> Sentencia logica -> FIN
 
 Si EXPRESION LOGICA != TRUE -> FIN
 
-En código:
 
 ```JAVA
 IF (condicionAEvaluar) {
   //bloque a ejecutar si la condicion es true
 }
 ```
+
+Ejemplo en código:
+```JAVA
+int suma = 0;
+int num = 5;
+int resta = 0;
+int bloqueif = 0;
+
+if( num > 1) {
+  suma = num + num;
+  System.out.println(suma);
+}
+
+if( num <= 3) {
+  resta = 15 - num;
+  System.out.println(resta);
+  bloqueif = 2;
+}
+
+System.out.println("El bloque de if al que estre fue el " + bloqueif);
+```
+
+Como **num =5** -> cumple esta condición: **num > 1** por lo que entra en este if:
+```JAVA
+if( num > 1) {
+  suma = num + num;
+  System.out.println(suma);
+}
+```
+
+Como nunca cumple con esta condición **num <= 3** nunca entra al segundo if.
+
+Siempre ejecuta el primer bloque if.
 
 ---
