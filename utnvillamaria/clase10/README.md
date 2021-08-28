@@ -40,13 +40,19 @@ Indicar si un número ingresado es par o impar.
 
 Leer un número e indicar si este es múltiplo de dos. 
 
-### Ejercicio 9
+### [Ejercicio 9](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/clase10/Ejercicio9.java)
 
 Leer un número e indicar si es divisible por tres. 
 
 ### Ejercicio 10
 
-Dado un número entero positivo menor que cien, leerlo desde teclado, indicar si es primo. (Los números primos son aquellos que sólo son divisibles por sí mismos y por uno.- En el caso del ejemplo, por ser el número leído menor que cien, sólo hay que comprobar que el número no sea 2 - 3 - 5 - 7 o múl.ple de alguno de estos. Si se cumple esta condición, se trata entonces de un número primo. 
+Dado un número entero positivo menor que cien, leerlo desde teclado, indicar si es primo. 
+
+Los números primos son aquellos que sólo son divisibles por sí mismos y por uno.
+
+En el caso del ejemplo, por ser el número leído menor que cien, sólo hay que comprobar que el número no sea 2 - 3 - 5 - 7 o múltiple de alguno de estos. 
+
+Si se cumple esta condición, se trata entonces de un número primo. 
 
 ### Ejercicio 11
 
