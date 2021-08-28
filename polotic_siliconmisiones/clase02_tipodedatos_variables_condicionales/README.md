@@ -1,4 +1,4 @@
-# Clase2
+# Clase 2
 
 ## Tipo de datos
 
