@@ -32,7 +32,7 @@ Ingresar por teclado los precios correspondientes a cinco articulos y las cantid
 
 Calcular e imprimir el importe total de ventas de cada uno y un importe total de lo vendido. 
 
-### Ejercicio 7
+###  [Ejercicio 7](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/clase10/Ejercico7.java)
 
 Indicar si un número ingresado es par o impar. 
 
