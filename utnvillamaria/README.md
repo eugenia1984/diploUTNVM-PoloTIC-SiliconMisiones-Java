@@ -233,9 +233,9 @@ Fuentes de Información
 
  Guerequeta Rosa, Vallecillo Antonio -TECNICAS DE DISENO DE ALGORITMOS(Servicio de Publicaciones de la Universidad de Malaga, Ano 1998)
 
- Hernandez, Pier Paolo Guillen -[ALGORITMOS](http://pier.guillen.com.mx/algorithms/09-busqueda/09.1-introduccion.htm)
+ Hernandez, Pier Paolo Guillen -[ALGORITMOS -> http://pier.guillen.com.mx/algorithms/09-busqueda/09.1-introduccion.htm ](http://pier.guillen.com.mx/algorithms/09-busqueda/09.1-introduccion.htm)
 
- Curso de Estructuras de Datos y Algoritmos / Algoritmos [ver](recursivoshttps://es.wikiversity.org/wiki/Curso_de_Estructuras_de_Datos_y_Algoritmos_/_Algoritmos_recursivos)
+ Curso de Estructuras de Datos y Algoritmos / Algoritmos [recursivoshttps://es.wikiversity.org/wiki/Curso_de_Estructuras_de_Datos_y_Algoritmos_/_Algoritmos_recursivos](recursivoshttps://es.wikiversity.org/wiki/Curso_de_Estructuras_de_Datos_y_Algoritmos_/_Algoritmos_recursivos)
 
  McConnell Steve -CODE COMPLETE -Segunda edicion (Editorial Microsoft Press, Ano 2004)
 
@@ -255,11 +255,11 @@ Fuentes de Información
 
  Tanenbaum  Andrew  S.-SISTEMAS  OPERATIVOS  MODERNOS -Tercera  edicion  (Editorial Pearson, Ano 2009)
 
- Cola (Informática) [ver](https://es.wikipedia.org/wiki/Cola_(inform%C3%A1tica))
+ Cola (Informática) [https://es.wikipedia.org/wiki/Cola_(inform%C3%A1tica)](https://es.wikipedia.org/wiki/Cola_(inform%C3%A1tica))
 
- Bubble Sort [ver](https://en.wikipedia.org/wiki/Bubble_sort)
+ Bubble Sort [https://en.wikipedia.org/wiki/Bubble_sort](https://en.wikipedia.org/wiki/Bubble_sort)
 
- Ordenamiento por Inserción [ver](https://es.wikipedia.org/wiki/Orden)
+ Ordenamiento por Inserción [https://es.wikipedia.org/wiki/Orden](https://es.wikipedia.org/wiki/Orden)
 
 ---
 
