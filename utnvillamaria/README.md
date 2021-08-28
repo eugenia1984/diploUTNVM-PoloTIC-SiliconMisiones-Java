@@ -308,7 +308,7 @@ Leer un número comprendido entre uno y siete, ambos inclusive e imprimir el nom
 Leer una serie de 15 números enteros, informar mediante un mensaje cuántos son mayores que 100. 
 ### Ejercicio 14
 
-Leer cincuenta números e indicar la can.dad de valores mayores que diez.
+Leer cincuenta números e indicar la cantidad de valores mayores que diez.
 
 ### Ejercicio 15
 
