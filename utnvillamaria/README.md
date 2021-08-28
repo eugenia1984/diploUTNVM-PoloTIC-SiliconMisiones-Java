@@ -2,9 +2,9 @@
 
 ## Modulo 1 : pensamiento lógico
 
-Formación en la construcción de las capacidades técncas en torno a la lógica de progrmación
+Formación en la construcción de las capacidades técnicas en torno a la lógica de progrmación.
 
-:computer: en [practica de pensamiento logico](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/practica_de_pensamiento_logico) hay ejercicios de logica
+:computer: en [practica de pensamiento logico](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/practica_de_pensamiento_logico) hay ejercicios de logica y teoría.
 
 
 ---
