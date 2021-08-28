@@ -1,3 +1,245 @@
+# Teoria
+
+## Desarrollo de Software
+
+Empieza con al definicion de un problema, su analisis y ver como lo vamos a resolver. Y luego nos poneos a programar.
+
+Interpretar especificaciones de diseño o requisitos, entender contexto, cuál es el problema a resolver.
+
+Ver el alcance del problema y convalidar su interpretación a finde identificar aspectos faltantes.
+
+Desarrollo algoritmicos que dan soluciones a los problemas asignados o derivados de los mismos.
+
+## Elementos informaticos
+
+**Software**: programas, procedimientos, reglas, documentacion
+
+**hardware**: dispositivos de entrada: teclado, microfono, mouse / dispositivos de salida: pantalla, impresoa, auriculares / CPU ( procesador ) : unidad de control, memoria central, unidad aritmetca y logica / memoria externa : almacenamiento permanente
+
+**redes internet**: internet aen toda aplicación / disminuye la brecha entre culturas ( comunicacion ) / seguridad
+
+**programas**: lenguajes de programacion, empezaron con 0 y 1 (codigo de computadora, binario) y ahora son lenguajes.
+
+
+## Sistemas
+
+Teoria general de los Sistemas Bertalanffy
+
+Conjunto de **elementos**, **relaciones** entre sí (finalidad) con **orden** u **organizacion** con una **función**, por ej. el cuerpo humano, un lavarropas, un auto.
+
+Características:
+
+   * **LIMITE**: concreto o simbólico (sirven para resolver algo, tienen un dominio)
+   * **DEPOSITOS**: permanente o transitorio
+   * **CANALES** de comunicacion (por donde viajan los datos)
+   * **SUBSISTEMA** si es complejo, está formado por subsistemas
+   
+Su intercambio es mediante **ENTRADA (INPUT)** -> *proceso* -> **OUTPUT (SALIDA)**
+
+## construccion de software
+
+Proceso de:
+   * Requerimiento, ideas, tiempo -> INPUT
+   * Personas, materiales, energia, equipamiento, procedimiento -> PROCESO
+   * Productos / servicios -> OUTPUT
+
+Actividades del proceso de construcción de Software:
+   * Especificación del software
+   * Desarrollo del software
+   * Validacion del software
+   * Eolucion del software
+
+Es un **proceso** automatizado con **herramientas** que se adapta al **proyecto** en el que se incorpora **personal** y como resultado se obtiene un **producto / servicio**
+
+## Lógica
+
+El estudio de los principios y metodos utilizados para distinguir el razonamiento correcto del incorrecto
+
+Nos ayuda a resolver problemas de manera logica
+
+## Proposicion logica
+
+Afirma que algo es o no es por lo tanto cualquier proposicion puede ser afirmada o negada. x ej: Jorge Luis Borges es un escritor
+
+Es una ORACION DECLARATIVA sobre la cual TIEEN SENTIDO DECIR QUE ES VERDADERA O FALSA
+
+Son: oraciones INTERROGATIVAS / IMPERATIVAS / DESIDERATIVAS (que expresa un deseo)   EXCLAMATIVA o ADMINISTRATIVA NO afirman o niegan algo. x ej: Quizas mañana llueva. Ojala gane la loteria
+
+## Proposiciones simples
+
+NO tienen oraciones que las compongan que se encuentren afectada por NEGACIONES(NO), CONJUNCIONES (Y), DISYUNCIONES (O), IMPLICACIONES (SI...ENTONCES)
+
+NO contienen operador logico
+
+
+## Proposiciones compuestas
+
+SI  tienen oraciones que las compongan que se encuentren afectada por NEGACIONES(NO), CONJUNCIONES (Y), DISYUNCIONES (O), IMPLICACIONES (SI...ENTONCES)
+
+Contienen algun tipo de operador logico
+
+## ¿ Cuáles NO son proposiciones logicas?
+
+las oraciones DUBITATIVAS y los JUICIOS DE VALOR ya que su verdad no puede ser establecida. x ej.: Francisco es un excelente docente.
+
+## Valores de verdad
+
+1 = verdadero
+
+0 = falso
+
+Hace referencia al posible valor de verdad o falsedad que puede tener una fórmula, admitiendo el principio de bivalencia, es verdadero o falso, no puede ser ambos
+
+## Operadores logicos : negacion -> NOT ~
+
+| p | ~p |
+| - | -- |
+| V | F |
+| F | V |
+
+## Operadores logicos : conjuncion ->  AND Y ^ &&
+
+Solo es verdadero si ambas son verdaderas
+
+| p | q | p ^ q |
+| - | - | --- |
+| v | V | V |
+| V | F | F |
+| F | V | F |
+| F | F | F |
+
+Sirve para redirigir el flujo del algoritmo (bifurcamso codigo)
+
+## Operadores logicos :disyuncion -> OR O v ||
+
+Con que una sea verdadera, es verdadero
+
+| p | q | p v q |
+| - | - | --- |
+| v | V | V |
+| V | F | V |
+| F | V | V |
+| F | F | F |
+
+Sirve para redirigir el flujo del algoritmo (bifurcamso codigo)
+
+## Algoritmo
+
+Paso previo a un programa
+
+Un método para resolver un problema, tiene ciertos pasos a seguir: ENTRADA (INPUT) -> PROCESO -> SALUDA (OUTPUT)
+
+   * Debe ser preciso
+   * Estar especificamente definido
+   * Se finito (tiene un fin)
+   * Ser correcto
+   * Es independeinte del lenguaje y del medio
+
+Por ejemplo:
+
+Calcular el area de un rectangulo de 10 cm de base y 5 cm de altura
+
+```
+- Entrada de datos: altura = 5 cm
+                     base = 10 cm
+- Proceso = rea = base * altura   
+- Salida: Area = base x altura
+```    
+
+## Validacion de algoritmos
+
+PRUEBA DE ESCRITORIO para validar un algoritmo, utilizando datos reales. Hacer seguimeinto de un algoritmo recorriendo las sentencias secuencialmente, simulando el funcionamiento de la computadora.
+
+Identificar varaibles de entrada, auxiliares y de salida.
+
+A medida que se van recorriendo las lineas se anotan en una TABLA AUXILIAR los valores que van tomando las variables
+
+---
+
+## Construccion de un programa
+
+Pasos:
+
+   * Definicion del problema
+   * Analisis del problema
+   * Diseño del algoritmo : diagrama de flujo / pseudocodigo
+   * Codificacion
+   * Prueba y depuracion: pruebas de escritorio / pruebas ayudadas con pogramas de desarrollo
+
+----
+
+## Elementos de un programa : ARAIALBES Y CONSTANTES
+
+**VARIABLES**: direcciones de memoria con un valor. numero, letra, valor nulo, etc
+
+**CONSTANTES**: direcciones de memoria con un valor que no varía durante la ejecucion del programa.
+
+Tipos de datos: byte, short, Integer, Long, float, decimal, boolean
+
+``` 
+[privacidad] [tipo_de_variable] [identificador];
+``` 
+
+identificador: el nombre, debe representar el dato que almacena, en camelCase
+
+tipo de variable: boolean (true/false), int, byte, short, long, float, double, String (cadena), char (caracter)
+
+----
+
+## Operadores ariteticos
+
+```  
++ suma
+- resta
+/ division
+% resto o modulo
+```  
+
+----
+
+## Operadores unitarios
+
+```  
+++ incremento
+-- decremento
+! cambia el valor
+```  
+
+---
+
+##  Operadores logicos relacionales
+
+```  
+== igual a
+!= distinto de
+> mayor que
+>= mayor igual que
+< menor que
+<= menor igual que
+```  
+
+---
+
+## Rutina (METODO / FUNCION)
+
+   * bloque: conjunto de senencias
+   * puede tener valor de retorno y parametros
+   
+----
+
+## Java
+
+   * multi-plataforma : windows, lunux, Mac, mobile
+   * robusto : control del codigo mas fuerte que los otros lengajes
+   * POO: uno de los paradigmas mas usados en programacion
+   * gran funcionalidad
+   * mucho open source : se puede usar codigo de terceros, no hay que inventar la rueda, se puede adaptar codigo, amplia comunidad
+   * facil de aprender, a comparacion de C y C++
+   * desarrollo web, aplicaciones mobiles, programas para empresas
+
+
+---
+
 # Ejercicio 1
 
 –Indique cuales de las siguientes oraciones son proposiciones lógicas
