@@ -222,17 +222,17 @@ Se vieron los siguientes temas:
      
 ---
 
-:computer: [En la crpeta **Clase 10**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase10)
+:computer: [En la carpeta **Clase 10**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase10)
 
 Está la resolución de los siguientes ejercicios:
 
 ## Ejercicios de práctica
 
-### Ejercicio 1
+### [Ejercicio 1](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/clase10/Ejercicio1.java)
 
-Si un lote de terreno .ene X metros de frente por Y metros de fondo: calcular e imprimir la can.dad de metros de alambre para cercarlo (X e Y serán leídos al comenzar el programa).
+Si un lote de terreno tiene X metros de frente por Y metros de fondo: calcular e imprimir la cantidad de metros de alambre para cercarlo (X e Y serán leídos al comenzar el programa).
 
-### Ejercicio 2
+### [Ejercicio 2](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/clase10/Ejercicio2.java)
 
 Realizar algoritmo que lea dos números, calculando y escribiendo el valor de su suma, resta, producto y división.
 
