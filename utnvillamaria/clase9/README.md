@@ -219,9 +219,7 @@ Un tipo de árbol muy utilizado es el **árbol binario**, un PADRE NO PUEDE TENE
 
 ---
 
-# Algoritmos fundamentales
-
-## Ordenamiento
+# Algoritmos fundamentales: Ordenamiento, Búsqueda, recorrido
 
    * Sirven para dar un orden determinado a los elementos de la lista
    * Ordenar listas en orden alfabético u orden numérico -> muy usual
@@ -354,15 +352,31 @@ public static void seleccion(int A[]) {
 
    * Este tipo de algoritmos se basa en la técnica **divide y venceras**
    * Pasos del algoritmo:
+   
     * Elegir el elemento **pivote**; puede ser el primero, el segundo, o uno del medio
+    
     * Resitua los demás elemento de la lista a cada lado del pivote, de manera que a un lado queden los menores que él, y al otro los mayores. En este momento, el pivote ocupa exactaemnte el lugar que le correspoderá en la lista ordenada.
+    
     * La lista queda separada en do sublistas, una formada por los elementos a la izqueirda del pivote, y otro por los elementos a su derecha.
     * Repetir esete proceso para cada sublista mientras estas contengan más de un elemento
 
 
-##  Búsqueda
+Ejemplo:
 
-## Recorrido
+**8** 1 5 14 4 15 12 6 2 11 10 7 9
+
+**6** 1 5 7 4 2 **8** **12** 15 11 10 14 9
+
+**4** 1 5 2 **6** 7 **10** 9 11 **12** 14 15
+
+2 1 **4** 5 9 **10** 11 14 15
+
+1 2 
+
+1 2 4 5 6 7 8 9 10 11 12 14 15
+
+----
+
 
 ---
 
