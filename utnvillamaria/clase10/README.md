@@ -84,6 +84,6 @@ Leer una serie de 15 números enteros, informar mediante un mensaje cuántos son
 
 Leer cincuenta números e indicar la cantidad de valores mayores que diez.
 
-### Ejercicio 15
+### [Ejercicio 15](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/clase10/Ejercicio15.java)
 
 De una serie de 20 valores, se quiere saber cuántos cumplen con la condición de ser impares mayores que cincuenta y menores que cien.
