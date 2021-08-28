@@ -306,7 +306,8 @@ Leer un número comprendido entre uno y siete, ambos inclusive e imprimir el nom
 ###  [Ejercicio 13](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/clase10/Ejercicio13.java)
 
 Leer una serie de 15 números enteros, informar mediante un mensaje cuántos son mayores que 100. 
-### Ejercicio 14
+
+### [Ejercicio 14](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/clase10/Ejercicio14.java)
 
 Leer cincuenta números e indicar la cantidad de valores mayores que diez.
 
