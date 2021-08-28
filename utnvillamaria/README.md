@@ -213,9 +213,9 @@ END
 
 ----
 
-:computer: [**Clase 9**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase9)
+:computer: [En la carpeta **Clase 9**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase9)
 
-Donde se vieron los siguientes temas:
+Se vieron los siguientes temas:
 
      * Estructuras : listas, pilas, colas, arboles
      * Algoritmos fundamentales de búsqueda, recorrido y ordenamiento.
@@ -225,41 +225,41 @@ Donde se vieron los siguientes temas:
 
 Fuentes de Información
 
-Sommerville, Ian -“INGENIERIA DE SOFTWARE” 9na Edicion (Editorial Addison-Wesley Ano 2011).
+ Sommerville, Ian -“INGENIERIA DE SOFTWARE” 9na Edicion (Editorial Addison-Wesley Ano 2011).
 
-Pressman Roger -“Ingenieria de Software” 7ma. Edicion -(Editorial Mc Graw Hill Ano 2010).
+ Pressman Roger -“Ingenieria de Software” 7ma. Edicion -(Editorial Mc Graw Hill Ano 2010).
 
-Jacobson,  Booch  y  Rumbaugh -“EL PROCESO UNIFICADO  DE DESARROLLO” (Editorial Addison-Wesley -Ano 2000 1ªedicion).
+ Jacobson,  Booch  y  Rumbaugh -“EL PROCESO UNIFICADO  DE DESARROLLO” (Editorial Addison-Wesley -Ano 2000 1ªedicion).
 
-Guerequeta Rosa, Vallecillo Antonio -TECNICAS DE DISENO DE ALGORITMOS(Servicio de Publicaciones de la Universidad de Malaga, Ano 1998)
+ Guerequeta Rosa, Vallecillo Antonio -TECNICAS DE DISENO DE ALGORITMOS(Servicio de Publicaciones de la Universidad de Malaga, Ano 1998)
 
-Hernandez, Pier Paolo Guillen -[ALGORITMOS](http://pier.guillen.com.mx/algorithms/09-busqueda/09.1-introduccion.htm)
+ Hernandez, Pier Paolo Guillen -[ALGORITMOS](http://pier.guillen.com.mx/algorithms/09-busqueda/09.1-introduccion.htm)
 
-Curso de Estructuras de Datos y Algoritmos / Algoritmos [ver](recursivoshttps://es.wikiversity.org/wiki/Curso_de_Estructuras_de_Datos_y_Algoritmos_/_Algoritmos_recursivos)
+ Curso de Estructuras de Datos y Algoritmos / Algoritmos [ver](recursivoshttps://es.wikiversity.org/wiki/Curso_de_Estructuras_de_Datos_y_Algoritmos_/_Algoritmos_recursivos)
 
-McConnell Steve -CODE COMPLETE -Segunda edicion (Editorial Microsoft Press, Ano 2004)
+ McConnell Steve -CODE COMPLETE -Segunda edicion (Editorial Microsoft Press, Ano 2004)
 
-Joyanes  Aguilar  Luis PROGRAMACION  EN  C++:  ALGORITMOS,  ESTRUCTURAS  DE  DATOS  Y OBJETOS –Segundaedicion (Editorial McGraw-Hill, Ano 2006)
+ Joyanes  Aguilar  Luis PROGRAMACION  EN  C++:  ALGORITMOS,  ESTRUCTURAS  DE  DATOS  Y OBJETOS –Segundaedicion (Editorial McGraw-Hill, Ano 2006)
 
-Joyanes   Aguilar   Luis,   Rodriguez   Baena Luis,   Fernandez   Azuela   Matilde -Fundamentos de Programacion
+ Joyanes   Aguilar   Luis,   Rodriguez   Baena Luis,   Fernandez   Azuela   Matilde -Fundamentos de Programacion
 
-Frittelli  Valerio -Algoritmos  y  Estructuras  de  Datos -Segunda  edicion  (Editorial  Cientifica Universitaria, Ano2004)
+ Frittelli  Valerio -Algoritmos  y  Estructuras  de  Datos -Segunda  edicion  (Editorial  Cientifica Universitaria, Ano2004)
 
-Streib  James  T.,  Soma  Takako -GUIDE  TO  JAVA -A  CONCISE  INTRODUCTION  TOPROGRAMMING (EditoriaSpringer, Ano 2014)
+ Streib  James  T.,  Soma  Takako -GUIDE  TO  JAVA -A  CONCISE  INTRODUCTION  TOPROGRAMMING (EditoriaSpringer, Ano 2014)
 
-Guttag  John  V. -INTRODUCTION  TO  COMPUTATION  AND  PROGRAMMING  USING  PYTHON (Editorial MITPress, Ano 2013)
+ Guttag  John  V. -INTRODUCTION  TO  COMPUTATION  AND  PROGRAMMING  USING  PYTHON (Editorial MITPress, Ano 2013)
 
-Ley de Moore [ver](https://es.wikipedia.org/wiki/Ley_de_Moore)
+ Ley de Moore [ver](https://es.wikipedia.org/wiki/Ley_de_Moore)
 
-Tanenbaum Andrew S., Wetherall David J. -REDES DE COMPUTADORAS -Quinta edicion (Editorial Pearson,Ano 2012
+ Tanenbaum Andrew S., Wetherall David J. -REDES DE COMPUTADORAS -Quinta edicion (Editorial Pearson,Ano 2012)
 
-)Tanenbaum  Andrew  S.-SISTEMAS  OPERATIVOS  MODERNOS -Tercera  edicion  (Editorial Pearson, Ano 2009)
+ Tanenbaum  Andrew  S.-SISTEMAS  OPERATIVOS  MODERNOS -Tercera  edicion  (Editorial Pearson, Ano 2009)
 
-Cola (Informática) [ver](https://es.wikipedia.org/wiki/Cola_(inform%C3%A1tica))
+ Cola (Informática) [ver](https://es.wikipedia.org/wiki/Cola_(inform%C3%A1tica))
 
-Bubble Sort [ver](https://en.wikipedia.org/wiki/Bubble_sort)
+ Bubble Sort [ver](https://en.wikipedia.org/wiki/Bubble_sort)
 
-Ordenamiento por Inserción [[ver](https://es.wikipedia.org/wiki/Orden)
+ Ordenamiento por Inserción [ver](https://es.wikipedia.org/wiki/Orden)
 
 ---
 
