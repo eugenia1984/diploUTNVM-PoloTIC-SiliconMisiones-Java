@@ -236,37 +236,50 @@ Si un lote de terreno tiene X metros de frente por Y metros de fondo: calcular e
 
 Realizar algoritmo que lea dos números, calculando y escribiendo el valor de su suma, resta, producto y división.
 
-### Ejercicio 3
+### [Ejercicio 3](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/clase10/Ejercicio3.java)
 
-Un pintor sabe que con una pintura determinada puede pintar 3,6 metros cuadrados por cada medio litro. Sabiendo la altura y el largo de la pared a pintar, informar cuántos litros de pintura u.lizará (Altura y Largo en metros). 
+Un pintor sabe que con una pintura determinada puede pintar 3,6 metros cuadrados por cada medio litro. Sabiendo la altura y el largo de la pared a pintar, informar cuántos litros de pintura utilizará (Altura y Largo en metros). 
 
-### Ejercicio 4
+### [Ejercicio 4](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/clase10/Ejecicio4.java)
 
 Dadas dos variables numéricas A y B, que el usuario debe teclear, se pide realizar un algoritmo que intercambie los valores de ambas variables y muestre cuánto valen al final las dos variables (recuerda la asignación)
 
-### Ejercicio 5
+### [Ejercicio 5](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/clase10/Ejercicio5.java)
 
-Ingresar como dato el perímetro de un cuadrado. Calcular e imprimir el volumen del cubo que .ene como lado el cuadrado antes mencionado. (V=a3).
 
-### Ejercicio 6
+Ingresar como dato el perímetro de un cuadrado. 
 
-Ingresar por teclado los precios correspondientes a cinco arUculos y las can.dades vendidas de cada uno de ellos. Calcular e imprimir el importe total de ventas de cada uno y un importe total de lo vendido. 
+Calcular e imprimir el volumen del cubo que tiene como lado el cuadrado antes mencionado. 
 
-### Ejercicio 7
+(V=a3).
+
+### [Ejercicio 6](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/clase10/Ejercicio6.java)
+
+Ingresar por teclado los precios correspondientes a cinco articulos y las cantidades vendidas de cada uno de ellos. 
+
+Calcular e imprimir el importe total de ventas de cada uno y un importe total de lo vendido. 
+
+### [Ejercicio 7](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/clase10/Ejercico7.java)
 
 Indicar si un número ingresado es par o impar. 
 
-### Ejercicio 8
+### [Ejercicio 8](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/clase10/Ejercicio8.java)
 
 Leer un número e indicar si este es múltiplo de dos. 
 
-### Ejercicio 9
+### [Ejercicio 9](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/clase10/Ejercicio9.java)
 
 Leer un número e indicar si es divisible por tres. 
 
 ### Ejercicio 10
 
-Dado un número entero positivo menor que cien, leerlo desde teclado, indicar si es primo. (Los números primos son aquellos que sólo son divisibles por sí mismos y por uno.- En el caso del ejemplo, por ser el número leído menor que cien, sólo hay que comprobar que el número no sea 2 - 3 - 5 - 7 o múl.ple de alguno de estos. Si se cumple esta condición, se trata entonces de un número primo. 
+Dado un número entero positivo menor que cien, leerlo desde teclado, indicar si es primo. 
+
+Los números primos son aquellos que sólo son divisibles por sí mismos y por uno.
+
+En el caso del ejemplo, por ser el número leído menor que cien, sólo hay que comprobar que el número no sea 2 - 3 - 5 - 7 o múltiple de alguno de estos. 
+
+Si se cumple esta condición, se trata entonces de un número primo. 
 
 ### Ejercicio 11
 
