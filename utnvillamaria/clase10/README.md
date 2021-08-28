@@ -2,17 +2,17 @@
 
 ## Ejercicios de práctica
 
-### Ejercicio 1
+### [Ejercicio 1](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/clase10/Ejercicio1.java)
 
 Si un lote de terreno tiene X metros de frente por Y metros de fondo: calcular e imprimir la cantidad de metros de alambre para cercarlo (X e Y serán leídos al comenzar el programa).
 
-### Ejercicio 2
+### [Ejercicio 2](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/clase10/Ejercicio2.java)
 
 Realizar algoritmo que lea dos números, calculando y escribiendo el valor de su suma, resta, producto y división.
 
 ### Ejercicio 3
 
-Un pintor sabe que con una pintura determinada puede pintar 3,6 metros cuadrados por cada medio litro. Sabiendo la altura y el largo de la pared a pintar, informar cuántos litros de pintura u.lizará (Altura y Largo en metros). 
+Un pintor sabe que con una pintura determinada puede pintar 3,6 metros cuadrados por cada medio litro. Sabiendo la altura y el largo de la pared a pintar, informar cuántos litros de pintura utilizará (Altura y Largo en metros). 
 
 ### Ejercicio 4
 
