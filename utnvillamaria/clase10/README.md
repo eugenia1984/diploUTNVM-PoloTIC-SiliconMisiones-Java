@@ -26,7 +26,7 @@ Calcular e imprimir el volumen del cubo que tiene como lado el cuadrado antes me
 
 (V=a3).
 
-### Ejercicio 6
+### [Ejercicio 6](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/clase10/Ejercicio6.java)
 
 Ingresar por teclado los precios correspondientes a cinco articulos y las cantidades vendidas de cada uno de ellos. 
 
