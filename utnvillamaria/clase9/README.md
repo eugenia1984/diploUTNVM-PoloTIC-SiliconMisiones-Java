@@ -219,7 +219,7 @@ Un tipo de árbol muy utilizado es el **árbol binario**, un PADRE NO PUEDE TENE
 
 ---
 
-# Algoritmos fundamentales: Ordenamiento, Búsqueda, recorrido
+# Algoritmos fundamentales: Ordenamiento
 
    * Sirven para dar un orden determinado a los elementos de la lista
    * Ordenar listas en orden alfabético u orden numérico -> muy usual
@@ -375,8 +375,93 @@ Ejemplo:
 
 1 2 4 5 6 7 8 9 10 11 12 14 15
 
-----
+---
 
+# Algoritmos fundamentales:Búsqueda, recorrido
+
+   * La búsqueda de un eleento dado en una lista
+   * Tarea muy usaul
+   * Dos algoritmos típicos que realizan esta tarea son:
+  
+## Búsqueda **secuencial** -> listas no ordenadas
+
+| Maria | Luis | Juan | Alan | Sofia |
+| ----- | ---- | ---- | -----| ----- |
+
+Recorre seceuncialmente la lista: comienza en al primea posicion de la lista y se detiene cuando se encuentra el **elemento buscado** o bien se alcanza el **final de la lista** sin haberlo encontrado
+
+Si tengo más de una repetida, si encuentra el primero ya sale, muestra que hay, no va a seguir buscando si tengo otro repetido
+
+Ejemplo en pseudocodigo:
+
+```
+BEGIN  busquedasecuencial(L: lista de alumnos, a_ alumno buscado)
+INTEGER n = longitud(L)
+BOOLEAN seEncontro =falso;   //si es el alumno a  
+  FOR(INEGER i =1; i < n-1; i++)
+    IF(L[i]==a)
+      THEN: seEncontro = verdadero;
+    END_IF
+   END_FOR 
+END
+```
+
+## Búsqueda **binaria** o dicotomica -> listas ordenadas
+
+   * Se dispone de una lista ordenada
+   * Aprovecha que la lista está ordenada para ir disminuyendo el espacio de búsqueda
+   
+Si por ejemplo tengo esta lista:
+
+**1** **3** **5** **7** **9** **11** **13** **15** **17** **19** **21** **23**
+
+Defino a **1** como *izq.* a **5** como *medio* y a **11**como *der*
+
+1 3 5 7 9 11 **13** **15** **17** **19** **21** **23**
+
+Defino a **6** como *izq* a **8** como *medio* a **11** como der
+
+1 3 5 7 9 11 13 15 17 **19** **21** **23**
+
+Defino a 99*99 como *izq* a **10** como *medio* y a **11** como *der*
+
+1 3 5 7 9 11 13 15 17 **19** 21 23
+
+Defino a **9** como *inzi* = *der* = *medio*
+
+
+En algoritmo:
+
+```JAVA
+int busquedaBinaria( int vector[], int n, int dato){
+ int centro, inf =0; sup = m-1;
+ 
+ while(inf <= sup){
+  centro = (sup+inf)/2;
+  if(vector[centro] == dato) {
+    return centro;
+  } else if( dato < vector[centro]) {
+    sup = centro-1;
+  } else {
+    inf=centro+1;
+  }
+ }
+ return -1;
+}
+```
+
+
+---
+
+# Algoritmos fundamentales: Recorrido
+
+Para recorrer árboles
+
+##  En profundidad
+
+Desde la raiz a los hijos buscando un elemento, de la raiz baja l primer hijo de ahi a su hijo, si tiene otro hijo baja, veulve a subir a al rai y entra en oro hijo y asi va bajando.
+
+## En anchura
 
 ---
 
