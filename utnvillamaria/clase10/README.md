@@ -4,7 +4,7 @@
 
 ### Ejercicio 1
 
-Si un lote de terreno .ene X metros de frente por Y metros de fondo: calcular e imprimir la can.dad de metros de alambre para cercarlo (X e Y serán leídos al comenzar el programa).
+Si un lote de terreno tiene X metros de frente por Y metros de fondo: calcular e imprimir la cantidad de metros de alambre para cercarlo (X e Y serán leídos al comenzar el programa).
 
 ### Ejercicio 2
 
