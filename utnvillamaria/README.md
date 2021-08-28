@@ -281,7 +281,7 @@ En el caso del ejemplo, por ser el número leído menor que cien, sólo hay que 
 
 Si se cumple esta condición, se trata entonces de un número primo. 
 
-### Ejercicio 11
+### [Ejercicio 11](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/clase10/Ejercicio11.java)
 
 Se leen el sueldo básico y la categoría de un empleado. 
 
@@ -299,11 +299,11 @@ Para otras Categorías no hay descuentos.
 
 Imprimir el sueldo neto básico y Categoría.
 
-### Ejercicio 12
+### [Ejercicio 12](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/clase10/Ejercicio12.java)
 
 Leer un número comprendido entre uno y siete, ambos inclusive e imprimir el nombre del día de la semana Correspondiente.
 
-### Ejercicio 13
+###  [Ejercicio 13](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/clase10/Ejercicio13.java)
 
 Leer una serie de 15 números enteros, informar mediante un mensaje cuántos son mayores que 100. 
 ### Ejercicio 14
