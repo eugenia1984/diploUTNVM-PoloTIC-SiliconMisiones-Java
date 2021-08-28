@@ -193,8 +193,8 @@ Las RAMAS son importantes porque me va conectndo a los PADRES con los HIJOS
 
 ```
 Nivel 0                    A  (RAIZ)
-Nivel 1           B      E     F (NODOS INTERIORES)
-Nivel 2          C D          G H I (HOJAS)
+Nivel 1           B        E       F (NODOS INTERIORES)
+Nivel 2          C D             G H I (HOJAS)
 ```
 Padres: A, B, F
 
@@ -213,8 +213,8 @@ Un tipo de árbol muy utilizado es el **árbol binario**, un PADRE NO PUEDE TENE
 
 ```
                          A
-                B            C
-             D   E           F   G
+                B                C
+             D   E             F   G
 ```
 
 ---
@@ -349,6 +349,16 @@ public static void seleccion(int A[]) {
   }
 }
 ```
+
+### Ordenamiento Quick-sort
+
+   * Este tipo de algoritmos se basa en la técnica **divide y venceras**
+   * Pasos del algoritmo:
+    * Elegir el elemento **pivote**; puede ser el primero, el segundo, o uno del medio
+    * Resitua los demás elemento de la lista a cada lado del pivote, de manera que a un lado queden los menores que él, y al otro los mayores. En este momento, el pivote ocupa exactaemnte el lugar que le correspoderá en la lista ordenada.
+    * La lista queda separada en do sublistas, una formada por los elementos a la izqueirda del pivote, y otro por los elementos a su derecha.
+    * Repetir esete proceso para cada sublista mientras estas contengan más de un elemento
+
 
 ##  Búsqueda
 
