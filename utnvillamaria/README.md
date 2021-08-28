@@ -12,13 +12,13 @@ Formación en la construcción de las capacidades técnicas en torno a la lógic
 :computer: en [fibonacciRecursivo](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/fibonacciRecursivo)
 Hay un ejercicio de practica que muestra los 10 primeros numeros de Fibonacci, aplicando recursividad. Y ejercicios y explicación de la clase 5 con:
 
--Palabras reservadas break - continue en ciclos.
+-**Palabras reservadas break - continue en ciclos**.
 
--Arrays.
+-**Arrays**.
 
--Iteración.
+-**Iteració**n.
 
--Ejercicios para la próxima clase.
+-**Ejercicios para la próxima clase**.
 
 
 ---
@@ -213,7 +213,13 @@ END
 
 ----
 
+:computer: [**Clase 9**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase9)
 
+Donde se vieron los siguientes temas:
+
+     * Estructuras : listas, pilas, colas, arboles
+     * Algoritmos fundamentales de búsqueda, recorrido y ordenamiento.
+     
 
 ----
 
