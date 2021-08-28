@@ -18,7 +18,7 @@ Un pintor sabe que con una pintura determinada puede pintar 3,6 metros cuadrados
 
 Dadas dos variables numéricas A y B, que el usuario debe teclear, se pide realizar un algoritmo que intercambie los valores de ambas variables y muestre cuánto valen al final las dos variables (recuerda la asignación)
 
-### Ejercicio 5
+### [Ejercicio 5](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/clase10/Ejercicio5.java)
 
 Ingresar como dato el perímetro de un cuadrado. 
 
@@ -28,7 +28,9 @@ Calcular e imprimir el volumen del cubo que tiene como lado el cuadrado antes me
 
 ### Ejercicio 6
 
-Ingresar por teclado los precios correspondientes a cinco arUculos y las can.dades vendidas de cada uno de ellos. Calcular e imprimir el importe total de ventas de cada uno y un importe total de lo vendido. 
+Ingresar por teclado los precios correspondientes a cinco articulos y las cantidades vendidas de cada uno de ellos. 
+
+Calcular e imprimir el importe total de ventas de cada uno y un importe total de lo vendido. 
 
 ### Ejercicio 7
 
