@@ -205,6 +205,6 @@ System.out.println("El dia de la semana ingresado es :" + nombreDia);
 
 ---
 
-:computer: [**Ejercicio GUIA 1**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia1)
+:computer: [**Resolución de ejercicios de GUIA 1**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia1)
 
 ---
