@@ -36,7 +36,7 @@ Calcular e imprimir el importe total de ventas de cada uno y un importe total de
 
 Indicar si un número ingresado es par o impar. 
 
-### Ejercicio 8
+### [Ejercicio 8]([Ejercicio 8](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/clase10/Ejercicio8.java))
 
 Leer un número e indicar si este es múltiplo de dos. 
 
