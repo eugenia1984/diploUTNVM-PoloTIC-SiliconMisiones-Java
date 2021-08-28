@@ -14,13 +14,17 @@ Realizar algoritmo que lea dos números, calculando y escribiendo el valor de su
 
 Un pintor sabe que con una pintura determinada puede pintar 3,6 metros cuadrados por cada medio litro. Sabiendo la altura y el largo de la pared a pintar, informar cuántos litros de pintura utilizará (Altura y Largo en metros). 
 
-### Ejercicio 4
+### [Ejercicio 4](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/clase10/Ejecicio4.java)
 
 Dadas dos variables numéricas A y B, que el usuario debe teclear, se pide realizar un algoritmo que intercambie los valores de ambas variables y muestre cuánto valen al final las dos variables (recuerda la asignación)
 
 ### Ejercicio 5
 
-Ingresar como dato el perímetro de un cuadrado. Calcular e imprimir el volumen del cubo que .ene como lado el cuadrado antes mencionado. (V=a3).
+Ingresar como dato el perímetro de un cuadrado. 
+
+Calcular e imprimir el volumen del cubo que tiene como lado el cuadrado antes mencionado. 
+
+(V=a3).
 
 ### Ejercicio 6
 
