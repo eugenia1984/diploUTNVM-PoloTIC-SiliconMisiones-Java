@@ -271,7 +271,7 @@ Leer un número e indicar si este es múltiplo de dos.
 
 Leer un número e indicar si es divisible por tres. 
 
-### Ejercicio 10
+### [Ejercicio 10](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/clase10/Ejercicio10.java)
 
 Dado un número entero positivo menor que cien, leerlo desde teclado, indicar si es primo. 
 
