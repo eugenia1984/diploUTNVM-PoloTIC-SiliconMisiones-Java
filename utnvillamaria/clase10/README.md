@@ -54,7 +54,7 @@ En el caso del ejemplo, por ser el número leído menor que cien, sólo hay que 
 
 Si se cumple esta condición, se trata entonces de un número primo. 
 
-### Ejercicio 11
+### [Ejercicio 11](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/clase10/Ejercicio11.java)
 
 Se leen el sueldo básico y la categoría de un empleado. 
 
