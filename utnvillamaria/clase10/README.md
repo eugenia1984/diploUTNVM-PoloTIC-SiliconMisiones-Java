@@ -72,16 +72,17 @@ Para otras Categorías no hay descuentos.
 
 Imprimir el sueldo neto básico y Categoría.
 
-### Ejercicio 12
+### [Ejercicio 12](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/clase10/Ejercicio12.java)
 
 Leer un número comprendido entre uno y siete, ambos inclusive e imprimir el nombre del día de la semana Correspondiente.
 
 ### Ejercicio 13
 
 Leer una serie de 15 números enteros, informar mediante un mensaje cuántos son mayores que 100. 
+
 ### Ejercicio 14
 
-Leer cincuenta números e indicar la can.dad de valores mayores que diez.
+Leer cincuenta números e indicar la cantidad de valores mayores que diez.
 
 ### Ejercicio 15
 
