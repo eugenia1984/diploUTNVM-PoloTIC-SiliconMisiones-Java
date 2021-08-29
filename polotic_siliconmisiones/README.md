@@ -48,6 +48,8 @@ Ejercicios de práctica resueltos:
 
 ### [Ejercicio 4 -> resuelto en  Clase3Ejercicio4](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase03_bucles_while_for/Clase3Ejercicio4)
 
+### [Ejercicio 5 -> resuelto en Clase3Ejercicio5](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase03_bucles_while_for/Clase3Ejercicio5)
+
 ---
   
 Habrá 3 trabajos prácticos obligatorios, que deben estar aprobados para llegar al proyecto final
