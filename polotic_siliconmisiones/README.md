@@ -31,6 +31,14 @@ Temas:
 
 :computer: [**Clase 3**]()
 
+Temas:
+
+  * Bucles controlados por contador y centinela
+  * While (Mientras)
+  * Bucles infinitos
+  * For
+
+
 
 
 ---
