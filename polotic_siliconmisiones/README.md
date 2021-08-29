@@ -29,7 +29,7 @@ Temas:
 
 ---
 
-:computer: [**Clase 3**]()
+:computer: [**Clase 3**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase03_bucles_while_for)
 
 Temas:
 
