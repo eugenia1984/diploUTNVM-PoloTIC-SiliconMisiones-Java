@@ -212,7 +212,7 @@ Realizar un programa que muestre en pantalla los números del 1 al 35 (uno abajo
 Utilizar para esto alguna estructura repetitiva.
 
 
-### Ejercicio 2
+### [Ejercicio 2](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase03_bucles_while_for/Clase3Ejercicio2)
 
 Realizar un programa que dado por teclado un límite ( por ejemplo 100) muestre en pantalla los números hasta ese límite (empezar por 1)
 
