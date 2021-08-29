@@ -217,7 +217,7 @@ Utilizar para esto alguna estructura repetitiva.
 Realizar un programa que dado por teclado un límite ( por ejemplo 100) muestre en pantalla los números hasta ese límite (empezar por 1)
 
 
-### Ejercicio 3
+### [Ejercicio 3 -> resuelto en Clase3Ejercicio3](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase03_bucles_while_for/Clase3Ejercicio3)
 
 Realizar un programa que muestre por pantalla los números del 200 al 250, saltando de 2 en 2.
 
