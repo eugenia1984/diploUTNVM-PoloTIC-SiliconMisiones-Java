@@ -224,7 +224,7 @@ Realizar un programa que muestre por pantalla los números del 200 al 250, salta
 Las secuencia debería ser: 200 ... 202 ... 204 ... etc
 
 
-### Ejercicio 4
+### [Ejercicio 4 -> resuelto en  Clase3Ejercicio4](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase03_bucles_while_for/Clase3Ejercicio4)
 
 
 Realizar un programa que lleve a cabo la cuenta regresiva para el año nuevo, la cuenta debe comenzar en 10 y terminar en 1.
