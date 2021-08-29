@@ -18,7 +18,7 @@ En ellos existe una **variable** que **cuenta la cantidad de 'vueltas'** (ejecuc
 
 Cuando se llega a la cantidad que establece como máximo la varaible, el programa sale del mismo.
 
-Yo SE LA ANTIDAD DE VUELTAS NECESARIAS, entonces uso al **contador** que es una *variable auxiliar* que se suele incializar en 0 y me va a ir contando las iteraciones (vueltas) del bucle.
+Yo SE LA CANTIDAD DE VUELTAS NECESARIAS, entonces uso al **contador** que es una *variable auxiliar* que se suele incializar en 0 y me va a ir contando las iteraciones (vueltas) del bucle.
 
 
 
