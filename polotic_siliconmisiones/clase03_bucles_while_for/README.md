@@ -205,7 +205,7 @@ Es lo mismo que tiene un while, pero todo en una sola linea.
 ## Ejercicios de practica
 
 
-### Ejercicio 1
+### [Ejercicio 1 -> resuelto en Clase3Ejercicio1](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase03_bucles_while_for/Clase3Ejercicio1)
 
 Realizar un programa que muestre en pantalla los números del 1 al 35 (uno abajo del otro).
 
