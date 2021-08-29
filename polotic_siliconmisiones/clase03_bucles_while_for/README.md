@@ -14,11 +14,13 @@ Se puede pensar un bucle como un espiral para los mosquitos, que van en circulo 
 
 ### Por Contador
 
-En ellos existe una **variable** que **cuenta al cantidad de 'vueltas'** (ejecuciones) del bucle.
+En ellos existe una **variable** que **cuenta la cantidad de 'vueltas'** (ejecuciones) del bucle.
 
 Cuando se llega a la cantidad que establece como máximo la varaible, el programa sale del mismo.
 
 Yo SE LA ANTIDAD DE VUELTAS NECESARIAS, entonces uso al **contador** que es una *variable auxiliar* que se suele incializar en 0 y me va a ir contando las iteraciones (vueltas) del bucle.
+
+
 
 Ejemplo en diagrama de flujo:
 
@@ -31,10 +33,10 @@ Ejemplo en diagrama de flujo:
              |                  |
   ---------> |                  |
   |          V                  |
-  |          SI                 | 
+  |         S I                 | 
   |          |                  |
   |          V                  V
-  |    (Hago un conjunto       NO
+  |    (Hago un conjunto       N O
   |      de acciones)           |
   | contador = contador +1      |
   |          |                  |
@@ -48,6 +50,47 @@ Ejemplo en diagrama de flujo:
             Fin
  ```           
 
+### Por centinela
+
+   * Existe una variable (generalmente booleana) que establece un **valor** o **condición de salida del bucle**, a esta variable la suelen llamar *bandera* o *centinela*
+
+   * **No exiiste una cantidad numérica que limite las ejecuciones** del bucle.
+
+Por ejemplo, un bucle se puede ejecutar mientras una **variable tenga el valor verdadero**, si esta pasa a falso, se debe **salir** del mismo. No necesariamene tiene que ser un boolean, puede ser una String o una relación.
+
+
+Ejemplo en diagrama de flujo:
+
+
+```
+          Inicio
+            |
+            V
+      centinela = true-----------
+             |                  |
+  ---------> |                  |
+  |          V                  |
+  |    centinela = true         | 
+  |          |                  |
+  |          V                  V
+  |    (Hago un conjunto       N O
+  |      de acciones)           |
+  |        ...                  |
+  |          |                  |
+  |          |                  |
+  |----------|                  |
+             |                  |
+       (sigo con el  <-----------
+    resto del programa)
+             |
+             |
+             V
+            Fin
+ ```         
+
+Un ejemplo sería si voy a anotar clientes y no se cuántos tengo.
+
+Con un bucle va  haciendo todo hasta encontrar la parada.
 
 ---
 
