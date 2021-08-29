@@ -1,6 +1,8 @@
 # Clase 3
 
+
 ## Estructuras repetitivas
+
 
    * Permiten ejecutar una cierta porción de código por una determianda cantidad de veces (N cantidad de veces).
    * Esta ejecución repetitiva se conoce como **bucle**
@@ -8,7 +10,9 @@
 
 Se puede pensar un bucle como un espiral para los mosquitos, que van en circulo en cada vuelta (iteracion) y en un momento termina (cuando la condición deja de ser true y pasa a ser false, el contador y el centinela son los encargados de que pase a ser false en algún momento).
 
+
 ---
+
 
 ##   Bucles controlados por contador y centinela
 
@@ -48,13 +52,15 @@ Ejemplo en diagrama de flujo:
              |
              V
             Fin
- ```           
+```           
+
 
 ### Por centinela
 
+
    * Existe una variable (generalmente booleana) que establece un **valor** o **condición de salida del bucle**, a esta variable la suelen llamar *bandera* o *centinela*
 
-   * **No exiiste una cantidad numérica que limite las ejecuciones** del bucle.
+   * **No existe una cantidad numérica que limite las ejecuciones** del bucle.
 
 Por ejemplo, un bucle se puede ejecutar mientras una **variable tenga el valor verdadero**, si esta pasa a falso, se debe **salir** del mismo. No necesariamene tiene que ser un boolean, puede ser una String o una relación.
 
@@ -92,14 +98,138 @@ Un ejemplo sería si voy a anotar clientes y no se cuántos tengo.
 
 Con un bucle va  haciendo todo hasta encontrar la parada.
 
+
 ---
+
 
 ##  While (Mientras)
 
+
+   * Permite ejecutar un bloque de código en forma repetitiva **mientras** (**while**) se cumpla una determinada condición
+   * La condición se evalúa **siempre** al inicio del bucle -> si la condición nunca se cumple -> nunca entra al bucle, nunca se *ejecuta*.
+   * Si la condición es válida, ingresa al bucle y ejecuta el código.
+   * En cada iteración mi contador se va a ir modificando (incrementa o decrementa) para que en cierto punto pasa de ser true a false.
+   * Cuando deja de cumplirse la condición, el programa sale del bucle y continúa con el resto del programa.
+
+
+Ejemplo de bucle controlado por contador:
+
+```JAVA
+int contador =0;
+
+while ( contador <= 10) {
+  System.out.println("Estoy en la vuelta nro.: "+ contador);
+  contador = contador + 1;
+}
+```
+
+Ejemplo de bucle controlado por centinela:
+
+```JAVA
+boolean bandera = true;
+
+while ( bandera == true ) {
+  System.out.println("El valor de la variable es: " + bandera);
+  
+  Scanner teclado = new Scanner(System.in);   //leemos por teclado
+  int tecla = teclado.nextInt();   //buscamos si hay un entero
+  
+  if ( tecla == 1 ) {   //conparamos si el entero es 1
+    bandera = false;
+  }
+}
+```
+
+Si mi centinela es variable de tipo **String** y necesito comparar debo utilizar **.equals()**
+
+Mientras mi centinela sea "exit":
+
+```
+while( centinela.equals("exit") )
+```
+
+Mientras mi centinela sea distinto de exit:
+
+```
+while( !centinela.equals("exit") )
+```
+
 ---
+
 
 ## Bucles infinitos
 
+   * un bucle infinito se produce cuando por algún motivo el programa entra en un bucle pero el mismo no tiene una condición de salida.
+   
+   * Esto puede suceder tanto en los bucles controlados por contador como en los controaldos por centinela.
+   
+   * Se llama bucle **infinito** porque al no haber una condición de salida, el bucle continúa ejecutándose.
+
+
 ---
 
-## For
+
+## For (Para)
+
+   * El bucle For realiza un bucle una determinada cantidad de veces. Se lo puede considerar un bucle **controlado por contador**, sin embargo posee su variable contadora propia.
+   
+   * Está compuesto por tres partes:
+   
+- **Inicialización de la variable** que utilizaremos en la condición (se ejecuta solo una vez al principio del ciclo). Es mi contador.
+
+- **Condición de fin de ciclo** se evalúa esta expresión al comienzo de cada iteración.
+
+- **Modificación de la variable** se ejecuta el final de cada iteración
+
+Ejemplo en pseudocódigo
+
+```
+for ( inicializacion; condicion; modificacion) {
+    // sentencias
+}
+```
+
+Ejemplo en Java:
+
+```JAVA
+for ( int i = 0; i <= 10; i++) {
+    System.out.println("Estoy en la vuelta " + i + " del ciclo for");
+}
+```
+
+Es lo mismo que tiene un while, pero todo en una sola linea.
+
+
+---
+
+## Ejercicios de practica
+
+
+### Ejercicio 1
+
+Realizar un programa que muestre en pantalla los números del 1 al 35 (uno abajo del otro).
+
+Utilizar para esto alguna estructura repetitiva.
+
+
+### Ejercicio 2
+
+Realizar un programa que dado por teclado un límite ( por ejemplo 100) muestre en pantalla los números hasta ese límite (empezar por 1)
+
+
+### Ejercicio 3
+
+Realizar un programa que muestre por pantalla los números del 200 al 250, saltando de 2 en 2.
+
+Las secuencia debería ser: 200 ... 202 ... 204 ... etc
+
+
+### Ejercicio 4
+
+
+Realizar un programa que lleve a cabo la cuenta regresiva para el año nuevo, la cuenta debe comenzar en 10 y terminar en 1.
+
+
+### Ejercicio 5
+
+Realizar un programa que muestre por pantalla palabras que sean ingresadas por teclado hasta que se ingrese la palabra 'salir'
