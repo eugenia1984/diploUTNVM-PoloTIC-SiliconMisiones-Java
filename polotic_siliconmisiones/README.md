@@ -38,7 +38,9 @@ Temas:
   * Bucles infinitos
   * For
 
+Ejercicios de práctica resueltos:
 
+### [Ejercicio 1 -> resuelto en Clase3Ejercicio1](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase03_bucles_while_for/Clase3Ejercicio1)
 
 
 ---
