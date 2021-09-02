@@ -25,13 +25,7 @@ Me lo puedo imaginar como un conjunto de cajas, una al lado de la otra, cada caj
 
 Poseen solo filas o solo columnas (una sola dimensión). Por ejmplo: los vectores
 
-*numeros* es el nombre de mi vector
 
-*int* es el tipo de dato que guardara
-
-Los corchetes me indican que es un vector
-
-8 es la dimensión de mi vector
 
 ```
 int numeros[] = new int[8];  //declaro e inicializo mi arreglo
@@ -48,6 +42,15 @@ numeros[7] = 12;
 
 System.out. println("El numero en la quinta posicion es: " + numeros[4]);
 ```
+
+   * *numeros* es el nombre de mi vector
+
+   * *int* es el tipo de dato que guardara
+
+   * Los corchetes me indican que es un vector
+
+   * 8 es la dimensión de mi vector
+
 
 Mi vector es el siguiente:
 
