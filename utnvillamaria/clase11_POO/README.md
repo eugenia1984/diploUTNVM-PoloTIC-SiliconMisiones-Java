@@ -9,7 +9,7 @@
    
    * Interpretar el material recibido y clarificar eventuales interpretaciones, simepre preguntar sobre dudas o de lo que no se sabe.
    
-   * Determinar el alcance del problema y convalidar su interpretación a fin de identificar aspectos faltantes, e smuy importante saber hasta donde llego, no programo ni de menos ni de más.
+   * Determinar el alcance del problema y convalidar su interpretación a fin de identificar aspectos faltantes, es muy importante saber hasta donde llego, no programo ni de menos ni de más.
    
    * Comprender lo específicado observando reglas del lenguaje de POO, como por ejemplo tengo que respetr que en Java todo es un objeto y la comunicación es a través de métodos.
    
@@ -30,8 +30,40 @@ Su principal ventaja es la reutilización de código y su facilidad para pensar 
 
 El lenguaje de programación elegido para trabajar es **Java**, que pertenece al paradigma orientado a objetos.
 
+
+Me va a permitr reutilizar codigo, y viendo los objetos ya me voy a dar una idea de que voy a tener.
+
+También ayuda en la documentación.
+
+## Paradigma
+
+Los paradigmas son poderosas porque crean los cristales o las lentes a través de los cuáles vemos el mundo.
+
+El poder de un cambio de paradigma es el poder de un cambio considerable, ya se trate de un proceso instantáneo o lento y pausado.
+
+-Stephen Covey
+
+
+Un PARADIGMA tiene:
+
+   * Modelo de reglas y normas
+   * Hochos y predicciones limitadas
+   * Universal o particularmente aceptado
+
+
 ##   Programación Orientada a Objetos
 
+Hacer una lista de objetos, y saber que caracterisitcas y que comportamientos va a tener.
+
+Fundamentalmente es un cambio cultural, más que tecnológico.
+
+Implica ver al DEsarrollo de software como una actividad de ingeniería, es decir:
+
+   * Dejar de inventar la rueda, reusarla
+   * Utilizar componentes
+   * Reorganizar el mercado de software
+
+En este contexto se entiende por orientación a objetos a un paradigma de programación que facilita la creación de software de calidad, debido a sus caracterñisticas específicas que potencian el mentanimiento, la extensión y la reutlización del software generado.
 
 ## Objetos
 
