@@ -52,6 +52,14 @@ Ejercicios de práctica resueltos:
 
 ---
   
+:computer: [**Clase 4**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase4)
+
+Temas:
+
+  * Arreglos: vectores y matrices.
+
+---
+  
 Habrá 3 trabajos prácticos obligatorios, que deben estar aprobados para llegar al proyecto final
   
 ---
