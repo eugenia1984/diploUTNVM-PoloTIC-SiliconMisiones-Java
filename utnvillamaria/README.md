@@ -361,7 +361,7 @@ De una serie de 20 valores, se quiere saber cuántos cumplen con la condición d
 
 Formación en técnicas de programación y especificaciones técnicas bajo el paradigna de POO
 
-[**CLASE 11**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase11_POO)
+:computer: [En la carpeta **CLASE 11**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase11_POO)
 
 Temas:
 
