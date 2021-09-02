@@ -363,6 +363,12 @@ Formación en técnicas de programación y especificaciones técnicas bajo el pa
 
 [**CLASE 11**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase11_POO)
 
+Temas:
+
+     * Objetivos
+     * Bloques
+     * Objetos
+     * Clases
 
 ---
 
