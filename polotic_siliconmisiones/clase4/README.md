@@ -126,4 +126,17 @@ Forman tablas de valores, donde existen dos dimensiones tanto filas como colomna
 
 Son cajas que forman como un cubo, tiene cajas una al lado de la otra y también una arriba de la otra.
 
----
+las matrices tienen las características de tener tanto filas como columnas
+
+```
+    0    1    2    3    4     5
+   -------------------------------
+0 | 35 | 40 | 23 | 11 | 91 | 16  |
+  --------------------------------
+1 | 4  |  5 |  8 | 64 | 61 | 36  |
+   -------------------------------
+2 | 14 | 11 |  6 | 20 | 46 | 48  |
+  -------------------------------- 
+3 |  2 |  8 | 16 | 32 | 64 | 128 | 
+  --------------------------------
+```
