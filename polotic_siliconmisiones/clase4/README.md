@@ -25,9 +25,23 @@ Me lo puedo imaginar como un conjunto de cajas, una al lado de la otra, cada caj
 
 Poseen solo filas o solo columnas (una sola dimensión). Por ejmplo: los vectores
 
+## ¿ Cómo inicializo / declaro mi vector ?
 
-
+```JAVA
+int numeros[] = new int[8];
 ```
+
+   * *numeros* es el nombre de mi vector
+
+   * *int* es el tipo de dato que guardara
+
+   * Los corchetes me indican que es un vector
+
+   * 8 es la dimensión de mi vector
+   
+Ejemplo en codigo:
+
+```JAVA
 int numeros[] = new int[8];  //declaro e inicializo mi arreglo
 
 //Relleno las posiciones manualmente
@@ -43,13 +57,7 @@ numeros[7] = 12;
 System.out. println("El numero en la quinta posicion es: " + numeros[4]);
 ```
 
-   * *numeros* es el nombre de mi vector
 
-   * *int* es el tipo de dato que guardara
-
-   * Los corchetes me indican que es un vector
-
-   * 8 es la dimensión de mi vector
 
 
 Mi vector es el siguiente:
@@ -65,7 +73,7 @@ Mi vector es el siguiente:
 
 Ejemplo:
 
-```
+```JAVA
 package arreglos;
 
 public class Arreglos {
@@ -83,11 +91,13 @@ public class Arreglos {
 }
 ```
 
-También puedo cargar el vector con un FOR:
+## Carga de vector con un for
 
 
-```
+```JAVA
 package arreglos;
+
+import java.util.Scanner;
 
 public class Arreglos {
 
@@ -96,16 +106,16 @@ public class Arreglos {
     //creo mi vector
     int vector[] = new[3];
     
-    Scanner reclado = new Scanner(System.in);
+    Scanner teclado = new Scanner(System.in);
     
     //cargo valores con un for
-    for( int i = 0; 1 <= 2; i++) {
+    for( int i = 0;i <= 2; i++) {
       System.out.ln("Ingrese el valor para el indice: " + i);
       vector[i]= teclado.nextInt();
     }
     
     //muestro los valores con un for
-    for( int i = 0; 1 <= 2; i++) {
+    for( int i = 0; i <= 2; i++) {
       System.out.ln("Estoy en el indice: " + i + " y tengo el valor " + vector[i]);
     }
   }
@@ -126,10 +136,11 @@ Forman tablas de valores, donde existen dos dimensiones tanto filas como colomna
 
 Son cajas que forman como un cubo, tiene cajas una al lado de la otra y también una arriba de la otra.
 
-las matrices tienen las características de tener tanto filas como columnas
+Las matrices tienen las características de tener tanto filas como columnas
 
 ```
-    0    1    2    3    4     5
+    0    1    2    3    4     5     | COLUMNAS
+                                    v
    -------------------------------
 0 | 35 | 40 | 23 | 11 | 91 | 16  |
   --------------------------------
@@ -137,6 +148,50 @@ las matrices tienen las características de tener tanto filas como columnas
    -------------------------------
 2 | 14 | 11 |  6 | 20 | 46 | 48  |
   -------------------------------- 
-3 |  2 |  8 | 16 | 32 | 64 | 128 | 
+3 |  2 |  8 | 16 | 32 | 64 | 128 |   <- FILAS
   --------------------------------
 ```
+
+## ¿ Cómo creo una matriz ?
+
+```JAVA
+int matriz[][] = new[3][3];
+```
+
+El primer corchete es para las **FILAS** y el segundo corchete es para las  **COLUMNAS**
+
+Ejemplo en codigo:
+
+```JAVA
+package arreglos;
+
+import java.util.Scanner;
+
+public class Arreglos {
+
+  public static void main(String[] args) {
+  
+    //creo mi matriz
+    int matriz[][] = new[3][3];
+    
+    Scanner teclado = new Scanner(System.in);
+    
+    //cargo valores de la matriz
+    for( int i = 0; i <= 2; i++) {  // me va a ir rellenando las filas
+      for(int j = 0; j <= 2; j++) { //me va a rellenar las columnas
+        System.out.ln("Ingrese el valor para la fila: " + i + " columna " + j + ":");
+        matriz[i][j] = teclado.nextInt();
+      }
+    }
+    
+    //muestro los valores con un for
+    for( int i = 0; i <= 2; i++) {
+      for(int j = 0; j <= 2; j++) {
+        System.out.ln("Estoy en la fila: " + i + " y columna: " + j + " con valor: " + matriz[i][j]);
+      }
+    }
+  }
+}
+```
+
+---
