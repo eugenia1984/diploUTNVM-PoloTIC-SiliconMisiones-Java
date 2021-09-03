@@ -241,7 +241,7 @@ Realizar un programa que muestre por pantalla palabras que sean ingresadas por t
 
 Resolver los siguientes ejercicios. Intentar ejecutarlos y probarlos con datos de prueba.
 
-### Ejercicio 6
+### [Ejercicio 6 -> resuelto en Clase3Ejercicio6](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase03_bucles_while_for/Clase3Ejercicio6)
 
 Un gerente de una empresa prestadora de servicios de internet necesita un programa que permita realizar el cálculo del monto a pagar de la factura de consumo de internet de 5 clientes de una empresa. Para ello, el algoritmo debe solicitar por teclado dos datos: DNI del cliente y el tipo de servicio. Los tipos de servicio son 3:
 
