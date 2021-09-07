@@ -50,6 +50,10 @@ Ejercicios de práctica resueltos:
 
 ### [Ejercicio 5 -> resuelto en Clase3Ejercicio5](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase03_bucles_while_for/Clase3Ejercicio5)
 
+### [Ejercicio 6 -> resuelto en Clase3Ejercicio6](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase03_bucles_while_for/Clase3Ejercicio6)
+
+### [Ejercicio 7 -> resuelto en Clase3Ejercicio7](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase03_bucles_while_for/Clase3Ejercicio7)
+
 ---
   
 :computer: [**Clase 4**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase4)
