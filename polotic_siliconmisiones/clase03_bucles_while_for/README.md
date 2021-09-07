@@ -254,7 +254,7 @@ iii. Internet 100 megas (Cuyo valor fijo es de $1600)
 El programa debe poder calcular el monto a pagar (dependiendo del tipo de servicio con el que cuente el cliente) e informar por pantalla el DNI del mismo junto con el monto a pagar y el número de servicio con el que cuenta.
 
 
-### Ejercicio 7
+### [Ejercicio 7 -> resuelto en Clase3Ejercicio7](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase03_bucles_while_for/Clase3Ejercicio7)
 
 Un niño de primaria necesita realizar 10 cálculos diferentes entre dos números. Para esto necesita un programa que, para cada cálculo, permita el ingreso de los dos números por separado al igual que la operación que desea hacer entre ambos. Al mismo tiempo debe poder realizar el cálculo en cuestión y mostrar el resultado por pantalla.
 
