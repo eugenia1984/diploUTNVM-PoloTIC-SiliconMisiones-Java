@@ -19,6 +19,8 @@ Realizar un programa que permita la carga de 10 números en un vector.
 
 una vez cargados, se necesita que el programa determine cuál es el mayor y cuál es el menor.
 
+:computer: [resolucion -> Guia3Ejercicio2](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia3_vectores_matrices/Guia3Ejercicio2)
+
 
 ##  Ejercicio 3
 
