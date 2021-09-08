@@ -126,7 +126,7 @@ Temas:
 
 # CLASE 5 : 1 SEPTIEMBRE
 
-:computer: [**Clase 5**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia3_vectores_matrices)
+:computer: [**Clase 5**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase5)
 
 ## Guia de ejercicios Nro. 3
 
