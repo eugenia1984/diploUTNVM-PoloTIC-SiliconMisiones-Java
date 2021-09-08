@@ -34,3 +34,5 @@ Realizar un programa que permita la carga de 15 números en un vector. una vez c
 un empleado desea almacenar en un vector sus 12 sueldos del año.
 
 A partir de esto, necesita un programa que muestre por pantalla la suma total de sus 12 sueldos y el promedio de sueldo que tuvo en el año.
+
+:computer: [resolucion ->Guia3Ejercicio4](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia3_vectores_matrices/Guia3Ejercicio4)
