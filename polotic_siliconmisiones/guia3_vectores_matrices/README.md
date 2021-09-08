@@ -10,6 +10,8 @@ Llevar a cabo un programa que incluya un vector que almacene los nombres: Alejan
 
 Realizar un recorrido del vector para cargar los datos y otro recorrido para mostrar los mismos por pantalla.
 
+:computer: [resolucion -> Guia3Ejercicio1](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia3_vectores_matrices/Guia3Ejercicio1)
+
 
 ##  Ejercicio 2
 
