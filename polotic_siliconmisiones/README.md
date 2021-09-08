@@ -137,7 +137,7 @@ Temas:
 
 ## Guia de ejercicios Nro. 4
 
-[**Ver guia y resolucion**]()
+[**Ver guia y resolucion**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia4_interfaz_grafica)
 
 ----
 
@@ -145,7 +145,9 @@ Temas:
 
 ---
   
-Habrá 3 trabajos prácticos obligatorios, que deben estar aprobados para llegar al proyecto final
+# PRIMER TRABAJO PRACTICO
+
+
   
 ---
 
