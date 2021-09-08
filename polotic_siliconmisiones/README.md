@@ -139,6 +139,14 @@ Temas:
 
 [**Ver guia y resolucion**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia4_interfaz_grafica)
 
+:computer: **Links a los videos**
+
+[EXPLICACION IGU - 1](https://www.youtube.com/watch?v=Fc4uFeMXBS8)
+
+[EXPLICAICON IGU - 2](https://www.youtube.com/watch?v=DAU0rDqcArs)
+
+[EXPLICACION MODELOS DE CAPAS](https://www.youtube.com/watch?v=C6J0TOlCieM)
+
 ----
 
 # CLASE 7: 8 SEPTIEMBRE
@@ -147,8 +155,11 @@ Temas:
   
 # PRIMER TRABAJO PRACTICO
 
+[**guia5_tp1**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia5_tp1)
 
-  
+[EXPLICACION](https://www.youtube.com/watch?v=HTH5nPYE8HA)
+ 
+ 
 ---
 
 📌 Seguir a **Silicon Misiones** en: 
