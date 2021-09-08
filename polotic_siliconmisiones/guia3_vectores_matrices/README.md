@@ -26,6 +26,8 @@ una vez cargados, se necesita que el programa determine cuál es el mayor y cuá
 
 Realizar un programa que permita la carga de 15 números en un vector. una vez cargados, se necesita que el programa cuente e informe por pantalla cuántes veces se cargó el número 3.
 
+:computer: [resolucion -> Guia3Ejercicio3](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia3_vectores_matrices/Guia3Ejercicio3)
+
 
 ##  Ejercicio 4
 
