@@ -317,6 +317,19 @@ De una serie de 20 valores, se quiere saber cuántos cumplen con la condición d
 
 ----
 
+
+:computer: **Clase 12**
+
+Francisco nos pidio instalar el IDE
+
+---
+
+:computer: [En la carpeta **CLASE 13**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase13_poo)
+
+Última clase práctica que vemos con Francisco los temas del módulo 1 para pasar a POO.
+
+---
+
 ## Fuentes de Información
 
  Sommerville, Ian -“INGENIERIA DE SOFTWARE” 9na Edicion (Editorial Addison-Wesley Ano 2011).
@@ -372,15 +385,6 @@ Temas:
 
 ---
 
-:computer: **Clase 12**
-
-Francisco nos pidio instalar el IDE
-
----
-
-:computer: [En la carpeta **CLASE 13**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase13_poo)
-
----
 
 ## Módulo 3 : Desarrollo de aplicaciones webs
 
