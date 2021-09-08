@@ -67,6 +67,8 @@ Temas:
 
 ## Guia de ejercicios Nro. 2
 
+-> [ver consignas](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia2)
+
 Ejercicios de práctica resueltos:
 
 ### [Ejercicio 1 -> resuelto en Clase3Ejercicio1](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase03_bucles_while_for/Clase3Ejercicio1)
