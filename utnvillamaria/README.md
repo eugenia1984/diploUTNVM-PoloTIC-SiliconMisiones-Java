@@ -372,6 +372,16 @@ Temas:
 
 ---
 
+:computer: **Clase 12**
+
+Francisco nos pidio instalar el IDE
+
+---
+
+:computer: [En la carpeta **CLASE 13**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase13_poo)
+
+---
+
 ## Módulo 3 : Desarrollo de aplicaciones webs
 
 Formación en programación en ambientes web, utilizando el lenguaje POO
