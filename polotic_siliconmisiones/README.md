@@ -126,9 +126,18 @@ Temas:
 
 # CLASE 5 : 1 SEPTIEMBRE
 
+
+## Guia de ejercicios Nro. 3
+
+[**Ver guia y resolucion**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia3_vectores_matrices)
+
 ---
 
 # CLASE 6 : 6 SEPTIEMBRE
+
+## Guia de ejercicios Nro. 4
+
+[**Ver guia y resolucion**]()
 
 ----
 
