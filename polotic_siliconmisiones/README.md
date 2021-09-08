@@ -1,6 +1,8 @@
 # PoloTIC / SiliconMisiones - Full Stack Java
 
-:computer: [**Clase 1**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase01_intro_java)
+# CLASE 1 : 20 AGOSTO
+
+:computer: [**Teoría de clase 1**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase01_intro_java)
 
 Temas:
   * ¿ Qué es programar?
@@ -16,20 +18,45 @@ Temas:
   * ¿ Cómo declaro una variable ?
   * Operadores : Aritméticas, Relacionales, Condicionales
   
+ :computer: **Links a los videos**
+ 
+ [Operadores en Java](https://www.youtube.com/watch?v=Fswl6scN9cY)
+ 
+ [Tipo de datos y variables](https://www.youtube.com/watch?v=l2mLP7P3jx4)
+ 
+ [¿Qué es Java?](https://www.youtube.com/watch?v=6q7wHs6cH6Y)
+ 
  --- 
 
-:computer: [**Clase 2**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase02_tipodedatos_variables_condicionales)
+# CLASE 2 : 23 AGOSTO
+
+:computer: [**Ver teoria clase 2**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase02_tipodedatos_variables_condicionales)
 
 Temas:
   * Tipo de datos
   * Variables
   * Condicionales: IF / IF ELSE / IF ELSE ANIDADOS  / SWITCH
   
+##    Guia de ejercicios Nro. 1
+
 -> [**Guia 1 : tipo de datos, variables y condicionales**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia1)
+
+
+:computer: **Links a los videos**
+
+[Condicional Simple: IF](https://www.youtube.com/watch?v=tE-a1tH-Iq4)
+
+[Condicional Simple IF / ELSE](https://www.youtube.com/watch?v=wMSKQb6-iEk)
+
+[SWITCH](https://www.youtube.com/watch?v=HEOdd2RnAko)
+
+[Condicional anidado: IF ELSE / IF ELSE](https://www.youtube.com/watch?v=B-VmHBBS0W0)
 
 ---
 
-:computer: [**Clase 3**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase03_bucles_while_for)
+# CLASE 3: 25 AGOSTO
+
+:computer: [**Ver teoría clase 3**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase03_bucles_while_for)
 
 Temas:
 
@@ -37,6 +64,8 @@ Temas:
   * While (Mientras)
   * Bucles infinitos
   * For
+
+## Guia de ejercicios Nro. 2
 
 Ejercicios de práctica resueltos:
 
@@ -54,13 +83,54 @@ Ejercicios de práctica resueltos:
 
 ### [Ejercicio 7 -> resuelto en Clase3Ejercicio7](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase03_bucles_while_for/Clase3Ejercicio7)
 
+
+:computer: **Links a los videos**
+
+
+[WHILE](https://www.youtube.com/watch?v=Vl9asbaZFZg)
+
+[BUCLES CONTROLADOS POR CENTINELA Y POR CONTADOR](https://www.youtube.com/watch?v=ju2EypSdr1U)
+
+[BUCLES INFINITOS](https://www.youtube.com/watch?v=TmIg27se2yk)
+
+[BUCLE FOR](https://www.youtube.com/watch?v=V7U96RG6MPE)
+
 ---
   
+# CLASE 4 : 30 AGOSTO
+
 :computer: [**Clase 4**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase4)
 
 Temas:
 
   * Arreglos: vectores y matrices.
+
+
+
+:computer: **Links a los videos**
+
+[RECORRIDO Y CARGA DE VECTORES](https://www.youtube.com/watch?v=DEK-tiJLa4Y)
+
+[DECLARACION Y ASIGNACION DE MATRICES](https://www.youtube.com/watch?v=eP89Ay-rktw)
+
+[DECLARACION Y ASIGNACION DE VECTORES](https://www.youtube.com/watch?v=Oie_y3Fp-N0)
+
+[RECORRIDO Y CARGA DE MATRICES](https://www.youtube.com/watch?v=Dpni7eA3Eiw&feature=youtu.be)
+
+[EJERCICIO INTEGRADOR VECTORES + IF + FOR](https://www.youtube.com/watch?v=C5u72RuvrY4)
+
+
+---
+
+# CLASE 5 : 1 SEPTIEMBRE
+
+---
+
+# CLASE 6 : 6 SEPTIEMBRE
+
+----
+
+# CLASE 7: 8 SEPTIEMBRE
 
 ---
   
