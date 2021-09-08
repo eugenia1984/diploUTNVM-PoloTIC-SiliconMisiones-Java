@@ -13,7 +13,7 @@ Realizar un recorrido del vector para cargar los datos y otro recorrido para mos
 
 ##  Ejercicio 2
 
-Reallizar un programa que permita la carga de 10 números en un vector.
+Realizar un programa que permita la carga de 10 números en un vector.
 
 una vez cargados, se necesita que el programa determine cuál es el mayor y cuál es el menor.
 
