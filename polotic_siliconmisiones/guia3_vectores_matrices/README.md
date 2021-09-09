@@ -80,6 +80,8 @@ Llevar a cabo un programa que permite cargar completamente con números 5 una ma
 
 Llevar a cabo un programa que permita completar con números 1 toda la diagonal principal de una matriz de 6 x 6. Entiéndase por diagonal principal aquella que comienza en [0,0] y termina en [6,6].
 
+:computeer: [resolucion -> Guia3Ejercicio7](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia3_vectores_matrices/Guia3Ejercicio7)
+
 
 ## Ejercicio 8
 
