@@ -37,7 +37,7 @@ un empleado desea almacenar en un vector sus 12 sueldos del año.
 
 A partir de esto, necesita un programa que muestre por pantalla la suma total de sus 12 sueldos y el promedio de sueldo que tuvo en el año.
 
-:computer: [resolucion ->Guia3Ejercicio4](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia3_vectores_matrices/Guia3Ejercicio4)
+:computer: [resolucion -> Guia3Ejercicio4](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia3_vectores_matrices/Guia3Ejercicio4)
 
 ## Ejercicio 5
 
@@ -68,13 +68,18 @@ Se necesita un programa que permita la carga de las ciudades, sus temperaturas m
 
 ## MATRICES
 
+
 ## Ejercicio 6
 
 Llevar a cabo un programa que permite cargar completamente con números 5 una matriz de 4x5 (4 filas, 5 columnas).
 
+:computer: [resolucion ->Guia3Ejericio6](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia3_vectores_matrices/Guia3Ejericio6)
+
+
 ## Ejercicio 7
 
 Llevar a cabo un programa que permita completar con números 1 toda la diagonal principal de una matriz de 6 x 6. Entiéndase por diagonal principal aquella que comienza en [0,0] y termina en [6,6].
+
 
 ## Ejercicio 8
 
@@ -83,6 +88,7 @@ Llevar a cabo un programa que permita cargar mediante teclado una matriz de 3 x 
 Una vez cargada, se debe permitir al usuario ingresar por teclado una raza de perro que quiera buscar; el programa deberá poder encontrarla y mostrar un mensaje con la posición (fila, columna) donde la encontró. 
 
 En caso de que la raza de perro no se encuentre en la matriz, se deberá informar la situación mediante un mensaje por pantalla
+
 
 ## Ejercicio 9
 
