@@ -106,8 +106,8 @@ Ejemplo:
 
 ```
            NOTA 1  NOTA 2  NOTA 3   PROMEDIO
-ALUMNO 1    8        8       7         ?
-ALUMNO 2    7        9       10        ?
+ALUMNO 1     8       8       7         ?
+ALUMNO 2     7       9       10        ?
 ALUMNO 3    10       9       5         ?
 ALUMNO 4     4       9      8,50       ?
 ```
@@ -122,8 +122,8 @@ Por Ejemplo:
            0         1        2
          MAÑANA   MEDIODIA  NOCHE
 0  RIO     120       15      30
-1  CUN      65        1      2
-2 MAD       4        52      7
+1  CUN     65        1       2
+2 MAD      4         52      7
 3 ROM      46        32      16
 4 MIL      64        23      11
 5 IGR      61        12      91
