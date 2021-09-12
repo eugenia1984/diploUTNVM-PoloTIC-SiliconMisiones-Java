@@ -324,7 +324,7 @@ Francisco nos pidio instalar el IDE
 
 ---
 
-:computer: [En la carpeta **CLASE 13**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase13_poo)
+:computer: [**CLASE 13**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase13_poo)
 
 Última clase práctica que vemos con Francisco los temas del módulo 1 para pasar a POO.
 
