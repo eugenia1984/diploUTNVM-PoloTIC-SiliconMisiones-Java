@@ -335,15 +335,15 @@ Francisco nos pidio instalar el IDE
 :computer: [**CLASE 14**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase14)
 
 
-## Seguimos con francisco resolviendo los ejercicios prácticos de la clase 10
+#### Seguimos con francisco resolviendo los ejercicios prácticos de la clase 10
 
 
-## Ordenamiento burbuja 
+#### Ordenamiento burbuja 
 
 
 :computer: [ejercicio en **ReordenamientoBurbuja**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase14/ReordenamientoBurbuja)
 
-## POO : clases y objetos
+#### POO : clases y objetos
 
 ---
 
