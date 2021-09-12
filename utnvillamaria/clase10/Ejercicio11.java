@@ -38,7 +38,10 @@ public class Ejercicio11 {
                 sueldoNeto = sueldoBasico * 0.9;
                 break;    
             default:
-                sueldoNeto = sueldoBasico;
+                Syste.out.println("No hay descuento);
+        }
+        if(sueldoNeto == 0){
+            sueldoNeto = sueldoBasico;
         }
         System.out.println("El sueldo neto básico es "+sueldoNeto+" para la categoria "+
                 categoriaEmpleado);
