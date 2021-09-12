@@ -24,3 +24,21 @@ Vamos a tener muchos ciclos for, que van a ir creciendo exponencialmente, no es 
 ---
 
 :computer: [ejercicio en **ReordenamientoBurbuja**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase14/ReordenamientoBurbuja)
+
+
+---
+
+## Clases y objetos
+
+   * En la **programación orientada a objetos** (**POO**), diseñamos los programas utilizando **clases** y **objetos**.
+   
+   * Las **clases** se definen como un **plano** o una **plantilla** para instanciar los **objetos**.
+   
+   * Ej.: un auto es un objeto, que tiene **atributos** (modelo, color, etc) y **métodos** (acelerar, frenar, tocar bocina, etc).
+
+:computer: [Ejercicio **NuevaClase** donde se crea una clase -> **Car**]()
+
+
+La **clase** es el **plano** que nos permite crear el **estado** de los **objetos**, los cuales tienen **atributos** (las propiedades) y **metodos** (funciones que van a modificar al objeto).
+
+---
