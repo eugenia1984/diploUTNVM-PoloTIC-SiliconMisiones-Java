@@ -335,7 +335,7 @@ Francisco nos pidio instalar el IDE
 :computer: [**CLASE 14**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase14)
 
 
-     * Seguimos con francisco resolviendo los ejercicios prácticos de la [**clase 10**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase10)
+     *Seguimos con francisco resolviendo los ejercicios prácticos de la [clase 10](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase10)
 
 
 #### Ordenamiento burbuja 
