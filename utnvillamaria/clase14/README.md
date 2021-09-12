@@ -22,3 +22,5 @@ Como es de 2 en 2 hay que ir iterando N veces -1, donde N es la longitud del arr
 Vamos a tener muchos ciclos for, que van a ir creciendo exponencialmente, no es óptimo y relentiza el código.
 
 ---
+
+:computer: [ejercicio en **ReordenamientoBurbuja**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase14/ReordenamientoBurbuja)
