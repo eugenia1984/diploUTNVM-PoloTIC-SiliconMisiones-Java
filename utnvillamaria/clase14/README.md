@@ -36,7 +36,7 @@ Vamos a tener muchos ciclos for, que van a ir creciendo exponencialmente, no es 
    
    * Ej.: un auto es un objeto, que tiene **atributos** (modelo, color, etc) y **métodos** (acelerar, frenar, tocar bocina, etc).
 
-:computer: [Ejercicio **NuevaClase** donde se crea una clase -> **Car**]()
+:computer: [Ejercicio **NuevaClase** donde se crea una clase -> **Car**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase14/NuevaClase)
 
 
 La **clase** es el **plano** que nos permite crear el **estado** de los **objetos**, los cuales tienen **atributos** (las propiedades) y **metodos** (funciones que van a modificar al objeto).
