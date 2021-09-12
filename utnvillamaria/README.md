@@ -332,6 +332,17 @@ Francisco nos pidio instalar el IDE
 
 ---
 
+:computer: [**CLASE 14**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase14)
+
+
+## Seguimos con francisco resolviendo los ejercicios prácticos de la clase 10
+
+
+## Ordenamiento burbuja 
+
+
+---
+
 ## Fuentes de Información
 
  Sommerville, Ian -“INGENIERIA DE SOFTWARE” 9na Edicion (Editorial Addison-Wesley Ano 2011).
