@@ -343,6 +343,8 @@ Francisco nos pidio instalar el IDE
 
 :computer: [ejercicio en **ReordenamientoBurbuja**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase14/ReordenamientoBurbuja)
 
+## POO : clases y objetos
+
 ---
 
 ## Fuentes de Información
