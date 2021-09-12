@@ -343,7 +343,7 @@ Francisco nos pidio instalar el IDE
 
 :computer: [ejercicio en **ReordenamientoBurbuja**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase14/ReordenamientoBurbuja)
 
-#### POO : clases y objetos
+
 
 ---
 
@@ -399,6 +399,15 @@ Temas:
      * Bloques
      * Objetos
      * Clases
+
+---
+
+:computer: [**CLASE 14**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase14)
+
+#### POO : clases y objetos
+
+
+:computer: [Ejercicio **NuevaClase** donde se crea una clase -> **Car**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase14/NuevaClase)
 
 ---
 
