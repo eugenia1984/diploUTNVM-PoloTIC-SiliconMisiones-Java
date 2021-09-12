@@ -13,7 +13,7 @@
 Comparamos los dos primeros, vemos cuál es el mayor, el menor va primero y el mayor segundo, y asi va haciendo comparando de 2 en 2.
 
 
-   * Es necesario revisar varais veces toda la lsta hasta que no se necesiten mças intercambios, lo cual significa que la lista esté ordenada.
+   * Es necesario revisar varais veces toda la lsta hasta que no se necesiten más intercambios, lo cual significa que la lista esté ordenada.
    
 Como es de 2 en 2 hay que ir iterando N veces -1, donde N es la longitud del array.
 
