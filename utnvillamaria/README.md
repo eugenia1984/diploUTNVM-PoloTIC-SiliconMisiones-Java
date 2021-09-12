@@ -281,6 +281,8 @@ En el caso del ejemplo, por ser el número leído menor que cien, sólo hay que 
 
 Si se cumple esta condición, se trata entonces de un número primo. 
 
+[Opcion 2, resuelta por Francisco](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/clase10/Ejercicio10opcion2.java)
+
 ### [Ejercicio 11](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/clase10/Ejercicio11.java)
 
 Se leen el sueldo básico y la categoría de un empleado. 
