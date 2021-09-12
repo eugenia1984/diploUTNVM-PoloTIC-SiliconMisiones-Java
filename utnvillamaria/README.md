@@ -341,6 +341,8 @@ Francisco nos pidio instalar el IDE
 ## Ordenamiento burbuja 
 
 
+:computer: [ejercicio en **ReordenamientoBurbuja**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase14/ReordenamientoBurbuja)
+
 ---
 
 ## Fuentes de Información
