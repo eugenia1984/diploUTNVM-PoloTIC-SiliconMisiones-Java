@@ -320,19 +320,19 @@ De una serie de 20 valores, se quiere saber cuántos cumplen con la condición d
 ----
 
 
-:computer: **Clase 12**
+:computer:  **Clase 12**
 
 Francisco nos pidio instalar el IDE
 
 ---
 
-:computer: [**CLASE 13**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase13_poo)
+:computer: [En la carpeta **CLASE 13**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase13_poo)
 
 Última clase práctica que vemos con Francisco los temas del módulo 1 para pasar a POO.
 
 ---
 
-:computer: [**CLASE 14**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase14)
+:computer: [En la carpeta **CLASE 14**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase14)
 
 
 Seguimos con francisco resolviendo los ejercicios prácticos de la [clase 10](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase10)
@@ -402,7 +402,7 @@ Temas:
 
 ---
 
-:computer: [**CLASE 14**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase14)
+:computer: [En la carpeta **CLASE 14**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase14)
 
 #### POO : clases y objetos
 
