@@ -114,6 +114,8 @@ ALUMNO 3    10       9       5         ?
 ALUMNO 4     4       9      8,50       ?
 ```
 
+💻[ resolucion -> Guia3Ejercicio9](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia3_vectores_matrices/Guia3Ejercicio9)
+
 ## Ejercicio 10
 
 Una compañía de vuelos cuenta con 6 destinos a los que realiza 3 vuelos diariamente, uno por la mañana, otro al mediodía y otro por la noche. Para administrar estos datos, utiliza una matriz, donde cada fila es un destino y en cada columna se  guarda la cantidad de asientos disponibles. 
