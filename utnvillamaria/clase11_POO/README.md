@@ -81,6 +81,23 @@ Propiedades de Objetos:
    
    * **Identidad**: propiedad de un bjeto que lo distingue de todos los demás objetos
 
+**¿ Qué es un objeto ?**
+
+Es una unidad o entidad individual e identificable, ya sea real o abstracto, con un rol bien definido en el dominio del problema.
+
+
+**¿Cómo está compuesto un objeto ?**
+
+**Estado** -> qué sabe? o qué tiene el objeto?
+
+**Identidad** -> qué es? qué lo distingue de los demás objetos?
+
+**Comportamiento** -> qué puede hacer el objeto?
+
+**¿ De dónde vienen los objetos?**
+
+Los objetos se crean a partir de las CLASES, a esta suele llamársela INSTANCIAR UN OBJETO.
+
 ## Relaciones entre objetos
 
 Hay dos jerarquías de especial interés:
@@ -124,6 +141,12 @@ La interfaz de una  clase puede ser:
 - PROTEGICA (**PROTECTED**) : accesible a la propia clase, sus subclases y clases amigas
 
 - PRIVADA (**PRIVATE**): solo a la propia clase
+
+
+**¿ Qué es una clase ?**
+
+Una clase es una definición de un CONJUNTO DE OBJETOS que comparten una ESTRUCTURA común y un COMPORTAMIENTO común.
+
 
 ## Relaciones entre clases
 
@@ -195,5 +218,75 @@ Otra forma de entenderlo:
 Cortador de galletitas -> CLASE
 
 Galletitas -> OBJETOS
+
+---
+
+## Otro ejemplo de clases:
+
+**CLASE: Auto**
+
+-**Estructura**
+
+La clase Auto puede tener atributos:
+
+marca
+
+modelo
+
+color
+
+dominio
+
+AñoFAbricacion
+
+-**Comportamiento o Responsabilidades**
+
+La clase Auto Puede:
+
+encenderMotor
+
+encenderLuces
+
+avanzar
+
+retroceder
+
+estacionar
+
+obtenerNivelDeCombustible
+
+
+**OBJETO: MiAuto**
+
+-**Objeto**
+
+Instanciado de la clase Auto, lo que significa que asignamos un lugar: **identidad** y le damos valores a los atributos: **Estado**
+
+marca: Chevrolet
+
+modelo: Classic
+
+color: Blanco
+
+dominio: MB00056
+
+añoFabricacion: 2012
+
+
+-**Comportamiento o Responsabilidades**
+
+Lo que el objeto puede hacer lo toma de la clase, es decir el objeto puede hacer lo que está definido en la Clase de la que se creó:
+
+encenderMotor
+
+encenderLuces
+
+avanzar
+
+retroceder
+
+estacionar
+
+obtenerNivelDeCombustible
 
 ---
