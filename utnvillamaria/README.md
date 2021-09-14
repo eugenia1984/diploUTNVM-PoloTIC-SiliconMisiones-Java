@@ -1,6 +1,6 @@
 # Diplomatura Java UTN Villa Maria
 
-## Modulo 1 : pensamiento lógico
+## Modulo 1 : Pensamiento lógico
 
 Formación en la construcción de las capacidades técnicas en torno a la lógica de progrmación.
 
@@ -408,6 +408,40 @@ Temas:
 
 
 :computer: [Ejercicio **NuevaClase** donde se crea una clase -> **Car**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase14/NuevaClase)
+
+---
+
+## Fuentes de información:
+
+ Armour Frank & Miller Granville –ADVANCED USE CASE MODELING-EDITORIAL ADDISON WESLEY, AÑO2000.
+
+ Shneider, Geri & Winters, Jason-APPLYING USE CASES-A PRACTICAL GUIDE-ADDISON WESLEY, AÑO 1998.
+
+ Sommerville, Ian -“INGENIERÍA DE SOFTWARE”9na Edición (Editorial Addison-Wesley Año 2011).
+
+ Pressman Roger -“Ingeniería de Software”7ma. Edición -(Editorial Mc Graw Hill Año 2010).
+
+ Jacobson, Booch y Rumbaugh -“EL PROCESO UNIFICADO DE DESARROLLO”(Editorial Addison-Wesley -Año 2000 1ªedición).
+
+ Booch, Rumbaugh y Jacobson -“Lenguaje de Modelado Unificado”-(Editorial Addison-Wesley-Pearson Educación –2da edición -Año 2006).
+
+ Booch, Grady -Análisis y Diseño Orientado a Objetos. (Editorial Addison-Wesley/Diaz de SantosAño 1996).
+
+ Jacobson, Ivar -Object-Oriented Software Engineering. (Editorial Addison-Wesley Año 1994).
+
+ [https://es.wikipedia.org/wiki/Tipo_de_dato#Java](https://es.wikipedia.org/wiki/Tipo_de_dato#Java)
+
+ Belmonte Fernández Oscar -n al lenguaje de programación Java. Una guíabásicaSánchez Asenjo Jorge –Programación Básica en Lenguaje Java. (http://www.jorgesanchez.netAño 2009)
+
+ García de Jalón Javier, Rodrígue José Ignacio, Mingo Iñigo, Imaz Aitor, Brazález Alfonso,Larzabal Alberto, Calleja Jesús, García Jon –Aprenda Java como si estuviera en primero (EscuelaSuperior de Ingenieros Industriales, Universidad de Navarra Año 1999)
+
+ [http://java-white-box.blogspot.com.ar/2012/08/javadoc-que-es-el-javadoc-como-utilizar.html](http://java-white-box.blogspot.com.ar/2012/08/javadoc-que-es-el-javadoc-como-utilizar.html)
+
+ [http://www.ecured.cu/Javadoc](http://www.ecured.cu/Javado)
+
+ [http://www.ciberaula.com/articulo/listas_en_java](http://www.ciberaula.com/articulo/listas_en_java)
+
+ [https://geekytheory.com/tutorial-14-java-swing-interfaces-graficas/https://www.aprenderaprogramar.com/index.php?option=com_content&view=article&id=603:](https://geekytheory.com/tutorial-14-java-swing-interfaces-graficas/https://www.aprenderaprogramar.com/index.php?option=com_content&view=article&id=603:)
 
 ---
 
