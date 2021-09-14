@@ -411,7 +411,7 @@ Temas:
 
 ---
 
-:computer: [Clase15 POO](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase15_poo)
+:computer: [**Clase15 POO**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase15_poo)
 
 ---
 
