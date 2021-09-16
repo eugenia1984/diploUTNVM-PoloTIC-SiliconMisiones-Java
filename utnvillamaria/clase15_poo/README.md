@@ -70,14 +70,16 @@ Ejemplo con UML:
              +comer()
              +dormir()
              +rugir()
+                   ^
                    |
                    |
        ---------------------------------
        |                                |
        |                                |
      Felino                          Canino
-        |                           -------
+        ^                          -----------
         |                          +hacerRuido()
+        |                               ^
         |                               |
    --------------------           ----------------
    |        |          |          |              |
@@ -89,6 +91,44 @@ Leon       Tigre     Gato        Lobo          Perro
                                                +jugar()
                                                +vacunar()
 ```
+
+Al hacer HERENCIA debo *romper* el encapsulamiento, voy a dejar de tener *PRIVATE*, voy a tener *PROTECTED* para que los hijos también lo puedan ver al atributo. Y   además voy a *generar dependencia*, si cambio algo por ejemplo en ANIMAL voy a efectar a todos las clases que hereden del mismo.
+
+**POLIMORFIRSMO** -> **Sobreescritura de métodos** -> puedo heredar un método, pero lo puedo modificar, sobreescribir para poder utilizarlo. **@Override**
+
+**Herencia** y **polimorfismo**: objetos de distintas clases pertenecen a una misma jerarquía, pueden responder de forma distinta a un mismo método.
+
+Ejemplo con otro UML:
+
+```
+                  Cuenta Bancaria
+                  ---------------
+                  -saldo
+                  ----------------
+                  +saldo()
+                  +depositar: unMonto()
+                  +extraer: unMonto()
+                         |
+                         |
+         ------------------------------------
+         ^                                  ^ 
+         |                                  |
+    CajaDeAhorro                       CuentaCorriente
+    -------------                      ----------------
+    -extraccionesPosibles              -rojoPermitido
+    ---------------------              ------------------
+    +extraccionesPosibles()            +puedoExtraer:unMonto()
+    +extraccionesPosibles: unMonto()   +realizarExtraccion:unMonto()
+    +hayExtraccionesPosibles()         +rojoPermitido()
+    +decrementarunaExtraccion()        +rojoPermitido:unMonto()
+    +realizarExtraccion:unMonto()
+    +puedoExtraer:unMonto()    
+```
+         
+        
+Otro ejemplo es en base a la clase *figura geometrica* tengo las clases hijas: *circulo*, *cuadrado* , *triangulo*.       
+        
+Si tengo una **clase abstracta** no voy a poder instanciar objetos de ella, voy a tener métodos abstractos que van a implementar las clases hijas, y son las clases hijas las que podrán instanciar objetos.
 
 ## Secundarias : 
 
