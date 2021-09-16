@@ -176,3 +176,5 @@ Gato ---------------------------------> TipoDeGato
                                |
                             navegabilidad
 ```
+
+---
