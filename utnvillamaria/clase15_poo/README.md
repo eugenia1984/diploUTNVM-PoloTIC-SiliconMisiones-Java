@@ -60,36 +60,38 @@ Pero hay que tener cuidado, no todo es HERENCIA, usarla cuando voy a tener heren
 Ejemplo con UML:
 
 ```
-                  Animal
-             -------------------
-             -foto: String
-             -tipo_comida: String
-             -localizacion: String
-             -tamaño: String
-             --------------------
-             +comer()
-             +dormir()
-             +rugir()
-                   ^
-                   |
-                   |
-       ---------------------------------
-       |                                |
-       |                                |
-     Felino                          Canino
-        ^                          -----------
-        |                          +hacerRuido()
-        |                               ^
-        |                               |
-   --------------------           ----------------
-   |        |          |          |              |
-Leon       Tigre     Gato        Lobo          Perro
-------     -----     -----       -----         -------
-+comer()  +comer()  +comer()   +comer()        +comer()
-+rugir()  +rugir()  +rugir()   +hacerRuido()   +hacerRuido()
-                    +jugar()   +rugir()        +rugir()
-                                               +jugar()
-                                               +vacunar()
+                     Animal
+                  <<abstraact>>
+               ------------------------
+                -foto: String
+                -tipo_comida: String
+                -localizacion: String
+                -tamaño: String
+               --------------------------
+                +comer()
+                +dormir()
+                +rugir()
+                      ^
+                      |
+                      |
+       -----------------------------------------
+       |                                       |
+       |                                       |
+     Felino                                 Canino
+   <<abstract>>                          <<abstract>>
+        ^                             --------------------
+        |                               +hacerRuido()
+        |                                     ^
+        |                                     |
+   -----------------------              --------------------
+   |         |           |              |                  |
+Leon        Tigre      Gato            Lobo              Perro
+--------   ---------  --------        -------------    -------------
++comer()   +comer()   +comer()        +comer()          +comer()
++rugir()   +rugir()   +rugir()        +hacerRuido()     +hacerRuido()
+                      +jugar()        +rugir()          +rugir()
+                                                        +jugar()
+                                                        +vacunar()
 ```
 
 Al hacer HERENCIA debo *romper* el encapsulamiento, voy a dejar de tener *PRIVATE*, voy a tener *PROTECTED* para que los hijos también lo puedan ver al atributo. Y   además voy a *generar dependencia*, si cambio algo por ejemplo en ANIMAL voy a efectar a todos las clases que hereden del mismo.
@@ -101,26 +103,27 @@ Al hacer HERENCIA debo *romper* el encapsulamiento, voy a dejar de tener *PRIVAT
 Ejemplo con otro UML:
 
 ```
-                  Cuenta Bancaria
-                  ---------------
+                     Cuenta Bancaria
+                 ------------------------
                   -saldo
-                  ----------------
+                 ------------------------
                   +saldo()
                   +depositar: unMonto()
                   +extraer: unMonto()
+                         ^ 
                          |
                          |
-         ------------------------------------
-         ^                                  ^ 
-         |                                  |
-    CajaDeAhorro                       CuentaCorriente
-    -------------                      ----------------
-    -extraccionesPosibles              -rojoPermitido
-    ---------------------              ------------------
-    +extraccionesPosibles()            +puedoExtraer:unMonto()
-    +extraccionesPosibles: unMonto()   +realizarExtraccion:unMonto()
-    +hayExtraccionesPosibles()         +rojoPermitido()
-    +decrementarunaExtraccion()        +rojoPermitido:unMonto()
+         --------------------------------------------
+         ^                                          ^ 
+         |                                          |
+      CajaDeAhorro                           CuentaCorriente
+    -----------------------------      -----------------------------
+    -extraccionesPosibles               -rojoPermitido
+    ------------------------------     ----------------------------
+    +extraccionesPosibles()             +puedoExtraer:unMonto()
+    +extraccionesPosibles: unMonto()    +realizarExtraccion:unMonto()
+    +hayExtraccionesPosibles()          +rojoPermitido()
+    +decrementarunaExtraccion()         +rojoPermitido:unMonto()
     +realizarExtraccion:unMonto()
     +puedoExtraer:unMonto()    
 ```
