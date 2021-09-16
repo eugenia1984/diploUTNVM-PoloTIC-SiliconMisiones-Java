@@ -1,6 +1,6 @@
-# POO : características
+# POO : 
 
-## Esenciales :
+## Características Esenciales :
 
 ### Abstraccion
 
@@ -129,11 +129,29 @@ Ejemplo con otro UML:
 ```
          
         
-Otro ejemplo es en base a la clase *figura geometrica* tengo las clases hijas: *circulo*, *cuadrado* , *triangulo*.       
+Otro ejemplo es en base a la clase *figura geometrica* tengo las clases hijas: *circulo*, *cuadrado* , *triangulo*.     
+
+*figura geometrica* va a ser abstracta, va a tener lados y los metodos abstractos calcularArea, este metodo los van a heredar las clases hijas las cuales van a customizar el método, cada una va a calcular su área. Lo que si que al heredar ese metodo abstracto lo tiene que definir si o si, o si lo dejo abstracto es porque tengo otras clases hijas que lo heredan e implementan.
         
 Si tengo una **clase abstracta** no voy a poder instanciar objetos de ella, voy a tener métodos abstractos que van a implementar las clases hijas, y son las clases hijas las que podrán instanciar objetos.
 
-## Secundarias : 
+Las clases siempre en **UpperCamelCase**
+
+Los atributos y los métodos en **camelCase**
+
+No importa el largo del nombre de la clase, ni del atributo ni del método, lo que importa es que cualquiera que lo vea entienda que hace, deben ser bien descriptivos, es mejor tneer: numeroIngresado que a o num que no me dice nada, no me da indicio de que voy a guardar.
+
+
+En cada clase voy a tener:
+
+   * nombre
+   * atributos
+   * constructor
+   * métodos: si no es *void* voy a tener un *return*
+
+---
+
+## Características Secundarias : 
 
 ### Tipificación
 
@@ -142,6 +160,19 @@ Si tengo una **clase abstracta** no voy a poder instanciar objetos de ella, voy 
 ### Persistencia
 
 
-
 ---
 
+## Relaciones: Asociación
+
+Es una relación que especifica que los objetos de un elemento se conectan a los objetos de otros.
+
+```
+asociacion ----               -----multiplicidad
+              |               |
+              |               v
+              v               1
+Gato ---------------------------------> TipoDeGato
+                               ^ 
+                               |
+                            navegabilidad
+```
