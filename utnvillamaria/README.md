@@ -16,7 +16,7 @@ Hay un ejercicio de practica que muestra los 10 primeros numeros de Fibonacci, a
 
 -**Arrays**.
 
--**Iteració**n.
+-**Iteración**.
 
 -**Ejercicios para la próxima clase**.
 
@@ -412,6 +412,19 @@ Temas:
 ---
 
 :computer: [**Clase15 POO**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase15_poo)
+
+---
+
+:computer:[**Clase 16 practica de POO**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase16_poo_practica)
+
+Temas vistos:
+
+     * Atributos y métodos en POO
+     * ¿Qué es un atributo ?
+     * Modificadores de acceso
+     * ¿Qué es un método ?
+     * Llamar a un método
+     * Debuggear
 
 ---
 
