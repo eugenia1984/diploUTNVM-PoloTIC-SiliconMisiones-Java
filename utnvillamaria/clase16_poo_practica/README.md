@@ -43,6 +43,21 @@ En general los atributos de la clase se encapsulan, para aislar esa información
 
 Para no romper este encapsuamiento el atributo es privado y con un metodo lo voy a modificar.
 
+PRIVATE y PUBLIC son los que más se usan. El public ROMPE en ENCAPSULAMIENTO ya que los atributos ahora pueden ser accedidos por otras clases, que los pueden modificar.
+
+PROTECTED se utiliza con herencia.
+
+DEFAULT no se suele utilizar
+
 ----
+
+## Métodos
+
+  * Un método es un bloque de cósigo que se ejecuta cuando es **lamado**. No está siempre en ejecución. En un método se pueden introducir detos de entrada llamados **parametros**
+  * Los métodos se utilizan para ejecutar ciertas acciones y también son conocidos con el nombre de *funciones*
+  * El uso de métodos nos permite **reutilizar código**. Se definen una vez, y se ejecuta muchas veces
+  * Un método ya utilizado en Java: ``` System.out.println("Hola Mundo!);```
+
+---
 
 
