@@ -25,7 +25,7 @@ Temas vistos:
 ## Modificadores de acceso de los atributos
 
    * Uno de los principios básicos de los lenguajes orientados a objetos es el **encapsulamiento**, mediante el cuál se ocultan los detalles de implementación de un objeto. 
-   * En el caso de los *atributos*, por lo general se declaran **private** para que sólo puedan ser accedidos y modificados por los métodos.
+   * En el caso de los *atributos*, por lo general se declaran **private** para que sólo puedan ser accedidos y modificados  por los métodos.
    * El acceso a las propiedades y métodos se determina mediante las palabras reservadas de los modificadores de acceso.
      
 
@@ -57,6 +57,8 @@ DEFAULT no se suele utilizar
   * Los métodos se utilizan para ejecutar ciertas acciones y también son conocidos con el nombre de *funciones*
   * El uso de métodos nos permite **reutilizar código**. Se definen una vez, y se ejecuta muchas veces
   * Un método ya utilizado en Java: ``` System.out.println("Hola Mundo!);```
+  * Un método debe ser declarado **dentro de una clase**. El método posee un modificador de acceso. Se define un nombre seguido de paréntesis. En los paréntesis se puede o no definir parámetros. Si bien Java ya provee métodos, podemos declarar e implementar métodos propios.
+  * Los métodos se llaman utilizando el pinto (.)
 
 ---
 
