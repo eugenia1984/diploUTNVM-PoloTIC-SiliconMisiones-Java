@@ -91,6 +91,20 @@ DEFAULT no se suele utilizar
 
 **return** -> nos permite que el método tenga un valor de salida y finalice la ejecución del método.
 
+
+Si el método de la clase es **private** no va a poder accederse desde el main, debe ser **public** para poder ser accedido.
+
 ---
 
+:computer: [Ejercicio de ejemplo de clases Car y Bus con atributos y método es carpeta **Car**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase16_poo_practica/Car)
 
+---
+
+## Debug
+
+
+Debbugear: depurar el código para encontrar errores.
+
+Quiero ver qué pasa internamente e ir viendo su ejecución.
+
+---
