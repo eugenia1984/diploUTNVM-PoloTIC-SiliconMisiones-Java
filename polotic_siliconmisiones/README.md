@@ -148,7 +148,7 @@ Tema:
 
 [EXPLICACION IGU - 1](https://www.youtube.com/watch?v=Fc4uFeMXBS8)
 
-[EXPLICAICON IGU - 2](https://www.youtube.com/watch?v=DAU0rDqcArs)
+[EXPLICACION IGU - 2](https://www.youtube.com/watch?v=DAU0rDqcArs)
 
 [EXPLICACION MODELOS DE CAPAS](https://www.youtube.com/watch?v=C6J0TOlCieM)
 
