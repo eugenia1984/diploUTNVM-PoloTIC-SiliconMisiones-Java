@@ -5,7 +5,7 @@
 
 ---
 
-[Video 1 -> EXPLICACION MODELOS DE CAPAS](https://www.youtube.com/watch?v=C6J0TOlCieM)
+:computer: Video 1 -> [EXPLICACION MODELOS DE CAPAS](https://www.youtube.com/watch?v=C6J0TOlCieM)
 
 
 ## Modelos de capas
@@ -79,7 +79,7 @@ Voy a tener mi proyecto así:
 
 ---
 
-[ Video 2 -> EXPLICACION IGU - 1](https://www.youtube.com/watch?v=Fc4uFeMXBS8)
+:computer: Video 2 -> [EXPLICACION IGU - 1](https://www.youtube.com/watch?v=Fc4uFeMXBS8)
 
 ## Swing
 
@@ -93,8 +93,28 @@ Voy a tener mi proyecto así:
 
 La usamos como interfaz gráfica en escritorio.
 
+Volviendo al proyecto del video anterior:
+
+En el paquete **igu** click derecho -> **New** -> **jFrame** -> lo nombro, en este caso lo nombro **Pantalla** -> click en **Finish**
+
+Y se abre un apartado para editar la pantalla, del lado derecho se pueden ver los **Swing Containers** y los **Swing Controls** (los elementos que podemos agregar dentro del contenedor)
+
+1ro: agrego un **panel** que me ocupe la mitad de la pantalla y luego agrego un segundo **panel** al lado. Porque cada uno de mis paneles van a ser los contenedores, y todos los elementos que estén dentro estén disribuidos en partes y no se mueva a la par de que se mueva todo. Me permite controlar el panel.
+
+2do: para que sea mas sencillo, por el momento me quedo con un solo panel y voy a ir agregando elementos. Voy a elegir desde **Swing Controls**:
+
+ * **label** -> para agregar *texto*, si le hago click derecho -> *edit text* y puedo modificar el texto. Así voy a tener 2 labels con los siguientes textos: **Copiadora** e **ingrese un texto**
+ 
+ * **Text Field** -> campo de texto, por defecto viene con un texto predeterminado, si le hago click derecho -> *edit text* y le puedo borrar el texto.
+
+3ro: agrego otro **label** y le modifico el texto por : *El texto qe usted ingreso es:*
+
+4to: ingreso otro **Text Field**
+
+Si le hago click al **ojito verde** voy a ver cómo me está quedando la interfaz gráfica.
+
 
 ---
 
-[Video 3 -> EXPLICACION IGU - 2](https://www.youtube.com/watch?v=DAU0rDqcArs)
+:computer: Video 3 -> [EXPLICACION IGU - 2](https://www.youtube.com/watch?v=DAU0rDqcArs)
 
