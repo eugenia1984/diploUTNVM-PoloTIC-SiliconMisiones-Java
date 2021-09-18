@@ -183,3 +183,9 @@ public class Arreglos {
   }
 }  
 ```
+
+
+:computer: [En la carpeta **matriz2** está el ejercicio resuelto](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase5/matriz2)
+
+
+---
