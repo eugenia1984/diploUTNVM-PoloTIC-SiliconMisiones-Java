@@ -57,7 +57,7 @@ Con **refactor** -> **rename** voy a cambiar el nombre del paquete a **logica** 
 
 Haciendo click en **Source Package** -> **New** -> **Java Packege**
 
-Y asi creo mi nuevo paquete **igu**
+Y asi creo mi nuevo paquete **igu** y el paquete **persistencia**
 
 Voy a tener mi proyecto así:
 
