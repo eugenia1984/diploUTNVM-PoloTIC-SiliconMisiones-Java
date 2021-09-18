@@ -1,10 +1,12 @@
 # Clase 6
 
 
-:computer: **Links a los videos**
+:computer: **Links a los videos** y un poco de explicación
 
+---
 
-[EXPLICACION MODELOS DE CAPAS](https://www.youtube.com/watch?v=C6J0TOlCieM)
+[Video 1 -> EXPLICACION MODELOS DE CAPAS](https://www.youtube.com/watch?v=C6J0TOlCieM)
+
 
 ## Modelos de capas
 
@@ -70,12 +72,29 @@ Voy a tener mi proyecto así:
          + persistencia   
     + Libraries    
 
+```
+
+¿ Cómo se comunican entre sí ? Es lo que nos falta ver en los próximos videos
+
+
 ---
 
-¿ Cómo se comunican entre sí ? Es lo que nos falta ver
+[ Video 2 -> EXPLICACION IGU - 1](https://www.youtube.com/watch?v=Fc4uFeMXBS8)
+
+## Swing
+
+**Java Swing** es una librería de Java que está compuesta por 3 partes:
+
+ * **Contenedores gráficos** : los elementos de la interfaz gráfica que nos permite tener elementos dentro de ellas. Son las ventanas: minimizar, maximizar, la x. En java tenemos los **jFrame** y *jPanel**
+ 
+ * **Componentes gráficos** : cada uno de los elementos que puedo poner dentro del contenedor, como los botones, lista desplegable, texto, radio button, imagenes.
+ 
+ * **Eventos**: son situaciones o comportamientos que puede tener una interfaz gráfica dependeindo de una acción, por ejemplo el evento al hacer click en un botón, o al apretar una tecla en particular.
+
+La usamos como interfaz gráfica en escritorio.
 
 
-[EXPLICACION IGU - 1](https://www.youtube.com/watch?v=Fc4uFeMXBS8)
+---
 
-[EXPLICACION IGU - 2](https://www.youtube.com/watch?v=DAU0rDqcArs)
+[Video 3 -> EXPLICACION IGU - 2](https://www.youtube.com/watch?v=DAU0rDqcArs)
 
