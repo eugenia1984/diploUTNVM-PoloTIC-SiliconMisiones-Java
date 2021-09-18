@@ -53,12 +53,43 @@ DEFAULT no se suele utilizar
 
 ## Métodos
 
-  * Un método es un bloque de cósigo que se ejecuta cuando es **lamado**. No está siempre en ejecución. En un método se pueden introducir detos de entrada llamados **parametros**
+  * Un método es un bloque de código que se ejecuta cuando es **llamado**. No está siempre en ejecución. En un método se pueden introducir detos de entrada llamados **parametros**
+  
   * Los métodos se utilizan para ejecutar ciertas acciones y también son conocidos con el nombre de *funciones*
+  
   * El uso de métodos nos permite **reutilizar código**. Se definen una vez, y se ejecuta muchas veces
+  
   * Un método ya utilizado en Java: ``` System.out.println("Hola Mundo!);```
-  * Un método debe ser declarado **dentro de una clase**. El método posee un modificador de acceso. Se define un nombre seguido de paréntesis. En los paréntesis se puede o no definir parámetros. Si bien Java ya provee métodos, podemos declarar e implementar métodos propios.
+  
+  * Un método debe ser declarado **dentro de una clase**. El método posee un **modificador de acceso**. Se define un **nombre** seguido de **paréntesis**. En los paréntesis se **puede o no definir parámetros**. Si bien Java ya provee métodos, podemos declarar e implementar métodos propios.
+  
   * Los métodos se llaman utilizando el pinto (.)
+  
+  
+  Ejemplo de método:
+  
+  ```JAVA
+  public int mx (int x, int y){
+    if(x > y) {
+      return x;
+    } else {
+      return y;
+    }
+  }
+  
+```
+
+**public** -> modificador
+
+**int** -> tipo de retorno
+
+**max** -> nombre del metodo
+
+**(int x, int y)** -> parametros
+
+**{...}** -> el cuerpo el método es todo el código que está entre llaves
+
+**return** -> nos permite que el método tenga un valor de salida y finalice la ejecución del método.
 
 ---
 
