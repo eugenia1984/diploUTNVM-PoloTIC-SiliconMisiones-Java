@@ -27,13 +27,13 @@ public class Arreglos {
     //.next si solo va a tener una palabra, sin espacio
     //.nextLine si voy a tener más de una palaba y voy a tener espacios entre palabras
     
-    for( int i; i < nombres.length, i++){
+    for( int i; i < nombres.length; i++){
       System.out.println("Cargue el nombre para el índice : "+i);
       nombres[i] = leer.next();
     }
     
     //Recorro mi vector para mostrarlo
-    for( int i; i < nombres.length, i++){
+    for( int i; i < nombres.length; i++){
       System.out.println("En el índice : "+i+" tengo el nombre :" + nombres[i]);
     }
      
@@ -72,12 +72,12 @@ public class Arreglos {
     int contTres = 0;
   
     //Cargo mi vector
-    for( int i; i < numeros.length, i++) {
+    for( int i; i < numeros.length; i++) {
       System.out.println("Ingrese el número para el índice : "+i);
       numeros[i[ = leer.nextInt();
     }
     
-    for( int i; i < numeros.length, i++){
+    for( int i; i < numeros.length; i++){
       if(numeros[i] == 3) {  //Si el valor del indice es 3
         contTres ++;  //contTres = contTres +1;
       }
@@ -108,6 +108,8 @@ Tener en cuenta el siguiente diagrama para llevar a cabo el planteo:
 
 Matriz
 
+Cada fila es un jugador
+
 | 2,33 |
 | ---- |
 | 1,6667 |
@@ -117,11 +119,67 @@ Matriz
 
 Vector
 
+El promedio de goles lo guardo en un vector
+
+Voy a relacionar los índices de la matriz con el vector.
 
 
+**Nota**: tener en cuenta que el promedio de goles puede dar como resultado un número que no sea entero.
+
+La matriz al ser de GOLEs si es de tipo INT.
+
+En cambio el vector va a ser de tipo DOUBLE.
 
 
 
 ```JAVA
+package arreglos;
 
+import java.util.Scanner;
+
+public class Arreglos {
+
+  public static void main(String[] args){
+  
+    //Declaro la matriz de 5 filas x 3 columnas
+    int goles[][] = new int[5][3];
+    //Declaro el vector
+    double promedios[] = new double[5];
+    Scanner teclado = new Scanner(System.in);
+    //variable auxiliar para calcular la suma de los goles
+    int suma = 0;
+    
+    //cargo la matriz con los goles
+    for(int f = 0; f < 5; f++){  //for para las filas
+      for( int c = 0; c < 3, c++){  //for para las columnas
+        System.out.println("Jugador: "+f+" Partido: "+c+".Ingresar goles");
+        goles[f][c] = teclado.nextInt();
+      }
+    }
+
+    //calculo los promedios y guardo en vector
+    //A medida que vaya ingresando los goles los voy a tener que sumar para 
+    //luego calcular promedio
+    for(int f = 0; f < 5; f++){  //for para las filas
+      for( int c = 0; c < 3; c++){  //for para las columnas
+        suma = suma + goles[f][c];
+      }
+      //calculo el promedio y lo guardo en el vector
+      //tengo que CASEAR (CASTING) a un double
+      promedios[f] = (double)suma / 3;
+      //tengo que setear a 0 la suma para que comience a acumular la suma del proximo jugador
+      suma = 0;
+    }  
+
+    //mostrar los goles y los promedios por pantalla
+    for(int f = 0; f < 5; f++){  //for para las filas
+      System.out.println("----Jugador número " + f + "-------" );
+      for( int c = 0; c < 3; c++){  //for para las columnas
+        System.out.println("Goles del partido N. "+c+" "+goles[f][c]);
+      }
+      System.out.println("El promedio de goles fue "+promedios[f]);
+    }
+    
+  }
+}  
 ```
