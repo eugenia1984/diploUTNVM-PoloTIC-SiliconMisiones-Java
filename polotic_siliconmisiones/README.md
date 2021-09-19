@@ -154,7 +154,7 @@ Tema:
 
 :computer: ver el ejercicio de los videos [acá](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase6/pruebaCapas)
 
-:computer: Ver teoría de [**clase 6**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase6)
+:computer: Ver teoría de los videos y de la  [**clase 6**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase6)
 
 ----
 
