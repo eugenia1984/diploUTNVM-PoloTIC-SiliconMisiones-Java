@@ -168,7 +168,8 @@ Tema:
 
 :computer: [**Video**](https://www.youtube.com/watch?v=HTH5nPYE8HA) con la explicación del Trabajo Práctico
  
- 
+:computer: Ver teoría de la Clase de la carpeta **Clase7** [**acá**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase7) 
+
 ---
 
 📌 Seguir a **Silicon Misiones** en: 
