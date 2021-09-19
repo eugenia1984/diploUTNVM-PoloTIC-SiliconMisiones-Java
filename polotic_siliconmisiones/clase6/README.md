@@ -498,3 +498,7 @@ Vuelvo a **Design** hago click derecho en el combo -> **Properties** -> **model*
  :computer: se puede ver el proyecto en la carpeta [**PruebaCapas2**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase6/PruebaCapas2)
  
  ---
+
+:computer: Guía de ejercicios práctica número 4 -> [**guia_ejercicios_4_interfaces_graficas.pdf**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/polotic_siliconmisiones/clase6/guia_ejercicios_4_interfaces_graficas.pdf)
+
+---
