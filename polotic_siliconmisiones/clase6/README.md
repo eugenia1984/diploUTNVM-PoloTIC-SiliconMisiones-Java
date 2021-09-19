@@ -294,3 +294,83 @@ Hago lo mismo con tx2 y me queda:
 
 :computer: en la carpeta [**Prueba Capas**] está todo el código de este míni proyecto.(https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase6/pruebaCapas)
 
+
+---
+
+# Teoría de la clase
+
+Ya con la base de lo que vimos en el video se ven más cosas prácticas en la clase.
+
+La idea es separar en capas: **igu** para lo gráfico, **logica** y **persistencia**, asi de necesitar hacer un cambio, voy a la capa correspondiente.
+
+Me baso en la Programación orientada a objetos y al modelo Vista Controlador
+
+Al paquete **PruebaCapas2** lo renombro a **logica**
+
+La **logica** a través del main va a llamar a la parte gráfica.
+
+En mi **igu** creo un nuevo **JFrame Form** y lo llamo **Principal** porque va a ser la pantalla principal. Voy a la parte de **Source** y le borro le main, ais el único ejecutable es mi logica **PruebaCapa2.java** y me desaparece el play verde
+
+Voy a la logica para llamar a la interfaz grafica instanciando un objeto de la clase *Principal* y guardandolo en al variable **pantalla**, también debo importar *igu.Principal*
+
+Hago visible la pantalla con -> ```pantalla.setVisible(true);```
+
+Ubico la pantalla en el medio -> ```JAVA pantalla.setLocationRelativeTo(null);```
+
+
+Y tengo:
+
+```JAVA
+package logica;
+
+import igu.Principal;
+
+public class PruebaCapas2 {
+
+    public static void main(String[] args) {
+        Principal pantalla = new Principal();
+        pantalla.setVisible(true);
+        pantalla.setLocationRelativeTo(null);
+    }
+    
+}
+```
+
+Voy a la parte de **igu** -> *Design* donde tengo a mi **Contenedor** que va a tener adentro a mis **Componentes**
+
+Para dividir las partes de la aplicación uso **Paneles**
+
+1) Agrego un **label** al que le cambio el texto a **Copiadora** y me fijo a la derecha que tengo **Properties** y ahi puedo cambiar el tipo de letra, el tamaño, el color, tambén puedo modificar el borde con color, sombra, le puedo ir dando estilo.
+
+2)  Agrego un **Separetor** y le doy estilo con **Properties**
+
+3) Voy a tener un **Label** con en texto *Ingrese un texto a guardar:* y un  **Text Filed** en donde voy a agregar un texto
+
+4)Un **Button** -> Agregar
+
+5) Agrego un texto pero con opciones para seleccionar, es un **Como Box**, en donde las opciones van a ser el texto qeu aregúe en el Text Filed.
+
+6) Agrego un nuevo **Panel** pra ingresar imagen, siempre el panel debe estar dentro de mi Contenedor para que si agrando o achico la pantalla mi imagen no se pierda.Lle agrego un borde con **Properties**, elijo el *Edge Border*. Pero... ¿cómo le agrego la imagen? Dentro del Panel de la imagen agrego un nuevo **label** ubicado en el borde superior izquierdo, en la esquina. Si voy a las **Properties** de *label* veo que una es **icon**. 
+
+Antes voy a tener preparada una imagen (con licencia libre, ojo con el copyright, que sea una imagen libre) de una fotocopiadora para ponerla como icono.
+
+¿Dóno guardo la iamgen ?
+
+Voy a mi proyecto a la carpeta **src** y agrego la carpeta **img** o **images** y ahi voy a guardar la imagen de la fotocopiadora
+
+Ahora si desde **Properties** en mi **label** agrego al imagen. Pero voy a ver que el tamaño de la imagen es gigante con respecto a mi *Panel*. Para mejorar el tamaño eso me conviene hacerlo fuera de NetBean, en algun editor de imagenes.
+
+Ahora si puedo borrar el texto del label y acotar un poco la imagen
+
+7) Antes del Combo Box agrego otro **Label** con el texto *Seleccione entre los textos guardados*
+ 
+8) luego del combobox agrego otro **Label** con *Texto copiado* y agrego otro **Text Field** donde voy a mostrar el resulado.
+
+9) A continuación del combo box agrego el **Boton** con el texto *Copiar*. Asi a partir de que la persona  -> ingresa un texto -> lo guarda -> se ve de opción en el combo box ->  elijo en el combo box -> hago click en el boton copiar -> lo voy a ver en el text field de abajo 
+
+10) Agrego un último botón  que le cambio el texto a **Limpiar**
+
+11) Necesito cambiar dentro del combo box que teine por defecto con las opciones: **item1**, item2**, **item**, **item4**, voy a **Properties** -> **model** y en los tres . le borro el texto.  
+
+12) Para agregarle iconos a los botones nuevamente en google busco las imagenes para los botoner: icono agregar, icono copiar, icono limpiar. El tamaño debe ser **32 x 32**  y deben ser **png**
+---
