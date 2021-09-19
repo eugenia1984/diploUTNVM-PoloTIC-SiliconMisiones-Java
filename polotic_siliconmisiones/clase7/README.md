@@ -76,17 +76,21 @@ para cargar los datos)
 • El presente trabajo es de tipo OBLIGATORIO y bajo la modalidad INDIVIDUAL (sin
 excepción).
 
-• La fecha de entrega será el día Miércoles 22/09/2021 hasta las 23:59 hs.
+• La fecha de entrega será el día **Miércoles 22/09/2021 hasta las 23:59 hs**.
 
-• El formato de entrega consistirá en un ejercicio en formato ZIP o RAR (comprimido) que
+• El formato de entrega consistirá en un ejercicio en formato **ZIP o RAR** (comprimido) que
 contenga dentro EL PROYECTO COMPLETO, que permita ser ejecutado en el IDE Netbeans. 
+
+Lo que hago es voy a donde tengo todos los paquetes de Java, entro al paquete y voy a tener **src**, **text** y **manifest**, lo selecciono todo y lo comprimo a .zip o .rar, este es el archivo que debería subir.
+
+
 
 El nombre del archivo debe ser **apellido_nombre_tpo1** por ejemplo dePaula_Luisina_tpo1. 
 
 Por favor respetar dicha nomenclatura.
 
 • La entrega se llevará acabo mediante correo electrónico (sin excepción) a la dirección
-de e-mail **javafullstackpolotic@gmail.com** con el asunto: TPO Nº 1. 
+de e-mail **javafullstackpolotic@gmail.com** con el asunto: **TPO Nº 1**. 
 
 Por favor respetar las mayúsculas y formato del asunto para que el correo pueda ser filtrado correctamente.
 
@@ -95,6 +99,8 @@ Por favor respetar las mayúsculas y formato del asunto para que el correo pueda
 proyectos Java como virus. 
 
 Se recomienda subir el archivo a Google Drive, darle acceso público y facilitar el link en el correo electrónico enviado para evitar estos casos.
+
+Para evitar lo del virus, voy a mi **DRIVE**, click derecho -> SUBIR ARCHIVO -> elijo el .zip o .rar y lo subo -> click derecho -> OBTENER ENLACE -> CUALQUIER PERSONA CON EL ENLACE (que quede publico en verde, que NO esté restringido) -> copio el enlace
 
 
 ### 3 ) Condiciones de Evaluación
@@ -107,8 +113,10 @@ Se evaluará:
 
 • Las buenas prácticas implementadas.
 
+Aca se pide lo básico, que pueda recorrer el vector, que se guarde, y que el indice esté de 0 a 9, que no se pase
+
 • El orden del código, correcta implementación de las estructuras y el uso de comentarios
-de guía/ayuda.
+de guía/ayuda. No pide validaciones, formato de fechas, etc, etc.
 
 • El cumplimiento de los formatos solicitados para cada uno de los archivos
 
