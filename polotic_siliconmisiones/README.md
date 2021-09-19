@@ -161,8 +161,6 @@ Tema:
 ----
 
 # CLASE 7: 8 SEPTIEMBRE
-
----
   
 # PRIMER TRABAJO PRACTICO
 
