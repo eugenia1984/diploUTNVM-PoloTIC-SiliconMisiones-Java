@@ -354,7 +354,7 @@ Para dividir las partes de la aplicación uso **Paneles**
 
 Antes voy a tener preparada una imagen (con licencia libre, ojo con el copyright, que sea una imagen libre) de una fotocopiadora para ponerla como icono.
 
-¿Dóno guardo la iamgen ?
+¿Dónde guardo la imagen ?
 
 Voy a mi proyecto a la carpeta **src** y agrego la carpeta **img** o **images** y ahi voy a guardar la imagen de la fotocopiadora
 
@@ -450,9 +450,9 @@ Me queda:
     }   
     ```
     
-    3) Me falta el **btnLimpiar** para poner todo en cero.
+3) Me falta el **btnLimpiar** para poner todo en cero.
     
-    Doble click en el boton para llamar al metodo ** btnLimpiarActionPerformed** y veo:
+Doble click en el boton para llamar al metodo ** btnLimpiarActionPerformed** y veo:
    
 ```JAVA   
 private void btnLimpiarActionPerformed(java.awt.event.ActionEvent evt) {                                           
@@ -467,7 +467,7 @@ Voy a borrar mis text fields de guardar y copiar:
         txtCopiado.setText("");
  ```
  
- Vuelvo a **Design** hago click derecho en el combo -> **Properties** -> **model** le agrego un sólo elemento que es un **guión**, este elemento agregad por defecto va a tener **índice 0**, va a estar en la posición 0.
+Vuelvo a **Design** hago click derecho en el combo -> **Properties** -> **model** le agrego un sólo elemento que es un **guión**, este elemento agregad por defecto va a tener **índice 0**, va a estar en la posición 0.
  
  Entonces el limpiar en vez de borrarme todo lo que voy a hacer es que vaya a esa posición 0 del guión. Y no me va a borrar del Combo box todo lo que ya agregué antes.
  
