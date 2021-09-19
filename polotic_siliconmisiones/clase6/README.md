@@ -113,6 +113,90 @@ Y se abre un apartado para editar la pantalla, del lado derecho se pueden ver lo
 
 Si le hago click al **ojito verde** voy a ver cómo me está quedando la interfaz gráfica.
 
+5to: para ue se pueda copiar el texto debo ingresar -> **Button**. Click derecho -> Edit Text -> **Copiar**
+
+Hasta acá tenemos toda la parte gráfica armada, ahora debemos con **LÓGICA** gregarle la funcionalidad.
+
+Dejo la pestaña de **Design** y paso a al de **Source**
+
+Voy al paquete **logica** a la clase main **PruebaCapas**
+
+Y aca voy a lalmar a la pantalla al ejecutar el programa
+
+```JAVA
+import igu.Pantalla;
+
+public class PruebaCapas {
+
+    public static void main(String[] args) {
+        //Instancio un objeto de clase Pantalla y guardo en al variable : panta
+        //Importa la interfaz gráfica lógia (el paquete de igu)
+        Pantalla panta = new Pantalla();
+        //La tengo que hacer visible llamando la método setVisible
+        //TRUE -> muestra pantalla
+        //FALSE -> no la muestra
+        panta.setVisible(true);
+        //Tengo que determinar donde la ubico
+        //llamo al método .setLocationRelativeTo()
+        //null -> no va a estar relativa a nada, no toma nada como referencia, está en el medio
+        panta.setLocationRelativeTo(null);
+    }
+    
+}
+```
+
+Si vamos al proyecto entero vamos a ver que tanto **Pantalla.java** como **PruebaCapas.java** ambas tienen el play verde, Java toma a amba como ejecutables.
+
+Pero al trabajar con **modelo de capas**, el que se encarga de ejecutar el programa es nuestro Main.
+
+¿ Cómo saco el play verde a Pantalla para que solo mi PruebaCapas sea la encargada e ejecutar el programa ?
+
+Voy  a mi clase **Patalla.java** y en vez de en **Design** voy a **Source** para ver el código.
+
+Veo que dentro de mi clase Pantalla tengo un main:
+
+```JAVA
+  public static void main(String args[]) {
+        /* Set the Nimbus look and feel */
+        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
+        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
+         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
+         */
+        try {
+            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+                if ("Nimbus".equals(info.getName())) {
+                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                    break;
+                }
+            }
+        } catch (ClassNotFoundException ex) {
+            java.util.logging.Logger.getLogger(Pantalla.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (InstantiationException ex) {
+            java.util.logging.Logger.getLogger(Pantalla.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (IllegalAccessException ex) {
+            java.util.logging.Logger.getLogger(Pantalla.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+            java.util.logging.Logger.getLogger(Pantalla.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        }
+        //</editor-fold>
+
+        /* Create and display the form */
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new Pantalla().setVisible(true);
+            }
+        });
+    }
+ ```
+ 
+ **Debo BORRARLO todo**
+ 
+ Asi ya al no tener main -> no tiene run
+ 
+ Ahra si puedo ir a mi main **Prueba capas** y dar al -> **RUN**
+ 
+ Se me va a levantar la pantalla, voy a poder ingresar texto y hacer click en el botón Copiar, pero todavía no hace nada porque no le agregué la funcionalidad, eso se ve en el proximo video.
+ 
 
 ---
 
