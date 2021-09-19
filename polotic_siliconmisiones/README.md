@@ -152,7 +152,9 @@ Tema:
 
 [EXPLICACION MODELOS DE CAPAS](https://www.youtube.com/watch?v=C6J0TOlCieM)
 
-:computer:[ver teoría de **clase 6**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase6)
+:computer: ver el ejercicio de los videos [acá](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase6/pruebaCapas)
+
+:computer: Ver teoría de [**clase 6**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase6)
 
 ----
 
