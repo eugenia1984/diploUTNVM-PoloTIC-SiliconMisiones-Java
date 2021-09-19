@@ -364,7 +364,7 @@ Ahora si puedo borrar el texto del label y acotar un poco la imagen
 
 7) Antes del Combo Box agrego otro **Label** con el texto *Seleccione entre los textos guardados*
  
-8) luego del combobox agrego otro **Label** con *Texto copiado* y agrego otro **Text Field** donde voy a mostrar el resulado.
+8) luego del combobox agrego otro **Label** con *Texto copiado* y agrego otro **Text Field** donde voy a mostrar el resultado.
 
 9) A continuación del combo box agrego el **Boton** con el texto *Copiar*. Asi a partir de que la persona  -> ingresa un texto -> lo guarda -> se ve de opción en el combo box ->  elijo en el combo box -> hago click en el boton copiar -> lo voy a ver en el text field de abajo 
 
@@ -372,5 +372,128 @@ Ahora si puedo borrar el texto del label y acotar un poco la imagen
 
 11) Necesito cambiar dentro del combo box que teine por defecto con las opciones: **item1**, item2**, **item**, **item4**, voy a **Properties** -> **model** y en los tres . le borro el texto.  
 
-12) Para agregarle iconos a los botones nuevamente en google busco las imagenes para los botoner: icono agregar, icono copiar, icono limpiar. El tamaño debe ser **32 x 32**  y deben ser **png**
+12) Para agregarle iconos a los botones nuevamente en google busco las imagenes para los botoner: icono agregar, icono copiar, icono limpiar. El tamaño debe ser **32 x 32**  y deben ser **png** o **jpg** a veces también se puede con **ico**. Les hago click derecho en cada boton -> Properties -> icon -> y agrego las imagenes correspondientes. Si no quiero que la imagen este pegada a mi icono, voy a Edi text y le dejo un espacio adelante de la palabra.
+
+13) Mi último text Filed es para mostrar, el usuario no debe poder escribir adentro, entonces -> Properties -> editable -> lo deschequeo
+
+14) Voy a cambiar los nombres para tener variables
+
+Text Field 1 -> txtGuardar
+
+Combo box -> cmbTextos
+
+Text Field 2 -> txtCopiado
+
+Botton -> btnAgregar
+
+Botton -> btnCopiar
+
+Botton -> btnLimpiar
+
 ---
+
+## Doy FUNCIONALIDAD a los botones
+
+1) Hago doble click en el **btnAgregar** y voy al método ** btnAgregarActionPerformed**
+
+```JAVA
+private void btnAgregarActionPerformed(java.awt.event.ActionEvent evt) {                                           
+        // TODO add your handling code here:
+    } 
+ ```   
+
+Paso a una variable String llamada **texto** lo que ingreso en el primer text field:
+
+```JAVA
+String texto = txtGuardar.getText();
+```
+
+Pero ahora al tener un **combo box** debo utilizar los métodos del mismo, en este caso el **.addItem()** entonces:
+
+```JAVA
+cmbTextos.addItem(texto);
+```
+
+Me queda:
+
+```JAVA
+ private void btnAgregarActionPerformed(java.awt.event.ActionEvent evt) {                                           
+      //Va a leer el texto y al hacer click en el btn agregar
+      String texto = txtGuardar.getText();
+      //Como tengo un combo box llamo al metodo .addItem
+      cmbTextos.addItem(texto); 
+  } 
+ ```
+ 
+2) Ahora me falta que eso que agrego lo vea como opción en el combo box, no es lo mismo que el getTEst, porque como tengo varias opciones, tengo que ver cuál queremos.
+ 
+ Voy a hacer doble click en el **btnCopiar** y voy a tener el método **btnCopiarActionPerformed**.
+ 
+ 
+ Como usuario voy a tener que seleccionar un elemento del combo box y al hacer click en copiar lo tiene que copiar en el text field.
+ 
+  ```JAVA
+  private void btnCopiarActionPerformed(java.awt.event.ActionEvent evt) {                                           
+        // TODO add your handling code here:
+    }                                          
+
+   ```
+   
+   ```JAVA
+     private void btnCopiarActionPerformed(java.awt.event.ActionEvent evt) {                                          
+        //llamo al metodo .getselectedItem, el que me devuelve un OBJETO
+        //pero yo espero un String por lo que lo tengo que castear (String)
+        //traigo del ITEM que SELECCIONA el USUARIO y ese copia
+        String textoCopiar = (String) cmbTextos.getSelectedItem();
+        //me falta asignarlo al txtCopiado
+        txtCopiado.setText(textoCopiar);
+    }   
+    ```
+    
+    3) Me falta el **btnLimpiar** para poner todo en cero.
+    
+    Doble click en el boton para llamar al metodo ** btnLimpiarActionPerformed** y veo:
+   
+```JAVA   
+private void btnLimpiarActionPerformed(java.awt.event.ActionEvent evt) {                                           
+        // TODO add your handling code here:
+}  
+```
+
+Voy a borrar mis text fields de guardar y copiar:
+
+```JAVA
+        txtGuardar.setText("");
+        txtCopiado.setText("");
+ ```
+ 
+ Vuelvo a **Design** hago click derecho en el combo -> **Properties** -> **model** le agrego un sólo elemento que es un **guión**, este elemento agregad por defecto va a tener **índice 0**, va a estar en la posición 0.
+ 
+ Entonces el limpiar en vez de borrarme todo lo que voy a hacer es que vaya a esa posición 0 del guión. Y no me va a borrar del Combo box todo lo que ya agregué antes.
+ 
+ ```JAVA
+ cmbTextos.setSelectedIndex(0);
+ ```
+ 
+ Mi metodo me queda:
+ 
+ ```JAVA
+  private void btnLimpiarActionPerformed(java.awt.event.ActionEvent evt) {                                           
+        //Voy a borrar mis text fields de guardar y copiar
+        txtGuardar.setText("");
+        txtCopiado.setText("");
+        cmbTextos.setSelectedIndex(0);
+    } 
+ ```
+ 
+ ---
+ 
+ #### Hay que acordarse que como NetBeans tiene el tema oscuro vemos el fondo negro, pero en verda es un gris clarito, cuando hacemos el RUn en el MAIN lo vemos gris claro.
+ 
+ 
+ Con el **look and feel** se puede hacer que los botones tengan un borde redondo y demás.
+ 
+ ---
+ 
+ :computer: se puede ver el proyecto en la carpeta []()
+ 
