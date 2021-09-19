@@ -495,5 +495,6 @@ Voy a borrar mis text fields de guardar y copiar:
  
  ---
  
- :computer: se puede ver el proyecto en la carpeta []()
+ :computer: se puede ver el proyecto en la carpeta [**PruebaCapas2**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase6/PruebaCapas2)
  
+ ---
