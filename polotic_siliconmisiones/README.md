@@ -156,6 +156,8 @@ Tema:
 
 :computer: Ver teoría de los videos y de la  [**clase 6**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase6)
 
+:computer: Guía de ejercicios práctica número 4 -> [**guia_ejercicios_4_interfaces_graficas.pdf**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/polotic_siliconmisiones/clase6/guia_ejercicios_4_interfaces_graficas.pdf)
+
 ----
 
 # CLASE 7: 8 SEPTIEMBRE
@@ -164,9 +166,9 @@ Tema:
   
 # PRIMER TRABAJO PRACTICO
 
-[**guia5_tp1**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia5_tp1)
+:computer: Ver el **TRABAJO PRACTICO OBLIGATORIO CON ENTREGA EL 22/09** -> [**guia5_tp1**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia5_tp1)
 
-[EXPLICACION](https://www.youtube.com/watch?v=HTH5nPYE8HA)
+:computer: [**Video**](https://www.youtube.com/watch?v=HTH5nPYE8HA) con la explicación del Trabajo Práctico
  
  
 ---
