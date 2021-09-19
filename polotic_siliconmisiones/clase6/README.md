@@ -202,3 +202,95 @@ Veo que dentro de mi clase Pantalla tengo un main:
 
 :computer: Video 3 -> [EXPLICACION IGU - 2](https://www.youtube.com/watch?v=DAU0rDqcArs)
 
+Ahora hay que agregar la **funcionalidad**, Java maneja como **variables** a cada uno de los **Swing Controls**: label, button, etc, y a cada una le asigna un nombre que son bastante genericos y poco identificables. Haciendo click derecho en cada uno -> **Change Variable Name...** y asi le vamos cambiando los nnombre:
+
+Text Filed 1 -> txt1
+
+Text Field 2 -> txt2
+
+Button -> btn
+
+ * Vamos a agregarle la funcionalidad al botón para que copie el texto y lo ponga en txt2
+
+1) Hago doble click sobre el botón
+
+2) Y me lleva a: ```JAVA public class Pantalla extends javax.swing.JFrame ```
+
+En esta parte el código:
+
+```JAVA
+ private void btnActionPerformed(java.awt.event.ActionEvent evt) {                                    
+        // TODO add your handling code here:
+    }                                   
+
+```
+
+**ActionEvent** me indica que estoy trabajando sobre un evento, la hacer click en el botón voy a hacer una acción.
+
+3) Dentro del método voy a poner el código para que me indique que al hacer click en el botón me traiga el texto de txt1 y lo copie en txt 2
+
+```JAVA
+String texto = txt1.getText();
+```
+
+Creo mi variable **texto** que me va a traer el texto que tenga adentro txt1 llamando al método **.getText()**
+
+4) Tengo que pasar el texto copiado a txt2
+
+```JAVA
+txt2.setText(texto);
+```
+
+A mi **txt2** seteale el texto guardado en la variable **texto**
+
+```JAVA
+String texto = txt1.getText();
+txt2.setText(texto);
+```
+
+Se puede poner todo junto:
+
+```JAVA
+txt2.setText(txt1.getText());
+```
+
+Ahora ya tiene la funcionalidad, si ingreso un texto en **txt1**, hago click en  el botón **Copiar** voy a ver el texto en **txt2**
+
+Vuelvo a mi clase **Pantalla.java** a la pestaña **Design**
+
+-Debajo de **txt2** voy a agregar un nuevo botón 
+
+-Le cambio el texto a -> **Limpiar** con *Edit Text*
+
+-Le cambio el nombre a la variable -> **btnLimpiar** con *Change Variable name...*
+
+-Debo agregarle la funcionalidad al botón **Limpiar** -> Doble click derecho y voy a mi clase **Pantalla.java** al método **btnLimpiarActionPerformed**
+
+```JAVA
+  private void btnLimpiarActionPerformed(java.awt.event.ActionEvent evt) {                                           
+        // TODO add your handling code here:
+    }                                          
+```
+
+Para setear los textos a vacío:
+
+```JAVA
+txt1.setText("");
+```        
+
+Hago lo mismo con tx2 y me queda:
+
+```JAVA
+  private void btnLimpiarActionPerformed(java.awt.event.ActionEvent evt) {                                           
+        //Para dejar los textFileds vacíos
+        txt1.setText("");
+        txt2.setText("");     
+    }  
+```
+
+-Para probarlo ejecuto el programa, ingreso un texto, lo copio y al hacer click en Limpiar me borra los dos.
+
+---
+
+:computer: en la carpeta [**Prueba Capas**] está todo el código de este míni proyecto.()
+
