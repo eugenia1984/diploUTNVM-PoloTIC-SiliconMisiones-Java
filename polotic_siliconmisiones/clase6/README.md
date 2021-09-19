@@ -51,7 +51,7 @@ Nos permite conectar la lógica con una base de Datos para guardar la informaci�
 
 :computer:
 
-Tengo mi mini proyecto en NetBeans al que llamo **pruebaCapas** se puede ver [**acá**]()
+Tengo mi mini proyecto en NetBeans al que llamo **pruebaCapas** se puede ver [**acá**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase6/pruebaCapas)
 
 Voy a tener el **paquete pruebacapas** con mi clase main **pruebaCapas** -> LOGICA
 
@@ -292,5 +292,5 @@ Hago lo mismo con tx2 y me queda:
 
 ---
 
-:computer: en la carpeta [**Prueba Capas**] está todo el código de este míni proyecto.()
+:computer: en la carpeta [**Prueba Capas**] está todo el código de este míni proyecto.(https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase6/pruebaCapas)
 
