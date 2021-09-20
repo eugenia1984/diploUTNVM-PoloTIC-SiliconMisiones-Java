@@ -31,7 +31,7 @@
        UsuariosProgramadores
                |
  -----------------------------------------------------------
-               |             Sistema de bases de datos
+               |                  Sistema de bases de datos
                |
      Programas de aplicacion/consulta
                |             
@@ -48,10 +48,10 @@
      -------------------------------------------
            /               \
           /                 \
-  Definición de          Base de 
-  la base de datos        datos
-   almacenda            almacenada
-(metadatos)
+  Definición de           Base de 
+  la base de datos         datos
+    almacenda            almacenada
+    (metadatos)
 ------------------------------------------------------            
                  
 ```
