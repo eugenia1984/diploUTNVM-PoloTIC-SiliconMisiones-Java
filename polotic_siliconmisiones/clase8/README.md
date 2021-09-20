@@ -113,7 +113,7 @@ Es una forma de diseñar Base de Datos
 
 **Entidades** representan cosa u objetos (ya sean reales o abstractos). Se representan en los diagramas como rectángulos, por ejemplo: alumnos, libros, empleados, materias, autos. Son sustantivos los que se suelen usar como nombre de la entidad. No hay convensión clara, se suele escribir en MAYUSCULA y en PLURAL, pero en java como luego son clases va en SINGULAR y en camelCase
 
-**Atributos** definen o identifican las características propias y por lo general çunicas de una entidad.
+**Atributos** definen o identifican las características propias y por lo general únicas de una entidad.
 
 Cada entidad contiene distintos atributos, que dan información sobre ella misma.
 
@@ -125,10 +125,138 @@ Entidad -> Alumnos
 
 Atributos -> DNI / Nombre / Apellido / Fecha Nac.
 
-**Relaciones** tienen una característica conocida como *cardinalidad*, la cual indica el sentido y la cantidad de *relaciones* existentes entre una entidad y otra. Estas pueden ser:
+**Relaciones** tienen una característica conocida como *cardinalidad*, la cual indica el sentido y la cantidad de *relaciones* existentes entre una entidad y otra. 
+
+Al ser DER se debe poder leer de los dos lados, y de ambos deben tener sentido.
+
+Estas pueden ser:
 
 **1 a n (1 a muchos)** : por ejemplo una persona puede tener **n** autos y viceversa, muchos autos pueden ser de una persona.
 
 Persona--1----------Tiene------------n--Autos
 
+**1 a 1**: por ejemplo a **un** alumno le pertenece únicamente **una** libreta y viceversa, **una** librta pertenece çunicamente a **un** alumno.
+
+Alumno --1--------Tiene-----------------1--Libreta
+
+**N a n (muchos a muchos)**: por ejemplo, **muchos** alumnos pueden tener **muchas** materias y viceversa, **muchas** materias pueden contener a **muchos** alumnos.
+
+Alumno--n---------Tiene----------n--Materias
+
 ---
+
+## Ejemplo práctico
+
+Supongamos que una empresa de venta de electrodomésticos tiene:
+
+-Clientes
+
+-Pedidos
+
+-Productos
+
+Se desea modelar a través de DER, la forma en que se implementaría una Base de Datos
+
+
+1) Detercamos las entidades, como sabemos eran 3:
+
+ * Clientes
+ * Pedidos
+ * Productos
+
+2) Detectamos qué atributos tienen cada uno de ellos:
+
+ * Clientes: dni, nombre, apellido, telefono, fecNac
+ * pedidos: nro, fecha
+ * productos: codigo, nombre, precio, cantidad
+
+3) Pienso las relaciones que van a tener
+
+```
+Clientes--1------tiene-------n--Pedidos--1-------tiene-------n--Productos
+    |                               |                              |
+  dni                              nro                           codigo
+  nombre                           fecha                         nombre
+  apellido                                                       precio
+  telefono                                                      cantidad
+  fechaNac
+```
+
+```
+Pedidos--n-------tiene-------n--Productos
+```
+
+Porque si el produto esta en un solo pedido, sería que solo tengo una heladera la vendo y me quedo sin stock, pero tengo muchas heladeras para varios pedidos
+
+4) Paso del DER a una tabla para una Base de Datos
+
+Mi entidad es el nombre de la tabla y el atributo va a ser el nombre de cada columna de la tabla
+
+| Clientes |
+| -------- |
+| DNI | Nombre | Apellido | FechaNac | Tel |
+
+| Pedidos |
+| ------- |
+| Nro | fecha |
+
+| Productos |
+| --------- |
+| Código | Nombre | Precio | Cantidad |
+
+5) Tengo que establecer qué tipo de datos van a tener
+---
+
+## ¿ Cómo crear una Base de Datos?
+
+-Si instalé **XAMPP** se abre y se debe tenr en verde **MySQL** y **Apache** (para poder acceder a la interfaz gráfica localhost:phpmyadmin).
+
+En **MySQL** a la derecha de **Stop** tengo **Admin** le hago click y me va a abrir [http://localhost/phpmyadmin/](http://localhost/phpmyadmin/)
+
+Del lado izquierdo en donde tengo **phpMyAdmin** y los iconos veo: **Nueva** si le doy click hago mi nueva base de datos.
+
+A la derecha veo:
+
+Bases de datos
+
++Crear base de datos
+
+(aca completo con el NOMBRE de la base de datos) (en la codificacion poner utf8-spanish_ci) (Crear)
+
+Si en la codificación pongo utf8-spaish2-ci voy a notal que es case sensitive y me va a hacer difernecia entre las mayúsculas y la minúsculas.
+
+Entonces ya tengo creada mi **Base de Datos**  con el nombre de **tienda**.
+
+Si yo tengo mi **entidad Clientes** debo crear la **tabla Clientes** con **5** columnas
+
++Crear tabla
+
+(nombre) Numero de columnas: (nro)
+
+Ahora tengo que completar de cada atributo:
+
+ * Nombre : siempre todo en minúscula, sin espacios, puedo separar palabras con guión bajo(_)
+ 
+ * Tipo: **varchar**(es el String en Java, el **DNI** y el **numero de telefono** van como varchar, porque ambos usan numeros, pero no los voy a usar en ningún cálculo matemático, además el númeor de teléfono así puede tener guiones), **date** (para las fechas), **int** para enteros, **double** para un decimal.
+ 
+ * Lontitud/valores
+ 
+ * Predeterminado
+ 
+ * Cotejamiento
+ 
+ * Atributos
+ 
+ * Nulo
+ 
+ * Índice
+ 
+ * Autoincremental
+ 
+ * Comentarios
+ 
+ Y en **Motor de almacenamiento** debo tener seleccionado **InnoDB**, hay que ver porque acorde a la versión del XAMPP no se ven opciones a futuro.
+ 
+ Me están faltando las **relaciones entre las bases de datos** con las **Foreing Key** y las **Primary keys** que se va a ver en la próxima clase.
+ 
+ ---
