@@ -260,3 +260,5 @@ Ahora tengo que completar de cada atributo:
  Me están faltando las **relaciones entre las bases de datos** con las **Foreing Key** y las **Primary keys** que se va a ver en la próxima clase.
  
  ---
+
+## :computer: Ejercicio práctico de base de datos para practicar
