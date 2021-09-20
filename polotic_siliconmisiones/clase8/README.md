@@ -55,4 +55,80 @@
 ------------------------------------------------------            
                  
 ```
+
+ * Dependiendo si la base de datos a tratar es **relacional** o **no relacional** existen diferentes SGBD. Entre ellos se pueden mencionar:
+
+RELACIONALES:
+
+-MySQL
+
+-MariaDB
+
+-PostgresSQL
+
+-Ms. Access
+
+NO RELACIONALES:
+
+-Mongo DB
+
+-Kasandra
+
+En el curso vamos a usar **MySQL**, que es bastante similar a MariaDB, ya que antes eran una msima empresa y luego se pelearon y separaron.
+
+---
+
+## Abstracción y modelado
+
+La **abstracción de datos**, por lo general, significa lograr una forma de representación lógica de las situaciones y objetos del mundo real. Se buscan objetos de la vida real y se lo transforam a una forma de representación a un mundo lógico.
+
+Un **modelo de datos** proporciona los medios necesarios para conseguir una abstracción.
+
+
+## Modelo relacional
+
+En la terminalogía formal del modelo relacional, una fila recibe el nombre de **tupla**, una cabecera de columna es un **atributo** y el nombre de la tabla una **relación**.
+
+El tipo de dato que describe los valores que pueden aparecer en cada columna está representado por un **dominio** de posibles valores.
+
+Nombre de la relación (nombre de la tabla) : Estudiante
+
+Atributos: Nombre, Dni, edad
+
+| Nombre | Dni | Edad |
+|------- | --- | ---- |
+| Ana Caceres | 18987536 | 61 |
+
+
+## Modelo entidad - relación
+
+Es un método para diseñar Bases de Datos que posteriormente serán implementads a través de un SGBD. Este modelo se representa a través de diagramas y está formado por varios elementos.
+
+Este tipo de diagrama utilizado para realizar el modelado Entidad-Relación es de DER(Diagrama de Entidad-Relación)
+
+Es una forma de diseñar Base de Datos
+
+
+## DER Componentes
+
+**Entidades** representan cosa u objetos (ya sean reales o abstractos). Se representan en los diagramas como rectángulos, por ejemplo: alumnos, libros, empleados, materias, autos. Son sustantivos los que se suelen usar como nombre de la entidad. No hay convensión clara, se suele escribir en MAYUSCULA y en PLURAL, pero en java como luego son clases va en SINGULAR y en camelCase
+
+**Atributos** definen o identifican las características propias y por lo general çunicas de una entidad.
+
+Cada entidad contiene distintos atributos, que dan información sobre ella misma.
+
+Estos atributos pueden ser de distintos tipos (numéricos, texto, fecha, etc), y se representan por medio de un óvalo o elipse.
+
+Un ejemplo:
+
+Entidad -> Alumnos
+
+Atributos -> DNI / Nombre / Apellido / Fecha Nac.
+
+**Relaciones** tienen una característica conocida como *cardinalidad*, la cual indica el sentido y la cantidad de *relaciones* existentes entre una entidad y otra. Estas pueden ser:
+
+**1 a n (1 a muchos)** : por ejemplo una persona puede tener **n** autos y viceversa, muchos autos pueden ser de una persona.
+
+Persona--1----------Tiene------------n--Autos
+
 ---
