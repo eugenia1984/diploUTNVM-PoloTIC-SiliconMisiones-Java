@@ -262,3 +262,9 @@ Ahora tengo que completar de cada atributo:
  ---
 
 ## :computer: Ejercicio práctico de base de datos para practicar
+
+Suponemos un esenario de una **veterinaria** con **pacientes**(las mascotas), **tratamientos** (vacunacion, operacion, etc) y **profesionales** (los veterinarios).
+
+Pensar que atributos pueden tener cada uno.
+
+---
