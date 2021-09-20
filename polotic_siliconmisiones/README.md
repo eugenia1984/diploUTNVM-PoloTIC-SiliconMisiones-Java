@@ -318,6 +318,8 @@ Temas:
 
 # 📕  CLASE 9 : 15 SEPTIEMBRE
 
+:computer: La teoría de la clase está en -> [**clase9**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase9)
+
 ---
 
 # 📕  CLASE 10 : 20 SEPTIEMBRE
