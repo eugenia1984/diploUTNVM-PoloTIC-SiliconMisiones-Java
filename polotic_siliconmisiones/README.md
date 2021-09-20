@@ -303,7 +303,7 @@ Tema:
 
 # 📕 CLASE 8 : 13 SEPTIEMBRE
 
-:computer: La teoría de la clase está es -> [**clase8**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase8)
+:computer: La teoría de la clase está en -> [**clase8**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase8)
 
 ---
 
