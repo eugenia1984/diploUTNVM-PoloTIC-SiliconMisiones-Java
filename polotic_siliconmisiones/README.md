@@ -305,6 +305,15 @@ Tema:
 
 :computer: La teoría de la clase está en -> [**clase8**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase8)
 
+Temas:
+
+ * SGBD - Sistemas Gestores de Bases de Datos
+ * Abstracción y modelado
+ * Modelo relacional
+ * Modelo entidad - relación
+ * DER Componentes: entidades, atributos, relaciones
+ * ¿ Cómo crear una Base de Datos en phpMyAdmin?
+
 ---
 
 # 📕  CLASE 9 : 15 SEPTIEMBRE
