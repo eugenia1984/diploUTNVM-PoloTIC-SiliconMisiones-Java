@@ -1,6 +1,135 @@
 # PoloTIC / SiliconMisiones - Full Stack Java
 
-# CLASE 1 : 20 AGOSTO
+---
+
+# 📕 Programa
+
+## Módulo 1: Introducción a la programación y las bases de datos
+
+Introducción a Java. 
+
+Variables, constantes, declaraciones, operaciones básicas. 
+
+Estructuras condicionales (if, if else, if else if else, switch). 
+
+Estructuras repetitivas (while, do while, for). Bucles controlados por contador y centinela.
+
+Arreglos unidimensionales (Vectores). Carga, recorrido y búsqueda, mayor y menor. Error por desbordamiento.
+
+Arreglos Bidimensionales (Matrices). Carga, recorrido y búsqueda, mayor y menor. Error por desbordamiento.
+
+Introducción a las Interfaces Gráficas de Usuario (IGU) + Swing.
+
+Introducción a las bases de datos. DER (Diagrama Entidad Relación). Primary y Foreign keys (claves primarias y foráneas). Consultas SQL (ABML Altas, Bajas, Modificaciones y Lectura). Funciones SQL (MIN, MAX, SUM, COUNT, AVG, CURRENT_DATE).
+
+
+
+## Módulo 2: POO y Java SE
+
+Introducción a POO con Java (Clases, Atributos, Métodos).
+
+POO: Objetos, Constructores, Getters y Setters.
+
+POO: Abstracción, Herencia, Encapsulamiento (modificadores de acceso), Polimorfismo y UML.
+
+Java SE (Java Standard Edition). Relaciones entre clases.
+
+Asociación Simple, Composición, Agregación, etc. 
+
+Clases Abstractas e Interfaces. 
+
+Collections (Arraylists, lists, linked lists, etc). 
+
+Exceptions / Excepciones.
+
+Threads / Hilos – Multitareas. 
+
+Java Database Connectivity (JDBC). 
+
+JPA (Java Persistence API).
+
+## Módulo 3: Herramientas Gráficas
+
+ * Introducción a HTML 5. 
+ 
+Conceptos básicos. 
+
+Estructura de un proyecto html (etiquetas, head, title, body, doctype, comentarios, etc). 
+
+Elementos de texto (etiquetas br, salto de linea, estilos de texto y párrafo, listas ordenadas, listas no ordenadas, tablas). 
+
+Vínculos y links. 
+
+Inserción de contenido mediante vínculos. 
+
+Estilos en HTML (etiqueta style, combinación con CSS). 
+
+Inclusión de imágenes (height, width, border, etc).
+
+Introducción a Formularios (etiquetas input) + botones (check boxes, combo box, radio button, etc).
+
+ * Introducción a CSS. 
+ 
+Sintaxis del lenguaje. 
+
+Selectores Simples.
+
+Pseudoclases, Pseudoelementos, Combinación de selectores, colores, longitudes y porcentajes.
+
+CSS + Listas HTML (ordenadas y no ordenadas)
+
+CSS + Inserción de media (Videos, Imágenes, fondos, música, etc).
+
+CSS + Tablas y Formularios.
+
+ * Introducción a Javascript. 
+
+Sintaxis del Lenguaje.  
+
+Variables y tipos de datos. 
+
+Comentarios.
+
+Operadores matemáticos (asignación, suma, resta, incremento, decremento, multiplicación, etc). 
+
+Funciones alert y prompt. 
+
+Estructuras de control Condicionales y repetitivas (If, if else, switch, For, for if, while, do while). 
+
+Funciones nativas y funciones personalizadas. 
+
+JQuery: Qué es. Funcionamiento básico. 
+
+Efectos y eventos. 
+
+JQuery. 
+
+Efectos, eventos.
+
+##  Módulo 4: Java Web y versionado de aplicaciones
+
+ * GIT y GIT-HUB: 
+Configuraciones básicas para versionado: Creación de repositorios locales y remotos. 
+
+Comandos: PUSH, PULL, entre otros. 
+
+ * Introducción a Java Web. 
+
+Arquitectura Cliente-Servidor. 
+
+Introducción a JSP (Java Server Pages). 
+
+Servlets. 
+
+Java Web: Sockets + Streams.
+
+Introducción a los patrones de diseño. 
+
+Introducción a Spring boot.
+
+---
+
+# 📕  CLASE 1 : 20 AGOSTO
 
 :computer: [**Teoría de clase 1**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase01_intro_java)
 
@@ -28,7 +157,7 @@ Temas:
  
  --- 
 
-# CLASE 2 : 23 AGOSTO
+# 📕  CLASE 2 : 23 AGOSTO
 
 :computer: [**Ver teoria clase 2**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase02_tipodedatos_variables_condicionales)
 
@@ -54,7 +183,7 @@ Temas:
 
 ---
 
-# CLASE 3: 25 AGOSTO
+# 📕  CLASE 3: 25 AGOSTO
 
 :computer: [**Ver teoría clase 3**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase03_bucles_while_for)
 
@@ -99,7 +228,7 @@ Ejercicios de práctica resueltos:
 
 ---
   
-# CLASE 4 : 30 AGOSTO
+# 📕  CLASE 4 : 30 AGOSTO
 
 :computer: [**Clase 4**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase4)
 
@@ -124,7 +253,7 @@ Temas:
 
 ---
 
-# CLASE 5 : 1 SEPTIEMBRE
+# 📕 CLASE 5 : 1 SEPTIEMBRE
 
 :computer: [**Clase 5**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase5)
 
@@ -138,7 +267,7 @@ Tema:
 
 ---
 
-# CLASE 6 : 6 SEPTIEMBRE
+# 📕  CLASE 6 : 6 SEPTIEMBRE
 
 ## Guia de ejercicios Nro. 4
 
@@ -160,7 +289,7 @@ Tema:
 
 ----
 
-# CLASE 7: 8 SEPTIEMBRE
+# 📕 CLASE 7: 8 SEPTIEMBRE
   
 # PRIMER TRABAJO PRACTICO
 
@@ -172,11 +301,37 @@ Tema:
 
 ---
 
-# CLASE 8 : 13 SEPTIEMBRE
+# 📕 CLASE 8 : 13 SEPTIEMBRE
 
 :computer: La teoría de la clase está es -> [**clase8**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase8)
 
 ---
+
+# 📕  CLASE 9 : 15 SEPTIEMBRE
+
+---
+
+# 📕  CLASE 10 : 20 SEPTIEMBRE
+
+---
+
+# 📕  CLASE 11 : 22 SEPTIEMBRE
+
+---
+
+# 📕  CLASE 12
+
+---
+
+# 📕  CLASE 13
+
+---
+
+# 📕  CLASE 14
+
+---
+
+# 📕  CLASE 15
 
 📌 Seguir a **Silicon Misiones** en: 
 
