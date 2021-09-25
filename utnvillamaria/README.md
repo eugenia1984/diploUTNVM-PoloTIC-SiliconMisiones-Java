@@ -415,8 +415,9 @@ Temas:
 
 Temas:
 
-     *Abstracción: caracterísicas esenciales de los objetos. Nivel de detalle. Coportamiento de su implementación. Descubrimiento / invensión. Clases.
-     *Encapsulamiento: sirve para separar interfaz de su implementación. Se centra en implementación que da lugar al comportamiento. Modificadores de accesos.
+     * Abstracción: caracterísicas esenciales de los objetos. Nivel de detalle. Coportamiento de su implementación. Descubrimiento / invensión. Clases.
+     
+     * Encapsulamiento: sirve para separar interfaz de su implementación. Se centra en implementación que da lugar al comportamiento. Modificadores de accesos.
     
     * Modularidad: empaqueta abstracciones en unidades discretas. Alta cohesión (relación), bajo acoplamiento (dependencia).
     
