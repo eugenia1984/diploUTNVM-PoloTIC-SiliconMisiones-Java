@@ -182,7 +182,7 @@ La multiplicadad me da al relación de con cuántos se asocian: 1 a 1
 
 Pero ojo que esto no es un DER(que tiene más que ver con al base de datos), acá veo la estructura de mis clases.
 
-## Relación de Agregación
+## Relación de AGREGACIÓN
 
 Es un tipo especial de asociación, que representa un relación completamente conceptual entre un **todo** y sus **partes**
 
@@ -197,7 +197,7 @@ todo-------                    --------parte
 ```
 El <> va vacío
 
-## Relación de Composición
+## Relación de COMPOSICIÓN
 
 Es una variación de la agregación simple, con una fuerte relación de pertenencia y vidas coincidentes de la parte con el todo
 
@@ -214,7 +214,7 @@ El <> va pintado
 
 ---
 
-## Relaciones de Genarilización
+## Relaciones de GENERALIZACIÓN
 
 Es una relación entre un elemento general (puperclase o padre) y un tipo más específico de ese elemento (subclase o hijo).
 
