@@ -413,6 +413,18 @@ Temas:
 
 :computer: [**Clase15 POO**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase15_poo)
 
+Temas:
+
+    * Abstracción: caracterísicas esenciales de los objetos. Nivel de detalle. Coportamiento de su implementación. Descubrimiento / invensión. Clases.
+    
+    * Encapsulamiento: sirve para separar interfaz de su implementación. Se centra en implementación que da lugar al comportamiento. Modificadores de accesos.
+    
+    * Modularidad: empaqueta abstracciones en unidades discretas. Alta cohesión (relación), bajo acoplamiento (dependencia).
+    
+    * Jerarquía: de clases (HERENCIA -> "es un..." , SIMPLe o MÚLTIPLE), de parte ("parte de..., describe relaciones de agregación).
+    
+    * Polimorfismo
+    
 ---
 
 :computer:[**Clase 16 practica de POO**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase16_poo_practica)
