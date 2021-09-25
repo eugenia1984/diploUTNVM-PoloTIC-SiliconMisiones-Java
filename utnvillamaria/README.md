@@ -421,7 +421,7 @@ Temas:
     
     * Modularidad: empaqueta abstracciones en unidades discretas. Alta cohesión (relación), bajo acoplamiento (dependencia).
     
-    * Jerarquía: de clases (HERENCIA -> "es un..." , SIMPLe o MÚLTIPLE), de parte ("parte de..., describe relaciones de agregación).
+    * Jerarquía: de clases (HERENCIA -> "es un..." , SIMPLE o MÚLTIPLE), de parte ("parte de..., describe relaciones de agregación).
     
     * Polimorfismo
     
@@ -437,6 +437,14 @@ Temas vistos:
      * ¿Qué es un método ?
      * Llamar a un método
      * Debuggear
+
+---
+
+:computer: [**Clase 17**] teoría de POO()
+
+Temas vistos:
+
+-Repaso de: Abstracción / Encapsulamiento / Modularidad / Jerarquía / Polimorfismo   
 
 ---
 
