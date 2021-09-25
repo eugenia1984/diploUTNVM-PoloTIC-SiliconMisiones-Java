@@ -131,6 +131,10 @@ En ejemplo de código:
  
 ----
 
+:computer: [Ejemplo del codigo visto en clase en carpeta -> **miproyecto*](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase18_practica/miproyecto)
+
+---
+
 ## Métodos útiles de Java
 
 
