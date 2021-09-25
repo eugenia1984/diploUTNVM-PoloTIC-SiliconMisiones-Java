@@ -21,6 +21,7 @@ Convierto las *clases* en *cajas negras*, se que hacen sus objetos pero no cómo
 
 Las **abstracción** y el **encapsulamiento** son conceptos complementarios: la primera se centra en el **comportamiento** observable de un objeto, mientras el encapsulamiento se centra en la **implementación** que da lugar a este comportamiento.
 
+Se ve en los distintos tipos de accesos: si es PUBLIC tods acceden no hay encapsulamiento. En cambio si tengo PRIVATE solo lo van a ver las clases que lo hereden.
 
 ### Modularidad
 
