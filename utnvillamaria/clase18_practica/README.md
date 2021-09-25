@@ -187,6 +187,6 @@ A String represents a string in the UTF-16 format in which supplementary charact
 The String class provides methods for dealing with Unicode code points (i.e., characters), in addition to those for dealing with Unicode code units (i.e., char values).
 
  :computer: 
- [documentacion en Oracle con los métodos de la lase String](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#substring(int,%20int))
+ [documentacion en Oracle con los métodos de la clase String](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#substring(int,%20int))
   
 ---
