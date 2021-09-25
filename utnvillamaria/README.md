@@ -440,12 +440,14 @@ Temas vistos:
 
 ---
 
-:computer: [**Clase 17**] teoría de POO()
+:computer: [**Clase 17**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase17_poo) **Modelos y la importancia de modelar**
 
 Temas vistos:
 
 -Repaso de: Abstracción / Encapsulamiento / Modularidad / Jerarquía / Polimorfismo   
 
+- Modelos y la importancia de modelar
+ 
 ---
 
 ## Fuentes de información:
