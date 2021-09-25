@@ -444,10 +444,34 @@ Temas vistos:
 
 Temas vistos:
 
--Repaso de: Abstracción / Encapsulamiento / Modularidad / Jerarquía / Polimorfismo   
+* Repaso de: Abstracción / Encapsulamiento / Modularidad / Jerarquía / Polimorfismo   
 
-- Modelos y la importancia de modelar
- 
+* Modelos y la importancia de modelar:
+
+-¿Qué es un modelo? ¿Por qué modelamos? 
+
+-¿Qué es un UML?  ¿Por qué UML es un lenguaje?
+
+-Tres tipos de modelos: bloques de construcción, mecanismos comunes, arquitectura
+
+-Diagramas de clases
+
+-Relaciones: asociación, agregación, composición, generalización, dependencia
+
+-Visibilidad en el diagrama de clase
+
+---
+
+:computer: [**Clase 18**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase18_practica)
+
+Temas:
+
+    * return
+    * getter y setter
+    * sobrecarga de métodos
+    * métodos útiles de java
+    * ejercicios
+
 ---
 
 ## Fuentes de información:
