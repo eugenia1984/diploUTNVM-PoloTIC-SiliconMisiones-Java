@@ -6,7 +6,7 @@ Es el paso ANTERIOR a PROGRAMAR
 
 Siempre se **trabaja en equipo** y el porcentaje de éxito depende de la buena comunicación entre todos, para ponernos de acuerdo en: ¿ qué vamos a hacer? ¿ Cómo lo vamos a hacer?
 
-### ¿ Qué e sun modelo?
+### ¿ Qué es un modelo?
 
 Es una SIMPLIFICACIÓN de la realidad, y el equipo define que tan detalaldo, o acercado a la realidad necesitan para el proyecto. Mientras más detallado el modelo, se dejan libradas al azar menos cosas, y se pueden llegar a tener menos problemas por falta de comunicación
 
