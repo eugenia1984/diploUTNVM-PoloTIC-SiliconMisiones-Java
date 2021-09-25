@@ -37,6 +37,8 @@ La estructura de un módulo debería:
 
 Tratar de que los módulos sean lo más independiente posibles con sus clases adentro.
 
+Paquetes
+
 ### Jerarquía
 
 La jerarquía es una *clasificación* u * ordenación* de abstracciones.
@@ -97,7 +99,11 @@ Leon        Tigre      Gato            Lobo              Perro
 
 Al hacer HERENCIA debo *romper* el encapsulamiento, voy a dejar de tener *PRIVATE*, voy a tener *PROTECTED* para que los hijos también lo puedan ver al atributo. Y   además voy a *generar dependencia*, si cambio algo por ejemplo en ANIMAL voy a efectar a todos las clases que hereden del mismo.
 
-**POLIMORFIRSMO** -> **Sobreescritura de métodos** -> puedo heredar un método, pero lo puedo modificar, sobreescribir para poder utilizarlo. **@Override**
+## POLIMORFIRSMO
+
+-> **Sobreescritura de métodos** -> puedo heredar un método, pero lo puedo modificar, sobreescribir para poder utilizarlo. **@Override**
+
+Es la capacidad de heredar un método y sobreescribirlo
 
 **Herencia** y **polimorfismo**: objetos de distintas clases pertenecen a una misma jerarquía, pueden responder de forma distinta a un mismo método.
 
