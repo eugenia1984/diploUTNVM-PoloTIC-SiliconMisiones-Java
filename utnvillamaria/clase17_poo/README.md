@@ -127,13 +127,141 @@ Diagramas de UML
 
 **contiene comunmente**:
 
--clases
-
--intefaces
+-clases: de **entidad**, de**interfaz**, de**control**
   
 -relaciones de sociación (qgregación / composición), generalización, dependencia (traza , realización) y/o anidado
 
 
 Siempre recordar cómo llamar las clases, los métodos, que representen bein lo que van a hacer o crear, asi al ver el diagrama es claro.
+
+---
+
+## Diagrama de Clases
+
+
+| NombreDeLaClase |
+| --------------- |
+| atributos(private) |
+| metodos(publicos) |
+
+En un ejemplo:
+
+| Alumno |
+| --------------- |
+| -legajo |
+| -nombre |
+| -domicilio |
+| +crear() |
+| +mostrar(nombre) |
+| +borrar() |
+
+---
+
+## Relación de ASOCIACION
+
+Relación estructural qeu especifica que **los objetos de un elemento se conectan a los objetos de otro**
+
+```
+     asociación---        ---multiplicidad
+                  |      |
+                  |      |
+                  |      1
+ | Gasto | -----------------> | TipoDeGasto |  
+                          |
+                          |
+         navegabilidad ----      
+```
+
+**Gasto** y **TipoDeGasto** son dos clases en esta relación veo la asociación con:
+
+-------->
+
+La flecha em da la navegabilidad que se relaciona con qué
+
+La multiplicadad me da al relación de con cuántos se asocian: 1 a 1
+
+Pero ojo que esto no es un DER(que tiene más que ver con al base de datos), acá veo la estructura de mis clases.
+
+## Relación de Agregación
+
+Es un tipo especial de asociación, que representa un relación completamente conceptual entre un **todo** y sus **partes**
+
+```
+todo-------                    --------parte
+          |                    |
+          |                  1...*
+     | Factura |-<>---------> | DetalleFactura |
+                    |
+                    |
+ agregación----------                   
+```
+El <> va vacío
+
+## Relación de Composición
+
+Es una variación de la agregación simple, con una fuerte relación de pertenencia y vidas coincidentes de la parte con el todo
+
+```
+  todo                             parte
+    |                                 |
+ | estanteria |----<>------------> | Estante |
+                  |
+    composición---- 
+                 
+```
+
+El <> va pintado
+
+---
+
+## Relaciones de Genarilización
+
+Es una relación entre un elemento general (puperclase o padre) y un tipo más específico de ese elemento (subclase o hijo).
+
+El hijo puede añadir nueva estructura y comportamiento, o modificar el comportamiento del padre.
+
+
+```
+    |ElementfoConInterés|   |ElementoAsegurable|
+                    ^         ^
+                    |         |                herencia multiple
+                  |CuentaBancaria|
+                   ^             ^
+                   |             |               herencia simple
+          |CuentaCorriente|   |CuentaDeAhorro|      
+                      
+```
+
+No es recomendable hacer un diagrama con **herencia múltiple** porque Java no lo tiene, lo mejor es mostrar las interfaces, ya que una clase puede implementar más de una Interfaz y de esta forma podemos simular la herencia multiple
+
+---
+
+## Relaciones de DEPENDENCIA
+
+Es una sociación de uso, la cual especifica que un cambio en la especificaciñon de un elemento puede afectar a otro elemento que lo utiliza, pero no necesariamente a la inversa.
+
+esto es aconsejable NO utilizar
+
+```
+| Persona                         |
+|---------------------------------|
+| -nombre                         |           | InformacionDeContacto |
+| -legajo                         |           |-----------------------|
+| -cargo                          |---------> | -direccion            |       |---------------------------------|
+| +obtenerInforamcionDeContacto() |
+```
+
+-----> es la dependencia que es de **corto plazo**, solo existe cuando tengo una llamada a un método
+
+---
+
+## Diagrama de Clases: Visibilidad
+
+| Visibilidad | Símbolo  | Accesible a : |
+| ----------- | -------- | ------------- |
+| Pública | + | Todos los objetos del sistema |
+| Protegida | # | Instancias de la clase de sus subclases |
+| Privada | - | Instancias de la clase |
+| Paquete | ~  | Instancias de la clase del mismo paquete |
 
 ---
