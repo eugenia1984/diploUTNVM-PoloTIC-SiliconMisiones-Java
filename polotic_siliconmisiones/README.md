@@ -324,9 +324,13 @@ Temas:
 
 # 📕  CLASE 10 : 20 SEPTIEMBRE
 
+:computer: La teoría de la clase está en -> [**clase10**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase10)
+
 ---
 
 # 📕  CLASE 11 : 22 SEPTIEMBRE
+
+:computer: La teoría de la clase está en -> [**clase11**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase11)
 
 ---
 
@@ -343,6 +347,8 @@ Temas:
 ---
 
 # 📕  CLASE 15
+
+---
 
 📌 Seguir a **Silicon Misiones** en: 
 
