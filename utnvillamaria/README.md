@@ -474,6 +474,14 @@ Temas:
 
 ---
 
+:computer: [**Clase 19**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase19)
+
+---
+
+:computer: [**Clase 20**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase20)
+
+---
+
 ## Fuentes de información:
 
  Armour Frank & Miller Granville –ADVANCED USE CASE MODELING-EDITORIAL ADDISON WESLEY, AÑO2000.
