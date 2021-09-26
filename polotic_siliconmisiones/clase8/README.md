@@ -194,17 +194,18 @@ Mi entidad es el nombre de la tabla y el atributo va a ser el nombre de cada col
 
 | Clientes |
 | -------- |
-| DNI | Nombre | Apellido | FechaNac | Tel |
+| DNI / Nombre / Apellido / FechaNac / Tel |
 
 | Pedidos |
 | ------- |
-| Nro | fecha |
+| Nro / fecha |
 
 | Productos |
 | --------- |
-| Código | Nombre | Precio | Cantidad |
+| Código / Nombre / Precio / Cantidad |
 
 5) Tengo que establecer qué tipo de datos van a tener
+
 ---
 
 ## ¿ Cómo crear una Base de Datos?
@@ -261,20 +262,17 @@ Ahora tengo que completar de cada atributo:
  
  Mis tablas creadas van a ser:
  
- | Clientes |
- | -------- |
- | DNI | Nombre | Apellido | FechaNac | Tel |
- 
- 
- | Pedidos |
- | ------- |
- | nro | Fecha |
- 
- 
- 
- | Productos |
- | --------- |
- | Codigo | Nombre | Precio | Cantidad |
+| Clientes |
+| -------- |
+| DNI / Nombre / Apellido / FechaNac / Tel |
+
+| Pedidos |
+| ------- |
+| Nro / fecha |
+
+| Productos |
+| --------- |
+| Código / Nombre / Precio / Cantidad |
  
  ---
 
