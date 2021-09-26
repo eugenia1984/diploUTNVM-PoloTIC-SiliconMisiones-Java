@@ -300,7 +300,7 @@ Lo que pensé:
 
 ---
 
-:computer: [**lista en YouTube de TodoCode de base de Datos](https://www.youtube.com/playlist?list=PLQxX2eiEaqbwcW3dkmUqJq7B-SXHyCglf)
+:computer: Lista en **YouTube** de **TodoCode** de [**base de Datos**](https://www.youtube.com/playlist?list=PLQxX2eiEaqbwcW3dkmUqJq7B-SXHyCglf)
 
 
 ---
