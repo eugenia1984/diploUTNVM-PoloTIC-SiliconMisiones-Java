@@ -217,21 +217,21 @@ Del lado izquierdo en donde tengo **phpMyAdmin** y los iconos veo: **Nueva** si 
 
 A la derecha veo:
 
-Bases de datos
+```Bases de datos```
 
-+Crear base de datos
+```+Crear base de datos```
 
-(aca completo con el NOMBRE de la base de datos) (en la codificacion poner utf8-spanish_ci) (Crear)
+```(aca completo con el NOMBRE de la base de datos) (en la codificacion poner utf8-spanish_ci) (Crear)```
 
-Si en la codificación pongo utf8-spaish2-ci voy a notal que es case sensitive y me va a hacer difernecia entre las mayúsculas y la minúsculas.
+Si en la codificación pongo utf8-spaish2-ci voy a notar que es case sensitive y me va a hacer diferencia entre las mayúsculas y la minúsculas. Por eso es mejor poner **utf8-spanish_ci**
 
 Entonces ya tengo creada mi **Base de Datos**  con el nombre de **tienda**.
 
 Si yo tengo mi **entidad Clientes** debo crear la **tabla Clientes** con **5** columnas
 
-+Crear tabla
+```+Crear tabla```
 
-(nombre) Numero de columnas: (nro)
+```(nombre) Numero de columnas: (nro)```
 
 Ahora tengo que completar de cada atributo:
 
@@ -259,11 +259,28 @@ Ahora tengo que completar de cada atributo:
  
  Me están faltando las **relaciones entre las bases de datos** con las **Foreing Key** y las **Primary keys** que se va a ver en la próxima clase.
  
+ Mis tablas creadas van a ser:
+ 
+ | Clientes |
+ | -------- |
+ | DNI | Nombre | Apellido | FechaNac | Tel |
+ 
+ 
+ | Pedidos |
+ | ------- |
+ | nro | Fecha |
+ 
+ 
+ 
+ | Productos |
+ | --------- |
+ | Codigo | Nombre | Precio | Cantidad |
+ 
  ---
 
 ## :computer: Ejercicio práctico de base de datos para practicar
 
-Suponemos un esenario de una **veterinaria** con **pacientes** (las mascotas), **tratamientos** (vacunacion, operacion, etc) y **profesionales** (los veterinarios).
+Suponemos un escenario de una **veterinaria** con **pacientes** (las mascotas), **tratamientos** (vacunacion, operacion, etc) y **profesionales** (los veterinarios).
 
 Pensar que atributos pueden tener cada uno.
 
