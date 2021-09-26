@@ -260,19 +260,21 @@ Ahora tengo que completar de cada atributo:
  
  Me están faltando las **relaciones entre las bases de datos** con las **Foreing Key** y las **Primary keys** que se va a ver en la próxima clase.
  
- Mis tablas creadas van a ser:
+-Tengo mi Base de Datos **Tienda**
+
+-Mis tablas creadas van a ser:
  
 | Clientes |
 | -------- |
-| DNI / Nombre / Apellido / FechaNac / Tel |
+| dni(VARCHAR (15)) / nombre(VARCHAR (40)) / apellido(VARCHAR (40)) / fecha_nac(DATE) / tel(VARCHAR (15)) |
 
 | Pedidos |
 | ------- |
-| Nro / fecha |
+| nro(INT) / fecha(DATE) |
 
 | Productos |
 | --------- |
-| Código / Nombre / Precio / Cantidad |
+| codigo(VARCHAR (12)) / nombre(VARCHAR (50)) / precio(DOUBLE) / cantidad(INT) |
  
  ---
 
