@@ -131,7 +131,7 @@ En ejemplo de código:
  
 ----
 
-:computer: [Ejemplo del codigo visto en clase en carpeta -> **miproyecto*](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase18_practica/miproyecto)
+:computer: [Ejemplo del codigo visto en clase en carpeta -> **miproyecto**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase18_practica/miproyecto)
 
 ---
 
@@ -213,4 +213,5 @@ Realizar un programa que compruebe si una cadena de texto contiene una subcadena
 
 Pista: hacer uan clase separada que tenga dos atributos publicos que sean la cadena 1 y 2 y que tena el método de acceso público que chequee si contiene o no la cadena
    
+:computer: [Ejercicio en -> subcadena](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase18_practica/subcadena)   
 ---   
