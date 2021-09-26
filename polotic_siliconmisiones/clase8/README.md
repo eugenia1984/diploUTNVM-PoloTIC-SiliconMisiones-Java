@@ -284,4 +284,23 @@ Suponemos un escenario de una **veterinaria** con **pacientes** (las mascotas), 
 
 Pensar que atributos pueden tener cada uno.
 
+Lo que pensé:
+
+| Pacientes |
+| --------- |
+| id(INT (PK) NOTNULL AUTOINCREMEN) / nombre(VARCHAR (40)) / dueño(VARCHAR (40)) / telefono(VARCHAR (15)) / e_mail(VARCHAR(50)) / direccion(VARCHAR (50)) / alergias / vacuna_antirrabica / castrado |
+
+| Tratamientos |
+| ------------ |
+| profesional(id) / paciente(id) / tipo_de_tratameinto(VARCHAR(40)) |
+
+| Profesionales |
+| ------------- |
+| nombre(varchar (40)) / paciente(id) |
+
+---
+
+:computer: [**lista en YouTube de TodoCode de base de Datos](https://www.youtube.com/playlist?list=PLQxX2eiEaqbwcW3dkmUqJq7B-SXHyCglf)
+
+
 ---
