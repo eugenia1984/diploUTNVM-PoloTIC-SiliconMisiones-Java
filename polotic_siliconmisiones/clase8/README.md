@@ -14,6 +14,8 @@
 
 ## SGBD * Sistemas Gestores de Bases de Datos
 
+:computer: [video de YouTube de TodoCode](https://www.youtube.com/watch?v=SKOiEXlFNeM&list=PLQxX2eiEaqbwcW3dkmUqJq7B-SXHyCglf&index=2)
+
   * Una **Base de datos** o conjunto de atos pertenecientes a un mismo contexto y almacenados sistemáticamente para su posterior uso.
   
   * Pueden ser datos cuyo contenido o temática difieren entre sí, pero que poseen **relaciones en común**.
@@ -302,5 +304,83 @@ Lo que pensé:
 
 :computer: Lista en **YouTube** de **TodoCode** de [**base de Datos**](https://www.youtube.com/playlist?list=PLQxX2eiEaqbwcW3dkmUqJq7B-SXHyCglf)
 
+## XAMPP
+
+En la web -> **apachefriends.org/download.html** puedo descargarlo
+
+Una vez que se **descarga** lo **instalamos** y abrimos.
+
+Siempre tener los módulos : **Apache** y **MySQL** en **run**
+
+Desde **MyQSL** -> **Admin** me va a abrir una página web -> **http://localhost/phpmyadmin/**
+
+## ¿ Qué son las bases de datos ?
+
+-Son los mismos flyers que vimos en la clase que se detallo arriba
+
+:computer: [video de YouTube de TodoCode](https://www.youtube.com/watch?v=SKOiEXlFNeM&list=PLQxX2eiEaqbwcW3dkmUqJq7B-SXHyCglf&index=2)
+
+Siempre que se **crea** una **base de datos** elegir **utf8-spanish_ci** para no tener inconveneintes con lso acentos y la ñ. No poner el utf8-spanish2_ci porque va a ser case sensitive.
+
+
+## Entidades y atributos : diagrama entidad relacion (DER)
+
+:computer: [video de YouTube de TodoCode](https://www.youtube.com/watch?v=_acDisSc2UE&list=PLQxX2eiEaqbwcW3dkmUqJq7B-SXHyCglf&index=3)
+
+Lo mismo que se vio en la clase y se detallo arriba -> **abstracción** y **modelado**
+
+Vemos un ejemplo de una concesionaria de autos, debo abstraer la representacion del mundo real a una forma logica. Lo debo modelar, hacer un modelo / diagrama / dibujo de esta concesionaria.
+
+El modelado más conocido -> **modelo entidad-relación**, que tiene : 
+
+-SGBD
+
+-DER: entidades (cosas u objetos, se representan en rectangulos), atributos (características de las entidades, se representan como ovalos y van relacionados con las entidades mediante líneas, son distintos tipos de datos) y relaciones.
+
+De práctica se crea una **tabla** que es la representación de la **entidad** en uan base de datos.
+
+**Tabla -> Alumno**
+
+| dni | nombre | apellido | fecha_nac |
+| --- | ------ | -------- | --------- |
+|INT  | VARCHAR (40) | VARCHAR (40) | DATE |
+
+En los **enteros** y en las **fechas** no es necesario indicar la longitur, pero en los **varchar** si.
+
+Siempre ver que tenga como motor -> **InnoDB**
+
+Si le doy click a **previsualizar SQL** voy a ver como sería crear en lenguaje SQL:
+
+```
+CREATE TABLE `pruebatodocode`.`alumno` ( `dni` INT NOT NULL , `nombre` VARCHAR(40) NOT NULL , `apellido` VARCHAR(40) NOT NULL , `fecha_nac` DATE NOT NULL ) ENGINE = InnoDB;
+```
+
+## Relaciones 1aN, 1a1, NaN
+
+:computer: [video de YouTube de TodoCode](https://www.youtube.com/watch?v=AArIcStS0TU&list=PLQxX2eiEaqbwcW3dkmUqJq7B-SXHyCglf&index=4)
+
+Los PDF son los mismos de la clase que se fue anotando arriba.
+
+Recordar siempre que se debe poder leer tanto de izquierda a derecha como de derecha a izquierda
+
+**1 a n** -> uno a muchos
+
+Tengo una entidad que se puede relacionar con muchos elementos de otra entidad. Por ejemplo en la concesionaria -> 1 persona puede tener muchos autos
+
+
+**1 a 1** -> uno a uno
+
+Tengo una entidad que se relacona con un solo elemento de otra entidad
+
+
+**N a N** -> muchos a muchos
+
+Por ejemplo, en un colegio, tengo muchos alumnos que pueden tener muchas materias
+
+Para hacer relacion entre estas dos entidades se va a necesitar **una tabla intermedia**
+
+-Siempre representan una relación de la vida real.
+
+-Se ve el ejemplo de la tienda con clientes, pedidos, productos
 
 ---
