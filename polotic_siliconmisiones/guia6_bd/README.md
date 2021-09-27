@@ -27,9 +27,7 @@ y 15 en la tabla empleados. Realizar las asociaciones/relaciones correspondiente
 
 ---
 
-## Ejercicio 2
-
-Consultas SQL
+## Ejercicio 2 : Consultas SQL
 
 A partir del escenario planteado en el Ejercicio Nº 1, realizar las siguientes consultas mediante SQL:
 
@@ -48,10 +46,8 @@ Ordenar esta lista por salario.
 
 ---
 
-## Ejercicio 2
-
-3) Modelado de BD y DER
-4) 
+## Ejercicio 2 : Modelado de BD y DER
+ 
 Un club de deportes necesita de una base de datos para gestionar el torneo de tenis que realizará. 
 Para esto, el encargado del club manifiesta que necesitaría almacenar los datos de los jugadores/participantes, 
 las diferentes categorías (con sus respectivos rangos de edad y sexo) y las inscripciones de cada uno de los participantes 
