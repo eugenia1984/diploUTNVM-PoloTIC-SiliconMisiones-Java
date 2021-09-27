@@ -168,7 +168,6 @@ SELECT CURRENT_USER();
 
 ---
 
-:computer:
 
 📌MATERIAL ASOCIADO A LA CLASE :
 
