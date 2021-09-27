@@ -134,13 +134,15 @@ Escenario: una empresa de seguros ofrece a sus **clientes** diferentes **servici
 
 -De cada **clientes** se solicita: nombre, apellido, dni, fecha_nac y sueldo
 
--Cada **servicios** ofrecido cuenta con los sigueintes datos: codigo_servicio, tipo, detalle_cobertura, precio
+-Cada **servicios** ofrecido cuenta con los siguientes datos: codigo_servicio, tipo, detalle_cobertura, precio
 
--DE cada **propiedades** se solicita conocer: direccion, metros_cuadrados, zona, valor_mercado
+-De cada **propiedades** se solicita conocer: direccion, metros_cuadrados, zona, valor_mercado
 
 Consignas:
 
-1) Confeccionar el **DER (Diagrama Entidad Relacion)** de la situación planteada, agregando además una lista que especifique los tipos de datos de cada uno de los atributos de cada entidad.
+### Parte 1:
+
+Confeccionar el **DER (Diagrama Entidad Relacion)** de la situación planteada, agregando además una lista que especifique los tipos de datos de cada uno de los atributos de cada entidad.
 
 [https://www.lucidchart.com](https://www.lucidchart.com)
 
@@ -166,8 +168,19 @@ Si el tipo de dato es varchar es mejor poner entre () la cantidad que tendrá
 
 De tener una relación 1 a N está la **relación**, por  buena práctica la Fk va al final el 1 a 1 tiene un palito de cada lado.
 
-2) Crear una nueva base de datos llamada **emp_seguros**
+⭐ Se puede ver mi diagrama en -> [https://drive.google.com/file/d/1hG-O0wbzA20NCOLg88VHgOuu9byyA577/view?usp=sharing](https://drive.google.com/file/d/1hG-O0wbzA20NCOLg88VHgOuu9byyA577/view?usp=sharing)
 
-3) Plasmar lo confeccionado en el DER en la base de datos creada
+
+
+### Parte 2:
+
+Crear una nueva base de datos llamada **emp_seguros**
+
+
+
+### Parte 3:
+
+Plasmar lo confeccionado en el DER en la base de datos creada
+
 
 ---
