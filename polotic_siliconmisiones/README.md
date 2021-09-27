@@ -340,7 +340,7 @@ Temas:
  *  CRUD (ABML)
 
 
-:star: [**guia de ejercicios nro 6 de base de datos**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/polotic_siliconmisiones/clase10/guia_de_ejercicios_6_bases_de_datos_sql.pdf)
+:star: [**guia de ejercicios nro 6 de base de datos**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia6_bd)
 
 ---
 
