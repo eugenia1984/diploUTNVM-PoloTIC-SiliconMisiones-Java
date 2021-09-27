@@ -337,6 +337,7 @@ Temas:
 
  *  Repaso arquitectura cliente - servidor
  *  Consultas SQL sin interfaz gráfica
+ *  CRUD (ABML)
 
 
 :star: [**guia de ejercicios nro 6 de base de datos**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/polotic_siliconmisiones/clase10/guia_de_ejercicios_6_bases_de_datos_sql.pdf)
@@ -347,13 +348,32 @@ Temas:
 
 :computer: La teoría de la clase está en -> [**clase11**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase11)
 
+Temas:
+
+ * Consultas SQL: funciones agregadas / avanzadas
+
+:computer:
+
+📌MATERIAL ASOCIADO A LA CLASE :
+
+✅ [GROUP BY y ORDER BY](https://www.youtube.com/watch?v=eVzmJv2B2wk&t=0s)
+
+✅ [COUNT, SUM, MIN, MAX y AVG](https://www.youtube.com/watch?v=kQwDyx1wiXM)
+
+✅ [INNER JOIN](https://www.youtube.com/watch?v=0BstRqp6Svg)
+
+✅ [LEFT y RIGHT JOIN](https://www.youtube.com/watch?v=nw6tK0E5iyo)
+
+✅ [SUBCONSULTAS](https://www.youtube.com/watch?v=xuASGBwNboU)
+
+
 ---
 
-# 📕  CLASE 12
+# 📕  CLASE 12 : 27 SEPTIEMBRE
 
 ---
 
-# 📕  CLASE 13
+# 📕  CLASE 13 : 29 SEPTIEMBRE
 
 ---
 
