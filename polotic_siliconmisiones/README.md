@@ -324,12 +324,21 @@ Temas:
 
  * Primary Keys -PK - (Claves Primarias) 
  * Foreing Keys -FK - (Claves Foráneas) 
+ * Ejercicio práctico en la clase
+ * Ejercicio de práctica de tarea
 
 ---
 
 # 📕  CLASE 10 : 20 SEPTIEMBRE
 
 :computer: La teoría de la clase está en -> [**clase10**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase10)
+
+Temas:
+
+ * Consultas SQL
+
+
+:star: [**guia de ejercicios nro 6 de base de datos**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/polotic_siliconmisiones/clase10/guia_de_ejercicios_6_bases_de_datos_sql.pdf)
 
 ---
 
