@@ -16,12 +16,41 @@ Algunos ejemplos: DNI, un código de un producto (como un código de barras).
 Cuando pasemos a Java el campo **id** (la columna que va a ser la PK) de la tabla va a coincidir con un **atributo** de mi clase (que va a tener el mismo nombre que la tabla).
 
 
+En phpMyAdmin puedo setear que la PK sea **autoincremental** haciendo click en **AI** y me aseguro que no voy a tener registros repetidos, ya que al ingresar un número ya el proximo va a ser el número siguiente al ingresado.
+
+
 Las **Foreing Keys -FK - (Claves Foráneas)** es un campo de una tabla 'X' que sirve para enlazar o relacionar entre sí co otra tabla 'Y' en la cual el campo de esta tabla es una **llave primaria**. Para que sea una **clave foránea**, esta tiene que ser una *llave primaria en otra tabla*. 
 
 Un ejemplo: en la tabla *clientes* el *dni* es una PRIMARY KEY, pero en una tabla *pedidos* representa a quienes pertenece ese determinado pedido.
 
 
 -Cuando **hay una relación** la **FK** va solo de **un lado**.
+
+-> si la relación es **1 a 1** puede ir en cualquiera de las dos tablas, pero tengo que pensar de qué lado tiene más sentido en que esté.
+
+-> si la relación es **1 a N** siempre la FK va del lado de la N. Por ejemplo si **un cliente** tiene **muchos pedido**, mi FK va a estar del lado de pedidos
+
+-> si la relación es **N a N**, en realidad tengo dos relaciones  **1 a N** cruzadas, entonces tendría 2 N y no voy a poder tener una FK en cada tabla, lo que se hace con las bases de datos relacionales es crear una **tabla intermedia** donde van ambas FK.
+
+En JPA se nos va a crear una tercer tabla automáticamente, si lo tendría que hacer a mano tendría que crear una tercer tabla intermedia, la cual puedo nombrar **productos_pedidos** que tenga las PK de ambas y que ambas sean las FK al mismo tiempo.
+
+-Da el mismo ejemplo práctico que los videos, con mis tablas:
+
+clientes: dni es la PK, pero es mejor tener un id_cliente o codigo_cliente
+
+pedidos: nro_pedido es la PK
+
+productos: cod_barra o id_producto
+
+
+**Todas las tablas obligatoriamente tienen PK**
+
+**FK solo cuando hay relación, y lo tiene la tabla que enlaza al relación**
+
+**La FK y la PK deben ser del mismo tipo, porque hacen referencia al mismo dato**
+
+
+---
 
 ## Ejemplo práctico
 
@@ -45,7 +74,7 @@ Entonces la tabla me queda:
 
 | num_cliente | dni | nombre | apellido | telefono | fecha_nac |
 | ----------- | --- | ------ | -------- | -------- | ----------|
-| INT | INT(11) | VARCHAR (40) | VARCHAR (40) | VRCHAR (12) | DATE |
+| INT | INT(11) | VARCHAR (40) | VARCHAR (40) | VARCHAR (12) | DATE |
 
 
 La **PK** va a ser *num_cliente* porque no se va a repetir, es único por cada cliente.
@@ -96,5 +125,49 @@ En este cao, cuando estoy completando el pedido, voy a ver en *num_cliente* que 
 -Si veo la tabla de pedidos ya lo veo ingresado, y si hago click en el número que veo en *num_cliente* me va a llevar a al tabla clientes a los datos de mi cliente agregado.
 
 ### Tabla productos
+
+---
+
+## Ejercicio práctico 2
+
+Escenario: una empresa de seguros ofrece a sus **clientes** diferentes **servicios** para cubrir de cualquier accidente a sus **propiedades**
+
+-De cada **clientes** se solicita: nombre, apellido, dni, fecha_nac y sueldo
+
+-Cada **servicios** ofrecido cuenta con los sigueintes datos: codigo_servicio, tipo, detalle_cobertura, precio
+
+-DE cada **propiedades** se solicita conocer: direccion, metros_cuadrados, zona, valor_mercado
+
+Consignas:
+
+1) Confeccionar el **DER (Diagrama Entidad Relacion)** de la situación planteada, agregando además una lista que especifique los tipos de datos de cada uno de los atributos de cada entidad.
+
+[https://www.lucidchart.com](https://www.lucidchart.com)
+
+[https://draw.io](https://draw.io) -> [https://app.diagrams.net/](https://app.diagrams.net/) -> elegir el **Entity Relation Diagram**
+
+En este caso en vez de tener rectangulos para las entidades y ovalos para los atributos tengo tablas.
+
+```
+-----------------------------
+|     NombreDeLaTabla       |
+-----------------------------
+| PK | id: int              |
+-----------------------------
+| FK | id_2: int NOT NULL   |
+-----------------------------
+|    | direccion: varchar   |
+-----------------------------
+ ```
+ 
+ Voy a tener: nombre de la tabla, mi PK, mi FK, y los demas atributos (los atributos los nombro : tipo de dato que almacena (NOT NULL)).
+ 
+Si el tipo de dato es varchar es mejor poner entre () la cantidad que tendrá
+
+De tener una relación 1 a N está la **relación**, por  buena práctica la Fk va al final el 1 a 1 tiene un palito de cada lado.
+
+2) Crear una nueva base de datos llamada **emp_seguros**
+
+3) Plasmar lo confeccionado en el DER en la base de datos creada
 
 ---
