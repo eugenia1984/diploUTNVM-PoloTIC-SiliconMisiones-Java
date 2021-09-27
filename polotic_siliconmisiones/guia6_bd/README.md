@@ -62,8 +62,7 @@ Justificar respuesta
 
 De la tabla *empleado* voy a tener como dato el **id_departamento** que va a ser *foreing key* en dicha tabla y va a ser la *primary key* en la tabla **departamentos**
 
-✓ Una vez realizado el planteo del diagrama y de haber respondido estas preguntas, ingresar a PHPMyAdmin e incorporar 5 registros en la tabla departamentos y 15 en la tabla empleados. R
-ealizar las asociaciones/relaciones correspondientes.
+✓ Una vez realizado el planteo del diagrama y de haber respondido estas preguntas, ingresar a PHPMyAdmin e incorporar 5 registros en la tabla departamentos y 15 en la tabla empleados. Realizar las asociaciones/relaciones correspondientes.
 
 ---
 
