@@ -64,6 +64,8 @@ De la tabla *empleado* voy a tener como dato el **id_departamento** que va a ser
 
 ✓ Una vez realizado el planteo del diagrama y de haber respondido estas preguntas, ingresar a PHPMyAdmin e incorporar 5 registros en la tabla departamentos y 15 en la tabla empleados. Realizar las asociaciones/relaciones correspondientes.
 
+:computer: [acá se puede ver lo realizado en **phpMyAdmin**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/polotic_siliconmisiones/guia6_bd/emple_dep.sql)
+
 ---
 
 ## Ejercicio 2 : Consultas SQL
