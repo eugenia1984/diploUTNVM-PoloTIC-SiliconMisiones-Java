@@ -320,6 +320,11 @@ Temas:
 
 :computer: La teoría de la clase está en -> [**clase9**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase9)
 
+Temas:
+
+ * Primary Keys -PK - (Claves Primarias) 
+ * Foreing Keys -FK - (Claves Foráneas) 
+
 ---
 
 # 📕  CLASE 10 : 20 SEPTIEMBRE
