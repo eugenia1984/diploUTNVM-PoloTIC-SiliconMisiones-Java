@@ -9,10 +9,19 @@
 
 -Representamos las relaciones del ejemplo de la tienda en la base de datos
 
-Las **Primary Keys -PK - (Claves Primarias)** son valores que identifican de manera única a cada fila o registro de una tabla, esto quiere decir que **no se pueden repetir**. Algunos ejemplos: DNI, un código de un producto.
+Las **Primary Keys -PK - (Claves Primarias)** son valores que identifican de *manera única* a cada fila o registro de una tabla, esto quiere decir que **no se pueden repetir**.
 
-Las **Foreing Keys -FK - (Claves Foráneas)** es un campo de una tabla 'X' que sirve para enlazar o relacionar entre sí co otra tabla 'Y' en la cual el campo de esta tabla es una **llave primaria**. Para que sea una **clave foránea**, esta tiene que ser una *llave primaria en otra tabla*. Un ejemplo: en la tabla *clientes* el *dni* es una PRIMARY KEY, pero en una tabla *pedidos* representa a quienes pertenece ese determinado pedido.
+Algunos ejemplos: DNI, un código de un producto (como un código de barras).
 
+Cuando pasemos a Java el campo **id** (la columna que va a ser la PK) de la tabla va a coincidir con un **atributo** de mi clase (que va a tener el mismo nombre que la tabla).
+
+
+Las **Foreing Keys -FK - (Claves Foráneas)** es un campo de una tabla 'X' que sirve para enlazar o relacionar entre sí co otra tabla 'Y' en la cual el campo de esta tabla es una **llave primaria**. Para que sea una **clave foránea**, esta tiene que ser una *llave primaria en otra tabla*. 
+
+Un ejemplo: en la tabla *clientes* el *dni* es una PRIMARY KEY, pero en una tabla *pedidos* representa a quienes pertenece ese determinado pedido.
+
+
+-Cuando **hay una relación** la **FK** va solo de **un lado**.
 
 ## Ejemplo práctico
 
@@ -20,7 +29,7 @@ Las **Foreing Keys -FK - (Claves Foráneas)** es un campo de una tabla 'X' que s
 
 **Tablas** -> **clientes**, **pedidos**, **productos**
 
-**Tabla clientes**
+### Tabla clientes
 
 | dni | nombre | apellido | telefono | fecha_nac |
 | --- | ------ | -------- | -------- | ----------|
@@ -46,7 +55,7 @@ Para que sea mi PK, tengo que ir a la estructura de la tabla, seleccionar el ren
 Ahora si voy a ver la llave en num_cliente
 
 
-**Tabla pedidos**
+### Tabla pedidos
 
 | numero | fecha |
 | ------ | ----- |
@@ -86,6 +95,6 @@ En este cao, cuando estoy completando el pedido, voy a ver en *num_cliente* que 
 
 -Si veo la tabla de pedidos ya lo veo ingresado, y si hago click en el número que veo en *num_cliente* me va a llevar a al tabla clientes a los datos de mi cliente agregado.
 
-**Tabla productos**
+### Tabla productos
 
 ---
