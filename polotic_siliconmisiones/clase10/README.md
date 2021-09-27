@@ -183,4 +183,15 @@ Nota: El * significa que me traiga TODOS (ALL) los elementos, sin distinción.
 
 :computer: [**Guia práctica 6 de Base de Datos**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/polotic_siliconmisiones/clase10/guia_de_ejercicios_6_bases_de_datos_sql.pdf)
 
+
+#### Primera parte para practicar moelado de Base de Datos y Diagrama de Entidad Relacion (DER)
+
+#### Segunda parte con consultas de SQL
+
+#### Tercera parte Modelado de Base de Datos y DER
+
+#### Cuarta parte consultas SQL que se pueden hacer sin o con subconsultas y joins
+
+#### Quinta parte, ejercicio opcional,  va a ayudar saber de join y de subconsultas
+
 ---
