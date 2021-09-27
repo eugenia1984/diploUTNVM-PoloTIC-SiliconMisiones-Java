@@ -10,20 +10,60 @@ Para ello necesita la creación de dos tablas:
 
 • Departamentos que debe contener los datos: ID departamento, nombre departamento, dirección departamento.
 
-✓ Se solicita crear una nueva base de datos llamada “emple_dep”, a partir de ella, realizar el Diagrama Entidad Relación (DER) para el presente escenario. 
+-1 : Se solicita crear una nueva base de datos llamada “emple_dep”, a partir de ella, realizar el Diagrama Entidad Relación (DER) para el presente escenario. 
 
-Asignar al mismo tiempo las relaciones existentes entre ambas tablas y responder a las siguientes preguntas:
+
+**BASE DE DATOS: emple_dep**
+
+**Diagrama DER**
+
+```
+  Empleados --N------Tiene---------1--- Departamentos
+   |                                      |
+   |--nro_legajo(PK)                      |--id_departamento(PK)
+   |--dni                                 |--nombre_departamento
+   |--apellido                            |--direccion
+   |--nombre                              |--departamento
+   |--fecha_nacimiento
+   |--fecha_incorporacion
+   |--cargo
+   |--sueldo_neto
+
+```
+
+
+**TABLA EMPLEADOS**
+
+| nro_legajo | dni | apellido |  nombre | fecha_nacimiento | fecha_incorporación | cargo | sueldo_neto | id_departamento |
+| ---------- | --- | -------- | ------- | ---------------- | ------------------- | ----- | ----------- | --------------- |
+|  (PK) INT autoincremental NOT NULL| INT NOT NULL | VARCAHR (30) NOT NULL | VARCHAR (40) NOT NULL | DATE NOT NULL | DATE NOT NULL | VARCHAR (30) NOT NULL | DOUBLE NOT NULL | (FK) INT autoincremental NOT NULL | 
+
+**TABLA DEPARTAMENTOS**
+
+| id_departamento | nombre_departamento | direccion | departamento |
+| --------------- | ------------------- | --------- | ------------ |
+| (PK) INT autoincremental NOT NULL | VARCHAR (30) NOT NULL | VARCHAR (50) NOT NULL | VARCHAR (50) NOT NULL |
+
+
+-2 : Asignar al mismo tiempo las relaciones existentes entre ambas tablas y responder a las siguientes preguntas:
 
 a. ¿Cuál es la primary key para la tabla empleados? Justificar respuesta
 
+La *primary key* en la tabla de empleados es **nro_legajo** porque es un dato que va a ser unico para cada empleado.
+
 b. ¿Cuál es la primary key para la tabla departamentos? Justificar respuesta
 
-c. ¿Qué relación/es existiría/n entre las tablas? ¿En qué tabla debería haber foreign key? 
+La *primary key* en mi tabla departamentos es **id_departamentos** porque es un dato que va a ser único para cada empleado.
+
+c. ¿Qué relación/es existiría/n entre las tablas? 
+¿En qué tabla debería haber foreign key? 
 ¿A qué campo de qué tabla hace referencia dicha foreign key? 
 Justificar respuesta
 
-✓ Una vez realizado el planteo del diagrama y de haber respondido estas preguntas, ingresar a PHPMyAdmin e incorporar 5 registros en la tabla departamentos 
-y 15 en la tabla empleados. Realizar las asociaciones/relaciones correspondientes.
+De la tabla *empleado* voy a tener como dato el **id_departamento** que va a ser *foreing key* en dicha tabla y va a ser la *primary key* en la tabla **departamentos**
+
+✓ Una vez realizado el planteo del diagrama y de haber respondido estas preguntas, ingresar a PHPMyAdmin e incorporar 5 registros en la tabla departamentos y 15 en la tabla empleados. R
+ealizar las asociaciones/relaciones correspondientes.
 
 ---
 
