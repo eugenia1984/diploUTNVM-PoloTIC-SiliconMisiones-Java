@@ -10,7 +10,7 @@ Para ello necesita la creación de dos tablas:
 
 • Departamentos que debe contener los datos: ID departamento, nombre departamento, dirección departamento.
 
--1 : Se solicita crear una nueva base de datos llamada “emple_dep”, a partir de ella, realizar el Diagrama Entidad Relación (DER) para el presente escenario. 
+#### 1 : Se solicita crear una nueva base de datos llamada “emple_dep”, a partir de ella, realizar el Diagrama Entidad Relación (DER) para el presente escenario. 
 
 
 **BASE DE DATOS: emple_dep**
@@ -45,24 +45,25 @@ Para ello necesita la creación de dos tablas:
 | (PK) INT autoincremental NOT NULL | VARCHAR (30) NOT NULL | VARCHAR (50) NOT NULL | VARCHAR (50) NOT NULL |
 
 
--2 : Asignar al mismo tiempo las relaciones existentes entre ambas tablas y responder a las siguientes preguntas:
+#### 2 : Asignar al mismo tiempo las relaciones existentes entre ambas tablas y responder a las siguientes preguntas:
 
-a. ¿Cuál es la primary key para la tabla empleados? Justificar respuesta
+
+#### a. ¿Cuál es la primary key para la tabla empleados? Justificar respuesta
 
 La *primary key* en la tabla de empleados es **nro_legajo** porque es un dato que va a ser unico para cada empleado.
 
-b. ¿Cuál es la primary key para la tabla departamentos? Justificar respuesta
+
+#### b. ¿Cuál es la primary key para la tabla departamentos? Justificar respuesta
 
 La *primary key* en mi tabla departamentos es **id_departamentos** porque es un dato que va a ser único para cada empleado.
 
-c. ¿Qué relación/es existiría/n entre las tablas? 
-¿En qué tabla debería haber foreign key? 
-¿A qué campo de qué tabla hace referencia dicha foreign key? 
-Justificar respuesta
+#### c. ¿Qué relación/es existiría/n entre las tablas?  ¿En qué tabla debería haber foreign key?  ¿A qué campo de qué tabla hace referencia dicha foreign key?  Justificar respuesta
+
 
 De la tabla *empleado* voy a tener como dato el **id_departamento** que va a ser *foreing key* en dicha tabla y va a ser la *primary key* en la tabla **departamentos**
 
-✓ Una vez realizado el planteo del diagrama y de haber respondido estas preguntas, ingresar a PHPMyAdmin e incorporar 5 registros en la tabla departamentos y 15 en la tabla empleados. Realizar las asociaciones/relaciones correspondientes.
+
+#### Una vez realizado el planteo del diagrama y de haber respondido estas preguntas, ingresar a PHPMyAdmin e incorporar 5 registros en la tabla departamentos y 15 en la tabla empleados. Realizar las asociaciones/relaciones correspondientes.
 
 :computer: [acá se puede ver lo realizado en **phpMyAdmin**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/polotic_siliconmisiones/guia6_bd/emple_dep.sql)
 
@@ -70,39 +71,41 @@ De la tabla *empleado* voy a tener como dato el **id_departamento** que va a ser
 
 ## Ejercicio 2 : Consultas SQL
 
-A partir del escenario planteado en el Ejercicio Nº 1, realizar las siguientes consultas mediante SQL:
+#### A partir del escenario planteado en el Ejercicio Nº 1, realizar las siguientes consultas mediante SQL:
 
-a. Obtener la lista completa de todos los empleados.
+
+#### a. Obtener la lista completa de todos los empleados.
 
 ```
 # Obtener la lista completa de todos los empleados. 
 SELECT * from empleados
 ```
 
-b. Obtener la lista completa de todos los departamentos.
+#### b. Obtener la lista completa de todos los departamentos.
 
 ```
 # Obtener la lista completa de todos los departamentos.
 SELECT * FROM departamentos;
 ```
 
-c. Obtener los empleados que tengan el cargo “secretario”.
+#### c. Obtener los empleados que tengan el cargo “secretario”.
 
 ```
 # Obtener los empleados que tengan el cargo “secretario”.
 SELECT * FROM `empleados` WHERE cargo = "secretario";
 ```
 
-d. Obtener una lista de los nombres y sueldos de cada uno de los empleados.
+#### d. Obtener una lista de los nombres y sueldos de cada uno de los empleados.
 
 ```
 # Obtener una lista de los nombres y sueldos de cada uno de los empleados
 SELECT nombre, sueldo_neto FROM `empleados`;
 ```
 
-e. Obtener los datos de los empleados que tengan el cargo de “vendedores” y que su sueldo sea mayor a $25.000.
+#### e. Obtener los datos de los empleados que tengan el cargo de “vendedores” y que su sueldo sea mayor a $25.000.
 
-f. Obtener una lista con el nombre, cargo y salario de cada uno de los empleados. 
+
+#### f. Obtener una lista con el nombre, cargo y salario de cada uno de los empleados. 
 Ordenar esta lista por salario.
 
 ---
@@ -140,41 +143,36 @@ El encargado manifestó que las categorías presentes serán:
 
 • Juveniles Mujeres (de 13 a 17 años)
 
-✓ Se solicita crear una nueva base de datos llamada “torneo_tenis”. 
-A partir de ella, realizar el Diagrama Entidad Relación (DER) para el presente escenario.
-Determinar al mismo tiempo, las relaciones correspondientes.
+#### Se solicita crear una nueva base de datos llamada “torneo_tenis”.  A partir de ella, realizar el Diagrama Entidad Relación (DER) para el presente escenario. Determinar al mismo tiempo, las relaciones correspondientes.
 
-✓ Asignar las correspondientes primary keys, foreign keys y tipos de datos.
 
-✓ Una vez realizado el planteo del diagrama y de haber respondido estas preguntas, 
-ingresar a PHPMyAdmin e incorporar, además de las categorías mencionadas, 25 participantes 
-y las 25 inscripciones de los mismos (tener en cuenta las edades y sexo para las categorías).
+####  Asignar las correspondientes primary keys, foreign keys y tipos de datos.
+
+#### Una vez realizado el planteo del diagrama y de haber respondido estas preguntas, ingresar a PHPMyAdmin e incorporar, además de las categorías mencionadas, 25 participantes  y las 25 inscripciones de los mismos (tener en cuenta las edades y sexo para las categorías).
 
 ---
 
 ## Ejercicio 4: Consultas SQL
 
-A partir del escenario planteado en el Ejercicio Nº 2, realizar las siguientes consultas mediante SQL:
+#### A partir del escenario planteado en el Ejercicio Nº 2, realizar las siguientes consultas mediante SQL:
 
-a. Obtener la lista completa de todos los participantes.
+#### a. Obtener la lista completa de todos los participantes.
 
-b. Obtener la lista completa de todas las categorías.
+#### b. Obtener la lista completa de todas las categorías.
 
-c. Obtener todas las participantes mujeres.
+#### c. Obtener todas las participantes mujeres.
 
-d. Obtener el nombre y apellido de las mujeres inscriptas en la categoría “Damas B”.
+#### d. Obtener el nombre y apellido de las mujeres inscriptas en la categoría “Damas B”.
 
-e. Obtener los datos de los participantes que tengan una edad entre 25 y 37 años.
+#### e. Obtener los datos de los participantes que tengan una edad entre 25 y 37 años.
 
-f. Obtener la lista completa de inscripciones, especificando nombre y apellido de cada uno de los inscriptos.
+#### f. Obtener la lista completa de inscripciones, especificando nombre y apellido de cada uno de los inscriptos.
 
 ---
 
 ## Ejercicio 5 (opcional)
 
-A) 
-
-Una biblioteca necesita una base de datos para gestionar los préstamos de libros que realiza diariamente a sus socios. 
+**A)** Una biblioteca necesita una base de datos para gestionar los préstamos de libros que realiza diariamente a sus socios. 
 
 Para esto debe registrar a sus socios, los libros que posee actualmente y los préstamos.
 
@@ -188,7 +186,8 @@ Se solicita:
 
 ✓ Una vez confeccionado el diagrama, implementarlo en PHPMyAdmin e ingresar una serie de datos.
 
-B) A partir de la estructura armada en el punto a, realizar las siguientes acciones mediante consultas SQL:
+
+**B)** A partir de la estructura armada en el punto a, realizar las siguientes acciones mediante consultas SQL:
 
 ✓ Insertar registros en las tablas de la estructura (mínimamente 10 registros por tabla).
 
@@ -202,8 +201,7 @@ B) A partir de la estructura armada en el punto a, realizar las siguientes accio
 
 ✓ Obtener todos los préstamos que hayan sido posteriores a la fecha 23/11/2018.
 
----
-Obtener todos los libros que tengan una cantidad mayor a 5..
+✓ Obtener todos los libros que tengan una cantidad mayor a 5..
 
 
 ---
