@@ -74,11 +74,31 @@ A partir del escenario planteado en el Ejercicio Nº 1, realizar las siguientes 
 
 a. Obtener la lista completa de todos los empleados.
 
+```
+# Obtener la lista completa de todos los empleados. 
+SELECT * from empleados
+```
+
 b. Obtener la lista completa de todos los departamentos.
+
+```
+# Obtener la lista completa de todos los departamentos.
+SELECT * FROM departamentos;
+```
 
 c. Obtener los empleados que tengan el cargo “secretario”.
 
+```
+# Obtener los empleados que tengan el cargo “secretario”.
+SELECT * FROM `empleados` WHERE cargo = "secretario";
+```
+
 d. Obtener una lista de los nombres y sueldos de cada uno de los empleados.
+
+```
+# Obtener una lista de los nombres y sueldos de cada uno de los empleados
+SELECT nombre, sueldo_neto FROM `empleados`;
+```
 
 e. Obtener los datos de los empleados que tengan el cargo de “vendedores” y que su sueldo sea mayor a $25.000.
 
