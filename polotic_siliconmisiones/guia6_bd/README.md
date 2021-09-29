@@ -104,15 +104,29 @@ SELECT nombre, sueldo_neto FROM `empleados`;
 
 #### e. Obtener los datos de los empleados que tengan el cargo de “vendedores” y que su sueldo sea mayor a $25.000.
 
+```
+SELECT * from empleados 
+WHERE cargo = 'vendedores' 
+AND sueldo_neto > 25000;
+```
 
-#### f. Obtener una lista con el nombre, cargo y salario de cada uno de los empleados. 
-Ordenar esta lista por salario.
+#### f. Obtener una lista con el nombre, cargo y salario de cada uno de los empleados. Ordenar esta lista por salario.
+
+```
+# Obtener una lista con el nombre, cargo y salario de cada uno de los empleados. Ordenar esta lista por salario.
+SELECT nombre, cargo, sueldo_neto 
+from empleados
+ORDER BY sueldo_neto ASC;
+```
+
 
 ---
+
 
 ## Ejercicio 2 : Modelado de BD y DER
  
 Un club de deportes necesita de una base de datos para gestionar el torneo de tenis que realizará. 
+
 Para esto, el encargado del club manifiesta que necesitaría almacenar los datos de los jugadores/participantes, 
 las diferentes categorías (con sus respectivos rangos de edad y sexo) y las inscripciones de cada uno de los participantes 
 en donde se debe especificar si el mismo abonó o no la inscripción). 
@@ -143,10 +157,43 @@ El encargado manifestó que las categorías presentes serán:
 
 • Juveniles Mujeres (de 13 a 17 años)
 
+
+
 #### Se solicita crear una nueva base de datos llamada “torneo_tenis”.  A partir de ella, realizar el Diagrama Entidad Relación (DER) para el presente escenario. Determinar al mismo tiempo, las relaciones correspondientes.
 
+```
+Base de datos: torneo_tenis
+
+Participantes--N------ tiene----1--Categorías--1-------tiene--N--Inscripciones
+  |                                 |                             |
+  |--dni_participante (PK)          |--id_categoria (PK)          |--num_inscripcion (PK)
+  |--apellido                       |--nombre                     |--fecha_insc
+  |--nombre                         |--edad_min                   |--abono_inscrip
+  |--dirección                      |--edad_max
+  |--edad                           |--sexo
+  |--teléfono
+  |--sexo
+  |--id_categoria (FK)
+  |--num_inscripcion (FK)
+```
 
 ####  Asignar las correspondientes primary keys, foreign keys y tipos de datos.
+
+```
+Base de datos: torneo_tenis
+
+Participantes--N--------------- tiene------1--Categorías--1----------------------------tiene--N--Inscripciones
+  |                                             |                                        |
+  |--dni_participante (PK) INT NOTNULL          |--id_categoria (PK) INT NOTNULL         |--num_inscripcion (PK) INT NOT NULL
+  |--apellido VARCHAR(30)                       |--nombre  VARCHAR(30)                   |--fecha_insc DATE
+  |--nombre  VARCHAR(30)                        |--edad_min INT                          |--abono_inscrip DOUBLE
+  |--dirección  VARCHAR(30)                     |--edad_max INT
+  |--edad INT                                   |--sexo  VARCHAR(20)
+  |--teléfono VERCHAR(12)
+  |--sexo VARCHAR (20)
+  |--id_categoria (FK) INT NOT NULL
+  |--num_inscripcion (FK) INT NOT NULL
+```
 
 #### Una vez realizado el planteo del diagrama y de haber respondido estas preguntas, ingresar a PHPMyAdmin e incorporar, además de las categorías mencionadas, 25 participantes  y las 25 inscripciones de los mismos (tener en cuenta las edades y sexo para las categorías).
 
