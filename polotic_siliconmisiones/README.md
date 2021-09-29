@@ -377,6 +377,8 @@ Teoría:
  
   * ¿Qué es un paradigma ?
   * POO
+  * Clase: estado (atributos) y comportamiento (métodos)
+  * Objeto
 
 
 ---
