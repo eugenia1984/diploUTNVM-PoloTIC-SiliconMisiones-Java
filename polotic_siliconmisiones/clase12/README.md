@@ -44,6 +44,74 @@ No pueden ser utilizadas directamente (sino mediante instancias a objetos).
 
 Ejemplos: Auto, Persona, Departamento, Fastura, Recibo, Producto, etc.
 
+* Por convención todos los **nombres deben comenzar en mayúscula** (UpperCamelCase) y en **singular**.
+
+EL ejemplo de la clase Alumno con código:
+
+```JAVA
+public class Alumno {
+    //Atributos
+    int id;
+    String nombre;
+    String apellido;
+}
+```
+
+**public** -> modificador de acceso
+
+Toda clase tiene al menos un **constructor** -> permite crear/instanciar objetos
+
+## Constructor
+
+-Las operaciones o métodos son acciones contenidas en una clase, y definen su comportamiento.
+
+-Dentro de un sistema, las operaciones suelen detectarse como **verbos**.
+
+-Desde la perspectiva de Diseño y Programación, se denominan **métodos**.
+
+-Desde la perspectiva de Análisis, se denominan **Operaciones**.
+
+-Puede tener opcionalmente valores de entrada (**parámetros**) y valores de salida (valores de **retorno**).
+
+-Pueden existir **Procedimientos** (no retornan un valor) y **Funciones** (retornan un valor -> palabra reservada **return**)
+
+## Valores de entrada o parámetros
+
+-Los parámetros son valores enviados a una operación
+
+-Los métodos toma los parámetros como **valores de entrada** y así puede realizar las acciones necesarias.
+
+-Todos los parñametros deben tener un tipo de dato asociado (o pueden haber parámetros vacíos).
+
+Ejemplo de la clase Auto:
+
+```
+-------------------
+|   Auto          |
+-------------------
+| -color: String  |
+------------------
+| +encender()     |
+| +acelerar(int)  |
+| +frenar(int)    |
+```
+
+-Método encender() -> sin parámetros
+
+-Método acelerar(int) -> recibe como parámetro la cantidad de km a acelerar
+
+-Método frenar(int) -> recibe como parámetro la cantidad de km que debe bajar de velocidad
+
+## Valor de salida o Retorno
+
+-El **valor de salida** de un método es un **valor retirnado** por el mismo luego de realizar cierto procesamiento o conjunto de acciones.
+
+-Los valores de entrada son **datos**, y los valores de salida son considerados **información**.
+
+-Todos los valores de salida deben tener un tipo de dato asociado. Es posible retornar un **único valor de salida**.
+
+ENTRADA -> PROCESO -> SALIDA
+
 ---
 
 ## Objeto
@@ -78,6 +146,19 @@ Otro ejemplo:
 
 *Metodos* -> Puede: encender, acelerar, frenar, prender aire acondicionado, activar airbar
 
-Los métodos son todos VERBOS EN INFINITIVO (sin conjugar)
+Los métodos son todos VERBOS EN INFINITIVO (sin conjugar) y se escriben en **camelCase**
 
 ---
+
+## Ejercicio práctico
+
+-Detectar los posibles métodos/operaciones que pueda tener cada una de las clases: Alumno, Curso, PlanillaAsistencia
+
+Alumno: buscarAlumno, registrarAlumno, informarAlumno, obetenrAlumno
+
+Curso: registrarCurso, informarCurso, obtenerCurso
+
+PlanillaAsistencia: registrarPlantilla, informarPlantilla, obtenerPlantilla
+
+---
+
