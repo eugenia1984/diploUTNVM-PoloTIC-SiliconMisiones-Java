@@ -378,12 +378,15 @@ Teoría:
   * ¿Qué es un paradigma ?
   * POO
   * Clase: estado (atributos) y comportamiento (métodos)
+  * Métodos
   * Objeto
 
 
 ---
 
 # 📕  CLASE 13 : 29 SEPTIEMBRE
+
+:computer: La teoría de la clase está en -> [**clase13**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase13)
 
 ---
 
