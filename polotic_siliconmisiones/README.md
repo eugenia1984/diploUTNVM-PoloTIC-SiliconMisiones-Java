@@ -371,6 +371,14 @@ Temas:
 
 # 📕  CLASE 12 : 27 SEPTIEMBRE
 
+:computer: La teoría de la clase está en -> [**clase12**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase12)
+
+Teoría:
+ 
+  * ¿Qué es un paradigma ?
+  * POO
+
+
 ---
 
 # 📕  CLASE 13 : 29 SEPTIEMBRE
