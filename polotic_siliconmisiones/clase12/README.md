@@ -123,7 +123,14 @@ ENTRADA -> PROCESO -> SALIDA
 
 -No retorna NINGÚN VALOR (ni siquiera VOID)
 
--Generalmente se utlizan dos tipos de constructores: constructor vacío, constructor con todos los parámetros
+-Generalmente se utlizan dos tipos de constructores: 
+
+ * constructor vacío -> viene por defecto en todas las clases
+ * constructor con todos los parámetros -> lo creamos nosotros
+
+**Shorcut** de NetBeans -> **alt**+**Insert** Y tengo para ingresar : constructor, getter, setter,
+
+Otro modo->  **click derecho** -> **Insert code**
 
 ---
 
@@ -174,4 +181,8 @@ Curso: registrarCurso, informarCurso, obtenerCurso
 PlanillaAsistencia: registrarPlantilla, informarPlantilla, obtenerPlantilla
 
 ---
+
+## Ejercicio práctico 2
+
+En la carpeta **ejemploclases** creamos la clase **Alumno** con sus atributos, constructores y métodos.
 
