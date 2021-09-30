@@ -170,6 +170,14 @@ Los métodos son todos VERBOS EN INFINITIVO (sin conjugar) y se escriben en **ca
 
 ---
 
+## Getters y Setters
+
+Es para acceder a los datos, para verlos o setearlos.
+
+Se va a seguir viendo en la proxima clase.
+
+---
+
 ## Ejercicio práctico
 
 -Detectar los posibles métodos/operaciones que pueda tener cada una de las clases: Alumno, Curso, PlanillaAsistencia
@@ -186,3 +194,47 @@ PlanillaAsistencia: registrarPlantilla, informarPlantilla, obtenerPlantilla
 
 En la carpeta **ejemploclases** creamos la clase **Alumno** con sus atributos, constructores y métodos.
 
+
+Constructor vacío:
+
+```JAVA
+public Alumno() {
+}
+```    
+
+*Se usa para crear el objeto sin guardar datos
+
+Constructor con parámetros:
+
+```JAVA
+ public Alumno(int id, String nombre, String apellido) {
+        this.id = id;
+        this.nombre = nombre;
+        this.apellido = apellido;
+ }
+ ```
+ 
+Como mis **parametros** tienen el mismo nombre que los **atributos**, la palabra reservada **this** me indica que es el atributo de esta clase, asi Java sabe que *this.id* es el atributo y le va a asignar el valor de *id* que llega por parámetro.
+ 
+*Se usa para crear un objeto que tenga los datos 
+ 
+ En mi clase **main** *instancio* dos objetos Alumno, uno con cada constructor:
+ 
+ ```JAVA
+       //instancio un nuevo objeto alumno con el contrucctor vacio
+        Alumno alumno1 = new Alumno();
+        //instancio un nuevo objeto alumno con el constructor con parametros
+        Alumno alumno2 = new Alumno(1, "Ana", "Sanchez");
+```        
+ 
+---
+
+## Ejercicio práctico 3
+
+Como ya modelamos la clase **Alumno** ahora crear las clases : **Curso** y **PlanillaDeAsistencia**
+
+
+:computer: Se puede ver en la carpeta [**ejemploclase**]()
+
+
+---
