@@ -61,7 +61,7 @@ public class Alumno {
 
 Toda clase tiene al menos un **constructor** -> permite crear/instanciar objetos
 
-## Constructor
+## Métodos
 
 -Las operaciones o métodos son acciones contenidas en una clase, y definen su comportamiento.
 
@@ -111,6 +111,19 @@ Ejemplo de la clase Auto:
 -Todos los valores de salida deben tener un tipo de dato asociado. Es posible retornar un **único valor de salida**.
 
 ENTRADA -> PROCESO -> SALIDA
+
+
+## Constructores
+
+-Son funciones especiales que contienen las clases para permitir la creación de objetos.
+
+-Puede recibir datos/parámetros como no (constructor vacío).
+
+-Se llaman SIEMPRE igual que la clase
+
+-No retorna NINGÚN VALOR (ni siquiera VOID)
+
+-Generalmente se utlizan dos tipos de constructores: constructor vacío, constructor con todos los parámetros
 
 ---
 
