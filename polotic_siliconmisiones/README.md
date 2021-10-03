@@ -400,6 +400,8 @@ Teoría:
 
 :star: [**guia de ejercicios nro 7**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia7_poo)
 
+Con mi [**resolución**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia7_poo/objetos)
+
 
 ---
 
