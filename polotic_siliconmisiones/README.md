@@ -394,6 +394,8 @@ Teoría:
  *Getters
  
  *Setters
+ 
+ *Encapsulamiento
 
 ---
 
