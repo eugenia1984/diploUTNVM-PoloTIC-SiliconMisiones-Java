@@ -6,6 +6,8 @@
 
 ## Diagramas de clases
 
+## Caso práctico.
+
 El ejemplo de las películas en diagrama de clases:
 
 ```
@@ -26,7 +28,7 @@ El ejemplo de las películas en diagrama de clases:
                                                   |---------------------------|                                   |----------------|
 ```      
 
-## Caso práctico.
+
 
 
 ---
