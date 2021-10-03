@@ -476,9 +476,14 @@ Temas:
 
 :computer: [**Clase 19**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase19)
 
+Temas:
+
 ---
 
 :computer: [**Clase 20**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase20)
+
+
+Temas:
 
 ---
 
