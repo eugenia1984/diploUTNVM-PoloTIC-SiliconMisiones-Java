@@ -288,7 +288,7 @@ de trabajo        |                      |------> generar Programación de funci
 
 ---
 
-## Niveles de detalle en la descripciones de casso de uso
+## Niveles de detalle en la descripciones de caso de uso
 
 -brevemente descripta
 
