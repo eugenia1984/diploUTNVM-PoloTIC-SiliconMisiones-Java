@@ -234,7 +234,7 @@ Como mis **parametros** tienen el mismo nombre que los **atributos**, la palabra
 Como ya modelamos la clase **Alumno** ahora crear las clases : **Curso** y **PlanillaDeAsistencia**
 
 
-:computer: Se puede ver en la carpeta [**ejemploclase**]()
+:computer: Se puede ver en la carpeta [**ejemploclase**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase12/ejemploclases)
 
 
 ---
