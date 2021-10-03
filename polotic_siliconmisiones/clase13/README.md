@@ -85,3 +85,32 @@ System.out.println(alumno1.toString());
 Y me va a mostrar todos los datos que signe a los valores en el objeto alumno1.
 
 ---
+
+# Encapsulamiento
+
+Significa reunir a todos los elementos que pueden considerarse pertenencientes a una misma entidad, al mismo nivel de abstracción. No se debe confundir con el Principio de Ocultación.
+
+Esa capsula la puedo abrir cuando necesito los datos, y luego lo vuelvo a cerrar.
+
+
+El **encapsulamiento** permite 3 niveles de acceso :
+
+-**Public**: es el de menor protecicón, de acceso más general. Pueden utilizarse desde cualquier contexto (desde el interior de la misma clase, desde una clase heredada o desde el exterior). Se declaran a nivel de código como **PUBLIC**
+
+-**Private**: es el de mayor protección. El acceso sólo está permitido para métodos de esa clase en particular. Los atributos declarados como **private** *solo serán visibles desde el interior de la clase donde están declarados*.
+
+-**Protected**: el acceso sólo está permitido a funciones de la misma clase o a métodos de subclases de ella. los atributos y métodos declarados como **protected** *solo serán visibles desde la clase que los declara o desde una clase derivada*, peor nunca desde el exterior de la clase.
+
+
+
+Ejemplo en una clase *Auto* que va a instanciar objetos *auto* con atributos:
+
+-publicos: color, año, caja, marca, modelo
+
+-privados: clasis, motor
+
+**principio de ocultación** -> cada objeto está aislado y únicamente expone una interfaz a otros objetos donde específica cómo pueden interactuar con él. El aislamiento protege a las propiedades de un objeto contra su modificación por quien no tenga derecho a acceder a ellas.
+
+
+
+---
