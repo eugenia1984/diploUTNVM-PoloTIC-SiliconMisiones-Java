@@ -397,6 +397,10 @@ Teoría:
  
  *Encapsulamiento
 
+
+:star: [**guia de ejercicios nro 7**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia7_poo)
+
+
 ---
 
 # 📕  CLASE 14
