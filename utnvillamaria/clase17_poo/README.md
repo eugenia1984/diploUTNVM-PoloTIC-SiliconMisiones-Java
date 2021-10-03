@@ -1,14 +1,20 @@
 # Clase 17 : POO
 
+---
+
 ## Modelos y la importancia de modelar
 
 Es el paso ANTERIOR a PROGRAMAR
 
 Siempre se **trabaja en equipo** y el porcentaje de éxito depende de la buena comunicación entre todos, para ponernos de acuerdo en: ¿ qué vamos a hacer? ¿ Cómo lo vamos a hacer?
 
+---
+
 ### ¿ Qué es un modelo?
 
 Es una SIMPLIFICACIÓN de la realidad, y el equipo define que tan detalaldo, o acercado a la realidad necesitan para el proyecto. Mientras más detallado el modelo, se dejan libradas al azar menos cosas, y se pueden llegar a tener menos problemas por falta de comunicación
+
+---
 
 ### ¿ Por qué modelamos ?
 
@@ -19,6 +25,8 @@ Es una SIMPLIFICACIÓN de la realidad, y el equipo define que tan detalaldo, o a
 -Nos dan una plantilla que nos guía en la construcción del sistema.
 
 -Documentan las decisiones que hemos tomado. Nadie quiere documentar, ni el programador, ni el analista, ni el equipo. Pero es importante, hay que tenrla acualizada, y nos ayuda a tomar decisiones en un momento determinado. Ya que durante el proceso los requerimientos pueden ir modificándose , empezamos a planificar una cosa y al final termianmos con algo disntitno, ya que cambian leyes, sistemas, las necesidades. Y a medida que el equipo crece la comunicación es fundamental. Y la documentación nos aclara qué hay que hacer.
+
+---
 
 ### La importancia de modelar
 
@@ -34,6 +42,8 @@ Por medio del modelado conseguimos cuatro objetivos:
 
 4-Los modelos documentan las decisiones que hemos adoptado
 
+---
+
 
 ## ¿ Qué es un UML ?
 
@@ -43,15 +53,19 @@ No es un lenguaje de programación.
 
 Es el lenguaje con el que nos vamos a comunicar en el equipo y con el exterior de nuestro equipo de desarrollo.
 
+
 ### ¿ Por qué UML es un lenguaje ?
 
 -Provee un vocabulario y reglas para combinar los elementos del vocabulario con el propósito de comunica.
 
 -Es un lenguaje de modelado, esos vocabularios y reglas se focalizan en representaciones conceptuales y físicas de un sistema.
 
+
 ### Hay tres grandes tipos de modelos:
 
-1) **Bloques de construcción**: que tienen:
+#### 1- Bloques de construcción
+
+Que tienen:
 
 **Elementos**: estructurales, cmportamentales, de agrupación, de anotación
 
@@ -59,7 +73,10 @@ Es el lenguaje con el que nos vamos a comunicar en el equipo y con el exterior d
 
 **Diagramas**: clase, estructura compuesta, objeto, paquete, despliegue, componente, cosas de uso, comunicación, secuencia, descr. de interac., de actividad, DTE, timming
 
-2) **Mecanismos comunes**: que tienen:
+
+#### 2 - Mecanismos comunes
+
+Que tienen:
 
 **especificaciones**
 
@@ -69,7 +86,10 @@ Es el lenguaje con el que nos vamos a comunicar en el equipo y con el exterior d
 
 **mecanismos de extensibiliad**: estereotipos, restricciones, valores rotulados
 
-3) **Arquitectura**: que tiene:
+
+#### 3 - Arquitectura
+
+Que tiene:
 
 **vista de casos de uso**
 
