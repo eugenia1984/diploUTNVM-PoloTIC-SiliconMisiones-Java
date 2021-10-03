@@ -379,6 +379,7 @@ Teoría:
   * POO
   * Clase: estado (atributos) y comportamiento (métodos)
   * Métodos
+  * Constructor
   * Objeto
 
 
@@ -387,6 +388,11 @@ Teoría:
 # 📕  CLASE 13 : 29 SEPTIEMBRE
 
 :computer: La teoría de la clase está en -> [**clase13**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase13)
+
+Teoría:
+
+ *Getters
+ *Setters
 
 ---
 
