@@ -55,4 +55,33 @@ Por pantalla voy a ver:
 
 Si mandaría a imprimir al alumno1 voy a tener **0** de id y **null** para nombre y apellido, ya que el valor por default para String es NULL.
 
+Lo que puedo hacer es setear los datos al alumno1
+
+```JAVA
+alumno1.setId(20);
+alumno1.setNombre("Eugenia");
+alumno1.setApellido("Costa");
+```
+
+Tengo dos formas de colocar los valores de los atributos:
+
+-con el constructor
+
+-con el set
+
+---
+
+## Método toString
+
+Se encarga de pasarme todo el objeto a un string y me va a mostrar los atributos y sus valores.
+
+
+Entonces:
+
+```JAVA
+System.out.println(alumno1.toString());
+```
+
+Y me va a mostrar todos los datos que signe a los valores en el objeto alumno1.
+
 ---
