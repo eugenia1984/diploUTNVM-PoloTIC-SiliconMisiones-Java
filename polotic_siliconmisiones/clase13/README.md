@@ -31,3 +31,28 @@ En todas las clases voy a tener este orden:
 4- metodos de la clase
 
 ---
+
+## En el ejemplo de la clase anterior de alumnos:
+
+```JAVA
+public static void main(String[] args) {
+  Alumno alumno1 = new Alumno();
+  Alumno alumno2 = new Alumno(15, "Luisina", "de Paula");
+  
+  System.out.println("La id del alumno es : " + alumno2.getId());
+  System.out.println("El nombre del alumno es: " + alumno2.getNombre());
+  System.out.println("El apellido del alumno es : "+ alumno2.getApellido());
+}
+```
+
+Por pantalla voy a ver:
+```JAVA
+  La id del alumno es : 15
+  El nombre del alumno es: Luisina
+  El apellido del alumno es : de Paula
+}
+```
+
+Si mandaría a imprimir al alumno1 voy a tener **0** de id y **null** para nombre y apellido, ya que el valor por default para String es NULL.
+
+---
