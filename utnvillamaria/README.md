@@ -431,12 +431,17 @@ Temas:
 
 Temas vistos:
 
-     * Atributos y métodos en POO
-     * ¿Qué es un atributo ?
-     * Modificadores de acceso
-     * ¿Qué es un método ?
-     * Llamar a un método
-     * Debuggear
+-Atributos y métodos en POO
+
+-¿Qué es un atributo ?
+
+-Modificadores de acceso
+
+-¿Qué es un método ?
+
+-Llamar a un método
+
+-Debuggear
 
 ---
 
@@ -466,11 +471,15 @@ Temas vistos:
 
 Temas:
 
-    * return
-    * getter y setter
-    * sobrecarga de métodos
-    * métodos útiles de java
-    * ejercicios
+-return
+
+-getter y setter
+
+-sobrecarga de métodos
+
+-métodos útiles de java
+
+-ejercicios
 
 ---
 
@@ -490,6 +499,10 @@ Temas:
 
 
 Temas:
+
+-Asociaciones entre clases. Diagramas de clases. caso práctico.
+
+-Ejercicio para la próxima clase.
 
 ---
 
