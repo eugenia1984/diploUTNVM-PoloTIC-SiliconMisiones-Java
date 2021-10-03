@@ -65,6 +65,6 @@ El ejemplo de las películas en diagrama de clases:
 
 Finalizar de asociar con las clases: **PaisDeOrigen** y **Calificacion**
 
-:computer: lo van a poder fer en la carpeta [**miproyecto**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase20/miproyecto)
+:computer: lo van a poder ver en la carpeta [**miproyecto**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase20/miproyecto)
 
 ---
