@@ -83,6 +83,29 @@ public class Auto {
 ```
 
 
+Y en mi clase main:
+
+```JAVA
+//Instancio 3 objetos Auto con su constructor con parametros
+        Auto auto1 = new Auto("Blanco", "Fiat", 2021, "AE485WS", 4);
+        Auto auto2 = new Auto("Gris", "Citroen", 1998, "AA756EI", 4);
+        Auto auto3 = new Auto("Azul", "Volswagen", 2020, "AB768EJ", 4);
+        //instancio un nuevo objeto Auto con su constructor sin parámetros
+        Auto auto4 = new Auto();
+        //Mostrar por pantalla la marca, modelo y patente de los 3 autos creados con parámetros.
+        System.out.println("El auto1 tiene -> marca : "+auto1.getMarca()+
+                " , modelo : " +auto1.getModelo()+" , patente : "+auto1.getPatente());
+        System.out.println("El auto2 tiene -> marca : "+auto2.getMarca()+
+                " , modelo : " +auto2.getModelo()+" , patente : "+auto2.getPatente());
+        System.out.println("El auto3 tiene -> marca : "+auto3.getMarca()+
+                " , modelo : " +auto3.getModelo()+" , patente : "+auto3.getPatente());
+        //Intentar obtener la marca del auto creado sin parámetros. ¿Se obtiene algún 
+        //valor? De ser así… ¿Qué valor se obtiene?
+        System.out.println("El auto4 tiene -> marca : "+auto4.getMarca()+
+                " , modelo : " +auto4.getModelo()+" , patente : "+auto4.getPatente());
+        
+```
+
 ---
 
 **B.** Crear una clase llamada Mueble que tenga los siguientes atributos: nombre, alto, ancho, material, cantidad.
@@ -95,6 +118,99 @@ public class Auto {
 
 ✓ Mostrar nuevamente por pantalla el nombre y el material de los 3 muebles que fueron cambiados.
 
+
+La clase en código:
+
+```JAVA
+package objetos;
+
+public class Mueble {
+    //Atributos
+    private String nombre;
+    private Double alto;
+    private Double ancho;
+    private String material;
+    private Integer cantidad;
+    //constructor vacio
+    public Mueble() {
+    }
+    //constructor con parámetros
+    public Mueble(String nombre, Double alto, Double ancho, String material, Integer cantidad) {
+        this.nombre = nombre;
+        this.alto = alto;
+        this.ancho = ancho;
+        this.material = material;
+        this.cantidad = cantidad;
+    }
+    //getters y setters
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public Double getAlto() {
+        return alto;
+    }
+
+    public void setAlto(Double alto) {
+        this.alto = alto;
+    }
+
+    public Double getAncho() {
+        return ancho;
+    }
+
+    public void setAncho(Double ancho) {
+        this.ancho = ancho;
+    }
+
+    public String getMaterial() {
+        return material;
+    }
+
+    public void setMaterial(String material) {
+        this.material = material;
+    }
+
+    public Integer getCantidad() {
+        return cantidad;
+    }
+
+    public void setCantidad(Integer cantidad) {
+        this.cantidad = cantidad;
+    }
+    //toString
+    @Override
+    public String toString() {
+        return "Mueble{" + "nombre = " + nombre + ", alto = " + alto + ", ancho = " + 
+                ancho + ", material = " + material + ", cantidad = " + cantidad + '}';
+    }
+    
+    
+}
+```
+
+
+Y en mi clase main:
+
+```JAVA
+ //Crear 3 muebles utilizando parámetros
+        Mueble mueble1 = new Mueble("Silla nordica", 1.2, 0.80, "madera" , 16);
+        Mueble mueble2 = new Mueble("Mesa nordica", 1.5, 1.2, "madera" , 4);
+        Mueble mueble3 = new Mueble("Banqueta", 0.5, 0.5, "madera", 10);
+        //cambiar a los tres el material a madera paraiso
+        mueble1.setMaterial("medara paraiso");
+        mueble2.setMaterial("medara paraiso");
+        mueble3.setMaterial("medara paraiso");
+        //Mostrar nuevamente por pantalla el nombre y el material de los 3 muebles 
+        // que fueron cambiados.
+        System.out.println("Mueble 1: "+mueble1.getNombre()+" de : "+mueble1.getMaterial());
+        System.out.println("Mueble 2: "+mueble2.getNombre()+" de : "+mueble2.getMaterial());
+        System.out.println("Mueble 3: "+mueble3.getNombre()+" de : "+mueble3.getMaterial());
+```
 ---
 
 **C.** Crear una clase Mascota, que tenga los siguientes atributos: nombre, especie, sexo, color, pelaje y raza (tener en cuenta todos sus atributos, constructores y métodos getters y setters).
