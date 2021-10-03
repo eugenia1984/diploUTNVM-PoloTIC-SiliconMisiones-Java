@@ -478,6 +478,12 @@ Temas:
 
 Temas:
 
+-Diagrama de Maquina de Estados
+
+-Requerimientos
+
+-Diagramas de casos de uso
+
 ---
 
 :computer: [**Clase 20**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase20)
