@@ -109,6 +109,20 @@ Ejemplo en una clase *Auto* que va a instanciar objetos *auto* con atributos:
 
 -privados: clasis, motor
 
+
+### Por convensión para cumplir con el ENCAPSULAMIENTO los ATRIBUTOs son PRIVATE. En cambio a los métodos que nosotros creemos pueden tener todos los accesos. Pero los que esten @Override deben tener el mismo acceso que la clase padre de la que heredan el metodo.
+
+
+Entonces en mi ejemplo de la clase Alumno
+
+```JAVA
+public class Alumno {
+  private int id;
+  private String nombre;
+  private String apellido;
+}
+```
+
 **principio de ocultación** -> cada objeto está aislado y únicamente expone una interfaz a otros objetos donde específica cómo pueden interactuar con él. El aislamiento protege a las propiedades de un objeto contra su modificación por quien no tenga derecho a acceder a ellas.
 
 
