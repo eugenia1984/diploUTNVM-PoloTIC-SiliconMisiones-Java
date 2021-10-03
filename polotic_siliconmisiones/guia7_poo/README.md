@@ -223,4 +223,132 @@ Y en mi clase main:
 
 ✓ Recorrer el vector y mostrar por pantalla únicamente a las mascotas que sean de la especie “perro”.
 
+
+En la clase mascota:
+
+```JAVA
+package objetos;
+
+
+public class Mascota {
+    //Atributos
+    private String nombre;
+    private String especie;
+    private String sexo;
+    private String color;
+    private String pelaje;
+    private String raza;
+    //constructor vacio
+    public Mascota() {
+    }
+    //Constructor con parametros
+    public Mascota(String nombre, String especie, String sexo, String color, String pelaje, String raza) {
+        this.nombre = nombre;
+        this.especie = especie;
+        this.sexo = sexo;
+        this.color = color;
+        this.pelaje = pelaje;
+        this.raza = raza;
+    }
+    //getters y setters
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getEspecie() {
+        return especie;
+    }
+
+    public void setEspecie(String especie) {
+        this.especie = especie;
+    }
+
+    public String getSexo() {
+        return sexo;
+    }
+
+    public void setSexo(String sexo) {
+        this.sexo = sexo;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public String getPelaje() {
+        return pelaje;
+    }
+
+    public void setPelaje(String pelaje) {
+        this.pelaje = pelaje;
+    }
+
+    public String getRaza() {
+        return raza;
+    }
+
+    public void setRaza(String raza) {
+        this.raza = raza;
+    }
+    //toString
+
+    @Override
+    public String toString() {
+        return "nombre = " + nombre + ", especie = " + especie +
+                ", sexo = " + sexo + ", color = " + color + ", pelaje = " +
+                pelaje + ", raza = " + raza + '}';
+    }
+    
+    
+}
+```
+
+En la clase main:
+
+```JAVA
+System.out.println("\n******* CLASE MASCOTA ********\n");
+        //Crear un vector de tipo Mascota que pueda almacenar 5 mascotas.
+        Mascota[] mascotas = new Mascota[5];
+        //Crear 5 mascotas y guardarlas en el vector.
+        //String nombre, String especie, String sexo, String color, String pelaje, String raza
+        mascotas[0] = new Mascota("Pipi", "perro", "Macho", "marron", "pelo largo", "Perro");
+        mascotas[1] = new Mascota("Tweeti", "canario", "Macho", "amarillo", "plumas", "Canario");
+        mascotas[2] = new Mascota("Rumba", "perro", "Hembra", "negro y blanco", "pelo largo", "Border Collie");
+        mascotas[3] = new Mascota("Manchitas", "gato", "Hembra", "gris y negro", "pelo corto", "Gato");
+        mascotas[4] = new Mascota("Nemo", "pez", "Macho", "naranja", "escamas", "Pez");
+        //Recorrer el vector creado y mostrar por pantalla el nombre, especie y sexo de las mascotas almacenadas.
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Mascota : " + (i+1));
+            System.out.println("Nombre: "+ mascotas[i].getNombre());
+            System.out.println("Especie: "+mascotas[i].getEspecie());
+            System.out.println("Sexo: "+mascotas[i].getSexo());
+        }
+        //Cambiar el nombre de dos mascotas. Mostrar por pantalla los datos de las 
+        // dos mascotas cuyos nombres fueron cambiados
+        mascotas[1].setNombre("Pajarito");
+        mascotas[2].setNombre("Rumbita");
+        System.out.println("Las mascotas a las que les cambie los nombres son :");
+        System.out.println("Mascota 2 "+mascotas[1].toString());
+        System.out.println("Mascota 3 "+mascotas[2].toString());
+        //Recorrer el vector y mostrar por pantalla únicamente a las mascotas que sean de la especie “perro”.
+        System.out.println("----- Mascotas con especie: PERRO -----");
+        for (int i = 0; i < 5; i++) { 
+            if (mascotas[i].getEspecie().equalsIgnoreCase("perro")) {
+                System.out.println(mascotas[i].toString());
+            }
+        }      
+```
+
+---
+
+:computer:  todo el código se puede ver en la carpeta [**objetos**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia7_poo/objetos)
+
 ---
