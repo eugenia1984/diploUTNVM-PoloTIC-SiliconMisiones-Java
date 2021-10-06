@@ -128,6 +128,10 @@ estacionar(Bus);
 ```
 ---
 
+:computer: [Ver aca -> el codigo que se practico en la clase para Herencia y POLIMORFISMO](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase14_poo/herencia)
+
+---
+
 :computer: [Para ver -> **Git y GitBuh**](https://www.youtube.com/playlist?list=PLQxX2eiEaqby-qh4raiKfYyb4T7WyHsfW)
 
 ---
