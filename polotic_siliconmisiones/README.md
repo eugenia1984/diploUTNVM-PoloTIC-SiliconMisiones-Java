@@ -405,13 +405,15 @@ Teoría:
 
 # 📕  CLASE 14 : 06 OCTUBRE
 
+:computer: La teoría d ela clase está en -> [**clase14_poo**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/polotic_siliconmisiones/clase14_poo)
+
 Temas:
 
 *Herencia
 
 *Polimorfismo
 
-:computer: [Teoría de la clase acá](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/polotic_siliconmisiones/clase14_poo)
+:star: El ejercicio de explicación de Herencia y Polimorfismo está en -> [**herencia**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase14_poo/herencia)
 
 ---
 
