@@ -403,7 +403,15 @@ Teoría:
 
 ---
 
-# 📕  CLASE 14
+# 📕  CLASE 14 : 06 OCTUBRE
+
+Temas:
+
+*Herencia
+
+*Polimorfismo
+
+:computer: [Teoría de la clase acá](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/polotic_siliconmisiones/clase14_poo)
 
 ---
 
