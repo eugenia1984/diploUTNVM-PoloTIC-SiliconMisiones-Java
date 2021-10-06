@@ -391,11 +391,11 @@ Teoría:
 
 Teoría:
 
- *Getters
+ * Getters
  
- *Setters
+ * Setters
  
- *Encapsulamiento
+ * Encapsulamiento
 
 
 :star: [**guia de ejercicios nro 7**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia7_poo) con mi [**resolución**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia7_poo/objetos)
@@ -409,9 +409,9 @@ Teoría:
 
 Temas:
 
-*Herencia
+ * Herencia
 
-*Polimorfismo
+ * Polimorfismo
 
 :star: El ejercicio de explicación de Herencia y Polimorfismo está en -> [**herencia**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase14_poo/herencia)
 
