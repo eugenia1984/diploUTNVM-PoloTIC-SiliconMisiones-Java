@@ -131,7 +131,7 @@ Introducción a Spring boot.
 
 # 📕  CLASE 1 : 20 AGOSTO
 
-:computer: [**Teoría de clase 1**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase01_intro_java)
+:computer: La teoría de la clase está en -> [**clase01_intro_java**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase01_intro_java)
 
 Temas:
   * ¿ Qué es programar?
@@ -159,7 +159,7 @@ Temas:
 
 # 📕  CLASE 2 : 23 AGOSTO
 
-:computer: [**Ver teoria clase 2**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase02_tipodedatos_variables_condicionales)
+:computer: La teoría de la clase está en -> [**clase02_tipodedatos_variables_condicionales**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase02_tipodedatos_variables_condicionales)
 
 Temas:
   * Tipo de datos
@@ -185,7 +185,7 @@ Temas:
 
 # 📕  CLASE 3: 25 AGOSTO
 
-:computer: [**Ver teoría clase 3**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase03_bucles_while_for)
+:computer: La teoría de la clase está en -> [**clase03_bucles_while_for**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase03_bucles_while_for)
 
 Temas:
 
@@ -230,7 +230,7 @@ Ejercicios de práctica resueltos:
   
 # 📕  CLASE 4 : 30 AGOSTO
 
-:computer: [**Clase 4**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase4)
+:computer: La teoría de la clase está en -> [**clase 4**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase4)
 
 Temas:
 
@@ -255,7 +255,7 @@ Temas:
 
 # 📕 CLASE 5 : 1 SEPTIEMBRE
 
-:computer: [**Clase 5**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase5)
+:computer: La teoría de la clase está en -> [**Clase 5**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase5)
 
 Tema:
 
