@@ -510,6 +510,15 @@ Temas:
 
 Temas:
 
+
+---
+
+:computer: [**Clase 22**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase22)
+
+Temas:
+
+-Terminamos el ejercicio practico de relación de clases
+
 ---
 
 ## Fuentes de información:
