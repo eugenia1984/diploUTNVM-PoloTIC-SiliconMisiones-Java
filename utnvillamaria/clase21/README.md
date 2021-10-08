@@ -89,6 +89,29 @@ Los mensajes y la comunicación se representa con uan flecha con la punta con un
 
 Hay **notas** para hacer observaciones y para aclarar.
 
-Para ver el diagrama click aca](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/clase21/secuancia%20de%20caso%20de%20uso.pdf")
+Para ver el diagrama [click aca](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/clase21/secuancia%20de%20caso%20de%20uso.pdf")
+
+---
+
+## Prototipos
+
+Una herramienta que puede usarse **Balsamiq Mockups**
+
+-Tipo de Prototipos: evolutivos , desechables
+
+-Características:
+
+*Funcionalidad limitada
+
+*Poca fiabilidad
+
+*Caracterñisticas de operación pobres
+
+El prototipo solo debe ser del 10 % del proyecto, normalemnte solo me debe ocupar pocos dias de desarrollo.
+
+Lo puedo hacer también con un diagrama de flujo.
+
+Hasta puedo hacer el prototipado en papel.
+
 
 ---
