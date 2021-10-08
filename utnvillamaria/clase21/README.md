@@ -89,4 +89,5 @@ Los mensajes y la comunicación se representa con uan flecha con la punta con un
 
 Hay **notas** para hacer objservaciones y para aclarar.
 
+<img src="https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/clase21/secuancia%20de%20caso%20de%20uso.pdf">
 ---
