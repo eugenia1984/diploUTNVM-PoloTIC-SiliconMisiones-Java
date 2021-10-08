@@ -87,7 +87,8 @@ Los ```|-------|``` son mi **foco de control**, me muestra como va pasando el co
 
 Los mensajes y la comunicación se representa con uan flecha con la punta con un triangulo negro. Tambien hay otra flecha con lineas punteadas para aclarar que en ese momento se crea un objeto dela clase entidad.
 
-Hay **notas** para hacer objservaciones y para aclarar.
+Hay **notas** para hacer observaciones y para aclarar.
 
-<img src="https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/clase21/secuancia%20de%20caso%20de%20uso.pdf">
+Para ver el diagrama click aca](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/clase21/secuancia%20de%20caso%20de%20uso.pdf")
+
 ---
