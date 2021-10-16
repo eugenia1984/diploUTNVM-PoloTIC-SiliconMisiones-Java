@@ -228,3 +228,7 @@ Ahora que se inplementan las interfaces ¿ Hereda atributos ?
 Las interfaces no permiten atributos/variables, por lo que al implementar interfaces únicamente se hredan sus métodos.
 
 ---
+
+:star: [**ejemplo en codigo**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase15/inter.abstract)
+
+---
