@@ -21,7 +21,7 @@
 -Generalmente las clases abstractas indican el **ES/SER** de un objeto.
 
 
-## ¿ Càndo se usan las clases abstractas ?
+## ¿ Cuándo se usan las clases abstractas ?
 
 -Cuando deseamos definir una abstracción que englobe objetos de distintos tipos y queremos hacer uso del polimorfismo.
 
@@ -58,6 +58,8 @@ Por ejemplo:
 
 Ejemplo en codigo:
 
+
+Clase abstracta Figura
 ```JAVA
 package clases.abstractas;
 
@@ -77,5 +79,152 @@ public abstract class Figura {
 ```
 
 Aunque no se instancias clases Figura, si tengo el constrautor, porque lo utilizarán sus clases hijas (llamando al **super()** en su constructor, asi inicializan los valoes x e y).
+
+Las clases que implementan calcularAerea:
+
+Cuadrado:
+
+```JAVA
+package clase.abstracta;
+
+public class Cuadrado extends Figura {
+  private double lado;
+  
+  public Cuadrado() {
+  }
+  
+  public Cuadrado(double lado, double x, double y) {
+     super(x, y);
+     this.lado = lado;
+  }
+  
+  @Override
+  public double calcularArea() {
+    double resultado = lado + lado;
+    return resultado;
+  }
+}
+```
+
+-Para indicar que vamos a implementar (customizar) el métod -> **@Override**. Me indica que estoy sobreeescribiendo le método de la clase abstracta.
+
+Circulo:
+
+```JAVA
+package clase.abstracta;
+
+public class Circulo extends Figura {
+    private double radio;
+    
+    public Circulo(double radio) {
+      this.radio = radio;
+    }
+    
+    public Circulo(double radio, double x, double y) {
+      super(x, y);
+      this.radio = radio;
+    }
+    
+    @Override
+    public double calcularArea() {
+      double pi = 3.14;
+      double resultado = pi * radio * radio;
+      return resultado;
+    }
+
+}
+```
+
+---
+
+## Interfaces
+
+-Son un colección de **métodos abstractos** con **propiedades CONSTANTES**.
+
+-Una interfaz solamente puede **extender o implementar otras interfaces** (la cantidad que quiera).
+
+-Da a conocer qué se debe hacer (métodos) pero sin mostrar su implementación (sólo puede tener métodos abstractos).
+
+-Sólo puede tener **métodos con acceso público** (no pueden ser protected o private).
+
+-Solo puede tener **variables** **public static final** (o sea una **constante**).
+
+-La palabra **abstract** en la definición de métodos no es obligatoria.
+
+-**Generalmente las interfaces indican el PUEDE HACER de un objeto**.
+
+Interfaz -> permite la conexión entre dos partes, en este caso permite la conexión entre varias clases.
+
+Volvemos al ejemplo de figura, pero ahora como una interfaz:
+
+
+```
+------------    -----------------     -------------
+  Rotable          Figura                Dibujable
+------------    -----------------     ------------
+
+------------     ----------------      -------------
+ +rotar()        +calcularAerea()       +dibujar
+ -----------     ----------------      -------------
+    ^                ^     ^               ^     ^
+    |                |     |               |      |
+    -------     -----------|---------------       |
+          |    |     |     |                      |
+          |    |     --------  -------------- -----
+      ----------------          Cuadrado
+        Circulo                ---------------
+      ----------------          -lado
+       -radio                  ----------------
+      ----------------          +calcularArea()
+      +calcularAera()           +dibujar()
+      +dibujar                 ---------------
+      +rotar
+      -----------------
+  
+```
+
+-Si no fuese necesario conocer la ubicación de una figura (x , y), se podría eliminar por completo los atributos y convertir a Figura en una interfaz
+
+-Se utiliza la palabra **implements**.
+
+-Cada nombre de interfaz que se implementa se separa por comas
+
+
+Y viendolo en código:
+
+  
+```JAVA
+package clase.abstracta;
+
+public class Circulo implements Figura, Rotable, Dibujable {
+  private doule radio;
+  
+  public Circulo(double radio) {
+      this.radio = radio;
+  }
+  
+  @Override
+  public double calcularArea() {
+      double pi = 3.14;
+      double resultado = pi * radio * radio;
+      return resultado;
+  }
+  
+  @Override 
+  public void rotar() {
+    System.out.printla("Estoy rotando el circulo");
+  }
+  
+  @Override
+  public void dibujar() {
+    System.out.printla("Estoy dibujando el circulo");
+  }
+}
+  
+```
+
+Ahora que se inplementan las interfaces ¿ Hereda atributos ?
+
+Las interfaces no permiten atributos/variables, por lo que al implementar interfaces únicamente se hredan sus métodos.
 
 ---
