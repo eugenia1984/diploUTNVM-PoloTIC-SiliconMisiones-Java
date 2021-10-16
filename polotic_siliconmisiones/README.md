@@ -421,6 +421,10 @@ Temas:
 
 ---
 
+:star: [**Guia de ejercicios 8 y 9](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia8y9_poo)
+
+---
+
 📌 Seguir a **Silicon Misiones** en: 
 
 
