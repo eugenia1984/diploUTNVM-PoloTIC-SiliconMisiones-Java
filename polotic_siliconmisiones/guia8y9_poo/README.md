@@ -34,7 +34,7 @@ nombre, color, calorías, tipoCascara, esComestible
 
 ## 2  Herencia, Polimorfismo y encapsulamiento
 
-##5 Ejercicio Nº 1
+### Ejercicio Nº 1
 
 • Crear una clase Planta con los atributos:
 
