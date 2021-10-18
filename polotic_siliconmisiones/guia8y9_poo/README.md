@@ -149,9 +149,8 @@ Una vez desarrolladas cada una de las clases, se solicita desde la clase Main, c
 
 ---
 
-##  4) Clases Abstractas + Interfaces
+## Ejercicio N 5 Clases Abstractas + Interfaces
 
-### Ejercicio Nº 1
 
 Un fanático de Pókemon desea implementar para el modelado de un videojuego los diferentes ataques de cada una de estas criaturas. 
 
