@@ -1,6 +1,8 @@
 # Guías de Ejercicios Nº 8 y 9: Programación Orientada a Objetos - Parte 2
 
+
 ## 1) Repaso Objetos
+
 
 **A**- Crear una clase llamada VideoJuego, que tenga los siguientes atributos: 
 
@@ -16,6 +18,11 @@ codigo, titulo, consola, cantidadJugadores, categoría
 
 ✓ Recorrer el vector y mostrar por pantalla únicamente a los videojuegos que sean de la consola “Nintendo 64”.
 
+
+:star: [Ver ejercicio resuelto](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia8y9_poo/Guia8y9ejericio1)
+
+
+
 **B**-• Crear una clase llamada Fruta, que tenga los siguientes atributos: 
 
 nombre, color, calorías, tipoCascara, esComestible 
@@ -30,11 +37,13 @@ nombre, color, calorías, tipoCascara, esComestible
 
 ✓ Recorrer el vector y mostrar por pantalla únicamente a las frutas que sean de color verde. 
 
+
+
+:star: [Ver ejercicio resuelto](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia8y9_poo/Guia8y9ejercicio1B)
+
 ---
 
-## 2  Herencia, Polimorfismo y encapsulamiento
-
-### Ejercicio Nº 1
+### Ejercicio Nº 2
 
 • Crear una clase Planta con los atributos:
 
@@ -51,6 +60,7 @@ o Flor: color de pétalos, cantidad promedio de pétalos, color del pistilo, col
 
 o Arbusto: Ancho arbusto, esDomestico, variedad arbusto, color de hojas, sePodaONo
 
+
 • Una vez creada las clases crear los siguientes métodos:
 
 o Árbol: método para mostrar un mensaje en pantalla que diga “Hola soy un árbol”
@@ -59,11 +69,18 @@ o Flor: método para mostrar un mensaje en pantalla que diga “Hola soy una flo
 
 o Arbusto: método para mostrar un mensaje en pantalla que diga “Hola soy un arbusto”
 
+
 • Crear en el Main un objeto de cada clase hija. Llamar a los 3 métodos desde cada objeto.
+
 
 • Cambiar el modificador de acceso de los métodos de public a private. Intentar acceder desde el main a estos métodos.
 
-## Ejercicio Nº 2
+
+:star: [Ver ejercicio resuelto](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia8y9_poo/Guia8y9Ejercicio2)
+
+---
+
+## Ejercicio Nº 4
 
 • Crear una clase Vehiculo con los atributos: patente, num de chasis, motor, color, marca, modelo cantidad de asientos (con sus métodos y constructores correspondientes).
 
@@ -100,9 +117,8 @@ IMPLEMENTAR HERENCIA y sobreescritura de métodos.
 
 ---
 
-## 3) Clases abstractas
+## Ejercicio Nº 3 Clases abstractas
 
-### Ejercicio Nº 1
 
 
 • Crear una clase abstracta llamada consola, la cual tenga los atributos: 
@@ -128,6 +144,8 @@ Si está conectada a internet o no, si la calidad 4K está activada y si se perm
 
 
 Una vez desarrolladas cada una de las clases, se solicita desde la clase Main, crear una instancia de cada una de ellas y llamar a sus correspondientes métodos. Tener en cuenta que todas las consolas, al heredar de una clase abstracta, deben implementar el/los método/s de su clase madre utilizando sobreescritura de métodos.
+
+:star: [Ver ejercicio resuelto](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia8y9_poo/Gui8y9ejercicio3)
 
 ---
 
