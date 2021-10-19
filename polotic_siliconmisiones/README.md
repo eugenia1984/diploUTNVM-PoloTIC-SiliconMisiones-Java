@@ -405,7 +405,7 @@ Teoría:
 
 # 📕  CLASE 14 : 06 OCTUBRE
 
-:computer: La teoría d ela clase está en -> [**clase14_poo**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/polotic_siliconmisiones/clase14_poo)
+:computer: La teoría de la clase está en -> [**clase14_poo**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/polotic_siliconmisiones/clase14_poo)
 
 Temas:
 
@@ -419,6 +419,8 @@ Temas:
 
 # 📕  CLASE 15
 
+:computer: La teoría de la clase está en ->  [**clase 15**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase15)
+
 Temas:
 
  * Clase abstracta
@@ -427,6 +429,14 @@ Temas:
 ---
 
 :star: [**Guia de ejercicios 8 y 9**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia8y9_poo)
+
+---
+  
+# 📕  CLASE 16 : 18 OCTUBRE
+
+:computer: La teoría de la clase está en ->  [**clase 16**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase16)
+
+
 
 ---
 
