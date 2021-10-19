@@ -114,8 +114,10 @@ PISTA: Todos tendrán el mismo método, con el mismo nombre pero únicamente cam
 
 IMPLEMENTAR HERENCIA y sobreescritura de métodos.
 
+:star: [Ver resolucion ejercicio 4](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia8y9_poo/Guia8y9Ejercicio4)
 
 ---
+
 
 ## Ejercicio Nº 3 Clases abstractas
 
@@ -170,5 +172,6 @@ A partir de estas interfaces, el Pokefanático desea crear las clases que maneje
 
 Una vez implementadas la clase abstracta e interfaces, sobrescribir los métodos correspondientes para adaptarlos a cada Pókemon mostrando un mensaje en pantalla que indique qué pókemon es y qué ataque está realizando, por ejemplo: “Soy Charmander y estoy atacando con Ascuas” o “Soy Pikachu y estoy atacando con placaje”. Luego de realizar lo mencionado, crear las instancias necesarias y llamar a cada uno de los métodos de cada Pokemon.
 
+:star: [VEr resolucion ejercicio](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia8y9_poo/Guia7y8Ejercicio5)
 
 ---
