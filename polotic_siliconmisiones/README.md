@@ -436,7 +436,15 @@ Temas:
 
 :computer: La teoría de la clase está en ->  [**clase 16**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase16)
 
+Se vieron algunas partes de los ejercicios de la guia 7 y 8, que podes ver como los resolvi ->
 
+[**Guia de ejercicios 8 y 9**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia8y9_poo)
+
+---
+
+# 📕  CLASE 17 : 20 OCTUBRE
+
+:computer: La teoría de la clase está en ->  [**clase 17**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase17)
 
 ---
 
