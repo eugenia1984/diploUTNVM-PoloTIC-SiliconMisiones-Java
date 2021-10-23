@@ -446,6 +446,15 @@ Se vieron algunas partes de los ejercicios de la guia 7 y 8, que podes ver como 
 
 :computer: La teoría de la clase está en ->  [**clase 17**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase17)
 
+Tema:
+
+ * Colecciones: List, ArrayList, LinkedList, Stack
+
+---
+
+
+# 📕  CLASE 18 : 25 OCTUBRE
+
 ---
 
 📌 Seguir a **Silicon Misiones** en: 
