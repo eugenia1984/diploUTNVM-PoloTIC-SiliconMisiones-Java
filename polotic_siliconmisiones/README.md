@@ -453,11 +453,17 @@ Tema:
 ---
 
 
-# 📕  CLASE 18 : 25 OCTUBRE
+# 📕  CLASE 18 : 25 OCTUBRE: COLLECTIONS Y EXCEPCIONES
 
 ---
 
 :star: [**Guia de ejercicios 10**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia10)
+
+---
+
+# 📕  CLASE 19 : 27 OCTUBRE : JPA
+
+[**Ver video en YouTube**](https://www.youtube.com/playlist?list=PLQxX2eiEaqbx-JlkcrMlq9zIPxTA82kzk)
 
 ---
 
