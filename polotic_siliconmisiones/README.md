@@ -457,6 +457,10 @@ Tema:
 
 ---
 
+:star: [**Guia de ejercicios 10**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia10)
+
+---
+
 📌 Seguir a **Silicon Misiones** en: 
 
 
