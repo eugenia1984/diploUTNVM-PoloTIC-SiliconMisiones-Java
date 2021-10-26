@@ -465,6 +465,12 @@ Tema:
 
 [**Ver video en YouTube**](https://www.youtube.com/playlist?list=PLQxX2eiEaqbx-JlkcrMlq9zIPxTA82kzk)
 
+Temas:
+
+-Excepciones propias de Java: RunTimeException y IOException
+
+-Personalizadas
+
 ---
 
 📌 Seguir a **Silicon Misiones** en: 
