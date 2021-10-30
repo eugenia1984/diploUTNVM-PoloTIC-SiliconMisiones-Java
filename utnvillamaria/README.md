@@ -399,10 +399,13 @@ Formación en técnicas de programación y especificaciones técnicas bajo el pa
 
 Temas:
 
-     * Objetivos
-     * Bloques
-     * Objetos
-     * Clases
+- Objetivos
+
+- Bloques
+
+- Objetos
+
+- Clases
 
 ---
 
@@ -419,15 +422,15 @@ Temas:
 
 Temas:
 
-     * Abstracción: caracterísicas esenciales de los objetos. Nivel de detalle. Coportamiento de su implementación. Descubrimiento / invensión. Clases.
+- Abstracción: caracterísicas esenciales de los objetos. Nivel de detalle. Coportamiento de su implementación. Descubrimiento / invensión. Clases.
      
-     * Encapsulamiento: sirve para separar interfaz de su implementación. Se centra en implementación que da lugar al comportamiento. Modificadores de accesos.
+- Encapsulamiento: sirve para separar interfaz de su implementación. Se centra en implementación que da lugar al comportamiento. Modificadores de accesos.
     
-    * Modularidad: empaqueta abstracciones en unidades discretas. Alta cohesión (relación), bajo acoplamiento (dependencia).
+- Modularidad: empaqueta abstracciones en unidades discretas. Alta cohesión (relación), bajo acoplamiento (dependencia).
     
-    * Jerarquía: de clases (HERENCIA -> "es un..." , SIMPLE o MÚLTIPLE), de parte ("parte de..., describe relaciones de agregación).
+- Jerarquía: de clases (HERENCIA -> "es un..." , SIMPLE o MÚLTIPLE), de parte ("parte de..., describe relaciones de agregación).
     
-    * Polimorfismo
+- Polimorfismo
     
 ---
 
@@ -435,17 +438,17 @@ Temas:
 
 Temas vistos:
 
--Atributos y métodos en POO
+- Atributos y métodos en POO
 
--¿Qué es un atributo ?
+- ¿Qué es un atributo ?
 
--Modificadores de acceso
+- Modificadores de acceso
 
--¿Qué es un método ?
+- ¿Qué es un método ?
 
--Llamar a un método
+- Llamar a un método
 
--Debuggear
+- Debuggear
 
 ---
 
@@ -453,13 +456,13 @@ Temas vistos:
 
 Temas vistos:
 
-* Repaso de: Abstracción / Encapsulamiento / Modularidad / Jerarquía / Polimorfismo   
+- Repaso de: Abstracción / Encapsulamiento / Modularidad / Jerarquía / Polimorfismo   
 
-* Modelos y la importancia de modelar:
+- Modelos y la importancia de modelar:
 
--¿Qué es un modelo? ¿Por qué modelamos? 
+¿Qué es un modelo? ¿Por qué modelamos? 
 
--¿Qué es un UML?  ¿Por qué UML es un lenguaje?
+¿Qué es un UML?  ¿Por qué UML es un lenguaje?
 
 -Tres tipos de modelos: bloques de construcción, mecanismos comunes, arquitectura
 
@@ -475,15 +478,15 @@ Temas vistos:
 
 Temas:
 
--return
+- return
 
--getter y setter
+- getter y setter
 
--sobrecarga de métodos
+- sobrecarga de métodos
 
--métodos útiles de java
+- métodos útiles de java
 
--ejercicios
+- ejercicios
 
 ---
 
@@ -491,11 +494,11 @@ Temas:
 
 Temas:
 
--Diagrama de Maquina de Estados
+- Diagrama de Maquina de Estados
 
--Requerimientos
+- Requerimientos
 
--Diagramas de casos de uso
+- Diagramas de casos de uso
 
 ---
 
@@ -504,9 +507,9 @@ Temas:
 
 Temas:
 
--Asociaciones entre clases. Diagramas de clases. caso práctico.
+- Asociaciones entre clases. Diagramas de clases. caso práctico.
 
--Ejercicio para la próxima clase.
+- Ejercicio para la próxima clase.
 
 ---
 
@@ -514,7 +517,7 @@ Temas:
 
 Temas:
 
--Diagrama de secuencia
+- Diagrama de secuencia
 
 ---
 
@@ -522,9 +525,9 @@ Temas:
 
 Temas:
 
--Terminamos el ejercicio practico de relación de clases
+- Terminamos el ejercicio practico de relación de clases
 
--JFrame
+- JFrame
 
 ---
 
