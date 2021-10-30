@@ -528,28 +528,6 @@ Temas:
 
 ---
 
-# :star: Módulo 3: Desarrollo de Aplicaciones Webs
-
-Formación en programación en ambientes web, utilizando el lenguaje de Progrmación Orientada a objetos.
-
----
-
-:computer:[**clase 23**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase23)
-
-Temas:
-
--Java
-
--JVM
-
--JDK
-
--JRE
-
-[**Hace click para ver el grafico con todo el entorno de Java**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/clase23/grafico.pdf)
-
----
-
 :computer:[**clase 24**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase24)
 
 Temas:
@@ -575,6 +553,32 @@ Temas:
 - **Herencia**: palabras reservadas: **extends**, **protected**, **super**.
 
 - Comparación de Strings
+
+
+:computer: [ejemplo en código](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase25/herencia)
+
+---
+
+# :star: Módulo 3: Desarrollo de Aplicaciones Webs
+
+Formación en programación en ambientes web, utilizando el lenguaje de Programación Orientada a objetos.
+
+---
+
+:computer:[**clase 23**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase23)
+
+Temas:
+
+-Java
+
+-JVM
+
+-JDK
+
+-JRE
+
+[**Hace click para ver el grafico con todo el entorno de Java**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/clase23/grafico.pdf)
+
  
 ---
 
