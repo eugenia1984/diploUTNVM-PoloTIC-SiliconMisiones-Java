@@ -282,4 +282,21 @@ El dueño de la pizería ha manifestado la necesidad de acceder al menos a la si
                                                               -----------------
 ```
 
+lLA MÁQUINA DE ESTADO DE LA CLASE PEDIDO:
+
+```
+ creacion del pedido /new()                    confirmacion del Pedido /confirmar()
+----------------------------> PTECONFIRMACION --------------------------------------------> ENPREPARACION
+                               |                                                             |    |
+                               | Cancelacion del pedido / cancelar()                         |    |  Pedido preparado y listo / terminar()
+                               v                         Cancelacion del pedido / cancelar() |    |
+                            CANCELADO  <------------------------------------------------------    V
+                               |                                                              PREFACTURACION
+                               |                                                                  |
+                               |                                                                  |  Pedido facturado / facturar()
+                               ---------> * <----------------------------FACTURADO ----------------
+                                                 Pedido facturado / facturar()
+
+```
+
 ---
