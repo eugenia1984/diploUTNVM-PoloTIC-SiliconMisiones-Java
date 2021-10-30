@@ -35,3 +35,48 @@ Temas a ver:
 -Debe declararse público (salvo casos excepcionales) para que pueda ser invocado desde cualquier partte donde se crea un objeto de su clase
 
 ---
+
+## Palabra reservada static
+
+Se puede utilizar tanto en **variables** como en **métodos**. 
+
+Una variable estática (**static**) en Java es una variable que pertenece a la clase en que fue declarada y **se iniciliza solo una vez al inicio de la ejecución del programa**, la característica principal de este tipo de variables es que se puede acceder directamente con el nombre de la clase sin necesidad de crear un objeto.
+
+Otros detalles de la variable **static** en java:
+
+-Es una variable que **pertenece a la clase y no al objeto**
+
+-Las variables static se inicializan sol ouna vez, al inciio de la ejecución. Estas variables se inicializarán primero, antes de la inicilización de cualquier variable de instancia.
+
+
+Se suele tener e los proyectos una **clase Util** donde se guardan constantes,  o métodos que voy a utilizar en varios lugares, a veces es para manipular fechas.
+
+Por ejemplo
+
+```JAVA
+package miProyecto;
+
+public class Util {
+  private static String anioactual = "2021";
+}
+```
+
+Y a esta variable **anioActual** voy a poder acceder desde cualquier lugar de **miProyecto** sin necesidad de tener que instanciar un objeto de la clase *Util*.
+
+```JAVA
+pakage miProyecto;
+
+public class Main {
+  public static void main(String[] args){
+    System.out.println(Util.anioActual);  //2021
+  }
+}
+```
+
+---
+
+## Palabra reservada final
+
+---
+
+## Método toString()
