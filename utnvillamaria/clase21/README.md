@@ -105,7 +105,7 @@ Una herramienta que puede usarse **Balsamiq Mockups**
 
 *Poca fiabilidad
 
-*Caracterñisticas de operación pobres
+*Caracteristicas de operación pobres
 
 El prototipo solo debe ser del 10 % del proyecto, normalemnte solo me debe ocupar pocos dias de desarrollo.
 
@@ -113,5 +113,11 @@ Lo puedo hacer también con un diagrama de flujo.
 
 Hasta puedo hacer el prototipado en papel.
 
+
+---
+
+## Relación de casos de usu de Análisis
+
+Modelo de Dominio + Escenarios de asos de Uso -> Realizaciones de Casos de Uso
 
 ---
