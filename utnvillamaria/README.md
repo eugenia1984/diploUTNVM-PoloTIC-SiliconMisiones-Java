@@ -582,7 +582,12 @@ Temas:
 
 [**Hace click para ver el grafico con todo el entorno de Java**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/clase23/grafico.pdf)
 
- 
+---
+
+:computer:[**clase 26**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase26)
+
+Herramienta para hacer Diagramas UML ->   [https://staruml.io/](https://staruml.io/)
+
 ---
 
 ## Fuentes de información:
