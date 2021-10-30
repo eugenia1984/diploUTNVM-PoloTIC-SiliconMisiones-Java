@@ -604,7 +604,3 @@ Temas:
 
 ---
 
-
-## Módulo 3 : Desarrollo de aplicaciones webs
-
-Formación en programación en ambientes web, utilizando el lenguaje POO
