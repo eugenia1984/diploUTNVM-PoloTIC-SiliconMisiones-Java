@@ -548,10 +548,13 @@ Temas:
 
 Temas:
 
-    * constructores
-    * palabra reservada static
-    * palabra reservada final
-    * método toString()
+- Constructores
+
+- Palabra reservada static
+
+- Palabra reservada final
+
+- Método toString()
     
 ---
 
@@ -559,9 +562,11 @@ Temas:
 
 Temas:
 
-    *  Palabra reservada **this**
-    * **Herencia**: palabras reservadas: **extends**, **protected**, **super**.
-    * Comparación de Strings
+- Palabra reservada **this**
+
+- **Herencia**: palabras reservadas: **extends**, **protected**, **super**.
+
+- Comparación de Strings
  
 ---
 
