@@ -555,6 +555,16 @@ Temas:
     
 ---
 
+:computer:[**clase 25**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase25)
+
+Temas:
+
+    *  Palabra reservada **this**
+    * **Herencia**: palabras reservadas: **extends**, **protected**, **super**.
+    * Comparación de Strings
+ 
+---
+
 ## Fuentes de información:
 
  Armour Frank & Miller Granville –ADVANCED USE CASE MODELING-EDITORIAL ADDISON WESLEY, AÑO2000.
