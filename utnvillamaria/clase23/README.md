@@ -146,7 +146,7 @@ Creación automática de documentación asociada al cçodigo mediante la herrami
   
 ---
 
-## Manejo de Escepciones
+## Manejo de Excepciones
 
 Es cierto tipo de error o una condición normal que se ha producido durante la ejecución de un programa.
 
@@ -171,5 +171,73 @@ Algunas excepciones son fatales y provocan el din de ejecución del programa.
         |--NegativeArraySizeException         |--MalformedURLException
 
 ```
+
+---
+
+La **API de Java** (Interfaz de programación de aplicaciones) es provista por los creadores de **Java**, que brinda los medios para desarrollar aplicaciones Java
+
+Serían todos los *import*.
+
+```
+ java
+  |
+  |--lang
+  |        |--ArrayList
+  |--util--|--LinkedLins
+  |        |--otras
+  |
+  |--io
+  |
+  |--math
+  |
+  |--sql
+  |
+  |--net
+  |            |--color
+  |--awt-------|--event
+  |            |--otras
+  |
+  |--otras
+ 
+```
+
+
+```
+Javax
+ |
+ |--swing
+ |--imageio
+ |--orypto
+ |--sql
+ |--otras
+```
+
+---
+
+## Javadoc
+
+Es una utilidad de oracle de documentación en formato de página web a partir de código fuente Java, es el estándard para documentar clases de Java.
+
+---
+
+## Práctico propuesto (no es obligatorio)
+
+Un aenunciado para ver si se entendió bien la parte teórica del POO.
+
+Una pizzería de la ciudad ofrece a sus cleintes una amplia variedad de pizzas de fabricación propia, de varios tamaños (8, 10 y 12 porciones). Los clientes tienen a disposición en menú que describe para cada ua de las variedades, el nombre, los ingredientes y el precio según el tamaño y el tipo (a piedra, a la parrilla, de molde) de la pizza.
+
+Los clientes realizan sus pedidos en el mostrador.
+
+El pedido debe contener el nombre dle cliente, para lalmarlo cuando su pedido está listo; la cantidad de pizzas, el tamaño, la variedad, la fecha del pedido, la hora en la que el pedido debe entregarse y la demora estimada informada al cliente.
+
+El pedido va a la cocina y cuando está preparado se informa al que lo tomó para que se genere la factura correspondiente y se le entregue el pedido al cliente.
+
+El dueño de la pizería ha manifestado la necesidad de acceder al menos a la sigueitnte información:
+
+-variedades y tipos de pizzas más pedidas por los cleintes
+
+-ingresos (recaudaciones) por períodos de tiempo
+
+-listar lo que crean que pueden llegar a ser clases del sistema
 
 ---
