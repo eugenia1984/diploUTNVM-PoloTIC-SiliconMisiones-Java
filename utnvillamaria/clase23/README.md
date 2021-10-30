@@ -44,7 +44,8 @@
 -Compilado e interpretado
 
 ```
-archivo de código formato java -> compilado -> archivo compilado formato .class -> Java VM -> maquina virtual -> 0101001... -> computadora
+archivo de código  -> compilado -> archivo compilado  -> Java VM -> maquina virtual -> 0101001... -> computadora
+formato java                        formato .class
 ```
 
 *Escribir una vez, correr para siempre. El mismo código se puede ejecutar en cualquier máquina.
@@ -55,7 +56,8 @@ archivo de código formato java -> compilado -> archivo compilado formato .class
 Ees una plataforma dependiente del sistema operativo y el hardware que interpreta y ejecuta el codigo del usuario.
 
 ```
-JavaCode(java file) -> Java Compiler -> Java Bytecode (class file) -> JRE 
+  JavaCode -> Java Compiler -> Java Bytecode -> JRE 
+(java file)                     (class file)
 ```
 
 ### JDK (Java Development Kit)
@@ -131,5 +133,43 @@ Creación automática de documentación asociada al cçodigo mediante la herrami
 -Una instrucción puede abarcar más de una línea.
 
 -Cada bloque de código comienza con **llave que abre** y termina con **llave que cierra**.
+
+---
+
+-Los tipos de variables disponibles son tres:
+
+  * **Tipos básicos** (no son objetos, los primitivos, como: int, double, float,byte, short, long, char, boolean). Al declararlo su primer letra comienza en minúscula.
+  
+  * **Arreglos** (arrays o vectores)
+  
+  * **Clases** e **interfaces**
+  
+---
+
+## Manejo de Escepciones
+
+Es cierto tipo de error o una condición normal que se ha producido durante la ejecución de un programa.
+
+Algunas excepciones son fatales y provocan el din de ejecución del programa.
+
+```
+              Throwable
+                 |
+                 |
+   --------------------------------------------  
+   |                                          |
+ Error                                     Exception
+                                              |
+                                              |
+          --------------------------------------------------------------------
+          |                                      |                           |
+          |                                      |                           |
+       RunTimeException                      IOException                  AWTException
+        |                                     |
+        |--NullPointerException               |--EOFException
+        |--IndexOutOfBoundsException          |--FileNotFoundException
+        |--NegativeArraySizeException         |--MalformedURLException
+
+```
 
 ---
