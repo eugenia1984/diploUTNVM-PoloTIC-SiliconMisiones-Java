@@ -282,19 +282,19 @@ El dueño de la pizería ha manifestado la necesidad de acceder al menos a la si
                                                               -----------------
 ```
 
-lLA MÁQUINA DE ESTADO DE LA CLASE PEDIDO:
+La máquina de estado de la clase pedido:
 
 ```
  creacion del pedido /new()                    confirmacion del Pedido /confirmar()
 ----------------------------> PTECONFIRMACION --------------------------------------------> ENPREPARACION
-                               |                                                             |    |
-                               | Cancelacion del pedido / cancelar()                         |    |  Pedido preparado y listo / terminar()
-                               v                         Cancelacion del pedido / cancelar() |    |
-                            CANCELADO  <------------------------------------------------------    V
-                               |                                                              PREFACTURACION
-                               |                                                                  |
-                               |                                                                  |  Pedido facturado / facturar()
-                               ---------> * <----------------------------FACTURADO ----------------
+                               |                                                             |     |
+                               | Cancelacion del pedido / cancelar()                         |     |  Pedido preparado y listo / terminar()
+                               v                         Cancelacion del pedido / cancelar() |     |
+                            CANCELADO  <------------------------------------------------------     V
+                               |                                                               PREFACTURACION
+                               |                                                                   |
+                               |                                                                   |  Pedido facturado / facturar()
+                               ---------> * <----------------------------FACTURADO -----------------
                                                  Pedido facturado / facturar()
 
 ```
@@ -322,5 +322,28 @@ lLA MÁQUINA DE ESTADO DE LA CLASE PEDIDO:
 - Crear menu de pizzeria
 
 - Actualizar precios de pizzas
+
+Ejemplo de Facturar pedido:
+
+```
+Como verdador quiero facturar un pedido para poder cobrar las pizzas vendidas.
+
+Nota:
+-Se facturan pedidos que ya estén preparados y no hayan sido facturados aun.
+-Al confirmar la factura se actualiza el estado del pedido como FACTURADO.
+-La factura debe imprimirse y guardarse
+-La factura debe tener un numero correlativo y secuencial que no se repita que debe generarse en forma automatica
+-La factura debe tener una fecha y hora de emision, que se agregara en forma automatica
+-La factura puede o no tener el nombre del cliente
+-La factura debe detalalr de cada una de las pizzas que estaban en el pedido: cantidad de pizzas por variedad, tipo de pizza, tamaño, precio unitario y precio totoal por variedad y el monto total
+
+Prueas de usuario:
+-Probar facturar pedidos en estados listos que no han sido facturados(pasa)
+-Probar facturar pedidos en estado listos que ya han sido facturados (falla)
+- -Probar confirmar la registración e imprimir (pasa)
+-Probar facturar sin nombre de cleinte (pasa)
+-Probar facturar sin elegir el pedido a facturar (falla)
+-Probar no confirmar la generación de la actura y que no cambie el estado del pedido (pasa)
+```
 
 ---
