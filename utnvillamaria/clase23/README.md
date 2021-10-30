@@ -76,3 +76,60 @@ Es la implementación de la Máquina Virtual de Java que realmente ejecuta los p
 
 ---
 
+## Características de java
+
+### Orientado a Objetos
+
+Es un lenguaje creado originalmente para trabajar con **objetos**. De hecho, todo lo que hay en Java son objetos.
+
+### Independiente de la plataforma
+
+Existen máquinas virtuales para diversas plataformas de hardware.
+
+### Compilado e Interpretado
+
+Todo programa ha de compilarse yigo que se genere **bytecode** es interpretado por una máquina virtual.
+
+### Robusto
+
+Su diseño contempla el manejo de errores a través del mecanismo de Excepciones.
+
+### Gestiona la memoria automáticamente
+
+La JVM gestiona la memoria dinámicamente, existe el **garbage colector**.
+
+### No permite el uso de técnicas de programación inadecuadas
+
+Para crear un programa es necesario aplicar correctamente el paradigma de objetos
+
+### Multihilos
+
+Soporta la creación de partes de código que podrán ser ejecutadas de forma paralela y comunicarse entre sí.
+
+### Cliente - Servidor
+
+Java permite la creación de aplicaciones que pueden funcionar tanto como clientes como servidores.
+
+### Mecanismos de seguridad
+
+Posee un gestor de seguridad con el que puede restringir el accehso a los recursos del sistema y la JVM funciona como un **sandbox**
+
+### Herramientas de documentación
+
+Creación automática de documentación asociada al cçodigo mediante la herramienta **Javadoc**
+
+---
+
+## Sintaxis
+
+-La extensión de los archivos fuente es **.java** codificados en Unicode (al compilarse, que pasa a **.class**), codificación de caracteres de 16 bits que soporta la mayoría de los idiomas del mudo.
+
+-Hay diferencia entre mayúsucals y minúsculas (es **case sensitive**).
+
+-Cada línea de código debe terminar en un ; (**punto y coma**).
+
+-Una instrucción puede abarcar más de una línea.
+
+-Cada bloque de código comienza con **llave que abre** y termina con **llave que cierra**.
+
+---
