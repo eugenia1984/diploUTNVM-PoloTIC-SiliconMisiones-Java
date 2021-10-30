@@ -544,6 +544,17 @@ Temas:
 
 ---
 
+:computer:[**clase 24**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase24)
+
+Temas:
+
+    * constructores
+    * palabra reservada static
+    * palabra reservada final
+    * método toString()
+    
+---
+
 ## Fuentes de información:
 
  Armour Frank & Miller Granville –ADVANCED USE CASE MODELING-EDITORIAL ADDISON WESLEY, AÑO2000.
