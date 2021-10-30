@@ -103,6 +103,11 @@ En Java solo hay herencia simple, no existe la herencia múltiple.
 
 ## Comparación de Strings
 
+[Leer este artículo](https://careerkarma.com/blog/java-compare-strings/)
+
 ---
 
-:computer: [ejemplo en código]()
+:computer: [ejemplo en código](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase25/herencia)
+
+
+---
