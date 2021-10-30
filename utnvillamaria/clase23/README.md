@@ -299,4 +299,28 @@ lLA MÁQUINA DE ESTADO DE LA CLASE PEDIDO:
 
 ```
 
+###  Roles del Usuario:
+
+- Vendedor
+
+- Responsable de Cocina
+
+- Responsable de pizzería
+
+### Algunas historias de Usaurio identificadas como frases verbales
+
+- Facturar pedido
+
+- Registrar pedido
+
+- Cancelar pedido
+
+- Confirmar pedido en cocina
+
+- Cerrar el pedido en cocina
+
+- Crear menu de pizzeria
+
+- Actualizar precios de pizzas
+
 ---
