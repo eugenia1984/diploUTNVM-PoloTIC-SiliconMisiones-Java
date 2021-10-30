@@ -561,7 +561,9 @@ Temas:
 - Palabra reservada final
 
 - Método toString()
-    
+
+:computer: [**Para ver ejemplo en código**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase24/miProyecto)
+
 ---
 
 :computer:[**clase 25**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase25)
