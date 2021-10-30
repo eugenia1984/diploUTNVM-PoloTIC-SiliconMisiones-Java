@@ -93,8 +93,16 @@ En Java solo hay herencia simple, no existe la herencia múltiple.
 
 ## Herencia: palabra reservada: super
 
+-De manera similar con **this**, podemos utilizar **super** para evitar la ambiguedad en el nombre de las variables entre la subclase y superclase. Con **super** podemos hacer referencia a las variables de la clase padre (o superclase).
+
+-También se puede utilizar con los métodos (nuevamente, para evitar ambiguedad).
+
+-La palabra **super** también se puede usar para acceder al constructor de la clase padre. **Super** puede llamar a constructores tanto con parámetros como sin parámetros.
+
 ---
 
 ## Comparación de Strings
 
 ---
+
+:computer: [ejemplo en código]()
