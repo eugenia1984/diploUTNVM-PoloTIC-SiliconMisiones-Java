@@ -524,6 +524,26 @@ Temas:
 
 ---
 
+# Módulo 3: Desarrollo de Aplicaciones Webs
+
+---
+
+:computer:[**clase 23**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase23)
+
+Temas:
+
+-Java
+
+-JVM
+
+-JDK
+
+-JRE
+
+[**Hace click para ver el grafico con todo el entorno de Java**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/clase23/grafico.pdf)
+
+---
+
 ## Fuentes de información:
 
  Armour Frank & Miller Granville –ADVANCED USE CASE MODELING-EDITORIAL ADDISON WESLEY, AÑO2000.
