@@ -34,6 +34,8 @@ Temas a ver:
 
 -Debe declararse público (salvo casos excepcionales) para que pueda ser invocado desde cualquier partte donde se crea un objeto de su clase
 
+:computer: [**Para ver ejemplo en código**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase24/miProyecto)
+
 ---
 
 ## Palabra reservada static
