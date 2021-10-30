@@ -4,12 +4,24 @@
 
 Temas a ver:
 
--constructores
+-Constructores
 
 -Palabra reservada static
 
--palabra reservada final
+-Palabra reservada final
 
--método toString()
+-Método toString()
+
+---
+
+## Constructor
+
+-Es un método especial de una clase que se llama automáticamente siempre que se declara un objeto de esa clase.
+
+-Su función es inicializr el objeto y sirve para asegurarnos que los objetos siempre contengan valores válidos.
+
+-Si para una clase no se define ningún método constructor se crea uno automáticamente por defecto.
+
+-El **constructor por defecto** es un **consructor sin parámetros** que no hace nda. los atributos del objeto son inicializaados con los valores predeteminados por el sistma (null, 0).
 
 ---
