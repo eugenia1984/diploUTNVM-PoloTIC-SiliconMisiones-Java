@@ -1,6 +1,8 @@
 # Diplomatura Java UTN Villa Maria
 
-## Modulo 1 : Pensamiento lógico
+---
+
+# :star: Modulo 1 : Pensamiento lógico
 
 Formación en la construcción de las capacidades técnicas en torno a la lógica de progrmación.
 
@@ -387,9 +389,11 @@ Seguimos con francisco resolviendo los ejercicios prácticos de la [clase 10](ht
 
 ---
 
-## Módulo 2 : POO
+# :star: Módulo 2 : POO
 
 Formación en técnicas de programación y especificaciones técnicas bajo el paradigna de POO
+
+---
 
 :computer: [En la carpeta **CLASE 11**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase11_POO)
 
@@ -524,7 +528,9 @@ Temas:
 
 ---
 
-# Módulo 3: Desarrollo de Aplicaciones Webs
+# :star: Módulo 3: Desarrollo de Aplicaciones Webs
+
+Formación en programación en ambientes web, utilizando el lenguaje de Progrmación Orientada a objetos.
 
 ---
 
