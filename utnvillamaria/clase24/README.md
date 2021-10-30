@@ -51,7 +51,7 @@ Otros detalles de la variable **static** en java:
 -Las variables static se inicializan sol ouna vez, al inciio de la ejecución. Estas variables se inicializarán primero, antes de la inicilización de cualquier variable de instancia.
 
 
-Se suele tener e los proyectos una **clase Util** donde se guardan constantes,  o métodos que voy a utilizar en varios lugares, a veces es para manipular fechas.
+Se suele tener en los proyectos una **clase Util** donde se guardan constantes,  o métodos que voy a utilizar en varios lugares, a veces es para manipular fechas.
 
 Por ejemplo
 
