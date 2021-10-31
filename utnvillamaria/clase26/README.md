@@ -220,6 +220,6 @@ float precioDeLista = aplicaDescuento == true ? 123 : 234;
 
 En el caso de que la variable aplicaDescuento tenga valor verdadero, el precio de lista del producto que estamos analizando será menor; es importante destacar que la asignación anterior es equivalente a utilizar condicionales.
 
-```
+---
 
 
