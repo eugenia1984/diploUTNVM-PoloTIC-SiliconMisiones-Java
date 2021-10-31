@@ -3,6 +3,9 @@
 Temas:
 
 - Declaración de clases
+- Tipos de datos de referencia
+- Recolector de basura
+- Ámbito de las variables
 
 ---
 
@@ -74,10 +77,14 @@ Coordenadas del punto (1.0f, 2.0f)
 
 Como las dos referencias : unPunto y otroPunto, hacen referencia a la misma instancia, los cambios sobre el objeto se pueden realizar a través de cualquiera de ellas.
 
+Dos instancias con la msima referencia al mismo objeto. Al objeto lo modifico a través de la referencia
+
 ```
+            instancia de
 Objeto ----------------------> clase Punto
-  ^        instancia de
-  |-----------------------------------
+  ^  ^     
+  |  |
+  |  |-------------------------------|
   |                                  |
 Referencia                           |
  unPunto    <------------------ Referencia otroPunto
@@ -85,6 +92,37 @@ Referencia                           |
 
 ---
 
+## Recolector de basura
+
+
+Los objetos que dejan de estar referenciados a través de alguna variable no se pueden volver a recuperar.
+
+Para que ehstos objetos **desreferenciados** no ocupen memoria, un recolector de basura se encarga de **destruirlos** y liberar la memoria que estaban ocupando.
+
+Por lo tanto, para **destruiir** un ofbjeto basta con **asignar a su variable de referencia el valor null**.
+
+-No borro al objeto, sino borro la referencia del objeto.
+
+---
+
+## Ámbito de las variables
+
+Tienen un ciclo de vida:
+
+1-En la **declaración** se **reserva el espacio** necesario para que se puedan comenzar a utilizar (digamos que se avisa de su futura existencia).
+
+2-Se la **asigna a su primer valor** (la viariable nace)
+
+3-Se la **utiliza** en diversas sentencias
+
+4-Cuando finaliza el bloque en el que fue declarada, la **variable muere**. Es decir, **se libera el espacio que ocupa esa variable en memoria**. No se la podrá volver a utilizar. 
+
+
+El ámbito de las varaibles está determinado por l **bloque de código donde se declran** y todos los **bloques que estána nidados por debajo de este**.
+
+```JAVA
+
+---
 
 
 
