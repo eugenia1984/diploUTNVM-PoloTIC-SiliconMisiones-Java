@@ -603,6 +603,18 @@ Herramienta para hacer Diagramas UML ->   [https://staruml.io/](https://staruml.
 
 ---
 
+:computer:[**clase 27**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase27)
+
+Temas:
+
+- Arrays
+
+---
+
+:computer:[**clase 28**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase28)
+
+---
+
 ## Fuentes de información:
 
  Armour Frank & Miller Granville –ADVANCED USE CASE MODELING-EDITORIAL ADDISON WESLEY, AÑO2000.
