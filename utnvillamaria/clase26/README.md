@@ -6,8 +6,7 @@ Temas:
 - Tipos de datos de referencia
 - Recolector de basura
 - Ámbito de las variables
-- Operadores
-- Operadores lógicos
+- Operadores, Operadores lógicos, operadores de Asignación, Operador ternario
 
 ---
 
@@ -79,7 +78,7 @@ Coordenadas del punto (1.0f, 2.0f)
 
 Como las dos referencias : unPunto y otroPunto, hacen referencia a la misma instancia, los cambios sobre el objeto se pueden realizar a través de cualquiera de ellas.
 
-Dos instancias con la msima referencia al mismo objeto. Al objeto lo modifico a través de la referencia
+Dos instancias con la misma referencia al mismo objeto. Al objeto lo modifico a través de la referencia
 
 ```
             instancia de
@@ -99,7 +98,7 @@ Referencia                           |
 
 Los objetos que dejan de estar referenciados a través de alguna variable no se pueden volver a recuperar.
 
-Para que ehstos objetos **desreferenciados** no ocupen memoria, un recolector de basura se encarga de **destruirlos** y liberar la memoria que estaban ocupando.
+Para que estos objetos **desreferenciados** no ocupen memoria, un recolector de basura se encarga de **destruirlos** y liberar la memoria que estaban ocupando.
 
 Por lo tanto, para **destruiir** un ofbjeto basta con **asignar a su variable de referencia el valor null**.
 
@@ -120,7 +119,7 @@ Tienen un ciclo de vida:
 4-Cuando finaliza el bloque en el que fue declarada, la **variable muere**. Es decir, **se libera el espacio que ocupa esa variable en memoria**. No se la podrá volver a utilizar. 
 
 
-El ámbito de las varaibles está determinado por l **bloque de código donde se declran** y todos los **bloques que están anidados por debajo de este**.
+El ámbito de las variables está determinado por l **bloque de código donde se declran** y todos los **bloques que están anidados por debajo de este**.
 
 ```JAVA
 {
@@ -159,10 +158,68 @@ Orden: ```  3 * 2 / 7 + 2 ``` no e slo mismo que ``` 3 * ( (2 / 7 ) + 2) ```
 | != | es distinto |
 | <, <=, >, >= | menor, menor o igual, mayor, mayor o igual |
 | && | AND (Y) |
-| || | OR (O) |
+| (||) | OR (O) |
 | ! | NOT (NO) |
 
 ---
 
+## Operadores de Asignación
+
+
+Operadores aritméticos:
+
+```
++= suma y asignación   -> a+= b  ->  a = a+b
+-= resta y asignación  -> a-=  ->  a = a - b
+*= multiplicación y asgnación  -> a*=b  ->  a = a * b
+/= división y asignación  ->  a/=b  ->  a = a / b
+%= resto de la división y asignación  ->  a%=b  ->  a =  a % b
+```
+
+Operadores a nivel de bits:
+
+```
+&= and binario y asignación   ->  a&=b  ->  a = a & b
+|= or binario y asignación   ->  a|=b  ->  a = a | b
+^= xor binario y asignación   ->  a^=b  -> a = a ^ b
+<<= desplazamiento de bits hacia la izquierda en b posiciones y asignacion  ->  a<<=b  ->  a = a << b
+>>=  desplazamiento de bits hacia la derecha en b posiciones y asignacion  ->  a>>=b  ->  a == a >> b
+```
+
+Con los **operadores** puedo **CONCATENAR ASIGNACIONES**:
+
+```
+x1 = X2 = X3 = 5;  //todas valen 5
+```
+
+Con los **operadores** tengo **dos formas de usar el incremento y decremento**:
+
+```
+int x = 5;
+int y = 5;
+int z;
+z = x++;  // z vale 5, x vale 6
+z = ++y;  // z vale 6, y vale 6
+```
+
+---
+
+## Operador ternario
+
+Este operador (**if de una linea**) permite devolver un valor u otro según el valor de la expresión analizada.
+
+Su sintaxis es la sigueinte:
+
+``` ExpresiónLógica ? valorSiVerdadero : valorSiFalso;```
+
+Ejemplo en código:
+
+```JAVA
+float precioDeLista = aplicaDescuento == true ? 123 : 234;
+```
+
+En el caso de que la variable aplicaDescuento tenga valor verdadero, el precio de lista del producto que estamos analizando será menor; es importante destacar que la asignación anterior es equivalente a utilizar condicionales.
+
+```
 
 
