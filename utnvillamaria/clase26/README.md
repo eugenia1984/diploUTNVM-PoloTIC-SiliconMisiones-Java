@@ -6,6 +6,8 @@ Temas:
 - Tipos de datos de referencia
 - Recolector de basura
 - Ámbito de las variables
+- Operadores
+- Operadores lógicos
 
 ---
 
@@ -118,9 +120,47 @@ Tienen un ciclo de vida:
 4-Cuando finaliza el bloque en el que fue declarada, la **variable muere**. Es decir, **se libera el espacio que ocupa esa variable en memoria**. No se la podrá volver a utilizar. 
 
 
-El ámbito de las varaibles está determinado por l **bloque de código donde se declran** y todos los **bloques que estána nidados por debajo de este**.
+El ámbito de las varaibles está determinado por l **bloque de código donde se declran** y todos los **bloques que están anidados por debajo de este**.
 
 ```JAVA
+{
+  //aca tengo el bloque externo
+  int entero = 1;
+  Punto unPunto ) new Punto();
+      {
+        //aca tengo el bloque interno
+        int entero = 2; //error ya está declarada
+        unPunto = new Punto(1.0f, 1.0f);  //correcto
+      }
+}
+```
+
+---
+
+## Operadores
+
+```
++ suma
+- resta
+* multiplicacion
+/ divicion
+% resto de una división entre enteros (en otros lenguajes denominado mod)
+```
+
+Orden: ```  3 * 2 / 7 + 2 ``` no e slo mismo que ``` 3 * ( (2 / 7 ) + 2) ```
+
+---
+
+##  Operadores lógicos
+
+| operador | descripción |
+| -------- | ----------- |
+| == | es igual |
+| != | es distinto |
+| <, <=, >, >= | menor, menor o igual, mayor, mayor o igual |
+| && | AND (Y) |
+| || | OR (O) |
+| ! | NOT (NO) |
 
 ---
 
