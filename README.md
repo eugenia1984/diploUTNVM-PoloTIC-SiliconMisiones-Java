@@ -1,6 +1,6 @@
 # Diplomatura UTN Villa Maria - PoloTIC-SiliconMisiones - Full Stack Java 
 
-Voy a tener en este repositorio todos los ejercicios de práctiva de ambos cursos:
+Voy a tener en este repositorio todos los ejercicios de práctica de ambos cursos:
 
 :computer: **Diplomatura UTN Villa Maria** -> [**ver en UTN Villa Maria**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria)
 
@@ -13,7 +13,7 @@ Y dentro de cada una dejo el README con las consignas y los links a los ejercici
 
 ## Tecnologías utilizadas 🛠️
 
-**Java**
+**Java**, **MySQL**
 
 
 ---
