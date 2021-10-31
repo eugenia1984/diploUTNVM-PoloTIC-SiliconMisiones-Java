@@ -596,9 +596,8 @@ Temas:
 
 - Ámbito de las variables
 
-- Operadores
+- Operadores, Operadores lógicos, operadores de Asignación, Operador ternario
 
-- Operadores lógicos
 
 Herramienta para hacer Diagramas UML ->   [https://staruml.io/](https://staruml.io/)
 
