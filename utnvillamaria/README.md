@@ -594,6 +594,8 @@ Temas:
 
 - Recolector de basura
 
+- Ámbito de las variables
+
 Herramienta para hacer Diagramas UML ->   [https://staruml.io/](https://staruml.io/)
 
 ---
