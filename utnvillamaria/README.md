@@ -608,6 +608,9 @@ Herramienta para hacer Diagramas UML ->   [https://staruml.io/](https://staruml.
 Temas:
 
 - Arrays
+- String
+- Estructuras de control
+- Clases y Objetos
 
 ---
 
