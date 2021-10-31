@@ -598,6 +598,8 @@ Temas:
 
 - Operadores
 
+- Operadores lógicos
+
 Herramienta para hacer Diagramas UML ->   [https://staruml.io/](https://staruml.io/)
 
 ---
