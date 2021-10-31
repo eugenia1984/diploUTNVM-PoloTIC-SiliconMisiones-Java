@@ -3,12 +3,13 @@
 Temas:
 
 - Arrays
+- String
 
 ---
 
 ## Arrays
 
-son objetos, instancias de la clase Array, dispone de ciertos métodos útiles.
+Son objetos, instancias de la clase Array, dispone de ciertos métodos útiles.
 
 El tipo base puede ser un **tipo primitivo** o un **tipo de referencia**.
 
@@ -41,5 +42,19 @@ Pelicula arrayDePeliculas[] = { new Pelicula(), new Pelucila(datos)};
 
 ---
 
+## String
+
+En Java existe una clase para representar y manipular cadenas, la clase **String**
+
+Se pueden crear isntancias de una manera abreviada y sobre ells se puede utilizar el operador de concatenación **+**.
+
+Ejemplo:
+
+```JAVA
+Strinng frase = "Esta cadena es una frase";
+String larga = frase + " que se puede convertir en una frase larga"
+```
+
+---
 
 
