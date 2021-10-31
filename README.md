@@ -20,8 +20,6 @@ Y dentro de cada una dejo el README con las consignas y los links a los ejercici
 
 ## Por favor: 🎁
 
-* Si te gusto este contenido no te olvides de darle click a la:  ⭐
-
 * Compartí este contenido con otros 📢
 
 * Invita una cerveza 🍺 o un café ☕  a alguien del equipo 
