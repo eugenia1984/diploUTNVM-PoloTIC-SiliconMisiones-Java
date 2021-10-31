@@ -592,6 +592,8 @@ Temas:
 
 - Tipos de datos de referencia
 
+- Recolector de basura
+
 Herramienta para hacer Diagramas UML ->   [https://staruml.io/](https://staruml.io/)
 
 ---
