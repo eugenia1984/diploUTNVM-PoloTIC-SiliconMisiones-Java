@@ -586,6 +586,12 @@ Temas:
 
 :computer:[**clase 26**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase26)
 
+Temas:
+
+- Declaración de clases
+
+- Tipos de datos de referencia
+
 Herramienta para hacer Diagramas UML ->   [https://staruml.io/](https://staruml.io/)
 
 ---
