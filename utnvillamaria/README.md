@@ -596,6 +596,8 @@ Temas:
 
 - Ámbito de las variables
 
+- Operadores
+
 Herramienta para hacer Diagramas UML ->   [https://staruml.io/](https://staruml.io/)
 
 ---
