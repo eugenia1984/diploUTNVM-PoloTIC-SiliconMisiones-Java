@@ -4,6 +4,8 @@ Temas:
 
 - Arrays
 - String
+- Estructuras de control
+- Clases y Objetos
 
 ---
 
@@ -55,6 +57,53 @@ Strinng frase = "Esta cadena es una frase";
 String larga = frase + " que se puede convertir en una frase larga"
 ```
 
+:computer: [**En la imagen que te lleva este link se puede ver ejemplo de String**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/blob/main/utnvillamaria/clase27/string.pdf)
+
+utilizando: substring() , .length(), .equalsIgnoreCase().
+
 ---
+
+## Estructuras de control
+
+
+IF:
+
+```JAVA
+if ( condicion ) {
+  instruccion1();
+  instruccion2();
+  //etc
+} else {
+  instruccion1();
+  instruccion2();
+  //etc
+}
+```
+
+SWITCH:
+
+```JAVA
+switch ( expresion ) {
+  case valor1:
+             instrucciones();
+             break;
+  case valorn:
+             instrucciones();
+             break;
+  default:
+             instrucciones();       
+}
+```
+
+---
+
+## Clases y objetos
+
+
+**Encapsulamiento**:
+
+**Herencia**:
+
+**Polimorfismo**:
 
 
