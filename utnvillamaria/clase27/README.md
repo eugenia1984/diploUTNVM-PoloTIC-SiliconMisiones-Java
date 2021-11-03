@@ -160,5 +160,13 @@ Lo veo cuando puedo usar en cualquier clase los métodos *equal* y *toString*
 
 -Cada objeto que se crea tiene su propia copia de las variables miembro. Ejemplo, clase Circulo tiene sis propias coordenadas del centro x e y, y su propio valor del radio e. Se puede aplicar un metodo concreto poniendo el nombre del objeto y luego el nombre del metodo separados por un punto. por ejemplo, para calcular el area de un objeto de la case Circulo llamado c1 se escribe ```c1.area();``` 
 
+-La definicion de cada atributo debe empezar con un **modificador de acceso** que indican la visibilidad, private / protected / public.
+
+-Tras el modificador de acceso se escribe el **tipo de argumento**, primitivo o referencia.
+
+-Un atributo se puede declarar como **static**. Esto implica que no existe una copia de este atributo en cada instancia de la clase, si no que existe uno unico comun a todas las instancias. tambien se les llama atributos de la clase.
+
+-otro modificador que puede afectar el comportamiento de los atributos de una clase es **final**. Si un atributo se declara como  final, implica que no se puede cambiar su valor una vez definido. Es **constante**.
+
 ---
 
