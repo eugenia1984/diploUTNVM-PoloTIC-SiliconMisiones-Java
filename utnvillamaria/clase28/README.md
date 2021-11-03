@@ -32,10 +32,10 @@ public class Main {
     otroAuto.setMatricula("DD123");
     //la matricula de miAuto es DD123
     //la matricula de otroAuto es DD123
-    //setee las dos porque miAuto = otroAuto
+    //setee las dos porque miAuto = otroAuto (es una copia de la referencia)
   }
 
-  public static void cambiarMatricula(auto auto) {
+  public static void cambiarMatricula(Auto auto) {
     auto.setmatricula("CC123");
   }
 }
