@@ -66,5 +66,10 @@ public class Main {
 
 ## Ejercicio practico
 
+Nos encontramos trabajando en un nuevo sistema y nuestro PM nos ha encargado la tarea de desarrollar la pantalla y logica para DAR DE ALTA un Cliente en el sistema.
+
+El PM tambien nos solicito que sea posible CONSULTAR los Clientes del Sistema.
+
+El PM nos ha entregado la Clase Cliente con los datos que debe tener.
 
 ---
