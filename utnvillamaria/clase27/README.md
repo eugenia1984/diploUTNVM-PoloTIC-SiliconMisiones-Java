@@ -1,4 +1,4 @@
-# Clase 27 :  26 Octubre
+# 📖 Clase 27 :  26 Octubre
 
 Temas:
 
@@ -145,6 +145,20 @@ Lo veo cuando puedo usar en cualquier clase los métodos *equal* y *toString*
 
 -Las clases pueden agrupar en **packages**, introduciendo una linea al comienzo del fichero (**packageName**). Esta agrupacion en packages esta relacionada con la jerarquia de carpetas y archivos en la que se guardan las clases. En la practica usamos paquetes para agrupar clases con un mismo proposito usando jerarquia de paquetes, esta decision es muy importante a la hora de diseñar la estructura de nuestro programa.
 
+-Se separan en paquetes los tipos de clases: clases entidad, clases gestores (controllers), clases con mis vistas.
+
+
+-La POO esta centrada en los datos. Una clase son datos y metodos que operan sobre esos datos.
+
+-Cada objeto tiene su propia copia de las variables miembro.
+
+-Pueden ser de tipo primitivos (blloean, int, etc) o referencia de objetos de otra clase (agregacion o composicion).
+
+-Las variables miembros de tipos primitivos se inciializan siempre de modo automatico, incluso antes de llamar al constructor (false para boolean, el caracter null para char (codigo unicode ``` '\u000' ```) y cero para los tipos numericos). lo mas adecuado es inciializar en el constructor o cuando la declaro.
+
+-Las variables miembro se inicializan en el mismo orden en que aparecen en el codigo de la clase. Algunas variables pueden apoyarse en otras previamente definidas.
+
+-Cada objeto que se crea tiene su propia copia de las variables miembro. Ejemplo, clase Circulo tiene sis propias coordenadas del centro x e y, y su propio valor del radio e. Se puede aplicar un metodo concreto poniendo el nombre del objeto y luego el nombre del metodo separados por un punto. por ejemplo, para calcular el area de un objeto de la case Circulo llamado c1 se escribe ```c1.area();``` 
 
 ---
 
