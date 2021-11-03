@@ -616,6 +616,12 @@ Temas:
 
 :computer:[**clase 28**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase28)
 
+Clase practica
+
+---
+
+:computer:[**clase 29**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase29)
+
 ---
 
 ## Fuentes de información:
