@@ -455,6 +455,12 @@ Tema:
 
 # 📕  CLASE 18 : 25 OCTUBRE: COLLECTIONS Y EXCEPCIONES
 
+Temas:
+
+-Excepciones propias de Java: RunTimeException y IOException
+
+-Personalizadas
+
 ---
 
 :star: [**Guia de ejercicios 10**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia10)
@@ -463,13 +469,50 @@ Tema:
 
 # 📕  CLASE 19 : 27 OCTUBRE : JPA
 
+:computer: La teoría de la clase está en ->  [**clase 19**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase19)
+
 [**Ver video en YouTube**](https://www.youtube.com/playlist?list=PLQxX2eiEaqbx-JlkcrMlq9zIPxTA82kzk)
 
 Temas:
 
--Excepciones propias de Java: RunTimeException y IOException
+-Introduccion a JPA (Java Persistence API)
 
--Personalizadas
+-¿ Cómo funciona ?
+
+-Proveedores de JPA
+
+-MySQL Connection + Persistence Unit
+
+-ORM (Object Relational Mapping)
+
+---
+
+# 📕  CLASE 20 : 01 NOVIEMBRE
+
+---
+
+
+# 📕  CLASE 21 : 03 NOVIEMBRE
+
+---
+
+
+# 📕  CLASE 22 : 08 NOVIEMBRE
+
+---
+
+
+# 📕  CLASE 23 : 10 NOVIEMBRE
+
+---
+
+
+# 📕  CLASE 24 : 15 NOVIEMBRE
+
+---
+
+
+# 📕  CLASE 25 : 07 NOVIEMBRE
 
 ---
 
