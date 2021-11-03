@@ -39,3 +39,32 @@ public class Main {
     auto.setmatricula("CC123");
   }
 }
+```
+
+### Es posible tener varias referencias hacia el mismo objeto
+
+
+Otro modo más corto:
+
+```JAVA
+package inheritance;
+
+public class Main {
+  public static void main(String[] args) {
+    Auto miAuto = new Auto(); //creo un auto
+    miAuto.setMatricula("AA123");  //seteo matricula AA123
+    Auto otroAuto = miAuto;  //la variable otroAuto hace referencia a miAuto
+    //la matricula de miAuto es DD123
+    //la matricula de otroAuto es DD123
+  }
+
+ 
+}
+```
+
+---
+
+## Ejercicio practico
+
+
+---
