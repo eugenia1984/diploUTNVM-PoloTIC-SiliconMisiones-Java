@@ -165,13 +165,21 @@ Asi voy a tener el **modelo de capaz**
 package logica;
 
 import java.util.Date;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.TemporalType;
 
+@Entity
 public class Alumno {
   //Atributos
+  @Id
   private String dni;
+  @Basic
   private String nombre;
   private String apellido;
+  @Temporal(TemporalType.DATE)
   private Date fechaNac;
+  
   //constructor sin parametros
   public Alumno() {
   }
@@ -208,3 +216,12 @@ public class Alumno {
     this.fechaNac = fechaNac;
   }
 }
+```
+
+2-Voy a mi **META-INF** en **persistence** para agregar la Entidad que acabo de mapear (con las anotaciones con @que agregue en la clase y lso atributos).
+
+Voy a **Add class** y ya NetBeans me muestr ala clase creada.
+
+La **Agrego**
+
+---
