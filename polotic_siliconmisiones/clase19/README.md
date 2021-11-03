@@ -103,3 +103,108 @@ Si hice todo bien voy a ver un paquete **META-INF** con un archivo *persistance.
 ---
 
 ## ORM (Object Relational Mapping)
+
+El mapeo Objeto-Relacional, ORM en inglés, es una técnica de programación para convertir datos entre el sistema de tipos utilizado en un lenguaje de programación orientado a objetos y la utilización de una base de datos relacional como motor de persistencia.
+
+```
+--------------------              -----------------------
+   Class1                           Class2
+-------------------               ------------------------
+-field: type                         -field: type
+--------------------              ------------------------
++method(Type): Type                  +method(Type): Type
+--------------------              ------------------------
+     |                                |
+     |                                |
+     ----------------> ORM <-----------
+                       ^ ^
+                       |  |
+                       |  |
+                       BASE
+                        DE
+                       DATOS
+```
+Para esto se utilizan **anotaciones**, como:
+
+-**@Entity**: especifica la creación de una *entidad*. Se coloca al inicio de la clase.
+
+-**@Id**: Primary Key de la entidad.
+
+**@GeneratedValue(strategy=GenerationType.SEQUENCE)**: establece que la ID se va a generar de forma automática y secuencial.
+
+-**@Basic**: para hacer referencia a atributos comunes-
+
+-**@Temporal**: se usa normalmente en fechas.
+
+Si se quiere tener en cuenta la hora se utiliza: **@Temporal(TemporalType.TIMESTAMP)**
+
+Si solo se tiene en cuenta la fecha (DATE): **@Temporal(TemporalType.DATE)**
+
+-**@OneToMany**: indica una relación unidireccional de **1 a n**
+
+-**OneToMany**: indica una relacion de **1 a 1**
+
+---
+
+## Volviendo al ejemplo de codigo en NetBeans
+
+-Creo los paquetes: 
+
+**logica** (donde tengo mis clases Entidades y el Main)
+
+**igu** (interfaz de usuario)
+
+**persistencia**
+
+Asi voy a tener el **modelo de capaz**
+
+1- En el paquete **logica** creo la clase **Alumno**
+
+```JAVA
+
+package logica;
+
+import java.util.Date;
+
+public class Alumno {
+  //Atributos
+  private String dni;
+  private String nombre;
+  private String apellido;
+  private Date fechaNac;
+  //constructor sin parametros
+  public Alumno() {
+  }
+  //constructor con parametros
+  public Alumno(String dni, String nombre, String apellido, Date fechaNac) {
+    this.dni = dni;
+    this.nombre = nombre;
+    this.apellido = apellido;
+    this.fechaNac = fechaNac;
+  }
+  //getters y setters
+  public String getDni(){
+    return dni;
+  }
+  public String setDni(String dni) {
+    this.dni = dni;
+  }
+  public String getNombre(){
+    return nombre;
+  }
+  public String setNombre(String nombre) {
+    this.nombre = nombre;
+  }
+  public String getApellido(){
+    return apellido;
+  }
+  public String setApellido(String apellido) {
+    this.apellido = apellido;
+  }
+  public Date getFechaNac(){
+    return fechaNac;
+  }
+  public date setFechaNac( Date fechaNac) {
+    this.fechaNac = fechaNac;
+  }
+}
