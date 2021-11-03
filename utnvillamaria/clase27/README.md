@@ -100,10 +100,51 @@ switch ( expresion ) {
 ## Clases y objetos
 
 
-**Encapsulamiento**:
+**Encapsulamiento**: las clases pueden ser declaradas como *publicas* y como *paquete* (accesibles solo para otras clases del mismo paquete). Las variables miembros y los metodos pueden ser *public*, *private*, *protected* y *package*. De esta forma se puede controlar el acceso entre objetos y evitar un uso inadecuado.
 
-**Herencia**:
+**Herencia**: una clase puede derivar de otra (*extends*) y en ese caso hereda toda sus variables y metodos. una clase derivada puede añadir nuevas variables y metodos y/o definir las variables y metodos heredados.
 
-**Polimorfismo**:
+**Polimorfismo**: los objetos de distintas clases pertenecientes a una misma jerarquia o que implementan una misma interface, pueden responder de forma indistinta a un mismo metodo. Esto facilita la programación y el mantenimiento del código.
 
+---
+
+**Lenguajes POO**: ADA, C++, Objective C, Java, Smalltalk, Eiffel, Ruby, Python, OCAMIL, Object Pascal, CLIPS, Actionscript, Pascal, Perl, PHP, C#, Kotiln, Visual Basic .NET, Simula, Delphi, PowerBuilder, Visual FoxPro
+
+---
+
+Características:
+
+-Todas las variables y métodos de Java deben pertenecer a una **clase**. no hay variables y funciones globales.
+
+-Si una clase deriva (**extends**) de otra, hereda toda sus variables y métodos.
+
+-Java tiene una jerarquía de clases estandar de la que pueden derivar las clases que crean los usuarios.
+
+-una clase solo puede heredar de una **única clase** (**en java no hay herencia múltiple**). si la definir una clase no se especifica de que clase deriva, por defecto la clase deriva de **Object**. La clase **Object** es la base de toda la jerarquía de clases de Java.
+Lo veo cuando puedo usar en cualquier clase los métodos *equal* y *toString*
+
+```
+                          Object
+                            |
+   -------------------------------------------------
+   |           |            |           |          |
+ Boolean    Character     Number       Void      Class
+                            |--Byte
+                            |--Short
+                            |--integer
+                            |--Long
+                            |--Float
+                            |--Double
+```
+
+-En un archivo de codigo fuente se pueden definir varias clases, pero en un mismo archivo no puede haber mas que una clase definida como public. Este archivo se debe llamar como la clase public que debe tener extension .java. Con algunas excepciones, lo habitual es escribir una sola clase por archivo.
+
+-Si una clase contenida en un fichero no es public, no es necesario que el fichero se llame como la clase.
+
+-Los metodos y variables de una clase pueden referirse de modo global a un objeto de esa clase a la que se aplican por medio de la referencia **this**. Al utilizar la palabra reservada **this** para referirse tanto a métodos como atributos se restringe el ámbito al objeto que hace la declaración.
+
+-Las clases pueden agrupar en **packages**, introduciendo una linea al comienzo del fichero (**packageName**). Esta agrupacion en packages esta relacionada con la jerarquia de carpetas y archivos en la que se guardan las clases. En la practica usamos paquetes para agrupar clases con un mismo proposito usando jerarquia de paquetes, esta decision es muy importante a la hora de diseñar la estructura de nuestro programa.
+
+
+---
 
