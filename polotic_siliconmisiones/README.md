@@ -497,6 +497,9 @@ Temas:
 
 # 📕  CLASE 20 : 01 NOVIEMBRE
 
+:computer: La teoría de la clase está en ->  [**clase 20**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase20)
+
+
 ---
 
 
