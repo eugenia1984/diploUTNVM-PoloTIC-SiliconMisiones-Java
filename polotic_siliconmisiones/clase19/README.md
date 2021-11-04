@@ -86,7 +86,9 @@ Click en *test Connection*
 
 Si esta ok perfecto, pero como me detecta la zona horaria y puedo llegar a tener problemas, debo cambiar en **JDBC URL**:
 
+```
 ...//localhost:3306/nombre_de_mi_bd?serverTimezone=UTC
+```
 
 Y volvemos a testear, si esta ok, le doy a **Finish**.
 
@@ -249,5 +251,53 @@ Dentro de las clases controladoras de JPa, existen métodos creados por defecto 
 ### Modificar un Registro
 
 **Método Edit** ``` edit(ObejtoAEditar)```
+
+---
+
+## Volviendo la ejemplo practico de NetBeans
+
+En el **paquete Persistencia** voy a tener la clase **ControladoraPersistencia**:
+
+```JAVA
+package Persistencia;
+
+import Logica.ALumno;
+
+public class ControladoraPersistencia {
+//instancio unobjeto para poder utilizar sus metodos
+   AlumnoJpaController aluJPA = new AlumnoJpaController();
+   
+   public void crearAlumno(Alumno alu) {
+     //a traves del alu que te paso por parametro con JPA creame un Alumno
+     try {
+      aluJPA.create(alu);
+     } catch (Exception ex) {
+         Logger.getLogger(ControladoraPersistencia.class.getName()).log(Level.SEVERE, null, ex);
+     }
+   }
+}
+```
+
+Voy a mi main:
+
+```JAVA
+package Logica;
+
+import java.util.Date;
+import Persistencia.ControladoraPersistencia;
+
+public class TestJPA {
+    public static void main(String[] args) {
+    
+        //instancio un alumno ya con constructor con parametros
+        Alumno alumno = new Alumno("123456", "Eugenia" , "Costa", new Date("03/11/2021"));   //la fecha va como el formato en Estados Unidos dia/mes/año
+        
+        //instancio al controlador de persistencia
+        ControladoraPersistencia control = new ControladoraPersistencia();
+        //llamo al metodo que recien cree y le paso por parametro el alumno que recien instancie
+        control.crearAlumno(alumno);
+    }
+}
+```
 
 ---
