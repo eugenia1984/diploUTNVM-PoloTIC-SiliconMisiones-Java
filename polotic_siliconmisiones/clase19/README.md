@@ -397,4 +397,182 @@ Si voy a phpMyAdmin voy a actualizar la base de datos y veo que el alumno se eli
 ##  Edit (Modificar)
 
 
+Para modificar un alumno:
+
+```JAVA
+package Logica;
+
+import java.util.Date;
+import Persistencia.ControladoraPersistencia;
+
+public class TestJPA {
+    public static void main(String[] args) {
+    
+        Alumno alumno = new Alumno("123456", "Eugenia" , "Costa", new Date("03/11/2021")); 
+        //Alumno alumno2 = new Alumno("456789", "Analia" , "Perez", new Date("03/10/1962"));
+        
+        ControladoraPersistencia control = new ControladoraPersistencia();
+
+        control.crearAlumno(alumno);
+        control.crearAlumno(alumno2);
+        
+        //para ELIMINAR al alumno le paso por parametro el id
+        //debo tener en mi Persistecia el metodo
+        //control.eliminarAlumno("123456");
+        
+        //para modificar el apellido
+        alumno.setApellido("Sanchez");
+        //para modificar el nombre
+        alumno.setNombre("Maria");
+        
+        //para MODIFICAR al alumno debo tneer en Persistencia el metodo
+        control.modificaralumno(alumno);
+    }
+}
+```
+
+Y en mi Persistencia creo el metodo para modificar:
+
+```JAVA
+package Persistencia;
+
+import Logica.ALumno;
+
+public class ControladoraPersistencia {
+//instancio unobjeto para poder utilizar sus metodos
+   AlumnoJpaController aluJPA = new AlumnoJpaController();
+   
+   //METODO PARA CREAR UN ALUMNO
+   public void crearAlumno(Alumno alu) {
+     //a traves del alu que te paso por parametro con JPA creame un Alumno
+     try {
+      aluJPA.create(alu);
+     } catch (Exception ex) {
+         Logger.getLogger(ControladoraPersistencia.class.getName()).log(Level.SEVERE, null, ex);
+     }
+   }
+   
+   
+   //METODO PARA ELIMINAR UN ALUMNO
+   public void eliminarAlumno(String idAlumno) {
+      try {
+         aluJPA.destroy(idAlumno);
+      } catch (Exception ex) {
+         Logger.getLogger(ControladoraPersistencia.class.getName()).log(Level.SEVERE, null, ex);
+     }
+   }
+   
+   
+   //metodo para MODFICAR al alumno
+    public void modificarAlumno(Alumno alumno) {
+      try {
+         aluJPA.edit(alumno);
+      } catch (Exception ex) {
+         Logger.getLogger(ControladoraPersistencia.class.getName()).log(Level.SEVERE, null, ex);
+     }
+   }
+   
+ }
+```
+
+Si veo en la base de datos, voy a ver alumno modificado
+
+---
+
+##  Find y Find Entities
+
+Para traer todos los alumnos de la base de datos, o como traer uno en particular
+
+
+En mi mian:
+
+```JAVA
+package Logica;
+
+import java.util.Date;
+import java.util.List;
+
+import Persistencia.ControladoraPersistencia;
+
+public class TestJPA {
+    public static void main(String[] args) {
+         ControladoraPersistencia control = new ControladoraPersistencia();
+         
+         //genero una lista con registros de tipo Alumno
+         List<Alumno> alumnos = control.traerAlumnos();  //en mi controlador de persistencia tengo que tener este metodo
+         
+         System.out.println("\n--- La lista de alumnos ---");
+         //recorro la lista para mostrar todos los alumnos
+         for(Alumno alu : listaAlumnos) {
+            System.out.println("-"+alu.getDni()+" "+alu.getApellido()+" "+alu.getNombre());
+         }
+         
+         //en el caso de querer mostrar un alumno en particular
+         Alumno alu3 = control.traerAlumnoEnParticular("123456");  
+         //este metodo traerAlumnoEnParticular lo tengo que crear en mi persistencia que tiene como parametro al id
+         System.out.println("-"+alu3.getDni()+" "+alu3.getApellido()+" "+alu3.getNombre());
+    }
+}
+```
+
+En mi persistencia creo el metodo para traer los alumnos:
+
+```JAVA
+package Persistencia;
+
+import Logica.ALumno;
+
+public class ControladoraPersistencia {
+//instancio unobjeto para poder utilizar sus metodos
+   AlumnoJpaController aluJPA = new AlumnoJpaController();
+   
+   //METODO PARA CREAR UN ALUMNO
+   public void crearAlumno(Alumno alu) {
+     //a traves del alu que te paso por parametro con JPA creame un Alumno
+     try {
+      aluJPA.create(alu);
+     } catch (Exception ex) {
+         Logger.getLogger(ControladoraPersistencia.class.getName()).log(Level.SEVERE, null, ex);
+     }
+   }
+   
+   
+   //METODO PARA ELIMINAR UN ALUMNO
+   public void eliminarAlumno(String idAlumno) {
+      try {
+         aluJPA.destroy(idAlumno);
+      } catch (Exception ex) {
+         Logger.getLogger(ControladoraPersistencia.class.getName()).log(Level.SEVERE, null, ex);
+     }
+   }
+   
+   
+   //metodo para MODFICAR al alumno
+    public void modificarAlumno(Alumno alumno) {
+      try {
+         aluJPA.edit(alumno);
+      } catch (Exception ex) {
+         Logger.getLogger(ControladoraPersistencia.class.getName()).log(Level.SEVERE, null, ex);
+     }
+   }
+   
+   //metodo para TRAER los alumnos
+   public List<Alumno> traerAlumnos() {
+      //primero creo la lista de alumnos
+      List<Alumno> listaDeAlumnos = aluJPa.findAlumnoEntities();
+      //y luego la retorno
+      return listaDeAlumnos;
+   }
+   
+   //metodo para MOSTRAR UN DETERMINADO ALUMNO
+   public Alumno traerAlumnoEnParticular(String id) {
+       //me lo asigno a una variable auxiliar para guardar el resultado de la busqueda
+       Alumno alu = aluJPA.findAlumno(id);
+       //retorno
+       reurn alu;
+   }
+   
+ }
+```
+
 ---
