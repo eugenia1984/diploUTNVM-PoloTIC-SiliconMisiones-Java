@@ -502,8 +502,9 @@ Temas:
 
 ---
 
-
 # 📕  CLASE 21 : 03 NOVIEMBRE
+
+:computer: La teoría de la clase está en ->  [**clase 21**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase21)
 
 ---
 
