@@ -225,3 +225,29 @@ Voy a **Add class** y ya NetBeans me muestr ala clase creada.
 La **Agrego**
 
 ---
+
+## JPA Controllers + ORM + Create
+
+Dentro de las clases controladoras de JPa, existen métodos creados por defecto para realizar operaciones **ABML** (Alta, Baja, Modificacion, Lectura ,**CRUD** en ingles) en las bases de datos.
+
+### Alta de Registros
+
+**Método Create** ```create(ObjetoAcrear)```
+
+### Baja de Registros
+
+**Método Destroy** ```destroy(idRegistroADestruir)```
+
+### Encontrar un Registro
+
+**Método Find** ```find(RegistroAEncontrar)```
+
+### Traer todos los registros
+
+**Método Find Entities** ejemplo ```List<Alumno> findAlumnoEntities()```
+
+### Modificar un Registro
+
+**Método Edit** ``` edit(ObejtoAEditar)```
+
+---
