@@ -290,7 +290,7 @@ public class TestJPA {
     public static void main(String[] args) {
     
         //instancio un alumno ya con constructor con parametros
-        Alumno alumno = new Alumno("123456", "Eugenia" , "Costa", new Date("03/11/2021"));   //la fecha va como el formato en Estados Unidos dia/mes/año
+        Alumno alumno = new Alumno("123456", "Eugenia" , "Costa", new Date("01/09/1984"));   //la fecha va como el formato en Estados Unidos dia/mes/año
         
         //instancio al controlador de persistencia
         ControladoraPersistencia control = new ControladoraPersistencia();
@@ -299,5 +299,102 @@ public class TestJPA {
     }
 }
 ```
+
+Si corro mi main, y voy a phpMyAdmin voy a mi base de datos creada **escuela** y voy a ver a mi alumno creado.
+
+---
+
+## Destroy (Eliminar) 
+
+Vamos a crear un nuevo alumno y agregarlo a la base de datos:
+
+```JAVA
+package Logica;
+
+import java.util.Date;
+import Persistencia.ControladoraPersistencia;
+
+public class TestJPA {
+    public static void main(String[] args) {
+    
+        Alumno alumno = new Alumno("123456", "Eugenia" , "Costa", new Date("03/11/2021")); 
+        Alumno alumno2 = new Alumno("456789", "Analia" , "Perez", new Date("03/10/1962"));
+        
+        ControladoraPersistencia control = new ControladoraPersistencia();
+
+        control.crearAlumno(alumno);
+        control.crearAlumno(alumno2);
+    }
+}
+
+```
+
+Voy a eliminar un alumno:
+
+```JAVA
+package Logica;
+
+import java.util.Date;
+import Persistencia.ControladoraPersistencia;
+
+public class TestJPA {
+    public static void main(String[] args) {
+    
+        Alumno alumno = new Alumno("123456", "Eugenia" , "Costa", new Date("03/11/2021")); 
+        Alumno alumno2 = new Alumno("456789", "Analia" , "Perez", new Date("03/10/1962"));
+        
+        ControladoraPersistencia control = new ControladoraPersistencia();
+
+        control.crearAlumno(alumno);
+        control.crearAlumno(alumno2);
+        
+        //para ELIMINAR al alumno le paso por parametro el id
+        //debo tener en mi Persistecia el metodo
+        control.eliminarAlumno("123456");
+    }
+}
+```
+
+
+```JAVA
+package Persistencia;
+
+import Logica.ALumno;
+
+public class ControladoraPersistencia {
+//instancio unobjeto para poder utilizar sus metodos
+   AlumnoJpaController aluJPA = new AlumnoJpaController();
+   
+   //METODO PARA CREAR UN ALUMNO
+   public void crearAlumno(Alumno alu) {
+     //a traves del alu que te paso por parametro con JPA creame un Alumno
+     try {
+      aluJPA.create(alu);
+     } catch (Exception ex) {
+         Logger.getLogger(ControladoraPersistencia.class.getName()).log(Level.SEVERE, null, ex);
+     }
+   }
+   
+   
+   //METODO PARA ELIMINAR UN ALUMNO
+   public void aliminarAlumno(String idAlumno) {
+      try {
+         aluJPA.destroy(idAlumno);
+      } catch (Exception ex) {
+         Logger.getLogger(ControladoraPersistencia.class.getName()).log(Level.SEVERE, null, ex);
+     }
+   }
+   
+ }
+```
+
+En mi main comento donde creo a los alumnos, para no volver a crear los mismos, y solo dejo el metodo para eliminarlo.
+
+Si voy a phpMyAdmin voy a actualizar la base de datos y veo que el alumno se elimino
+
+---
+
+##  Edit (Modificar)
+
 
 ---
