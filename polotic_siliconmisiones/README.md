@@ -485,6 +485,14 @@ Temas:
 
 -ORM (Object Relational Mapping)
 
+-JPA Controllers + ORM + Create
+
+-Destroy (Eliminar)
+
+-Edit (Modificar)
+
+-Find y Find Entities
+
 ---
 
 # 📕  CLASE 20 : 01 NOVIEMBRE
