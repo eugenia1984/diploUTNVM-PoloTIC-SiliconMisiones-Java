@@ -90,21 +90,25 @@ El PM nos ha entregado la Clase Cliente con los datos que debe tener.
 
 ### Desglose del ejercicio
 
--Creacion del nuevo proyecto
+A-Creacion del nuevo proyecto
 
--Desarrollo de la Clase Customer
+B-Desarrollo de la Clase Customer
 
--Configurar el entorno para el desarrollo de la UI con JFrame
+C-Configurar el entorno para el desarrollo de la UI con JFrame
 
--Diseñar la UI para el Alta del Cliente
+D-Diseñar la UI para el Alta del Cliente
 
--Agregar la logica para cargar los clientes
+E-Agregar la logica para cargar los clientes
 
--Diseñar la UI para la Consulta de los Clientes
+F-Diseñar la UI para la Consulta de los Clientes
 
--Agregar la logica para mostrar los clientes en pantalla.
+G-Agregar la logica para mostrar los clientes en pantalla.
 
-1- Creo el proyecto **Customers**
+---
+
+## A-Creacion del nuevo proyecto
+
+Creo el proyecto **Customers**
 
 Y dentro del paquete **customers** creo los subpaquetes:
 
@@ -114,7 +118,9 @@ Y dentro del paquete **customers** creo los subpaquetes:
 
 -**customer.ui**
 
-2-Dentro del paquete **customers.domain** creo la clase **Customer.java**, con sus atributos, getters, setters y toString:
+## B-Desarrollo de la Clase Customer
+
+Dentro del paquete **customers.domain** creo la clase **Customer.java**, con sus atributos, getters, setters y toString:
 
 ```JAVA
 package customers.domain;
