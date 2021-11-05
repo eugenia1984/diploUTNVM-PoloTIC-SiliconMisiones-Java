@@ -104,4 +104,60 @@ El PM nos ha entregado la Clase Cliente con los datos que debe tener.
 
 -Agregar la logica para mostrar los clientes en pantalla.
 
+1- Creo el proyecto **Customers**
+
+Y dentro del paquete **customers** creo los subpaquetes:
+
+-**customers.controller**
+
+-**customers.domain**
+
+-**customer.ui**
+
+2-Dentro del paquete **customers.domain** creo la clase **Customer.java**, con sus atributos, getters, setters y toString:
+
+```JAVA
+package customers.domain;
+
+public class Customer {
+    //Atributos
+    private String firstname;
+    private String lastname;
+    private String nationalId;
+    //getters y setters
+    public String getFirstname() {
+        return firstname;
+    }
+
+    public void setFirstname(String firstname) {
+        this.firstname = firstname;
+    }
+
+    public String getLastname() {
+        return lastname;
+    }
+
+    public void setLastname(String lastname) {
+        this.lastname = lastname;
+    }
+
+    public String getNationalId() {
+        return nationalId;
+    }
+
+    public void setNationalId(String nationalId) {
+        this.nationalId = nationalId;
+    }
+    //toString
+    @Override
+    public String toString() {
+        return "first name = " + firstname + ", last name = " + 
+                lastname + ", ID nacional = " + nationalId + '}';
+    }
+    
+    
+}
+
+```
+
 ---
