@@ -191,4 +191,27 @@ public class Customers {
 }
 ```
 
+## C-Configurar el entorno para el desarrollo de la UI con JFrame
+
+En el paquete **customer.ui** creo un JFrame con el nombre de **CreateCurstomer.java**
+
+---
+
+## D-Diseñar la UI para el Alta del Cliente
+
+---
+
+
+## E-Agregar la logica para cargar los clientes
+
+---
+
+
+## F-Diseñar la UI para la Consulta de los Clientes
+
+---
+
+
+## G-Agregar la logica para mostrar los clientes en pantalla.
+
 ---
