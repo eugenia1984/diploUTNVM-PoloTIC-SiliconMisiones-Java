@@ -160,4 +160,29 @@ public class Customer {
 
 ```
 
+3- En mi main instancio un objeto de Customer, le seteo los datos y lo imprimo por consola, para ver que se crea todo bien
+
+```JAVA
+package customers;
+
+import customers.domain.Customer;
+
+
+public class Customers {
+
+
+    public static void main(String[] args) {
+        //instancio un Customer para quechear que funciona bien
+        Customer myCustomer = new Customer();
+        //le seteo lso atributos
+        myCustomer.setFirstname("Ana");
+        myCustomer.setLastname("Lopez");
+        myCustomer.setNationalId("93478529");
+        //lo muestro por consula
+        System.out.println(myCustomer); 
+    }
+  
+}
+```
+
 ---
