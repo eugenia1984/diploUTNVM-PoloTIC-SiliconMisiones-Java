@@ -204,6 +204,8 @@ En el paquete **customer.ui** creo un JFrame con el nombre de **CreateCurstomer.
 
 ## E-Agregar la logica para cargar los clientes
 
+Como todavía no vimos nada de base de datos, vamos a guardar todo en un array, lo unico que al finalizar la ejecucion dle programa esa información no se va a guardar.
+
 ---
 
 
