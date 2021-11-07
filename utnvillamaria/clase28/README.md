@@ -301,12 +301,14 @@ public class CreateCustomer extends javax.swing.JFrame {
 
 ---
 
+Queda como tarea, pero se ve en la proxima clase con Francisco:
 
-## F-Diseñar la UI para la Consulta de los Clientes
+#### F-Diseñar la UI para la Consulta de los Clientes
+
+#### G-Agregar la logica para mostrar los clientes en pantalla.
 
 ---
 
-
-## G-Agregar la logica para mostrar los clientes en pantalla.
+:star: [Aca se puede ver el código del ejercicio](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase28/Customers)
 
 ---
