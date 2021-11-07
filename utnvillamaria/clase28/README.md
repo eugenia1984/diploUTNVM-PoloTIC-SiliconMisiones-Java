@@ -207,10 +207,13 @@ Ahora voy a agregar tres **Text Field**, uno para que ingrese el *nombre*, otro 
 
 si me posiciono sobre el jlabel o el Text field y hago click, elijo *cambiar nombre de variable*, les puedo poner algo más personalizado que Textfiled1, TextField2, TextField3, asi cuando trabaje con el codigo las reconozco más fácil.
 
+También agrego un **button** para tener el texto *Guardar*
+
 Entonces en source veo:
 
 ```JAVA
- // Variables declaration - do not modify                     
+ // Variables declaration - do not modify    
+    private javax.swing.JButton ButtonGuardar;
     private javax.swing.JTextField TextFieldFirstName;
     private javax.swing.JTextField TextFieldNationalId;
     private javax.swing.JTextField TextFieldlastName;
@@ -222,6 +225,30 @@ Entonces en source veo:
  ```   
  
  En los jLabelNombre, jLabelApellido, jLabelDni, **properties** en **horizontalAligment** puedo hacer que se alinean hacia la izquierda o derecha. pero si o quiero hacer internacional para varios idiomas también tengo **Trailing** (lo alinea en el sentido en que se escribe, es decir para el español es la dercha, ya que se escribe de derecha a izquierda, pero para el árabe es al reves.) y **leading**
+ 
+ Para que al hacer click en el boton efectivamente se me guarde, hago click derecho en el boton -> *Event* -> *Muose* -> *mouseClicked*.
+ 
+ Y en source voy a tener el método:
+ 
+ ```JAVA
+ButtonGuardar.setText("Guardar");
+        ButtonGuardar.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                ButtonGuardarMouseClicked(evt);
+            }
+        });
+```
+
+Modifico le método ** ButtonGuardarMouseClicked**
+
+```JAVA
+private void ButtonGuardarMouseClicked(java.awt.event.MouseEvent evt) {                                   
+        System.out.println("Click en el boton");
+    } 
+```    
+
+Y si le doy run, cada vez que hago click en el boton, por consola veo: ```Click en el boton```
+
 
 ---
 
