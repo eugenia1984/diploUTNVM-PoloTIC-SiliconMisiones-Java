@@ -38,11 +38,21 @@ Quedo pendiente:
  
  ```JAVA
 private void ButtonGetCustomersMouseClicked(java.awt.event.MouseEvent evt) {                                                
-        // TODO add your handling code here:
+        //instancio una variable Sring vacia
+        String customerListString ="";
+        //recorro el Arraylist de clientes elemento por elemento
+        for (int i = 0;  i < customerList.size(); i++) {
+            //agarro el First Name y los voy concatenando
+            customerListString = customerListString.concat(customerList.get(i).toString());
+            customerListString = customerListString.concat("<br>");
+        }
+        labelCustomerList.setText("<html>"+customerListString+"</html>");
     }  
  ```
  
 Es muy importante el ORDEN, primero tengo que tener el boton de Guardar y luego el de Mostrar, sino al mostrar no tendre los clientes guardados.
+
+JFrame permite etiquetas html por eso uso **br** como salto de linea.
  
  ---
  
