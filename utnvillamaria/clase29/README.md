@@ -156,3 +156,93 @@ USUARIO            CONTROLADOR         MODELO
 ```
 
 ---
+
+En el ejercicio prácico d elos clientes ahora se puede ir separando la logic, dentro del paquete **customers.controller** creo la clase **CustomerController.java**
+
+```JAVA
+package customers.controller;
+
+import customers.domain.Customer;
+import java.util.List;
+import java.util.ArrayList;
+
+
+public class CustomerController {
+    private List<Customer> customerList = new ArrayList<>();
+    
+    //metodo para crear al cliente
+    public void createCustomer(String firstName, String lastName, String nationalId) {
+        Customer customer = new Customer(); 
+        customer.setFirstname(firstName);
+        customer.setLastname(lastName);
+        customer.setNationalId(nationalId);
+        
+        customerList.add(customer);
+    }
+    
+}
+```
+
+
+En mi clase **CreateCustomer** ya no tengo de atributo a mi lista de Customer, sino:
+
+```JAVA
+private CustomerController customerController = new CustomerController();
+```
+
+Y al hacer click en guardar:
+
+```JAVA
+private void ButtonGuardarMouseClicked(java.awt.event.MouseEvent evt) {                                        
+        /* Ahora lo paso a mi customerController
+        Customer customer = new Customer(); 
+        customer.setFirstname(textFieldFirstName.getText());
+        customer.setLastname(textFieldlastName.getText());
+        customer.setNationalId(textFieldNationalId.getText());
+        
+        //para imprimir el objeto asi veo que se setteo
+        //System.out.println(customer);
+        //agrego el customer a mi ArrayList
+        customerList.add(customer);
+        */
+               
+        customerController.createCustomer(
+                textFieldFirstName.getText(), 
+                textFieldlastName.getText(), 
+                textFieldNationalId.getText());
+        
+        //Y voy a setear los campos nombre, apellido dni a vacio para que queden limpios 
+        //para el proximo cliente
+        textFieldFirstName.setText("");
+        textFieldlastName.setText("");
+        textFieldNationalId.setText("");
+    }                                          
+```
+
+
+En la clase **CustomerCotnroller**:
+
+```JAVA
+package customers.controller;
+
+import customers.domain.Customer;
+import java.util.List;
+import java.util.ArrayList;
+
+
+public class CustomerController {
+    private List<Customer> customerList = new ArrayList<>();
+    
+    //metodo para crear al cliente
+    public void createCustomer(String firstName, String lastName, String nationalId) {
+        Customer customer = new Customer(); 
+        customer.setFirstname(firstName);
+        customer.setLastname(lastName);
+        customer.setNationalId(nationalId);
+        
+        customerList.add(customer);
+    }
+    
+}
+```
+---
