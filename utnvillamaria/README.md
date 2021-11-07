@@ -618,21 +618,6 @@ Temas:
 
 Clase practica diseñando un jFrame para guardar nombre, apellido y dni de clientes en un ArrayList
 
----
-
-:computer:[**clase 29**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase29)
-
-Clase practica continuamos diseñando un jFrame para guardar nombre, apellido y dni de clientes en un ArrayList.
-
-Otros temas vistos:
-
--For mejorado
-
--Definición CRUD - MVC - MVC en ejercicio práctico
-
--Agregar imágenes usando JFrame 
-
-
 :star: [Aca se puede ver el código del ejercicio](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase28/Customers)
 
 ---
