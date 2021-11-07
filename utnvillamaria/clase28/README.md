@@ -220,6 +220,8 @@ Entonces en source veo:
     private javax.swing.JLabel labelTitle;
     // End of variables declaration      
  ```   
+ 
+ En los jLabelNombre, jLabelApellido, jLabelDni, **properties** en **horizontalAligment** puedo hacer que se alinean hacia la izquierda o derecha. pero si o quiero hacer internacional para varios idiomas también tengo **Trailing** (lo alinea en el sentido en que se escribe, es decir para el español es la dercha, ya que se escribe de derecha a izquierda, pero para el árabe es al reves.) y **leading**
 
 ---
 
