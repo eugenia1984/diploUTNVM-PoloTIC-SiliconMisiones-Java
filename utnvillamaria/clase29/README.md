@@ -1,6 +1,3 @@
-# Clase 29 : 2 de Noviembre
+# Clase 29
 
 ---
-
-
-
