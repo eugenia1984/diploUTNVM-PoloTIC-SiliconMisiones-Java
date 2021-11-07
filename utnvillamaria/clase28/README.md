@@ -291,6 +291,11 @@ public class CreateCustomer extends javax.swing.JFrame {
         for (int i = 0; i < customerList.size(); i++) {
             System.out.println(customerList.get(i));
         }
+         //Y voy a setear los campos nombre, apellido dni a vacio para que queden limpios 
+        //para el proximo cliente
+        customer.setFirstname("");
+        customer.setLastname("");
+        customer.setNationalId("");
     } 
  ```
 
