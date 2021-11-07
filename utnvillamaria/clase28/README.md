@@ -199,6 +199,14 @@ En el paquete **customer.ui** creo un JFrame con el nombre de **CreateCurstomer.
 
 ## D-Diseñar la UI para el Alta del Cliente
 
+Desde **Design** haciedo click derecho -> *Set layout* -> *Absolute*
+
+Agrego un *jLabel*  y en properties **text** le pongo el texto que se va a ver: **ingrese los datos del cliente y luego pulse el botón GUARDAR**. Otro modo es con *click derecho sobre jLabel* -> *Edit Text*.
+
+Ahora voy a agregar tres **Text Field**, uno para que ingrese el *nombre*, otro para que ingrese el *apellido* y otro para que ingrese el *DNI*, para que la persona sepa que ingresar en cada Text Field, a la izquierda le agrego a cada uno un jLabel que indique que dato es.
+
+si me posiciono sobre el jlabel o el Text field y hago click, elijo *cambiar nombre de variable*, les puedo poner algo más personalizado que Textfiled1, TextField2, TextField3, asi cuando trabaje con el codigo las reconozco más fácil.
+
 ---
 
 
