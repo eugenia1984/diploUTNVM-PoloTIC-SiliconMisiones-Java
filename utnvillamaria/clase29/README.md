@@ -216,11 +216,29 @@ private void ButtonGuardarMouseClicked(java.awt.event.MouseEvent evt) {
         textFieldFirstName.setText("");
         textFieldlastName.setText("");
         textFieldNationalId.setText("");
-    }                                          
+    }  
+    
+     private void ButtonGetCustomersMouseClicked(java.awt.event.MouseEvent evt) {                                                
+        //instancio una variable Sring vacia
+        String customerListString ="";
+        //recorro el Arraylist de clientes elemento por elemento
+        /* dejo comentado porque utilizo el for each - for mejorado
+        for (int i = 0;  i < customerList.size(); i++) {
+            //agarro el First Name y los voy concatenando
+            customerListString = customerListString.concat(customerList.get(i).toString());
+            customerListString = customerListString.concat("<br>");
+        }
+        */
+          for ( Customer c : customerController.getAllCustomers() ) {
+            customerListString = customerListString.concat(c.toString());
+            customerListString = customerListString.concat("<br>");
+        }
+        labelCustomerList.setText("<html>"+customerListString+"</html>");
+    }
 ```
 
 
-En la clase **CustomerCotnroller**:
+En la clase **CustomerController**:
 
 ```JAVA
 package customers.controller;
@@ -233,14 +251,21 @@ import java.util.ArrayList;
 public class CustomerController {
     private List<Customer> customerList = new ArrayList<>();
     
-    //metodo para crear al cliente
+    //metodo para CREATE
     public void createCustomer(String firstName, String lastName, String nationalId) {
+        //crea el customer
         Customer customer = new Customer(); 
+        //setea los datos
         customer.setFirstname(firstName);
         customer.setLastname(lastName);
         customer.setNationalId(nationalId);
-        
+        //lo agrega al ArrayList
         customerList.add(customer);
+    }
+    
+    //metodo para el READ
+    public List<Customer> getAllCustomers(){
+        return customerList;
     }
     
 }
