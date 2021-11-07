@@ -48,7 +48,7 @@ private void ButtonGetCustomersMouseClicked(java.awt.event.MouseEvent evt) {
         }
         labelCustomerList.setText("<html>"+customerListString+"</html>");
     }  
- ```
+```
  
 Es muy importante el ORDEN, primero tengo que tener el boton de Guardar y luego el de Mostrar, sino al mostrar no tendre los clientes guardados.
 
@@ -62,19 +62,61 @@ Nos permite iterar de manera más sencilla y limpia sobre un conjunto de element
 
 Ejemplo en codigo:
 
- ```JAVA
+```JAVA
  for (tipoVariable : array) {
   //declaraciones usando tipoVariable
  }
- ```
+```
 
-Es equivalene a:
+Es equivalente a:
 
- ```JAVA
+```JAVA
  for (int i = 0; i < arr.length; i++) {
    tipoVariable = arr;
    //declaraciones usando varaible
  }
-  ```
+```
   
-  ---
+  
+  En el ejercicio de los clientes sería así:
+  
+```JAVA
+private void ButtonGetCustomersMouseClicked(java.awt.event.MouseEvent evt) {                                                
+        String customerListString ="";
+
+        for (Customer c : customerList) {
+            customerListString = customerListString.concat(c.toString());
+            customerListString = customerListString.concat("<br>");
+        }
+        
+        labelCustomerList.setText("<html>"+customerListString+"</html>");
+    }  
+ ```
+  
+ ---
+  
+ ## CRUD
+  
+ Hace referencia a las funciones básicas de la persistencia de base de datos
+  
+ **C** de  CREATE (crear)
+  
+ **R** de READ (leer)
+  
+ **U** de UPDATE (actualizar)
+  
+ **D** de DELETE (borrar)
+ 
+ En español se le llama **ABM** (Alta - Baja - Modificación)
+ 
+En el ejercicio utilizamos el CREATE al crear los clientes y utilizamos el READ al mostrar la lista de los clientes.
+  
+---
+
+## MVC
+
+MVC es un patrón de diseño que se estructura mediante tres componentes: **modelo**, **vista** y **controlador**.
+
+Este patrón tiene como principio que cada uno de los componentes esté separado en diferentes objetos, esto quiere decir que los componentes no se pueden combinar dentro de una misma clase.
+
+---
