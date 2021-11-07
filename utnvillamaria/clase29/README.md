@@ -94,6 +94,10 @@ private void ButtonGetCustomersMouseClicked(java.awt.event.MouseEvent evt) {
  ```
   
  ---
+ 
+ :star: [Aca se puede ver el código del ejercicio](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase29/Customers)
+ 
+ ---
   
  ## CRUD
   
@@ -115,8 +119,40 @@ En el ejercicio utilizamos el CREATE al crear los clientes y utilizamos el READ 
 
 ## MVC
 
-MVC es un patrón de diseño que se estructura mediante tres componentes: **modelo**, **vista** y **controlador**.
+MVC es un patrón de diseño que se estructura mediante tres componentes: **modelo** (las clases, Entities), **vista** (aca esta la UI, el IGU) y **controlador**.
 
 Este patrón tiene como principio que cada uno de los componentes esté separado en diferentes objetos, esto quiere decir que los componentes no se pueden combinar dentro de una misma clase.
+
+#### Modelo
+
+Constiene sólo los datos de aplicación. No contiene ninguna lógica que describa cómo presentar los datos a un usuario.
+
+#### Vista
+
+Presenta los datos del modelo al usuario. La vista sabe cómo acceder a los datos del modelo, pero no sabe qué significa esta información o qué puede hacer el usuario para manipularla.
+
+#### Controlador
+
+Existe entre la vista y el modelo. Escucha los eventos desencadenados por la vista y ejecuta el procedimiento adecuado a estos eventos. 
+
+Por ejemplo, un controlador puede actualizar un modelo combiando los atributos de un personaje en un videojuego así como también puede modificar la vista mostrando el personaje actualizado en el juego.
+
+
+```
+
+            utiliza            manipula
+    -------------------    ---------------
+    |                 |    |             |
+    |                 V    |             V
+USUARIO            CONTROLADOR         MODELO
+     ^                |     ^             |
+     |                |     |             |
+     |      actualiza |     ---------------
+     |                |          notifica
+     |                V
+     -------------- VISTA
+          se 
+       muestra
+```
 
 ---
