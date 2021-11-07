@@ -257,6 +257,43 @@ Y si le doy run, cada vez que hago click en el boton, por consola veo: ```Click 
 
 Como todavía no vimos nada de base de datos, vamos a guardar todo en un array, lo unico que al finalizar la ejecucion del programa esa información no se va a guardar.
 
+Lo que hay que hacer es que cada vez que se hace click en el boton *Guardar* se instancie un objeto **cliente**, tome los datos Nombre, apellido y DNI y se guarde en el array.
+
+Entonces creo un ArrayList:
+
+```JAVA
+public class CreateCustomer extends javax.swing.JFrame {
+    
+    private List<Customer> customerList = new ArrayList<>();
+ }
+ ```
+ 
+ Y en el metodo instancio un objeto  de la clase Customer y le seteo el nombre, apellido y dni con los datos que se van a ir ingresando en mi TextFiled usando el nombre de la variable de cada textField y el método **.getText()**.
+ 
+ Para ver si se guarda hago un ```System.out.println(customer);``` asi por consola puedo ver si mi objeto customer guarda los datos.
+ 
+ Y al final lo agrego a mi lista de clientes con ```customerList.add(customer);```
+ 
+ 
+ Y recorro el array y lo imprimo para corroborar que agregue al cliente
+ 
+ ```JAVA
+     private void ButtonGuardarMouseClicked(java.awt.event.MouseEvent evt) {                                           
+        //System.out.println("Click en el boton");
+        Customer customer = new Customer(); 
+        customer.setFirstname(TextFieldFirstName.getText());
+        customer.setLastname(TextFieldlastName.getText());
+        customer.setNationalId(TextFieldNationalId.getText());
+        System.out.println(customer);
+        //agrego el customer a mi ArrayList
+        customerList.add(customer);
+        //recorro el array y muestro los objetos para ver que se agregaron
+        for (int i = 0; i < customerList.size(); i++) {
+            System.out.println(customerList.get(i));
+        }
+    } 
+ ```
+
 ---
 
 
