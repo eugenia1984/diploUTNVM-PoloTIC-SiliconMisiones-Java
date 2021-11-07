@@ -276,3 +276,7 @@ Ahora tengo mi **logica** en el **CONTROLLER** separada de mi **VISTA**. Por lo 
 Y por le momento en la vista se instancia un customerController cada vez, no es lo ideal, pero sirve para lo visto.
 
 ---
+
+:star: [el ejercicio separado en capas](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase29/Customers2)
+
+---
