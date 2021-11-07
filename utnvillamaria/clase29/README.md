@@ -54,5 +54,27 @@ Es muy importante el ORDEN, primero tengo que tener el boton de Guardar y luego 
 
 JFrame permite etiquetas html por eso uso **br** como salto de linea.
  
- ---
- 
+---
+
+## For mejorado
+
+Nos permite iterar de manera más sencilla y limpia sobre un conjunto de elementos de un array.
+
+Ejemplo en codigo:
+
+ ```JAVA
+ for (tipoVariable : array) {
+  //declaraciones usando tipoVariable
+ }
+ ```
+
+Es equivalene a:
+
+ ```JAVA
+ for (int i = 0; i < arr.length; i++) {
+   tipoVariable = arr;
+   //declaraciones usando varaible
+ }
+  ```
+  
+  ---
