@@ -270,4 +270,7 @@ public class CustomerController {
     
 }
 ```
+
+Ahora tengo mi **logica** en el **CONTROLLER** separada de mi **VISTA**. Por lo que si a futuro cambia algun dato del cliente, lo cambio solo en la lógica, no tengo todo junto. La lógica de la creación del cliente me queda en el controller. Y la vista solo recibe los datos y los manda al controlador, o al controlador le pide la lista para mostrar los clientes.
+
 ---
