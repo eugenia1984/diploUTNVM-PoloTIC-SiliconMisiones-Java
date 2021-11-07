@@ -1,13 +1,13 @@
-# Clase 29
+# 📘 Clase 29 : 2 Noviembre
 
 Temas:
 
--Continuamos diseñando un jFrame para guardar nombre, apellido y dni de clientes en un ArrayList.
+- Continuamos diseñando un jFrame para guardar nombre, apellido y dni de clientes en un ArrayList.
 
--For mejorado
+- For mejorado
 
--Definición CRUD - MVC - MVC en ejercicio práctico
+- Definición CRUD - MVC - MVC en ejercicio práctico
 
--Agregar imágenes usando JFrame 
+- Agregar imágenes usando JFrame 
 
 ---
