@@ -207,12 +207,26 @@ Ahora voy a agregar tres **Text Field**, uno para que ingrese el *nombre*, otro 
 
 si me posiciono sobre el jlabel o el Text field y hago click, elijo *cambiar nombre de variable*, les puedo poner algo más personalizado que Textfiled1, TextField2, TextField3, asi cuando trabaje con el codigo las reconozco más fácil.
 
+Entonces en source veo:
+
+```JAVA
+ // Variables declaration - do not modify                     
+    private javax.swing.JTextField TextFieldFirstName;
+    private javax.swing.JTextField TextFieldNationalId;
+    private javax.swing.JTextField TextFieldlastName;
+    private javax.swing.JLabel jLabelApellido;
+    private javax.swing.JLabel jLabelDni;
+    private javax.swing.JLabel jLabelNombre;
+    private javax.swing.JLabel labelTitle;
+    // End of variables declaration      
+ ```   
+
 ---
 
 
 ## E-Agregar la logica para cargar los clientes
 
-Como todavía no vimos nada de base de datos, vamos a guardar todo en un array, lo unico que al finalizar la ejecucion dle programa esa información no se va a guardar.
+Como todavía no vimos nada de base de datos, vamos a guardar todo en un array, lo unico que al finalizar la ejecucion del programa esa información no se va a guardar.
 
 ---
 
