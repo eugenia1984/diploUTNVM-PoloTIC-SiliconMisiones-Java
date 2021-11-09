@@ -61,7 +61,45 @@ public class Alumno {
 
 - Método público getnombreCompleto() que no recibe parámetros y devuelve una cadena de texto.
 
-- Para acceder a los atributos de la instancia de esta clase puede usarse o no la palabra reservada this ya que en el cuerpo del método no eiste otra variable local con el mismo nombre que pueda resultar en ambiguedad.
+- Para acceder a los atributos de la instancia de esta clase puede usarse o no la palabra reservada this ya que en el cuerpo del método no existe otra variable local con el mismo nombre que pueda resultar en ambiguedad.
+
+- Los atributos siempre deben ser privados y puedo acceder a los mismos con un metodo publico
+
+- El **get** en el nombre se usa como buena practica para saber que ese metodo me devuelve algo.
+
+- En Java los argumentos de los tipos primitivos se pasan siempre por valor.
+
+- El método recibe una copia del argumento actual; si se modifica esta copia, el argumento original que se incluyó en la llamada no queda modificado.
+
+- Para modificar un argumento de un tipo primitivo dentro del cuerpo del método puede incluirse como variable meimbro o ser retornado para luego realizar la asignación en el momento de la llamada.
+
+- Las referencias se pasan tambien por valor, pero a traves de ellas se pueden modificar los objetos referenciados.
+
+---
+
+## Los metodos de setteo : set y get
+
+En la práctica, es común nombrar métodos de obtención y modificación con los prefijos **get** y **set** respectivamente. Cada atributo de la clase debería ser definido como privado y existir métodos get y set para poder obtener y setear sus valores.
+
+Un ejemplo de un método get:
+
+```JAVA
+public tipoDeDatp getAtributo() {
+  return this.atributo;
+}
+```
+
+Donde tipoDeDato puede ser tanto un tipo primitivo como una clase o interfaz si estamos referenciando a otros objetos.
+
+Por convension el nombre dle método luego del prefijo get o set se escribe en camelCase.
+
+Los métodos set reciben como parámetros el nuevo valor y no retornan nada.
+
+```JAVA
+public void setAtributo( tipoDeDatos nuevoValor) {
+  this.atributo = atributo;
+}
+```
 
 ---
 
