@@ -101,6 +101,64 @@ public void setAtributo( tipoDeDatos nuevoValor) {
 }
 ```
 
+Podriamos crear instancias de alumnos y mostrar por pantalla sus nombres completo. 
+
+En POO las llamadas a los metodos se les llama paso de mensajes, llamar a un método es análogo a pasarle un mensaje.
+
 ---
 
+## Metodo main
 
+- Método reservado en Java y otros lenguajes: el método main().
+
+- Es especial ya que el que da lugar al incio del programa y será llamado por la maquina virtual al momento de la ejecucion
+
+- El metodo main no es el elemento principal en el desarrollodel programa. El programa, se desarrolla mediante la interaccion entre objetos por lo que el objetivo de este metodo normalmente es inicial y delegar el comportameinto a los distintos objetos correspondientes.
+
+- Debe pertenecer a una clase publica
+```
+public static void main(String[] args) {
+}
+```
+
+- Es estático, ya que no depende de una instancia en particular de la clase en la que se declara y no tiene ningun valor de retorno.
+
+- Podemos ver que recibe un array de parametros de tipo String que representan los argumentos pasados a la hora de ejecutar el programa.
+
+- Casi siempre el main queda casi vacio, apenas comienza voy delegando con metodos en mis otras clases, interfaces, voy delegando el comportamiento.
+
+En el caso de realizar la ejecucion mediante la linea de comando, cada elemento del array sera cadena de texto luego de la llamada a nuestro programa, separadas por espacios.
+
+
+---
+
+## Métodos sobrecargados y redefinición ( overload y override )
+
+Java permite métodos sobrecargados (overloaded), son métodos distintos con el mismo nombre que se diferencian por el numero y/o tipo de datos de los argumentos.
+
+Java sigue unas reglas para determinar el método concreto que debe llamar:
+
+1- Si existe el método cuyos argumentos se ajustan exactamente al tipo de los argumentos de la llamada (argumentos actuales), se llama ese métodos.
+
+2- Si no existe un método que se ajuste exactamente, se intenta promover los argumentos actuales al tipo inmediatamente superior (por ejemplo: char a int, int a long, floar a double) y se llama el método correspondiente.
+
+3- Si solo existen métodos con argumentos de un tipo mas amplio (por ejemplo, long en vez de int), el programador debe hacer un cast explicito en la llamada, responsabilizándose de que pueda ocurrir.
+
+4- El valor de retorno no influye en la elección del método sobrecargado. Es imposible saber desde el propio método lo que se va a hacer con el.
+
+5- No es posible crear dos métodos sobrecargados, con el mismo nombre y que solo difieran en el valor de retorno.
+
+
+Aclaraciones de **REdefinición** (**Override**):
+
+- Diferente de la sobrecarga de métodos es la redefinición.
+
+- Una clase puede redefinir (**override**) un método heredado de una superclase.
+
+- Redefinir un método es dar una nueva definición.
+
+- EL método debe tener exactamente los mismo argumentos en tipo y numero que el metodo redefinido
+
+- Esto es muy utilizado en **Herencia**. Si tengo una clase con un metodo abstracto la clase que lo hereda lo puede override.
+
+---
