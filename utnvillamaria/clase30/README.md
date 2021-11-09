@@ -55,6 +55,7 @@ public class Alumno {
     return nombre + " " + this.apellido;
   }
 }
+```
 
 - Los atributos de un objeto deberían ser accesibles solo a través de métodos públicos 
 
@@ -62,6 +63,6 @@ public class Alumno {
 
 - Para acceder a los atributos de la instancia de esta clase puede usarse o no la palabra reservada this ya que en el cuerpo del método no eiste otra variable local con el mismo nombre que pueda resultar en ambiguedad.
 
-```
+---
 
 
