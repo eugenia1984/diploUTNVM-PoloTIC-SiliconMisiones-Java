@@ -516,6 +516,24 @@ Temas:
 
 # 📕  CLASE 23 : 10 NOVIEMBRE
 
+:computer: La tería está en -> [**clase 23**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase23)
+
+Temas:
+
+- ¿ Como trabaja la web ?
+
+- HTTP vs HTTPS
+
+-  ¿ Qué son las URL ?
+
+- Navegadores y Web Serves
+
+- ¿ Qué es HTML ?
+
+- Sintaxis HTML
+
+- Etiquetas más comunes
+
 ---
 
 
