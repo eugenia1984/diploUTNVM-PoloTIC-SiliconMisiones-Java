@@ -20,7 +20,7 @@ Siempre para sacar de apuro está el usuario **root** que tiene todos los permis
 
 3- Configuro mi base de datos en **Databases**, ya veo algunas base de datos que ya viene pre creadas con NetBeans. Voy a **New Connection** y agrego el Driver, si no lo veo lo agrego con **Add**, siempre que agrgo pongo el **.jar** que es el ejecutable de Java.
 
-Y en **Customixe Connection**
+Y en **Customize Connection**
 
 Host: localhost
 
@@ -60,11 +60,14 @@ package logica;
 import java.util.Date;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 
 @Entity
 public class Huesped {
   //atributos
   @Id
+  @GeneratedValue(strategy = GenerationType.AUTO)
   private int id;
   @Basic
   private String nombre;
@@ -129,5 +132,32 @@ public class Huesped {
 
 - @Temporal(TemporalType.TIMESTAMP) : para la fecha y hora
 
+* En mi Id puedo hacer que se me autogenere un valor, para ello:
+
+ @Id
+ 
+ @GeneratedValue() : puede ser SECUENCE (si tengo un proveedor de secuencia), AUTO, IDENTITY , TABLE, etc. Siempre empezar con AUTO, si llego a tneer errores pasar a IDENTITIES o SECUENCE.
+ 
+7- Teniendo mapeado todo puedo ir a crear la **unidad de persistencia**
+
+En mi paquete **persistencia**, click derecho -> New -> Persistence Unit:
+
+Presistence Unit Name : ProbandoJPAPU  (en general tengo el nombre de mi proyecto+PU)
+
+Persistence Library: EclipseLink
+
+DataBase Connection : (elijo la conexion que cree de hotel)
+
+Seleccionar *Create*
+
+Finish
+
+Ya me queda creada. si voy a **source** veo el codigo xml. Y en **Design** tengo que agregar las **clases entidades** -> Add class y ahi elijo mi clase Huesped y la agrego.
+
+8- Creo mi Controlador de Persistencia Huesped, en el paquete **persistencia** -> New -> Other -> Persistence -> JPA Controller Clases from Entity Clases -> elijo el paquete persistencia -> lo agrego y veo que voy a tener una carpeta de **persistence exception**
+
+-> **HuespedJPAController** que ya tiene codigo pre armado.
+
+9- Creo loas clases **Controladora** en el paquete **logica** creo la clase **Controladora.java** y en el paquete **persistencia** creo **ControladoraPersistencia**
 
 ---
