@@ -50,7 +50,7 @@ JPA (Java Persistence API).
 
 ## Módulo 3: Herramientas Gráficas
 
- * Introducción a HTML 5. 
+* Introducción a HTML 5. 
  
 Conceptos básicos. 
 
@@ -68,7 +68,7 @@ Inclusión de imágenes (height, width, border, etc).
 
 Introducción a Formularios (etiquetas input) + botones (check boxes, combo box, radio button, etc).
 
- * Introducción a CSS. 
+* Introducción a CSS. 
  
 Sintaxis del lenguaje. 
 
@@ -82,7 +82,7 @@ CSS + Inserción de media (Videos, Imágenes, fondos, música, etc).
 
 CSS + Tablas y Formularios.
 
- * Introducción a Javascript. 
+* Introducción a Javascript. 
 
 Sintaxis del Lenguaje.  
 
@@ -108,12 +108,13 @@ Efectos, eventos.
 
 ##  Módulo 4: Java Web y versionado de aplicaciones
 
- * GIT y GIT-HUB: 
+* GIT y GIT-HUB: 
+
 Configuraciones básicas para versionado: Creación de repositorios locales y remotos. 
 
 Comandos: PUSH, PULL, entre otros. 
 
- * Introducción a Java Web. 
+* Introducción a Java Web. 
 
 Arquitectura Cliente-Servidor. 
 
@@ -134,37 +135,52 @@ Introducción a Spring boot.
 :computer: La teoría de la clase está en -> [**clase01_intro_java**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase01_intro_java)
 
 Temas:
-  * ¿ Qué es programar?
-  * Lenguajes de programación
-  * ¿ Qué es Java?
-  * Versiones de Java
-  * ¿ Qué es un IDE ?
-  * ¿ Qué necesitamos para programar en Java ?
-  * Primer Hola Mundo con Java
-  * Variables y constantes
-  * Tipo de datos
-  * Regla para nombres de variables
-  * ¿ Cómo declaro una variable ?
-  * Operadores : Aritméticas, Relacionales, Condicionales
+
+- ¿ Qué es programar?
+
+- Lenguajes de programación
+
+- ¿ Qué es Java?
+
+- Versiones de Java
+
+- ¿ Qué es un IDE ?
+
+- ¿ Qué necesitamos para programar en Java ?
+
+- Primer Hola Mundo con Java
+
+- Variables y constantes
+
+- Tipo de datos
+
+- Regla para nombres de variables
+
+- ¿ Cómo declaro una variable ?
+
+- Operadores : Aritméticas, Relacionales, Condicionales
   
- :computer: **Links a los videos**
+:computer: **Links a los videos**
  
- [Operadores en Java](https://www.youtube.com/watch?v=Fswl6scN9cY)
+[Operadores en Java](https://www.youtube.com/watch?v=Fswl6scN9cY)
  
- [Tipo de datos y variables](https://www.youtube.com/watch?v=l2mLP7P3jx4)
+[Tipo de datos y variables](https://www.youtube.com/watch?v=l2mLP7P3jx4)
  
- [¿Qué es Java?](https://www.youtube.com/watch?v=6q7wHs6cH6Y)
+[¿Qué es Java?](https://www.youtube.com/watch?v=6q7wHs6cH6Y)
  
- --- 
+--- 
 
 # 📕  CLASE 2 : 23 AGOSTO
 
 :computer: La teoría de la clase está en -> [**clase02_tipodedatos_variables_condicionales**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase02_tipodedatos_variables_condicionales)
 
 Temas:
-  * Tipo de datos
-  * Variables
-  * Condicionales: IF / IF ELSE / IF ELSE ANIDADOS  / SWITCH
+
+- Tipo de datos
+
+- Variables
+
+- Condicionales: IF / IF ELSE / IF ELSE ANIDADOS  / SWITCH
   
 ##    Guia de ejercicios Nro. 1
 
@@ -189,10 +205,13 @@ Temas:
 
 Temas:
 
-  * Bucles controlados por contador y centinela
-  * While (Mientras)
-  * Bucles infinitos
-  * For
+- Bucles controlados por contador y centinela
+
+- While (Mientras)
+
+- Bucles infinitos
+
+- For
 
 ## Guia de ejercicios Nro. 2
 
@@ -234,7 +253,7 @@ Ejercicios de práctica resueltos:
 
 Temas:
 
-  * Arreglos: vectores y matrices.
+- Arreglos: vectores y matrices.
 
 
 
@@ -259,7 +278,7 @@ Temas:
 
 Tema:
 
-  * Vectores y Matrices
+- Vectores y Matrices
   
 ## Guia de ejercicios Nro. 3
 
@@ -307,12 +326,17 @@ Tema:
 
 Temas:
 
- * SGBD - Sistemas Gestores de Bases de Datos
- * Abstracción y modelado
- * Modelo relacional
- * Modelo entidad - relación
- * DER Componentes: entidades, atributos, relaciones
- * ¿ Cómo crear una Base de Datos en phpMyAdmin?
+- SGBD - Sistemas Gestores de Bases de Datos
+
+- Abstracción y modelado
+
+- Modelo relacional
+
+- Modelo entidad - relación
+
+- DER Componentes: entidades, atributos, relaciones
+
+- ¿ Cómo crear una Base de Datos en phpMyAdmin?
 
 ---
 
@@ -322,10 +346,13 @@ Temas:
 
 Temas:
 
- * Primary Keys -PK - (Claves Primarias) 
- * Foreing Keys -FK - (Claves Foráneas) 
- * Ejercicio práctico en la clase
- * Ejercicio de práctica de tarea
+- Primary Keys -PK - (Claves Primarias) 
+
+- Foreing Keys -FK - (Claves Foráneas) 
+
+- Ejercicio práctico en la clase
+
+- Ejercicio de práctica de tarea
 
 ---
 
@@ -335,9 +362,11 @@ Temas:
 
 Temas:
 
- *  Repaso arquitectura cliente - servidor
- *  Consultas SQL sin interfaz gráfica
- *  CRUD (ABML)
+-  Repaso arquitectura cliente - servidor
+
+- Consultas SQL sin interfaz gráfica
+
+- CRUD (ABML)
 
 
 :star: [**guia de ejercicios nro 6 de base de datos**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia6_bd)
@@ -350,7 +379,7 @@ Temas:
 
 Temas:
 
- * Consultas SQL: funciones agregadas / avanzadas
+- Consultas SQL: funciones agregadas / avanzadas
 
 :computer:
 
@@ -375,12 +404,17 @@ Temas:
 
 Teoría:
  
-  * ¿Qué es un paradigma ?
-  * POO
-  * Clase: estado (atributos) y comportamiento (métodos)
-  * Métodos
-  * Constructor
-  * Objeto
+- ¿Qué es un paradigma ?
+
+- POO
+
+- Clase: estado (atributos) y comportamiento (métodos)
+
+-  Métodos
+
+- Constructor
+
+- Objeto
 
 
 ---
@@ -391,11 +425,11 @@ Teoría:
 
 Teoría:
 
- * Getters
+- Getters
  
- * Setters
+- Setters
  
- * Encapsulamiento
+- Encapsulamiento
 
 
 :star: [**guia de ejercicios nro 7**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia7_poo) con mi [**resolución**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia7_poo/objetos)
@@ -409,9 +443,9 @@ Teoría:
 
 Temas:
 
- * Herencia
+- Herencia
 
- * Polimorfismo
+- Polimorfismo
 
 :star: El ejercicio de explicación de Herencia y Polimorfismo está en -> [**herencia**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase14_poo/herencia)
 
@@ -423,8 +457,9 @@ Temas:
 
 Temas:
 
- * Clase abstracta
- * Interfaz
+- Clase abstracta
+
+-  Interfaz
 
 ---
 
@@ -448,7 +483,7 @@ Se vieron algunas partes de los ejercicios de la guia 7 y 8, que podes ver como 
 
 Tema:
 
- * Colecciones: List, ArrayList, LinkedList, Stack
+- Colecciones: List, ArrayList, LinkedList, Stack
 
 ---
 
@@ -457,9 +492,9 @@ Tema:
 
 Temas:
 
--Excepciones propias de Java: RunTimeException y IOException
+- Excepciones propias de Java: RunTimeException y IOException
 
--Personalizadas
+- Personalizadas
 
 ---
 
@@ -475,23 +510,23 @@ Temas:
 
 Temas:
 
--Introduccion a JPA (Java Persistence API)
+- Introduccion a JPA (Java Persistence API)
 
--¿ Cómo funciona ?
+- ¿ Cómo funciona ?
 
--Proveedores de JPA
+- Proveedores de JPA
 
--MySQL Connection + Persistence Unit
+- MySQL Connection + Persistence Unit
 
--ORM (Object Relational Mapping)
+- ORM (Object Relational Mapping)
 
--JPA Controllers + ORM + Create
+- JPA Controllers + ORM + Create
 
--Destroy (Eliminar)
+- Destroy (Eliminar)
 
--Edit (Modificar)
+- Edit (Modificar)
 
--Find y Find Entities
+- Find y Find Entities
 
 ---
 
@@ -510,6 +545,8 @@ Temas:
 
 
 # 📕  CLASE 22 : 08 NOVIEMBRE
+
+:computer: La tería está en -> [**clase 22**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase22)
 
 ---
 
@@ -542,7 +579,7 @@ Temas:
 ---
 
 
-# 📕  CLASE 25 : 07 NOVIEMBRE
+# 📕  CLASE 25 : 17 NOVIEMBRE
 
 ---
 
