@@ -58,12 +58,18 @@ Sino cuando luego me quiero conectar me va a decir que ya estoy conectada.
 package logica;
 
 import java.util.Date;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
+@Entity
 public class Huesped {
   //atributos
+  @Id
   private int id;
+  @Basic
   private String nombre;
   private String apellido;
+  @Temporal(TemporalType.DATE)
   private Date fechaNac;
   
   //cosntructor vacio
@@ -112,5 +118,16 @@ public class Huesped {
   }
 }
 ```
+
+* Si para **@Entity** no me sale la libreria, ir a **Libaries** -> **Add JAR Folder** -> buscar javax.persistence.2.0.0 (en las versiones más nuevas de NetBeans no viene, hay que agregarla).
+
+* Al trabajar con Date es **Temporal** y tengo que aclarar que tipo de Temporal es : 
+
+- @Temporal(TemporalType.DATE) : para la fecha
+
+- @Temporal(TemporalType.TIME) : para la hora
+
+- @Temporal(TemporalType.TIMESTAMP) : para la fecha y hora
+
 
 ---
