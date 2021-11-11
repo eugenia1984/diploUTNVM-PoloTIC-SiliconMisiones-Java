@@ -636,6 +636,18 @@ Temas:
 
 ---
 
+:computer:[**clase 31**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase31)
+
+Temas:
+
+- Constructores de Objetos
+
+---
+
+:computer:[**clase 32**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase32)
+
+---
+
 ## Fuentes de información:
 
  Armour Frank & Miller Granville –ADVANCED USE CASE MODELING-EDITORIAL ADDISON WESLEY, AÑO2000.
