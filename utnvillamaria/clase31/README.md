@@ -4,6 +4,12 @@ Temas:
 
 - Constructores de objetos
 
+- Finalizacion y destruccion de Objetos
+
+- Agrupando Clases en Paquetes
+
+- Documentacion de Clases y Métodos
+
 ---
 
 ## Constructores de objetos
