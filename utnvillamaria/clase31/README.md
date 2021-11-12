@@ -72,6 +72,37 @@ Alumno alumno3 = new Alumno();
 
 - antes de que un objeto sea completamente eliminado de la memoria por el recolector de basura, se llama a su metodo **finalize()**. Está definido en la clase Object de la que hereda implícitamente cualqueir clase.
 
-- Un **finalizador** es un método de objeto (no static), sin valor de retorno (void), sin argumentos y que siempre se llama **finalize()**.
+- Un **finalizador** es un método de objeto (no static), sin valor de retorno (void), sin argumentos y que siempre se llama **finalize()**. Los finalizadores se llaman de modo automatico siempre que hayan sifo definidos por el programador de la clase.
+
+- Para realizar su tarea correctamente, un finalizador deberia terminar siempre lalamndo al finalizador de su super-clase.
+
+---
+
+## Agrupando Clases en Paquetes
+
+- un **package** es una agrupación de clases que sirve para establecer una jerarquia lógica en la organización de las clases.
+
+- Tiene una relación directa con la organización física de nuestro código ya que también se representa en la estructura de archivos y carpetas que conforman nuestro programa.
+
+- Al estructurar de este modo las clases, estamos estableciendo un dominio de nombres que la máquina virtual de Java utiliza, por ejemplo, cuando nuestra aplicación utiliza clases distribuidas en una red de computadoras.
+
+- Todas las clases dentro de un mismo paquete tienen acceso al resto de clases declaradas como publicas.
+
+- Para poder acceder a una clase de otro paquete se ha de importar anteriormente mediante la sentencia **import**.
+
+La sentencia **import** permite abreviar los nombres de las clases, variables y métodos, evitando el tener que escribir continuamente el nombre package importado.
+
+Se importan por defecto el **package java.lang** y el **package actual** o por defecto (las clases del directorio actual).
+
+Existen dos formas de utilizar **import** : para una **clase** y para **todo un package**.
+
+```JAVA
+import poo.cine.Autor;
+import poo.cine.*;
+```
+
+El importar un package no hace que se carguen todas las clases dle package: solo se cargan las clases public que se vayan a utilizar. al importar un package no se importan los sub-packages. Deben ser importados explícitamente, pues en realidad son packages distintos.
+
+por ejemplo, al importar **java.awt** no se importa java.awt.event
 
 ---
