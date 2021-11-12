@@ -106,3 +106,74 @@ El importar un package no hace que se carguen todas las clases dle package: solo
 por ejemplo, al importar **java.awt** no se importa java.awt.event
 
 ---
+
+## Agrupando clases en paquetes
+
+Imaginemos la sigueinte estructura de paquetes y clases:
+
+```
+futsal
+-torneos
+  --Torneo.java
+  --Fecha.java
+  --Encuentro.java
+-equipos
+  --Equipo.java
+  --Jugador.java
+-predio
+  --Cancha.java
+```
+
+
+```JAVA
+package futsal.equipos;
+
+public class Equipo {
+  private String nombre;
+  private Jugador[] jugadores;
+  // podriamos seguir listand atributos
+}
+```
+
+Por otro lado podriamos escribir la clase Encuentro entre 2 equipos como sigue:
+
+```JAVA
+public class Encuentro {
+  private Date fechaHora;
+  private Cancha cancha;
+  private Equipo equipo1;
+  private Equipo equipo2;
+  private int golesEquipo1 = 0;
+  private int golesEquipo2 = 0;
+  private boolean jugando = false;
+}
+```
+
+---
+
+## Documentacion de Clases y Métodos
+
+- Documentar un  proyecto es algo fundamenttal de cara a su futuro mantenimiento.
+
+- Cuando programamos una clase, debemos generar documentación lo suficientemente detallada sobre ella como para que otros programadores sean capaces de usarla solo con su interfaz.
+
+- No debe existir necesidad de leer o estudiar su implementación, lo mismo que nosotros para usar una clase la biblioteca de Java no leemos ni estudiamos su código fuente.
+
+- Javadoc es una utilidad de Oracle para la generación de documentación en formato de página web a partir de código fuente Java.
+
+- Javadoc es el estándar para documentar clases de Java. La mayoría de los IDEs utilizan javadoc para generar de forma automática documentación de clases.
+
+- La documentación a ser utilizada por javadoc se escribe en comentarios que cimienzan con ```/**``` (notar el doble) y que terminan con ```*/```
+
+- A la vez, dentro de estos comentarios se puede escribir código HTML y operadores para que interprete javadoc (generalmente precedidos por @).
+
+| tag | descricion | uso |
+| --- | ---------- | --- |
+| @autor | nombre del desarrollador creador de la clase o interfaz | nombre |
+| @deprecated | inidica que el metodo o clase es antigua y que no se recomeinda su uso porque posiblemente desaparecerá en versiones posteriores | descripcion |
+| @param | definicion de un parametro de un metodo, es requerido para todos los parametros del metodo | nombre_parametro descripcion |
+| @return | informa lo que devuelve el metodo, no se puede usar en constructores o metodos void | descripcion |
+| @see | asocia con otro metodo o clase, brinda mas informacion o elementos relacionados | referencia (#metodo()); clase#metodo(); paquete.clase; paquete.clase#metodo() |
+| @throws | excepcion lanzada por el metodo | nombre_clase descripcion |
+
+---
