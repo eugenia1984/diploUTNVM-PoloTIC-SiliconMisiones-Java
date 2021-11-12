@@ -176,4 +176,14 @@ public class Encuentro {
 | @see | asocia con otro metodo o clase, brinda mas informacion o elementos relacionados | referencia (#metodo()); clase#metodo(); paquete.clase; paquete.clase#metodo() |
 | @throws | excepcion lanzada por el metodo | nombre_clase descripcion |
 
+- Las etiquetas @autor y @version se usan para documentar clases e interfaces. No son validas en cabecera de constructores ni metodos.
+
+- La etiqueta @param se usa para documentar constructores y metodos.
+
+- La etiqueta @return se usa solo en metodos de tipo funcion
+
+- Dentro de los comentarios se admiten etiquetas HTML, por ejemplo con @see se puede referencias una pagina web como link para recomendar su visita de cara a ampliar información.
+
+- **TODO**, convencion utilizada por los desarrolladores para denotar codigo que aun debe implementarse, del ingles pendiente. Algunos IDEs agregan automaticamente estos comentarios y ademas permiten resaltarlos para recordarnos de las porciones de codigo que nos faltan escribir.
+
 ---
