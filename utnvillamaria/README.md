@@ -638,13 +638,28 @@ Temas:
 
 :computer:[**clase 31**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase31)
 
-Temas:
+Temas: 
 
-- Constructores de Objetos
+- Constructores de objetos
+
+- Finalizacion y destruccion de Objetos
+
+- Agrupando Clases en Paquetes
+
+- Documentacion de Clases y Métodos
 
 ---
 
 :computer:[**clase 32**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase32)
+
+
+Temas:
+
+- Manejo de excepciones try-catch-finally
+
+- Manejo de fechas en Java
+
+- Librerias en Java. import.
 
 ---
 
