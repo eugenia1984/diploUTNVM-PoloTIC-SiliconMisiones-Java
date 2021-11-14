@@ -18,7 +18,7 @@ Siempre para sacar de apuro está el usuario **root** que tiene todos los permis
 
 2- En **Netbeans** creo un proyecto nuevo llamado **probandoJPA**
 
-3- Configuro mi base de datos en **Databases**, ya veo algunas base de datos que ya viene pre creadas con NetBeans. Voy a **New Connection** y agrego el Driver, si no lo veo lo agrego con **Add**, siempre que agrgo pongo el **.jar** que es el ejecutable de Java.
+3- Configuro mi base de datos en **Databases**, ya veo algunas base de datos que ya viene pre creadas con NetBeans. Voy a **New Connection** y agrego el Driver, si no lo veo lo agrego con **Add**, siempre que agrgo pongo el **.jar** que es el ejecutable de Java. Si no lo tengo el mismo NetBeans me va a sugerir bajar la version 8, sino con el driver que nos compartió la profesora en el Drive.
 
 Y en **Customize Connection**
 
@@ -158,6 +158,6 @@ Ya me queda creada. si voy a **source** veo el codigo xml. Y en **Design** tengo
 
 -> **HuespedJPAController** que ya tiene codigo pre armado.
 
-9- Creo loas clases **Controladora** en el paquete **logica** creo la clase **Controladora.java** y en el paquete **persistencia** creo **ControladoraPersistencia**
+9- Creo los clases **Controladora** en el paquete **logica** creo la clase **Controladora.java** y en el paquete **persistencia** creo **ControladoraPersistencia**
 
 ---
