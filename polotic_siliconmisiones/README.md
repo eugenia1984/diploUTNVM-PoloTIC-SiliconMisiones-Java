@@ -546,14 +546,14 @@ Temas:
 
 # 📕  CLASE 22 : 08 NOVIEMBRE
 
-:computer: La tería está en -> [**clase 22**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase22)
+:computer: La teoría está en -> [**clase 22**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase22)
 
 ---
 
 
 # 📕  CLASE 23 : 10 NOVIEMBRE
 
-:computer: La tería está en -> [**clase 23**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase23)
+:computer: La teoría está en -> [**clase 23**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase23)
 
 Temas:
 
@@ -583,7 +583,7 @@ Clase dedicada a las consultas del trabajo practico.
 
 # 📕  CLASE 25 : 17 NOVIEMBRE
 
-:computer: La tería está en -> [**clase 25**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase25)
+:computer: La teoría está en -> [**clase 25**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase25)
 
 Temas:
 
