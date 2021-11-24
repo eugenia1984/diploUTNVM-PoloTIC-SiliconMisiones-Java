@@ -134,7 +134,9 @@ let respuesta = window.prompt("Ya te suscribiste a mi canal?", "Más vale que si
 
 ### CONFIRM
 
-Voy a pedir que se ingrese un dato , con confirm tengo un valor **booleano** (*true* o *false*) y me lo voy a guardar en una variable, luego lo muestro con alert.
+Voy a pedir que se ingrese un dato , con confirm tengo un valor **booleano** (**true** si hace click en **ACEPTAR** o **false** si hace click en **CANCELAR**).
+
+Lo voy a aprovechar con un **IF/ELSE** para controlar que le muestro en un alert.
 
 ```Javascript
 let respuesta = window.confirm("Hoy llueve ? ");
@@ -146,12 +148,43 @@ if( respuesta == true) {
 }
 ```
 
+
+El típico ejemplo de CONFIRM es cuando uno va a salir de una página y le sale la consulta: Está seguro que quiere dejar esta página?
+
 ---
 
 
 ## Temas extras en estas dos clases de YouTube:
 
 [https://www.youtube.com/watch?v=-BpR0BcF45Q&t=176s](https://www.youtube.com/watch?v=-BpR0BcF45Q&t=176s)
+
+## Fechas y horas con JS
+
+Nosotros somos hipanohablantes, pero ... en USA es DIA/MES/AÑO y tienen el formato de 0 -12.59 y luego pasa a ser la 1.
+
+- Se pueden crear a partir de **new Date()** y existen diferentes combinaciones que se pueden tener en cuenta.
+
+```Javascript
+let fecha = new Date();
+alert(`Hoy es ${fecha}`);
+```
+
+- **new Date()** permite obtener la fecha actual
+
+- **new Date(year, month, day, hour, minutes, seconds, milliseconds)** permite crear una fecha estableciendo parámetros. Como detalle a tener en cuenta, **los meses arrancan desde 0**, por lo que Enero es 0 y Diciembre es 11.
+
+```Javascript
+let fecha2 = new Date(1991,10,23);
+```
+
+- **new Date(fecha en String)** permite crear una fecha a partir de una cadena de caracteres.
+
+```Javascript
+let fecha3 = new Date('11/23/2020');
+```
+
+
+
 
 [https://www.youtube.com/watch?v=UCWYvj4bVKE](https://www.youtube.com/watch?v=UCWYvj4bVKE)
 
