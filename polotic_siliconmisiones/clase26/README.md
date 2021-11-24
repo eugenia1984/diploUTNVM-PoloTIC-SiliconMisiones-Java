@@ -182,7 +182,21 @@ let fecha2 = new Date(1991,10,23);
 ```Javascript
 let fecha3 = new Date('11/23/2020');
 ```
+*En este caso con MES/DIA/AÑO*
 
+### Métodos para fechas
+
+| funcion | resultado |
+| ------- | --------- |
+| getFullYear() | devuelve el año en formato YYYY |
+| getMonth() | devuelve el mes del año 0-11 |
+| getDate() | devuelve el día del mes/año (1-31) |
+| getDay() | devuelve e dia de la semana (0-6) |
+| getHours() | devuelve las horas (0-23) |
+| getMinutes() | devuelve los minutos (0-59) |
+| getSeconds() | devuelve los segundos (0-59) |
+
+---
 
 
 
