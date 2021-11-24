@@ -238,5 +238,23 @@ console.log('El resultado de la suma es: ' + suma);
 
 📺 [https://www.youtube.com/watch?v=UCWYvj4bVKE](https://www.youtube.com/watch?v=UCWYvj4bVKE)
 
+## Eventos
+
+```
+<!DOCTYPE>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title> Probando JS </title>
+</head>
+<body>
+     <button onclick="alert('Bien!')> Hace click </button>
+     <button onmouseover="alert('Pasaste por aca el mouse')">Pasa la flechita por aca </button>
+     <button onmouseout="alert('Me voy a alejar')"> Cuando salgo con el mouse </button> 
+</body>
+</html>
+```
+
+
 
 ---
