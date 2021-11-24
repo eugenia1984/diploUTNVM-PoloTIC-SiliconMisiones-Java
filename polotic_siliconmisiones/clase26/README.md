@@ -216,10 +216,27 @@ let anio = fecha4.getFullYear();
 alert(`Dia ${dia} . Mes ${mes}. Año ${anio}.);
 ```
 
+## Console Log
+
+- Cuando queremos mostrar un resultado de una operación JS, no es precisamente necesario que utilicemos siempre ventanas emergentes (alerts).
+
+- También podemos mostrar resultados en nuestro documento HTML o en la consola del navegador.
+
+- Para acceder a la consola de nuestr navegador, generalmente podemos acceder con la tecla **F12** (modo desarrollador) y la pestaña **Console**.
+
+
+Ejemplo en código:
+
+```Javascript
+let suma = 2 + 8;
+console.log('El resultado de la suma es: ' + suma);
+```
+
 ---
 
 
 
 📺 [https://www.youtube.com/watch?v=UCWYvj4bVKE](https://www.youtube.com/watch?v=UCWYvj4bVKE)
+
 
 ---
