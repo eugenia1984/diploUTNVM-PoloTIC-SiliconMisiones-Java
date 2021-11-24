@@ -256,5 +256,102 @@ console.log('El resultado de la suma es: ' + suma);
 ```
 
 
+Otro ejemplo en codigo:
+
+```
+<!DOCTYPE>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title> Probando JS </title>
+</head>
+<body>
+    <p> Prueba de cambio de contenido de input </p>
+    <input type="text" onchange="alert('Acabas de hacer un cambio en el input')">
+    <p> Prueba de click en caja de texto</p>
+    <input type="text" onfocus="alert('Acabas de hacer click en el input')">
+    <p> Pruebo dejar de hacer foco en una caja de texto</p>
+    <input type="text" onblur="alert('Acabas de dejar de hacer foco sobre el input')">
+    <p>Prueba de dejar de presionar teclas</p>
+    <input type="text" onkeyup="alert('Acabas de soltar una tecla')">
+</body>
+</html>
+```
+
+
+## Funciones
+
+
+Ejemplo 1:
+
+
+```Javascript
+function funcionPrueba() {
+    alert('Esto es una prueba de funciones');
+}
+
+funcionprueba();
+```
+
+Ejemplo 2:
+
+```Javascript
+function suma(numero1, numero2) {
+  let resultado = numero1 + numero2;
+  alert(`este es el resultado de tu suma ${resultado}`);
+}
+
+suma(35, 4);
+```
+
+Ejemplo 3:
+
+```
+<!DOCTYPE>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title> Probando JS </title>
+</head>
+<body>
+     <h4> El resultado de la suma es: </h4>
+     <p id="parr1"> </p>
+     <h4> El resultado de la resta es: </p>
+     <p id="parr2"> </p>
+     
+     <script>
+       function suma(num1, num2) {
+         let resultado = num1 + num2;
+	 return resultado;
+       }
+       
+       function resta(num1, num2) {
+         let resultado = num1 - num2;
+	 return resultado;
+       }
+       
+       document.getElementById("parr1").innerHTML = suma(28,35);
+       document.getElementById("parr2").innerHTML = resta(28,12);
+     </script>
+</body>
+</html>
+```
+
+Ejemplo 4:
+
+```
+$('p') ---> elementos
+$('#nombre') ---> ID
+$(.titulosprincipales') ---> clase
+```
+
+```
+$().ready(funciones);
+
+function funciones() {
+  $('p').click("alert('hiciste click')");
+  $('h1').mouseover("alert('Pasaste el mouse por arriba')");
+}
+```
 
 ---
