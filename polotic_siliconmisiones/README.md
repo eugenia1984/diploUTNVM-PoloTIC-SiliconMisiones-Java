@@ -591,6 +591,16 @@ Temas:
 
 ---
 
+# 📕  CLASE 26 : 24 NOVIEMBRE
+
+:computer: La teoría está en -> [**clase 26**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/clase26)
+ 
+ Tema:
+ 
+ - JS
+ 
+---
+
 📌 Seguir a **Silicon Misiones** en: 
 
 
