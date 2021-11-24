@@ -1,4 +1,4 @@
-# Clase 26 : 24 Noviembre * JS
+# 📖 Clase 26 : 24 Noviembre * JS
 
 **JS** es un **lenguaje de programación** utilizado principalmente para creación de páginas y aplicaciones web **dinámicas**.
 
@@ -156,7 +156,7 @@ El típico ejemplo de CONFIRM es cuando uno va a salir de una página y le sale 
 
 ## Temas extras en estas dos clases de YouTube:
 
-[https://www.youtube.com/watch?v=-BpR0BcF45Q&t=176s](https://www.youtube.com/watch?v=-BpR0BcF45Q&t=176s)
+📺 [https://www.youtube.com/watch?v=-BpR0BcF45Q&t=176s](https://www.youtube.com/watch?v=-BpR0BcF45Q&t=176s)
 
 ## Fechas y horas con JS
 
@@ -196,10 +196,30 @@ let fecha3 = new Date('11/23/2020');
 | getMinutes() | devuelve los minutos (0-59) |
 | getSeconds() | devuelve los segundos (0-59) |
 
+Como con getMonth va de 0 a 11, se suele poner **.getmonth()+1**
+
+Lo mismo pasa con **.getDay()** que tiene los días del 0 al 6. Pero en este caso si tenemos en cuenta que empieza de 0 no es necesario el **+1**.
+
+
+Ejemplo en codigo:
+
+```Jaascript
+//creo una fecha
+let fecha4 = new Date('11/23/2020');
+
+//voy obteniendo por partes
+let dia = fecha4.getDate();
+let mes = fecha4.getMonth();
+let anio = fecha4.getFullYear();
+
+//muestro por pantalla
+alert(`Dia ${dia} . Mes ${mes}. Año ${anio}.);
+```
+
 ---
 
 
 
-[https://www.youtube.com/watch?v=UCWYvj4bVKE](https://www.youtube.com/watch?v=UCWYvj4bVKE)
+📺 [https://www.youtube.com/watch?v=UCWYvj4bVKE](https://www.youtube.com/watch?v=UCWYvj4bVKE)
 
 ---
