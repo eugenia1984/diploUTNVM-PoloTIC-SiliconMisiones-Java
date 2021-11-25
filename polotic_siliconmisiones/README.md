@@ -601,6 +601,10 @@ Temas:
  
 ---
 
+:star: [**Guia 12**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/polotic_siliconmisiones/guia12) de HTML, CSS, JS
+
+---
+
 📌 Seguir a **Silicon Misiones** en: 
 
 
