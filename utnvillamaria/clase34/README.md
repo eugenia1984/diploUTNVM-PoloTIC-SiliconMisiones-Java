@@ -67,7 +67,7 @@ Podemos crearla utilizando los metodos **now()**, **parse()** y **of()**; d ela 
 
 para el formato se deben utilizar los símbolos que nos proporciona la documentación de DateFormatter:
 
-```DateTimeFormatter f = DateTimeFormatter.ofPattern("Hoy es 'd' de 'M' del 'yyy'. Son las 'hh' horas'.");
+```DateTimeFormatter f = DateTimeFormatter.ofPattern("Hoy es 'd' de 'M' del 'yyy'. Son las 'hh' horas'.");```
 
 Algunos símbolos:
 
