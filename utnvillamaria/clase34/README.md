@@ -108,7 +108,7 @@ class Main {
 
 Sin formatear, la fecha me la muestra así:
 
-```2021-11-18T17:06:25.036587``` -> año-mes-dia-T-hora:minutos:segundos:milisegundos
+```2021-11-18T17:06:25.036587``` -> ```año-mes-dia-T-hora:minutos:segundos:milisegundos```
 
 Si en el **.ofPattern()** solo ponía d y M cuando tenia días o meses entre 1 y 9 no me antepone el 0, por eso debo poner dd o MM
 
