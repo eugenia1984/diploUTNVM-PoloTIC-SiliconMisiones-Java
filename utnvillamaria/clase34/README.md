@@ -68,6 +68,50 @@ Podemos crearla utilizando los metodos **now()**, **parse()** y **of()**; d ela 
 para el formato se deben utilizar los símbolos que nos proporciona la documentación de DateFormatter:
 
 ```DateTimeFormatter f = DateTimeFormatter.ofPattern("Hoy es 'd' de 'M' del 'yyy'. Son las 'hh' horas'.");
+
+Algunos símbolos:
+
+| simbolo | significado | ejemplo |
+| ------- | ----------- | ------- |
+| G | era | AD; A |
+| y | año | 2004 ; 04 |
+| D | dia del año | 189 |
+| d | dia del mes | 10 |
+| a | si es mañana o tarde | AM ; PM |
+| H | hora | 0 |
+| m | minutos | 20 |
+| s | segundos | 20 |
+
+
+Ejemplo en codigo 
+
+```Java
+java.time.LocalDate;
+java.time.LocalDateTime;
+java.time.format.DateTimeFormatter;
+java.time.format.DateTimeParseException;
+
+class Main {
+  public static void main(String[] args) {
+  //Creo el formatter con e formato que necesito
+    DateTimeFormatter dtf = DateTimeFormatter
+                                 .ofPattern("Hoy es 'dd' de 'MM' del 'yyy'. Son las 'hh' horas'.");
+    //creo la variable con la fecha
+    LocalDateTime date1 = LocalDateTime.now();
+    //otro modo con .of
+    LocalDateTime anotherDay = LocalDateTime.of(200,01,15,08,20); //2000-01-15T08:20
+    //la variable la paso al format
+    System.out.print(dtf.format(date1));
+  }
+}
+```
+
+Sin formatear, la fecha me la muestra así:
+
+```2021-11-18T17:06:25.036587``` -> año-mes-dia-T-hora:minutos:segundos:milisegundos
+
+Si en el **.ofPattern()** solo ponía d y M cuando tenia días o meses entre 1 y 9 no me antepone el 0, por eso debo poner dd o MM
+
 ---
 
 ## JUnit
