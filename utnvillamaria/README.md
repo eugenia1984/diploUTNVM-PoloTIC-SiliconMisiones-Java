@@ -677,7 +677,7 @@ Temas:
 
 Temas:
 
-- Excepciones: palabras reservadas **thro** y **throws**
+- Excepciones: palabras reservadas **throw** y **throws**
 
 - Fechas: **LocalTime** y **LocalDateTime**
 
