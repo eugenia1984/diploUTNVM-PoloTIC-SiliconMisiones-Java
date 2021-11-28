@@ -675,6 +675,14 @@ Temas:
 
 :computer:[**clase 34**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase34)
 
+Temas:
+
+- Excepciones: palabras reservadas **thro** y **throws**
+
+- Fechas: **LocalTime** y **LocalDateTime**
+
+- Introducción a **JUnit**
+
 ---
 
 ## Fuentes de información:
