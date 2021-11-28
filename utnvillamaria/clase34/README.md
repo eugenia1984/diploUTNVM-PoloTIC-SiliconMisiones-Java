@@ -112,6 +112,52 @@ Sin formatear, la fecha me la muestra así:
 
 Si en el **.ofPattern()** solo ponía d y M cuando tenia días o meses entre 1 y 9 no me antepone el 0, por eso debo poner dd o MM
 
+Para el formato latinoamericano **.ofPattern("dd/MM/yyyy Hh:mm:ss)**, ejemplo en codigo:
+
+```Java
+DateTimeFormatter dtf = DateTimeFormatter
+                             .ofPatter("dd/MM/yyyy HH:mm:ss");
+LocalTime hora = LocalTime.of(10,05,26);
+LocalDate fache = localDate.now();
+
+LocalDateTime fechaYHora = LocalDateTime.of(fecha, hora);
+System.out.println.format(fechaYHora);    // 18/11/2021 10:05:26
+```
+
 ---
 
 ## JUnit
+
+El testing unitario implica probar unidades de código o componentes. El propósito del testing unitario es validar que cada pieza de código se comporta de la forma esperada.
+
+Existen varios niveles de testing: **Unitario**, **Integración**, **Aceptación**, **Performance**, etc. El testing unitario es el de más bajo nivel ya que implica testear componentes de código.
+
+El testing unitario nos permite encontrar errores en fases tempranas dl desarrollo del software-
+
+El testing unitario puede set automático o manual. **jUnit** es un framework open-source para la automatización de pruebas, tanto unitarias como de integración.
+
+
+JUnit nos permite realizar pruebas unitarias de manera automatizada.
+
+Por ejemplo: podemos probar si nuestro DateTimeFormatter está foramteando la fecha correctamente
+
+Se utilizan los **asserts** para chequear los resultados de los casos de prueba.
+
+
+Ejemplo en pseudo-codigo:
+
+```Java
+class DateTimeFormatterTestCase {
+  @Test
+  void test() {
+    //metodo para inicializar las variables
+    //puedo tener la lógica
+    assertEquals("valor esperado", "valor obtenido");
+  }
+}
+```
+
+Tengo que tener un paquete llamado **test**
+
+
+---
