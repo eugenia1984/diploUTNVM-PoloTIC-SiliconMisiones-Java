@@ -160,4 +160,31 @@ class DateTimeFormatterTestCase {
 Tengo que tener un paquete llamado **test**
 
 
+Ejemplo en codigo:
+
+```Java
+class dateTimeFormatterTestClass {
+  private DatetimeFormatter dtf;
+  
+  @BeforeEach
+  void setUp() throws Exception {
+    dft = DateTimeFormatter
+             .ofPattern("dd/MM/yyyy HH:mm:ss");   
+  }
+  @Test
+  void testDTFConbarras() {
+     //creo las variables para la fecha y hora
+     LocalDate myDate = LocalDate.of(2021, 10, 10);
+     LocalTime myTime = LocalTime.of(10, 10);
+    
+     LocalDateTime myDateTime = LocalDateTime.of(myDate, myTime);
+    
+     assertEquals.("10/10/2021 10:10:00", dtf(myDateTime));
+  }
+}
+```
+
+
+Hay distintos assert, además de **assertEquals** hay **assertTrue**.
+
 ---
