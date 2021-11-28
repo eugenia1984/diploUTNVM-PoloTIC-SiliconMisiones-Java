@@ -665,6 +665,12 @@ Temas:
 
 :computer:[**clase 33**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase33)
 
+Temas:
+
+- Ejemplo de UML
+
+- Desarrollo de Software : Capacidades profesionales a las que contribuye el Desarrollo de Software / Características del Software / ¿ Que es el software? / Definición de software / Ingeniería de software / Proceso de software / Ciclos de vida / 
+
 ---
 
 :computer:[**clase 34**](https://github.com/eugenia1984/diploUTNVM-PoloTIC-SiliconMisiones-Java/tree/main/utnvillamaria/clase34)
