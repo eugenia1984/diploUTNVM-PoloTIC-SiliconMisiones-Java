@@ -150,12 +150,27 @@ Los pilares son:
 
 ## Roles de Scrum
 
-**Producto owner**: el dueño del producto, la persona responsable de gestionar las solicitudes del backlog
+**Producto owner**: el dueño del producto, la persona responsable de gestionar las solicitudes del backlog. 
 
-**Scrum Master**
+Gestiona la economía. Participa en la planificción. Cuida el producto backlog. Define el criterio de aceptación y verifica si no se cumple. Colabora con el equipo. Colabora con los stakeholders.
 
-**Equipo de desarrollo**: los que hacen el trabajo, y van haciendo entregas, gestionan su propio trabajo, son auto organizados, son multifuncionales
+**Scrum Master**: se asegura que el equipo adopta la filosofía, técnicas para gestionar lalista de productos, ayuda al equipo, asegura que el product owner conoce la lista. Saber guiar al equipo, está para ayudarlo, debe ser un líder (no un jefe). Coordina, motiva al equipo, ayuda a solucionar el problema.
 
+Coach. Lider de servicio. Autoridad sore el proceso. Escudo de interferencia. Remueve impedimentos. Agente de cambio.
+
+**Equipo de desarrollo**: los que hacen el trabajo, y van haciendo entregas, gestionan su propio trabajo, son auto organizados, son multifuncionales.
+
+Auto-organizado. Funcionalmente transversal. Habilidades en forma de T. Muy buena comunicación. Tamaño correcto. Focalizado y comprometido. Larga visa. Trabajo en clima de paz sostenible. Tamaño adecuado. Actitud de mosquetero.
+
+---
+
+- Story time, reconfigura el product backlog
+
+- Artefactos: product backlog
+
+- Ceremonias: sprint planning
+
+- Cada print tiene su sprint backlog
 ---
 
 :tv: [video](https://www.youtube.com/watch?v=nGS0S1nUNsQ)
